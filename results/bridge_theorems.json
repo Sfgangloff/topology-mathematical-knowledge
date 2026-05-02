@@ -1,0 +1,4494 @@
+[
+  {
+    "theorem": "biSup_inf_biSup",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 3,
+    "premise_cluster_ids": [
+      4,
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.Order.CompleteBooleanAlgebra"
+  },
+  {
+    "theorem": "Cardinal.sum_lt_prod",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 3,
+    "premise_cluster_ids": [
+      4,
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "HasCompactSupport.convolutionExistsAt",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 3,
+    "premise_cluster_ids": [
+      4,
+      10,
+      112
+    ],
+    "premise_cluster_labels": [
+      "Analysis",
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 20,
+    "module": "Mathlib.Analysis.Convolution"
+  },
+  {
+    "theorem": "FirstOrder.Language.exists_elementaryEmbedding_card_eq_of_ge",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 3,
+    "premise_cluster_ids": [
+      4,
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 20,
+    "module": "Mathlib.ModelTheory.Satisfiability"
+  },
+  {
+    "theorem": "GromovHausdorff.ghDist_le_hausdorffDist",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 3,
+    "premise_cluster_ids": [
+      4,
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 39,
+    "module": "Mathlib.Topology.MetricSpace.GromovHausdorff"
+  },
+  {
+    "theorem": "ONote.fundamentalSequence_has_prop",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 3,
+    "premise_cluster_ids": [
+      4,
+      10,
+      26
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 49,
+    "module": "Mathlib.SetTheory.Ordinal.Notation"
+  },
+  {
+    "theorem": "Batteries.RBNode.reverse_ins",
+    "self_cluster": 23,
+    "self_label": "Batteries",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      23,
+      25
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "Data"
+    ],
+    "n_premises": 3,
+    "module": ".lake/packages/batteries/Batteries/Data/RBMap/WF"
+  },
+  {
+    "theorem": "cmpLE_eq_cmp",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.Order.Compare"
+  },
+  {
+    "theorem": "cmp_swap",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.Order.Compare"
+  },
+  {
+    "theorem": "cmp_eq_cmp_symm",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "SetTheory"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.Order.Compare"
+  },
+  {
+    "theorem": "OrderTop.ext_top",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.Order.BoundedOrder"
+  },
+  {
+    "theorem": "OrderBot.ext_bot",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.Order.BoundedOrder"
+  },
+  {
+    "theorem": "compl_compl_inf_distrib",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.Order.Heyting.Basic"
+  },
+  {
+    "theorem": "sdiff_sdiff_sdiff_cancel_right",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.Order.BooleanAlgebra"
+  },
+  {
+    "theorem": "symmDiff_eq_bot",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.Order.SymmDiff"
+  },
+  {
+    "theorem": "iSup_inf_of_monotone",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.Order.CompleteBooleanAlgebra"
+  },
+  {
+    "theorem": "mabs_mul_le",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.Algebra.Order.Group.Abs"
+  },
+  {
+    "theorem": "MulAction.isPretransitive_compHom",
+    "self_cluster": 72,
+    "self_label": "Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      72
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "CategoryTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.Algebra.Group.Action.Defs"
+  },
+  {
+    "theorem": "cbiSup_eq_of_not_forall",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 25,
+    "module": "Mathlib.Order.ConditionallyCompleteLattice.Basic"
+  },
+  {
+    "theorem": "CauSeq.lim_mul_lim",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Algebra.Order.CauSeq.Completion"
+  },
+  {
+    "theorem": "CauSeq.lim_inv",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      19,
+      29
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "Data"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.Algebra.Order.CauSeq.Completion"
+  },
+  {
+    "theorem": "Real.le_mk_of_forall_le",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      29
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.Data.Real.Basic"
+  },
+  {
+    "theorem": "Real.exists_isLUB",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      29
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 44,
+    "module": "Mathlib.Data.Real.Archimedean"
+  },
+  {
+    "theorem": "Real.cauSeq_converges",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      29
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 25,
+    "module": "Mathlib.Data.Real.Archimedean"
+  },
+  {
+    "theorem": "Cardinal.mk_preimage_down",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.out_embedding",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.mk_option",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.cast_succ",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.sum_add_distrib",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.lift_mk_le_lift_mk_mul_of_lift_mk_preimage_le",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.sum_nat_eq_add_sum_succ",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.prod_eq_of_fintype",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.denumerable_iff",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Cardinal.mk_insert",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.SetTheory.Cardinal.Basic"
+  },
+  {
+    "theorem": "Subgroup.map_eq_map_iff",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.Algebra.Group.Subgroup.Basic"
+  },
+  {
+    "theorem": "MulAction.quotient_preimage_image_eq_union_mul",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.GroupTheory.GroupAction.Basic"
+  },
+  {
+    "theorem": "MulAction.pretransitive_iff_subsingleton_quotient",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.GroupTheory.GroupAction.Basic"
+  },
+  {
+    "theorem": "WellFounded.prod_lex_of_wellFoundedOn_fiber",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Order.WellFoundedSet"
+  },
+  {
+    "theorem": "WellFounded.sigma_lex_of_wellFoundedOn_fiber",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.Order.WellFoundedSet"
+  },
+  {
+    "theorem": "countable_image_lt_image_Ioi",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.Topology.Order.Basic"
+  },
+  {
+    "theorem": "Subgroup.card_dvd_of_injective",
+    "self_cluster": 13,
+    "self_label": "GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.GroupTheory.Coset"
+  },
+  {
+    "theorem": "nhds_eq_iInf_abs_sub",
+    "self_cluster": 7,
+    "self_label": "Topology + Order + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.Topology.Order.LeftRightNhds"
+  },
+  {
+    "theorem": "EMetric.diam_insert",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Topology.EMetricSpace.Basic"
+  },
+  {
+    "theorem": "Subgroup.index_comap_of_surjective",
+    "self_cluster": 13,
+    "self_label": "GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.GroupTheory.Index"
+  },
+  {
+    "theorem": "Subgroup.relindex_inf_le",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.GroupTheory.Index"
+  },
+  {
+    "theorem": "Ordinal.type_out",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.SetTheory.Ordinal.Basic"
+  },
+  {
+    "theorem": "Ordinal.type_subrel_lt",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.SetTheory.Ordinal.Arithmetic"
+  },
+  {
+    "theorem": "Ordinal.brange_const",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.SetTheory.Ordinal.Arithmetic"
+  },
+  {
+    "theorem": "Ordinal.le_sup_shrink_equiv",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.SetTheory.Ordinal.Arithmetic"
+  },
+  {
+    "theorem": "Ordinal.enumOrd_surjective",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      25
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.SetTheory.Ordinal.Arithmetic"
+  },
+  {
+    "theorem": "Cardinal.type_cardinal",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.mul_eq_self",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 50,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.ciSup_add",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.mk_equiv_of_lift_eq",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.mk_embedding_eq_arrow_of_lift_le",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.mk_surjective_eq_arrow_of_lift_le",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.mk_finsupp_lift_of_infinite",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 17,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.mk_bounded_set_le_of_infinite",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 19,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "Cardinal.mk_bounded_set_le",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.SetTheory.Cardinal.Ordinal"
+  },
+  {
+    "theorem": "linearIndependent_insert'",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.LinearAlgebra.LinearIndependent"
+  },
+  {
+    "theorem": "RelIso.cof_le_lift",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Ordinal.lift_cof",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Ordinal.cof_lsub_le_lift",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Ordinal.cof_succ",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Ordinal.cof_eq_one_iff_is_succ",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 23,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Ordinal.cof_univ",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Ordinal.infinite_pigeonhole_set",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Cardinal.isRegular_succ",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 23,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Cardinal.le_range_of_union_finset_eq_top",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 17,
+    "module": "Mathlib.SetTheory.Cardinal.Cofinality"
+  },
+  {
+    "theorem": "Antitone.map_limsSup_of_continuousAt",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      31
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "SetTheory"
+    ],
+    "n_premises": 25,
+    "module": "Mathlib.Topology.Algebra.Order.LiminfLimsup"
+  },
+  {
+    "theorem": "Set.compl_section_ordSeparatingSet_mem_nhdsWithin_Ici",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 34,
+    "module": "Mathlib.Topology.Order.T5"
+  },
+  {
+    "theorem": "Submodule.toLinearPMap_graph_eq",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.LinearAlgebra.LinearPMap"
+  },
+  {
+    "theorem": "IsNoetherian.injective_of_surjective_of_injective",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      33
+    ],
+    "premise_cluster_labels": [
+      "RingTheory",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.RingTheory.Noetherian"
+  },
+  {
+    "theorem": "IsNoetherian.disjoint_partialSups_eventually_bot",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.RingTheory.Noetherian"
+  },
+  {
+    "theorem": "MulAction.automorphize_smul_left",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.Topology.Algebra.InfiniteSum.Module"
+  },
+  {
+    "theorem": "AddAction.automorphize_smul_left",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.Topology.Algebra.InfiniteSum.Module"
+  },
+  {
+    "theorem": "CategoryTheory.Adjunction.homEquiv_naturality_right_symm",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Adjunction.Basic"
+  },
+  {
+    "theorem": "LinearIndependent.cardinal_lift_le_rank",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.LinearAlgebra.Dimension.Basic"
+  },
+  {
+    "theorem": "lift_rank_range_le",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.LinearAlgebra.Dimension.Basic"
+  },
+  {
+    "theorem": "exists_prime_orderOf_dvd_card",
+    "self_cluster": 6,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 33,
+    "module": "Mathlib.GroupTheory.Perm.Cycle.Type"
+  },
+  {
+    "theorem": "AffineSubspace.direction_sup",
+    "self_cluster": 14,
+    "self_label": "LinearAlgebra + Analysis + Geometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 30,
+    "module": "Mathlib.LinearAlgebra.AffineSpace.AffineSubspace"
+  },
+  {
+    "theorem": "TFAE_exists_lt_isLittleO_pow",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      40
+    ],
+    "premise_cluster_labels": [
+      "Analysis",
+      "SetTheory"
+    ],
+    "n_premises": 33,
+    "module": "Mathlib.Analysis.SpecificLimits.Normed"
+  },
+  {
+    "theorem": "nontrivial_of_invariantBasisNumber",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.LinearAlgebra.InvariantBasisNumber"
+  },
+  {
+    "theorem": "convex_hyperplane",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.Analysis.Convex.Basic"
+  },
+  {
+    "theorem": "AddCircle.card_addOrderOf_eq_totient",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      26
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 15,
+    "module": "Mathlib.Topology.Instances.AddCircle"
+  },
+  {
+    "theorem": "Polynomial.coeff_divByMonic_X_sub_C",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 31,
+    "module": "Mathlib.Algebra.Polynomial.Div"
+  },
+  {
+    "theorem": "linearIndependent_le_basis",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.LinearAlgebra.Dimension.StrongRankCondition"
+  },
+  {
+    "theorem": "rank_self",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.LinearAlgebra.Dimension.StrongRankCondition"
+  },
+  {
+    "theorem": "affineIndependent_set_iff_linearIndependent_vsub",
+    "self_cluster": 14,
+    "self_label": "LinearAlgebra + Analysis + Geometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.LinearAlgebra.AffineSpace.Independent"
+  },
+  {
+    "theorem": "nonempty_linearEquiv_of_lift_rank_eq",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.LinearAlgebra.Dimension.Free"
+  },
+  {
+    "theorem": "AEMeasurable.isLUB",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 24,
+    "module": "Mathlib.MeasureTheory.Constructions.BorelSpace.Order"
+  },
+  {
+    "theorem": "LinearIndependent.union_of_quotient",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.LinearAlgebra.Dimension.Constructions"
+  },
+  {
+    "theorem": "rank_eq_one",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.LinearAlgebra.Dimension.Finite"
+  },
+  {
+    "theorem": "CategoryTheory.essentiallySmall_iff",
+    "self_cluster": 57,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      57
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "CategoryTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.CategoryTheory.EssentiallySmall"
+  },
+  {
+    "theorem": "exists_linearIndependent_of_lt_rank",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 24,
+    "module": "Mathlib.LinearAlgebra.Dimension.RankNullity"
+  },
+  {
+    "theorem": "exists_linearIndependent_snoc_of_lt_rank",
+    "self_cluster": 13,
+    "self_label": "GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.LinearAlgebra.Dimension.RankNullity"
+  },
+  {
+    "theorem": "eq_if_preStoneCechUnit_eq",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.Topology.StoneCech"
+  },
+  {
+    "theorem": "Submodule.rank_le_one_iff_isPrincipal",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition"
+  },
+  {
+    "theorem": "Subalgebra.eq_bot_of_rank_le_one",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition"
+  },
+  {
+    "theorem": "max_aleph0_card_le_rank_fun_nat",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 45,
+    "module": "Mathlib.LinearAlgebra.Dimension.DivisionRing"
+  },
+  {
+    "theorem": "Matrix.adjugate_transpose",
+    "self_cluster": 8,
+    "self_label": "Data + LinearAlgebra + Analysis",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 22,
+    "module": "Mathlib.LinearAlgebra.Matrix.Adjugate"
+  },
+  {
+    "theorem": "Fintype.card_embedding_eq",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 22,
+    "module": "Mathlib.Data.Fintype.CardEmbedding"
+  },
+  {
+    "theorem": "ContinuousMultilinearMap.opNNNorm_prod",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.Analysis.NormedSpace.Multilinear.Basic"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.Types.colimit_eq",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Limits.Types"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.Types.coequalizer_preimage_image_eq_of_preimage_eq",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.CategoryTheory.Limits.Shapes.Types"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.Types.Pushout.quot_mk_eq_iff",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Limits.Shapes.Types"
+  },
+  {
+    "theorem": "CategoryTheory.OverPresheafAux.YonedaCollection.map\u2082_yonedaEquivFst",
+    "self_cluster": 58,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      58
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "CategoryTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Comma.Presheaf"
+  },
+  {
+    "theorem": "CategoryTheory.Functor.Final.zigzag_of_eqvGen_quot_rel",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Limits.Final"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.Types.FilteredColimit.isColimit_eq_iff",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.CategoryTheory.Limits.TypesFiltered"
+  },
+  {
+    "theorem": "Algebra.FinitePresentation.iff_quotient_mvPolynomial'",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.RingTheory.FinitePresentation"
+  },
+  {
+    "theorem": "CategoryTheory.Subobject.pullback_map_self",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Subobject.Basic"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.CompleteLattice.prod_eq_inf",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Limits.Lattice"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.CompleteLattice.coprod_eq_sup",
+    "self_cluster": 16,
+    "self_label": "Order",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Limits.Lattice"
+  },
+  {
+    "theorem": "CategoryTheory.IsPushout.of_hasBinaryCoproduct",
+    "self_cluster": 51,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      51
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "CategoryTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Limits.Shapes.CommSq"
+  },
+  {
+    "theorem": "CategoryTheory.Functor.toSheafify_pullbackSheafificationCompatibility",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 31,
+    "module": "Mathlib.CategoryTheory.Sites.CoverLifting"
+  },
+  {
+    "theorem": "CategoryTheory.Quotient.functor_map_eq_iff",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Quotient"
+  },
+  {
+    "theorem": "CategoryTheory.Quotient.lift_unique'",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Quotient"
+  },
+  {
+    "theorem": "parallelepiped_comp_equiv",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.MeasureTheory.Measure.Haar.OfBasis"
+  },
+  {
+    "theorem": "parallelepiped_single",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 31,
+    "module": "Mathlib.MeasureTheory.Measure.Haar.OfBasis"
+  },
+  {
+    "theorem": "BoxIntegral.Box.exists_seq_mono_tendsto",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      25
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.Analysis.BoxIntegral.Box.Basic"
+  },
+  {
+    "theorem": "Equiv.Perm.not_solvable",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.GroupTheory.Solvable"
+  },
+  {
+    "theorem": "Metric.Sum.mem_uniformity",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      87
+    ],
+    "premise_cluster_labels": [
+      "SetTheory",
+      "Topology"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.Topology.MetricSpace.Gluing"
+  },
+  {
+    "theorem": "StructureGroupoid.compatible_of_mem_maximalAtlas",
+    "self_cluster": 9,
+    "self_label": "Analysis",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.Geometry.Manifold.ChartedSpace"
+  },
+  {
+    "theorem": "Ring.DirectLimit.of.zero_exact_aux",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 42,
+    "module": "Mathlib.Algebra.DirectLimit"
+  },
+  {
+    "theorem": "SimplexCategory.len_lt_of_mono",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.AlgebraicTopology.SimplexCategory"
+  },
+  {
+    "theorem": "Besicovitch.exists_disjoint_closedBall_covering_ae_of_finiteMeasure_aux",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "SetTheory"
+    ],
+    "n_premises": 91,
+    "module": "Mathlib.MeasureTheory.Covering.Besicovitch"
+  },
+  {
+    "theorem": "intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le_Ico",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 75,
+    "module": "Mathlib.MeasureTheory.Integral.FundThmCalculus"
+  },
+  {
+    "theorem": "intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.MeasureTheory.Integral.FundThmCalculus"
+  },
+  {
+    "theorem": "MeasureTheory.unifIntegrable_of",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 20,
+    "module": "Mathlib.MeasureTheory.Function.UniformIntegrable"
+  },
+  {
+    "theorem": "CommRingCat.Colimits.cocone_naturality_components",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.Algebra.Category.Ring.Colimits"
+  },
+  {
+    "theorem": "TopCat.Sheaf.eq_of_locally_eq\u2082",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing"
+  },
+  {
+    "theorem": "TopCat.Sheaf.objSupIsoProdEqLocus_inv_eq_iff",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.Topology.Sheaves.SheafCondition.UniqueGluing"
+  },
+  {
+    "theorem": "Ideal.exists_comap_eq_of_mem_minimalPrimes",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 22,
+    "module": "Mathlib.RingTheory.Ideal.MinimalPrime"
+  },
+  {
+    "theorem": "Ideal.exists_minimalPrimes_comap_eq",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.RingTheory.Ideal.MinimalPrime"
+  },
+  {
+    "theorem": "Ideal.minimalPrimes_eq_subsingleton_self",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.RingTheory.Ideal.MinimalPrime"
+  },
+  {
+    "theorem": "CategoryTheory.ShortComplex.Homotopy.leftHomologyMap'_congr",
+    "self_cluster": 76,
+    "self_label": "Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      76
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "CategoryTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.Algebra.Homology.ShortComplex.Preadditive"
+  },
+  {
+    "theorem": "integral_inv",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      16,
+      43
+    ],
+    "premise_cluster_labels": [
+      "Analysis",
+      "Order"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.Analysis.SpecialFunctions.Integrals"
+  },
+  {
+    "theorem": "FormalMultilinearSeries.changeOrigin_radius",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.Analysis.Analytic.Basic"
+  },
+  {
+    "theorem": "TopCat.subpresheafToTypes.isSheaf",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Topology.Sheaves.LocalPredicate"
+  },
+  {
+    "theorem": "maximalIdeal_isPrincipal_of_isDedekindDomain",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 53,
+    "module": "Mathlib.RingTheory.DiscreteValuationRing.TFAE"
+  },
+  {
+    "theorem": "CategoryTheory.GrothendieckTopology.Subpresheaf.eq_sheafify",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.CategoryTheory.Sites.Subsheaf"
+  },
+  {
+    "theorem": "Algebra.discr_powerBasis_eq_norm",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 59,
+    "module": "Mathlib.RingTheory.Discriminant"
+  },
+  {
+    "theorem": "IsDedekindDomain.HeightOneSpectrum.iInf_localization_eq_bot",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      25
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.RingTheory.DedekindDomain.Ideal"
+  },
+  {
+    "theorem": "IsLocalization.AtPrime.discreteValuationRing_of_dedekind_domain",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      33
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "RingTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.RingTheory.DedekindDomain.Dvr"
+  },
+  {
+    "theorem": "CategoryTheory.Abelian.Pseudoelement.pseudoZero_iff",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.CategoryTheory.Abelian.Pseudoelements"
+  },
+  {
+    "theorem": "ContinuousMap.sublattice_closure_eq_top",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      32
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Topology"
+    ],
+    "n_premises": 39,
+    "module": "Mathlib.Topology.ContinuousFunction.StoneWeierstrass"
+  },
+  {
+    "theorem": "CategoryTheory.transferNatTransSelf_symm_comm",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.CategoryTheory.Adjunction.Mates"
+  },
+  {
+    "theorem": "Quiver.SingleObj.toPrefunctor_symm_comp",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.Combinatorics.Quiver.SingleObj"
+  },
+  {
+    "theorem": "Module.End.maxGenEigenspace_eq",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      33
+    ],
+    "premise_cluster_labels": [
+      "RingTheory",
+      "SetTheory"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.LinearAlgebra.Eigenspace.Basic"
+  },
+  {
+    "theorem": "CategoryTheory.MorphismProperty.LeftFraction.Localization.map_eq_iff",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.CategoryTheory.Localization.CalculusOfFractions"
+  },
+  {
+    "theorem": "CategoryTheory.MorphismProperty.LeftFraction.map_eq_iff",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.CategoryTheory.Localization.CalculusOfFractions"
+  },
+  {
+    "theorem": "Polynomial.sub_one_pow_totient_lt_cyclotomic_eval",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      26
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 67,
+    "module": "Mathlib.RingTheory.Polynomial.Cyclotomic.Eval"
+  },
+  {
+    "theorem": "TopCat.GlueData.eqvGen_of_\u03c0_eq",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 28,
+    "module": "Mathlib.Topology.Gluing"
+  },
+  {
+    "theorem": "TopCat.GlueData.\u03b9_eq_iff_rel",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 23,
+    "module": "Mathlib.Topology.Gluing"
+  },
+  {
+    "theorem": "WithLp.prod_lipschitzWith_equiv_aux",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.Analysis.NormedSpace.ProdLp"
+  },
+  {
+    "theorem": "Real.fourierCoeff_tsum_comp_add",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      16,
+      26
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "Order"
+    ],
+    "n_premises": 47,
+    "module": "Mathlib.Analysis.Fourier.PoissonSummation"
+  },
+  {
+    "theorem": "Zlattice.rank",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 83,
+    "module": "Mathlib.Algebra.Module.Zlattice.Basic"
+  },
+  {
+    "theorem": "FirstOrder.Language.BoundedFormula.realize_constantsVarsEquiv",
+    "self_cluster": 8,
+    "self_label": "Data + LinearAlgebra + Analysis",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.ModelTheory.Semantics"
+  },
+  {
+    "theorem": "AddCommGrp.exact_iff",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.Algebra.Category.Grp.Abelian"
+  },
+  {
+    "theorem": "Complex.Gamma_mul_Gamma_add_half",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 37,
+    "module": "Mathlib.Analysis.SpecialFunctions.Gamma.Beta"
+  },
+  {
+    "theorem": "TensorAlgebra.lift_comp_\u03b9",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.LinearAlgebra.TensorAlgebra.Basic"
+  },
+  {
+    "theorem": "Set.encard_union_eq",
+    "self_cluster": 7,
+    "self_label": "Topology + Order + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.Data.Set.Card"
+  },
+  {
+    "theorem": "MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_le_measure",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 39,
+    "module": "Mathlib.MeasureTheory.Group.GeometryOfNumbers"
+  },
+  {
+    "theorem": "NumberField.canonicalEmbedding.norm_le_iff",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.NumberTheory.NumberField.CanonicalEmbedding.Basic"
+  },
+  {
+    "theorem": "LinearMap.BilinForm.isCompl_orthogonal_iff_disjoint",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.LinearAlgebra.BilinearForm.Orthogonal"
+  },
+  {
+    "theorem": "CategoryTheory.ShortComplex.SnakeInput.naturality_\u03b4",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      90
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "CategoryTheory"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.Algebra.Homology.ShortComplex.SnakeLemma"
+  },
+  {
+    "theorem": "AlgebraicGeometry.IsAffineOpen.\u03b9Opens_basicOpen_preimage",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.AlgebraicGeometry.AffineScheme"
+  },
+  {
+    "theorem": "spectrum.hasFPowerSeriesOnBall_inverse_one_sub_smul",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 38,
+    "module": "Mathlib.Analysis.NormedSpace.Spectrum"
+  },
+  {
+    "theorem": "spectrum.limsup_pow_nnnorm_pow_one_div_le_spectralRadius",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.Analysis.NormedSpace.Spectrum"
+  },
+  {
+    "theorem": "CategoryTheory.extensive_regular_generate_coherent",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 26,
+    "module": "Mathlib.CategoryTheory.Sites.Coherent.Comparison"
+  },
+  {
+    "theorem": "CategoryTheory.coherentTopology.mem_sieves_iff_hasEffectiveEpiFamily",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.CategoryTheory.Sites.Coherent.CoherentTopology"
+  },
+  {
+    "theorem": "AlgebraicTopology.DoldKan.\u0393\u2080.Obj.Termwise.mapMono_comp",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "CategoryTheory"
+    ],
+    "n_premises": 17,
+    "module": "Mathlib.AlgebraicTopology.DoldKan.FunctorGamma"
+  },
+  {
+    "theorem": "BumpCovering.sum_toPOUFun_eq",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      40
+    ],
+    "premise_cluster_labels": [
+      "Analysis",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.Topology.PartitionOfUnity"
+  },
+  {
+    "theorem": "BumpCovering.continuous_toPOUFun",
+    "self_cluster": 40,
+    "self_label": "Analysis",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      40
+    ],
+    "premise_cluster_labels": [
+      "Analysis",
+      "CategoryTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.Topology.PartitionOfUnity"
+  },
+  {
+    "theorem": "FirstOrder.Language.Embedding.isElementary_of_exists",
+    "self_cluster": 8,
+    "self_label": "Data + LinearAlgebra + Analysis",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.ModelTheory.ElementaryMaps"
+  },
+  {
+    "theorem": "Quotient.finChoiceAux_eq",
+    "self_cluster": 8,
+    "self_label": "Data + LinearAlgebra + Analysis",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.Data.Fintype.Quotient"
+  },
+  {
+    "theorem": "ContinuousMap.setOfIdeal_eq_compl_singleton",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.Topology.ContinuousFunction.Ideals"
+  },
+  {
+    "theorem": "WeierstrassCurve.Affine.nonsingular_neg_iff",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.AlgebraicGeometry.EllipticCurve.Affine"
+  },
+  {
+    "theorem": "NumberField.finite_of_discr_bdd",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.NumberTheory.NumberField.Discriminant"
+  },
+  {
+    "theorem": "CategoryTheory.finrank_hom_simple_simple_eq_zero_of_not_iso",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.CategoryTheory.Preadditive.Schur"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.MonoCoprod.mono_inj",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.CategoryTheory.Limits.MonoCoprod"
+  },
+  {
+    "theorem": "Ordinal.toPGame_le",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.SetTheory.Game.Ordinal"
+  },
+  {
+    "theorem": "Ordinal.toPGame_add",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 17,
+    "module": "Mathlib.SetTheory.Game.Ordinal"
+  },
+  {
+    "theorem": "HomologicalComplex.HomologySequence.composableArrows\u2083_exact",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      59
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "CategoryTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.Algebra.Homology.HomologySequence"
+  },
+  {
+    "theorem": "WeierstrassCurve.Jacobian.Point.fromAffine_ne_zero",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian"
+  },
+  {
+    "theorem": "IsCyclotomicExtension.discr_prime_pow_ne_two",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      26
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 82,
+    "module": "Mathlib.NumberTheory.Cyclotomic.Discriminant"
+  },
+  {
+    "theorem": "groupCohomology.resolution.forget\u2082ToModuleCatHomotopyEquiv_f_0_eq",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 41,
+    "module": "Mathlib.RepresentationTheory.GroupCohomology.Resolution"
+  },
+  {
+    "theorem": "Cardinal.mk_subtype_le_of_countable_eventually_mem_aux",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 24,
+    "module": "Mathlib.SetTheory.Cardinal.CountableCover"
+  },
+  {
+    "theorem": "Cardinal.mk_subtype_le_of_countable_eventually_mem",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.SetTheory.Cardinal.CountableCover"
+  },
+  {
+    "theorem": "CategoryTheory.PreGaloisCategory.card_hom_le_card_fiber_of_connected",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Galois.Basic"
+  },
+  {
+    "theorem": "CategoryTheory.PreGaloisCategory.card_aut_le_card_fiber_of_connected",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Galois.Basic"
+  },
+  {
+    "theorem": "FirstOrder.Language.Substructure.cg_iff_empty_or_exists_nat_generating_family",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      16,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "Order"
+    ],
+    "n_premises": 20,
+    "module": "Mathlib.ModelTheory.FinitelyGenerated"
+  },
+  {
+    "theorem": "PFunctor.M.cases_mk",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.Data.PFunctor.Univariate.M"
+  },
+  {
+    "theorem": "FirstOrder.Language.card_functions_sum_skolem\u2081",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.ModelTheory.Skolem"
+  },
+  {
+    "theorem": "FirstOrder.Language.card_functions_sum_skolem\u2081_le",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.ModelTheory.Skolem"
+  },
+  {
+    "theorem": "FirstOrder.Language.exists_elementarySubstructure_card_eq",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 30,
+    "module": "Mathlib.ModelTheory.Skolem"
+  },
+  {
+    "theorem": "Sylow.normalizer_sup_eq_top",
+    "self_cluster": 13,
+    "self_label": "GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 20,
+    "module": "Mathlib.GroupTheory.Sylow"
+  },
+  {
+    "theorem": "Surreal.bddAbove_range_of_small",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.SetTheory.Surreal.Basic"
+  },
+  {
+    "theorem": "Surreal.bddBelow_range_of_small",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.SetTheory.Surreal.Basic"
+  },
+  {
+    "theorem": "AlgebraicGeometry.compact_open_induction_on",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.AlgebraicGeometry.Morphisms.QuasiCompact"
+  },
+  {
+    "theorem": "WeierstrassCurve.Affine.CoordinateRing.XYIdeal_add_eq",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      16,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "Order"
+    ],
+    "n_premises": 21,
+    "module": "Mathlib.AlgebraicGeometry.EllipticCurve.Group"
+  },
+  {
+    "theorem": "WeierstrassCurve.Affine.CoordinateRing.XYIdeal_mul_XYIdeal",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      16,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "Order"
+    ],
+    "n_premises": 61,
+    "module": "Mathlib.AlgebraicGeometry.EllipticCurve.Group"
+  },
+  {
+    "theorem": "LinearMap.finrank_maxGenEigenspace",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 64,
+    "module": "Mathlib.LinearAlgebra.Eigenspace.Zero"
+  },
+  {
+    "theorem": "Pi.exists_forall_pos_add_lt",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.Algebra.Order.Field.Pi"
+  },
+  {
+    "theorem": "CategoryTheory.hasTerminal_of_isSeparating",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.CategoryTheory.Generator"
+  },
+  {
+    "theorem": "CategoryTheory.FreeBicategory.normalize_naturality",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.CategoryTheory.Bicategory.Coherence"
+  },
+  {
+    "theorem": "GromovHausdorff.HD_candidatesBDist_le",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.Topology.MetricSpace.GromovHausdorffRealized"
+  },
+  {
+    "theorem": "Turing.TM1to1.exists_enc_dec",
+    "self_cluster": 6,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.Computability.TuringMachine"
+  },
+  {
+    "theorem": "FirstOrder.Language.DirectLimit.exists_quotient_mk'_sigma_mk'_eq",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 10,
+    "module": "Mathlib.ModelTheory.DirectLimit"
+  },
+  {
+    "theorem": "FirstOrder.Language.DirectLimit.of_f",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.ModelTheory.DirectLimit"
+  },
+  {
+    "theorem": "MvPFunctor.M.bisim",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.Data.PFunctor.Multivariate.M"
+  },
+  {
+    "theorem": "MvPFunctor.M.bisim\u2080",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 15,
+    "module": "Mathlib.Data.PFunctor.Multivariate.M"
+  },
+  {
+    "theorem": "FirstOrder.Language.Theory.isSatisfiable_union_distinctConstantsTheory_of_card_le",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.ModelTheory.Satisfiability"
+  },
+  {
+    "theorem": "FreeGroup.injective_lift_of_ping_pong",
+    "self_cluster": 13,
+    "self_label": "GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 35,
+    "module": "Mathlib.GroupTheory.CoprodI"
+  },
+  {
+    "theorem": "AlgebraicGeometry.is_localization_basicOpen_of_qcqs",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.AlgebraicGeometry.Morphisms.QuasiSeparated"
+  },
+  {
+    "theorem": "smoothSheaf.eval_surjective",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      52
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Geometry"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.Geometry.Manifold.Sheaf.Smooth"
+  },
+  {
+    "theorem": "MonoidHom.ker_transferSylow_isComplement'",
+    "self_cluster": 13,
+    "self_label": "GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 31,
+    "module": "Mathlib.GroupTheory.Transfer"
+  },
+  {
+    "theorem": "Module.finitePresentation_of_ker",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 31,
+    "module": "Mathlib.Algebra.Module.FinitePresentation"
+  },
+  {
+    "theorem": "CochainComplex.mappingCone.quasiIso_descShortComplex",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      59
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "CategoryTheory"
+    ],
+    "n_premises": 28,
+    "module": "Mathlib.Algebra.Homology.HomotopyCategory.ShortExact"
+  },
+  {
+    "theorem": "DFinsupp.wellFoundedLT",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      21
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.Data.DFinsupp.WellFounded"
+  },
+  {
+    "theorem": "IsUpperSet.le_card_inter_finset",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.Combinatorics.SetFamily.HarrisKleitman"
+  },
+  {
+    "theorem": "Set.Intersecting.is_max_iff_card_eq",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 30,
+    "module": "Mathlib.Combinatorics.SetFamily.Intersecting"
+  },
+  {
+    "theorem": "CategoryTheory.extensiveTopology.mem_sieves_iff_contains_colimit_cofan",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 17,
+    "module": "Mathlib.CategoryTheory.Sites.Coherent.ExtensiveTopology"
+  },
+  {
+    "theorem": "EisensteinSeries.norm_eq_max_natAbs",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.NumberTheory.ModularForms.EisensteinSeries.UniformConvergence"
+  },
+  {
+    "theorem": "Set.Countable.isPathConnected_compl_of_one_lt_rank",
+    "self_cluster": 7,
+    "self_label": "Topology + Order + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      49
+    ],
+    "premise_cluster_labels": [
+      "SetTheory",
+      "Topology"
+    ],
+    "n_premises": 35,
+    "module": "Mathlib.Analysis.NormedSpace.Connected"
+  },
+  {
+    "theorem": "MvPFunctor.w_map_wMk",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 7,
+    "module": "Mathlib.Data.PFunctor.Multivariate.W"
+  },
+  {
+    "theorem": "CategoryTheory.PreGaloisCategory.has_decomp_connected_components_aux_conn",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Galois.Decomposition"
+  },
+  {
+    "theorem": "CategoryTheory.PreGaloisCategory.has_decomp_connected_components_aux",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 28,
+    "module": "Mathlib.CategoryTheory.Galois.Decomposition"
+  },
+  {
+    "theorem": "CategoryTheory.PreGaloisCategory.has_decomp_connected_components",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Galois.Decomposition"
+  },
+  {
+    "theorem": "eVariationOn.add_point",
+    "self_cluster": 6,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "SetTheory"
+    ],
+    "n_premises": 75,
+    "module": "Mathlib.Analysis.BoundedVariation"
+  },
+  {
+    "theorem": "IntermediateField.sepDegree_adjoin_eq_of_isAlgebraic_of_isPurelyInseparable",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 37,
+    "module": "Mathlib.FieldTheory.PurelyInseparable"
+  },
+  {
+    "theorem": "AlgebraicGeometry.eq_zero_of_basicOpen_eq_bot",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      16
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Order"
+    ],
+    "n_premises": 25,
+    "module": "Mathlib.AlgebraicGeometry.Properties"
+  },
+  {
+    "theorem": "Finset.all_card_le_biUnion_card_iff_exists_injective",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 19,
+    "module": "Mathlib.Combinatorics.Hall.Basic"
+  },
+  {
+    "theorem": "ZFSet.mem_range",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.SetTheory.ZFC.Basic"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.Types.zigzag_of_eqvGen_quot_rel",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.CategoryTheory.Limits.IsConnected"
+  },
+  {
+    "theorem": "CategoryTheory.Limits.Types.isConnected_iff_colimit_constPUnitFunctor_iso_pUnit",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.CategoryTheory.Limits.IsConnected"
+  },
+  {
+    "theorem": "GromovHausdorff.hausdorffDist_optimal",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 57,
+    "module": "Mathlib.Topology.MetricSpace.GromovHausdorff"
+  },
+  {
+    "theorem": "GromovHausdorff.totallyBounded",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 78,
+    "module": "Mathlib.Topology.MetricSpace.GromovHausdorff"
+  },
+  {
+    "theorem": "SimpleGraph.IsTuranMaximal.degree_eq_of_not_adj",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 5,
+    "module": "Mathlib.Combinatorics.SimpleGraph.Turan"
+  },
+  {
+    "theorem": "IsometryEquiv.midpoint_fixed",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 24,
+    "module": "Mathlib.Analysis.NormedSpace.MazurUlam"
+  },
+  {
+    "theorem": "FirstOrder.Language.age.countable_quotient",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 20,
+    "module": "Mathlib.ModelTheory.Fraisse"
+  },
+  {
+    "theorem": "FirstOrder.Language.exists_cg_is_age_of",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 29,
+    "module": "Mathlib.ModelTheory.Fraisse"
+  },
+  {
+    "theorem": "FirstOrder.Language.IsUltrahomogeneous.amalgamation_age",
+    "self_cluster": 19,
+    "self_label": "AlgebraicGeometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 19,
+    "module": "Mathlib.ModelTheory.Fraisse"
+  },
+  {
+    "theorem": "isClosed_preCantorSet",
+    "self_cluster": 7,
+    "self_label": "Topology + Order + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 6,
+    "module": "Mathlib.Topology.Instances.CantorSet"
+  },
+  {
+    "theorem": "Affine.Simplex.affineSpan_pair_eq_altitude_iff",
+    "self_cluster": 14,
+    "self_label": "LinearAlgebra + Analysis + Geometry",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 27,
+    "module": "Mathlib.Geometry.Euclidean.MongePoint"
+  },
+  {
+    "theorem": "SetTheory.PGame.equiv_nim_grundyValue",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "SetTheory"
+    ],
+    "n_premises": 29,
+    "module": "Mathlib.SetTheory.Game.Nim"
+  },
+  {
+    "theorem": "Combinatorics.Line.exists_mono_in_high_dimension'",
+    "self_cluster": 15,
+    "self_label": "Data + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 45,
+    "module": "Mathlib.Combinatorics.HalesJewett"
+  },
+  {
+    "theorem": "CategoryTheory.Subgroupoid.mem_top_objs",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      25
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 3,
+    "module": "Mathlib.CategoryTheory.Groupoid.Subgroupoid"
+  },
+  {
+    "theorem": "CategoryTheory.Subgroupoid.mem_im_iff",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      25
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.CategoryTheory.Groupoid.Subgroupoid"
+  },
+  {
+    "theorem": "ArzelaAscoli.isCompact_of_equicontinuous",
+    "self_cluster": 7,
+    "self_label": "Topology + Order + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Topology.UniformSpace.Ascoli"
+  },
+  {
+    "theorem": "MeasureTheory.LevyProkhorov.continuous_toProbabilityMeasure",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      29,
+      49
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "Topology"
+    ],
+    "n_premises": 55,
+    "module": "Mathlib.MeasureTheory.Measure.LevyProkhorovMetric"
+  },
+  {
+    "theorem": "CategoryTheory.LocalizerMorphism.IsRightDerivabilityStructure.Constructor.isConnected",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 29,
+    "module": "Mathlib.CategoryTheory.Localization.DerivabilityStructure.Constructor"
+  },
+  {
+    "theorem": "MeasurableSpace.generateMeasurable_eq_rec",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.MeasureTheory.MeasurableSpace.Card"
+  },
+  {
+    "theorem": "Infinite.nonempty_field",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.FieldTheory.Cardinality"
+  },
+  {
+    "theorem": "ZetaAsymptotics.term_one",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 30,
+    "module": "Mathlib.NumberTheory.Harmonic.ZetaAsymp"
+  },
+  {
+    "theorem": "ZetaAsymptotics.term_of_lt",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 27,
+    "module": "Mathlib.NumberTheory.Harmonic.ZetaAsymp"
+  },
+  {
+    "theorem": "AlgebraicGeometry.ProjIsoSpecTopComponent.ToSpec.mk_mem_carrier",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      19
+    ],
+    "premise_cluster_labels": [
+      "AlgebraicGeometry",
+      "CategoryTheory"
+    ],
+    "n_premises": 14,
+    "module": "Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Scheme"
+  },
+  {
+    "theorem": "AlgebraicGeometry.ProjIsoSpecTopComponent.FromSpec.carrier.add_mem",
+    "self_cluster": 22,
+    "self_label": "Algebra + RingTheory + GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 43,
+    "module": "Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Scheme"
+  },
+  {
+    "theorem": "AddCircle.addWellApproximable_ae_empty_or_univ",
+    "self_cluster": 1,
+    "self_label": "MeasureTheory + Analysis + Topology",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      26,
+      84
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "Data"
+    ],
+    "n_premises": 70,
+    "module": "Mathlib.NumberTheory.WellApproximable"
+  },
+  {
+    "theorem": "UpperHalfPlane.cmp_dist_eq_cmp_dist_coe_center",
+    "self_cluster": 0,
+    "self_label": "Algebra + Analysis + Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      54
+    ],
+    "premise_cluster_labels": [
+      "Analysis",
+      "SetTheory"
+    ],
+    "n_premises": 18,
+    "module": "Mathlib.Analysis.Complex.UpperHalfPlane.Metric"
+  },
+  {
+    "theorem": "PNat.XgcdType.isSpecial_iff",
+    "self_cluster": 26,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      26
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Data.PNat.Xgcd"
+  },
+  {
+    "theorem": "PNat.gcd_props",
+    "self_cluster": 26,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      26
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 19,
+    "module": "Mathlib.Data.PNat.Xgcd"
+  },
+  {
+    "theorem": "Subgroup.SchurZassenhausInduction.step1",
+    "self_cluster": 13,
+    "self_label": "GroupTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      16,
+      26
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "Order"
+    ],
+    "n_premises": 23,
+    "module": "Mathlib.GroupTheory.SchurZassenhaus"
+  },
+  {
+    "theorem": "Subgroup.exists_right_complement'_of_coprime",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 13,
+    "module": "Mathlib.GroupTheory.SchurZassenhaus"
+  },
+  {
+    "theorem": "ONote.repr_sub",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      26
+    ],
+    "premise_cluster_labels": [
+      "Data",
+      "SetTheory"
+    ],
+    "n_premises": 33,
+    "module": "Mathlib.SetTheory.Ordinal.Notation"
+  },
+  {
+    "theorem": "krullDim_eq_top_of_infiniteDimensionalOrder",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.Order.KrullDimension"
+  },
+  {
+    "theorem": "UnivLE.ofEssSurj",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 2,
+    "module": "Mathlib.CategoryTheory.UnivLE"
+  },
+  {
+    "theorem": "CategoryTheory.Groupoid.Free.congr_reverse",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 12,
+    "module": "Mathlib.CategoryTheory.Groupoid.FreeGroupoid"
+  },
+  {
+    "theorem": "CategoryTheory.Groupoid.Free.congr_comp_reverse",
+    "self_cluster": 21,
+    "self_label": "Data",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 15,
+    "module": "Mathlib.CategoryTheory.Groupoid.FreeGroupoid"
+  },
+  {
+    "theorem": "CategoryTheory.Groupoid.Free.lift_unique",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 11,
+    "module": "Mathlib.CategoryTheory.Groupoid.FreeGroupoid"
+  },
+  {
+    "theorem": "Ordnode.Valid'.node4L",
+    "self_cluster": 23,
+    "self_label": "Batteries",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "SetTheory"
+    ],
+    "n_premises": 37,
+    "module": "Mathlib.Data.Ordmap.Ordset"
+  },
+  {
+    "theorem": "Dioph.diophFn_vec_comp1",
+    "self_cluster": 23,
+    "self_label": "Batteries",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "CategoryTheory"
+    ],
+    "n_premises": 4,
+    "module": "Mathlib.NumberTheory.Dioph"
+  },
+  {
+    "theorem": "Dioph.diophFn_compn",
+    "self_cluster": 11,
+    "self_label": "Data + Computability + SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      23
+    ],
+    "premise_cluster_labels": [
+      "Batteries",
+      "CategoryTheory"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.NumberTheory.Dioph"
+  },
+  {
+    "theorem": "Ordinal.mem_closure_tfae",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 33,
+    "module": "Mathlib.SetTheory.Ordinal.Topology"
+  },
+  {
+    "theorem": "CategoryTheory.CategoryOfElements.CreatesLimitsAux.map_lift_mapCone",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      21
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "Data"
+    ],
+    "n_premises": 9,
+    "module": "Mathlib.CategoryTheory.Limits.Elements"
+  },
+  {
+    "theorem": "Finset.mul_pluennecke_petridis",
+    "self_cluster": 2,
+    "self_label": "Data + Order + Algebra",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      10,
+      16
+    ],
+    "premise_cluster_labels": [
+      "Order",
+      "SetTheory"
+    ],
+    "n_premises": 32,
+    "module": "Mathlib.Combinatorics.Additive.PluenneckeRuzsa"
+  },
+  {
+    "theorem": "CategoryTheory.FintypeCat.Action.pretransitive_of_isConnected",
+    "self_cluster": 4,
+    "self_label": "CategoryTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      72
+    ],
+    "premise_cluster_labels": [
+      "Algebra",
+      "CategoryTheory"
+    ],
+    "n_premises": 28,
+    "module": "Mathlib.CategoryTheory.Galois.Examples"
+  },
+  {
+    "theorem": "CategoryTheory.HomOrthogonal.equiv_of_iso",
+    "self_cluster": 10,
+    "self_label": "SetTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 8,
+    "module": "Mathlib.CategoryTheory.Preadditive.HomOrthogonal"
+  },
+  {
+    "theorem": "PiTensorProduct.norm_eval_le_injectiveSeminorm",
+    "self_cluster": 5,
+    "self_label": "LinearAlgebra + Algebra + RingTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 46,
+    "module": "Mathlib.Analysis.NormedSpace.PiTensorProduct.InjectiveSeminorm"
+  },
+  {
+    "theorem": "Subalgebra.rank_sup_eq_rank_left_mul_rank_of_free",
+    "self_cluster": 3,
+    "self_label": "Algebra + RingTheory + FieldTheory",
+    "n_premise_clusters": 2,
+    "premise_cluster_ids": [
+      4,
+      10
+    ],
+    "premise_cluster_labels": [
+      "CategoryTheory",
+      "SetTheory"
+    ],
+    "n_premises": 16,
+    "module": "Mathlib.Algebra.Algebra.Subalgebra.Rank"
+  }
+]

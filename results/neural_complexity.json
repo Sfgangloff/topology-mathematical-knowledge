@@ -1,0 +1,1247 @@
+{
+  "global_cn": 1.1674373074313875,
+  "clusters": {
+    "0": {
+      "label": "Algebra + Analysis + Data",
+      "size": 12513,
+      "integration": 1.585,
+      "differentiation": 0.158,
+      "neural_complexity": 0.2504,
+      "total_bridge_connections": 3,
+      "is_mixed": true
+    },
+    "1": {
+      "label": "MeasureTheory + Analysis + Topology",
+      "size": 12390,
+      "integration": 2.0464,
+      "differentiation": 0.1842,
+      "neural_complexity": 0.377,
+      "total_bridge_connections": 10,
+      "is_mixed": true
+    },
+    "2": {
+      "label": "Data + Order + Algebra",
+      "size": 10389,
+      "integration": 0.971,
+      "differentiation": 0.2111,
+      "neural_complexity": 0.205,
+      "total_bridge_connections": 5,
+      "is_mixed": true
+    },
+    "3": {
+      "label": "Algebra + RingTheory + FieldTheory",
+      "size": 8760,
+      "integration": 1.9219,
+      "differentiation": 0.2576,
+      "neural_complexity": 0.4952,
+      "total_bridge_connections": 5,
+      "is_mixed": true
+    },
+    "4": {
+      "label": "CategoryTheory",
+      "size": 8245,
+      "integration": 0.9183,
+      "differentiation": 0.3346,
+      "neural_complexity": 0.3072,
+      "total_bridge_connections": 3,
+      "is_mixed": false
+    },
+    "5": {
+      "label": "LinearAlgebra + Algebra + RingTheory",
+      "size": 6372,
+      "integration": 0.7219,
+      "differentiation": 0.2521,
+      "neural_complexity": 0.182,
+      "total_bridge_connections": 5,
+      "is_mixed": true
+    },
+    "6": {
+      "label": "Data",
+      "size": 5917,
+      "integration": 1.0,
+      "differentiation": 0.2826,
+      "neural_complexity": 0.2826,
+      "total_bridge_connections": 2,
+      "is_mixed": false
+    },
+    "7": {
+      "label": "Topology + Order + Data",
+      "size": 5462,
+      "integration": -0.0,
+      "differentiation": 0.2263,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 2,
+      "is_mixed": true
+    },
+    "8": {
+      "label": "Data + LinearAlgebra + Analysis",
+      "size": 2603,
+      "integration": 1.0,
+      "differentiation": 0.2236,
+      "neural_complexity": 0.2236,
+      "total_bridge_connections": 2,
+      "is_mixed": true
+    },
+    "9": {
+      "label": "Analysis",
+      "size": 2341,
+      "integration": 1.0,
+      "differentiation": 0.3126,
+      "neural_complexity": 0.3126,
+      "total_bridge_connections": 2,
+      "is_mixed": false
+    },
+    "10": {
+      "label": "SetTheory",
+      "size": 2238,
+      "integration": 2.6106,
+      "differentiation": 0.3972,
+      "neural_complexity": 1.0369,
+      "total_bridge_connections": 14,
+      "is_mixed": false
+    },
+    "11": {
+      "label": "Data + Computability + SetTheory",
+      "size": 2004,
+      "integration": -0.0,
+      "differentiation": 0.1912,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 1,
+      "is_mixed": true
+    },
+    "12": {
+      "label": "Data + RingTheory + Algebra",
+      "size": 1856,
+      "integration": -0.0,
+      "differentiation": 0.1312,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "13": {
+      "label": "GroupTheory",
+      "size": 1638,
+      "integration": 0.9183,
+      "differentiation": 0.3354,
+      "neural_complexity": 0.308,
+      "total_bridge_connections": 3,
+      "is_mixed": false
+    },
+    "14": {
+      "label": "LinearAlgebra + Analysis + Geometry",
+      "size": 1500,
+      "integration": -0.0,
+      "differentiation": 0.1988,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "15": {
+      "label": "Data + Algebra + RingTheory",
+      "size": 1270,
+      "integration": -0.0,
+      "differentiation": 0.2727,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "16": {
+      "label": "Order",
+      "size": 915,
+      "integration": -0.0,
+      "differentiation": 0.4898,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "17": {
+      "label": "Algebra + Topology + Analysis",
+      "size": 908,
+      "integration": -0.0,
+      "differentiation": 0.2174,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "18": {
+      "label": "MeasureTheory",
+      "size": 841,
+      "integration": -0.0,
+      "differentiation": 0.3448,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "19": {
+      "label": "AlgebraicGeometry",
+      "size": 708,
+      "integration": 0.8113,
+      "differentiation": 0.3788,
+      "neural_complexity": 0.3073,
+      "total_bridge_connections": 4,
+      "is_mixed": false
+    },
+    "20": {
+      "label": "Data + Order + Dynamics",
+      "size": 567,
+      "integration": -0.0,
+      "differentiation": 0.1475,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "21": {
+      "label": "Data",
+      "size": 507,
+      "integration": -0.0,
+      "differentiation": 0.383,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "22": {
+      "label": "Algebra + RingTheory + GroupTheory",
+      "size": 481,
+      "integration": -0.0,
+      "differentiation": 0.1281,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "23": {
+      "label": "Batteries",
+      "size": 412,
+      "integration": -0.0,
+      "differentiation": 0.4228,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "24": {
+      "label": "Analysis + Data + Algebra",
+      "size": 358,
+      "integration": -0.0,
+      "differentiation": 0.2324,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "25": {
+      "label": "Data",
+      "size": 155,
+      "integration": -0.0,
+      "differentiation": 0.3238,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "26": {
+      "label": "Data",
+      "size": 137,
+      "integration": -0.0,
+      "differentiation": 0.718,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "27": {
+      "label": "Order",
+      "size": 82,
+      "integration": 1.75,
+      "differentiation": 0.2216,
+      "neural_complexity": 0.3877,
+      "total_bridge_connections": 8,
+      "is_mixed": false
+    },
+    "28": {
+      "label": "RingTheory",
+      "size": 66,
+      "integration": -0.0,
+      "differentiation": 0.8188,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "29": {
+      "label": "Data",
+      "size": 42,
+      "integration": -0.0,
+      "differentiation": 0.4352,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "30": {
+      "label": "Data",
+      "size": 36,
+      "integration": -0.0,
+      "differentiation": 0.2425,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "31": {
+      "label": "Algebra",
+      "size": 25,
+      "integration": -0.0,
+      "differentiation": 0.2574,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "32": {
+      "label": "Topology",
+      "size": 23,
+      "integration": -0.0,
+      "differentiation": 0.5798,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 1,
+      "is_mixed": false
+    },
+    "33": {
+      "label": "RingTheory",
+      "size": 22,
+      "integration": -0.0,
+      "differentiation": 0.4224,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 1,
+      "is_mixed": false
+    },
+    "34": {
+      "label": "Topology + Analysis + Combinatorics",
+      "size": 22,
+      "integration": -0.0,
+      "differentiation": 0.1317,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "35": {
+      "label": "RingTheory",
+      "size": 21,
+      "integration": -0.0,
+      "differentiation": 0.2909,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "36": {
+      "label": "MeasureTheory",
+      "size": 21,
+      "integration": -0.0,
+      "differentiation": 0.7137,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "37": {
+      "label": "Data",
+      "size": 19,
+      "integration": -0.0,
+      "differentiation": 0.6129,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "38": {
+      "label": "Data",
+      "size": 18,
+      "integration": -0.0,
+      "differentiation": 0.5178,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "39": {
+      "label": "Combinatorics",
+      "size": 17,
+      "integration": -0.0,
+      "differentiation": 0.1811,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "40": {
+      "label": "Analysis",
+      "size": 16,
+      "integration": -0.0,
+      "differentiation": 0.421,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "41": {
+      "label": "Analysis",
+      "size": 15,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "42": {
+      "label": "Algebra",
+      "size": 15,
+      "integration": -0.0,
+      "differentiation": 0.7771,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 1,
+      "is_mixed": false
+    },
+    "43": {
+      "label": "Analysis",
+      "size": 15,
+      "integration": -0.0,
+      "differentiation": 0.6426,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "44": {
+      "label": "Order",
+      "size": 13,
+      "integration": -0.0,
+      "differentiation": 0.4299,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "45": {
+      "label": "Analysis",
+      "size": 13,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "46": {
+      "label": "Data",
+      "size": 13,
+      "integration": -0.0,
+      "differentiation": 0.3428,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "47": {
+      "label": "Batteries",
+      "size": 12,
+      "integration": -0.0,
+      "differentiation": 0.3818,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "48": {
+      "label": "Analysis",
+      "size": 12,
+      "integration": -0.0,
+      "differentiation": 0.2704,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "49": {
+      "label": "Topology",
+      "size": 12,
+      "integration": -0.0,
+      "differentiation": 0.3375,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "50": {
+      "label": "Geometry",
+      "size": 12,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "51": {
+      "label": "CategoryTheory",
+      "size": 11,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "52": {
+      "label": "Geometry",
+      "size": 11,
+      "integration": -0.0,
+      "differentiation": 0.3797,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "53": {
+      "label": "Data",
+      "size": 11,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "54": {
+      "label": "Analysis",
+      "size": 11,
+      "integration": -0.0,
+      "differentiation": 0.7227,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "55": {
+      "label": "Algebra",
+      "size": 11,
+      "integration": -0.0,
+      "differentiation": 0.7227,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "56": {
+      "label": "Algebra",
+      "size": 11,
+      "integration": -0.0,
+      "differentiation": 0.5684,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "57": {
+      "label": "CategoryTheory",
+      "size": 11,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "58": {
+      "label": "CategoryTheory",
+      "size": 10,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "59": {
+      "label": "Algebra",
+      "size": 10,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "60": {
+      "label": "Data",
+      "size": 10,
+      "integration": -0.0,
+      "differentiation": 0.2048,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "61": {
+      "label": "Data",
+      "size": 10,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "62": {
+      "label": "GroupTheory",
+      "size": 9,
+      "integration": -0.0,
+      "differentiation": 0.2348,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "63": {
+      "label": "CategoryTheory",
+      "size": 9,
+      "integration": -0.0,
+      "differentiation": 0.6825,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "64": {
+      "label": "Data",
+      "size": 9,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "65": {
+      "label": "GroupTheory",
+      "size": 9,
+      "integration": -0.0,
+      "differentiation": 0.3747,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "66": {
+      "label": "FieldTheory + RingTheory + NumberTheory",
+      "size": 9,
+      "integration": -0.0,
+      "differentiation": 0.1856,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": true
+    },
+    "67": {
+      "label": "GroupTheory",
+      "size": 9,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "68": {
+      "label": "Algebra",
+      "size": 9,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "69": {
+      "label": "Analysis",
+      "size": 8,
+      "integration": -0.0,
+      "differentiation": 0.4694,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "70": {
+      "label": "Analysis",
+      "size": 8,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "71": {
+      "label": "Data",
+      "size": 8,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "72": {
+      "label": "Algebra",
+      "size": 8,
+      "integration": -0.0,
+      "differentiation": 0.3978,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "73": {
+      "label": "Unknown",
+      "size": 8,
+      "integration": -0.0,
+      "differentiation": 0.3691,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "74": {
+      "label": "Data",
+      "size": 7,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "75": {
+      "label": "Data",
+      "size": 7,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "76": {
+      "label": "Algebra",
+      "size": 7,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "77": {
+      "label": "Data",
+      "size": 7,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "78": {
+      "label": "Order",
+      "size": 7,
+      "integration": -0.0,
+      "differentiation": 0.6267,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "79": {
+      "label": "Deprecated",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "80": {
+      "label": "Data",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "81": {
+      "label": "Data",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "82": {
+      "label": "InformationTheory",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "83": {
+      "label": "Order",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.5899,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "84": {
+      "label": "Algebra",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.3742,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "85": {
+      "label": "RingTheory",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.3691,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "86": {
+      "label": "Topology",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "87": {
+      "label": "Topology",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.4206,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "88": {
+      "label": "Algebra",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.4206,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "89": {
+      "label": "Algebra",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.4206,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "90": {
+      "label": "Algebra",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "91": {
+      "label": "GroupTheory",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.4206,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "92": {
+      "label": "Algebra",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.2704,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "93": {
+      "label": "LinearAlgebra",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "94": {
+      "label": "Analysis",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "95": {
+      "label": "Analysis",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "96": {
+      "label": "NumberTheory",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "97": {
+      "label": "RingTheory",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.2704,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "98": {
+      "label": "Unknown",
+      "size": 6,
+      "integration": -0.0,
+      "differentiation": 0.5899,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "99": {
+      "label": "CategoryTheory",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "100": {
+      "label": "Analysis",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "101": {
+      "label": "Topology",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "102": {
+      "label": "Algebra",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "103": {
+      "label": "Unknown",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.239,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "104": {
+      "label": "Combinatorics",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "105": {
+      "label": "Data",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.3874,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "106": {
+      "label": "Algebra",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "107": {
+      "label": "Topology",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "108": {
+      "label": "Data",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "109": {
+      "label": "Order",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "110": {
+      "label": "SetTheory",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "111": {
+      "label": "Batteries",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.3145,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "112": {
+      "label": "Analysis",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.3874,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "113": {
+      "label": "Init",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "114": {
+      "label": "Data",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "115": {
+      "label": "RingTheory",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 0.5445,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "116": {
+      "label": "RingTheory",
+      "size": 5,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "117": {
+      "label": "Data",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "118": {
+      "label": "MeasureTheory",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "119": {
+      "label": "Topology",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.25,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "120": {
+      "label": "Topology",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "121": {
+      "label": "Topology",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.25,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "122": {
+      "label": "Data",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.3691,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "123": {
+      "label": "LinearAlgebra",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "124": {
+      "label": "Data",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "125": {
+      "label": "Analysis",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.3691,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "126": {
+      "label": "Analysis",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.4881,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "127": {
+      "label": "NumberTheory",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "128": {
+      "label": "Topology",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.4881,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "129": {
+      "label": "Topology",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.25,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "130": {
+      "label": "Topology",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "131": {
+      "label": "Analysis",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "132": {
+      "label": "RingTheory",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "133": {
+      "label": "Topology",
+      "size": 4,
+      "integration": -0.0,
+      "differentiation": 0.25,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "134": {
+      "label": "Topology",
+      "size": 3,
+      "integration": -0.0,
+      "differentiation": 0.4206,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "135": {
+      "label": "Analysis",
+      "size": 3,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "136": {
+      "label": "MeasureTheory",
+      "size": 3,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    },
+    "137": {
+      "label": "MeasureTheory",
+      "size": 3,
+      "integration": -0.0,
+      "differentiation": 1.0,
+      "neural_complexity": -0.0,
+      "total_bridge_connections": 0,
+      "is_mixed": false
+    }
+  }
+}

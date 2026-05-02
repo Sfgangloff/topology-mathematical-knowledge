@@ -1,0 +1,1821 @@
+[
+  {
+    "name": "Zorn / Choice / Well-Ordering",
+    "description": "Equivalence of Zorn's Lemma, Axiom of Choice, and Well-Ordering Theorem",
+    "sides": [
+      {
+        "side": "Order/Set theory",
+        "patterns": [
+          "zorn",
+          "Zorn",
+          "WellOrder",
+          "wellOrder",
+          "WellFounded",
+          "linearOrder_of"
+        ],
+        "n_matches": 90,
+        "clusters": {
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "IsWellOrderLimitElement.mk",
+              "WellFounded.induction",
+              "WellFounded.fix_eq",
+              "IsWellOrderLimitElement.neq_bot",
+              "IsWellOrderLimitElement.neq_succ"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "Set.PartiallyWellOrderedOn.prod",
+              "Set.WellFoundedOn.mono",
+              "Finset.partiallyWellOrderedOn_sup",
+              "Set.PartiallyWellOrderedOn.union",
+              "Set.PartiallyWellOrderedOn.fiberProdLex"
+            ]
+          },
+          "10": {
+            "label": "SetTheory",
+            "theorems": [
+              "Set.PartiallyWellOrderedOn.exists_monotone_subseq",
+              "WellFounded.sigma_lex_of_wellFoundedOn_fiber",
+              "WellFounded",
+              "Set.WellFoundedOn.sigma_lex_of_wellFoundedOn_fiber",
+              "WellFounded.prod_lex_of_wellFoundedOn_fiber"
+            ]
+          },
+          "6": {
+            "label": "Data",
+            "theorems": [
+              "Set.PartiallyWellOrderedOn.iff_not_exists_isMinBadSeq",
+              "Set.PartiallyWellOrderedOn.minBadSeqOfBadSeq",
+              "Set.PartiallyWellOrderedOn.IsBadSeq",
+              "Set.PartiallyWellOrderedOn.partiallyWellOrderedOn_sublistForall\u2082",
+              "Set.partiallyWellOrderedOn_iff_exists_monotone_subseq"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "zorn_preorder\u2080",
+              "zorn_subset_nonempty",
+              "WellFounded.eq_strictMono_iff_eq_range",
+              "CompleteLattice.WellFounded.finite_of_independent",
+              "_private.Mathlib.Order.WellFounded.0.WellFounded.eq_strictMono_iff_eq_range_aux"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "zorn_nonempty_Ici\u2080",
+              "WellFounded.monotone_chain_condition'",
+              "exists_compact_surjective_zorn_subset",
+              "zorn_superset",
+              "zorn_nonempty_preorder\u2080"
+            ]
+          },
+          "11": {
+            "label": "Data + Computability + SetTheory",
+            "theorems": [
+              "WellFounded.fixFEq",
+              "WellFoundedRelation.wf",
+              "WellFounded.fix",
+              "WellOrder.r",
+              "Set.WellFoundedOn.acc_iff_wellFoundedOn"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "WellFounded.apply",
+              "zorn_nonempty_partialOrder\u2080",
+              "CompleteLattice.WellFounded.finite_ne_bot_of_independent"
+            ]
+          },
+          "14": {
+            "label": "LinearAlgebra + Analysis + Geometry",
+            "theorems": [
+              "Set.partiallyWellOrderedOn_singleton",
+              "Set.partiallyWellOrderedOn_union",
+              "Set.partiallyWellOrderedOn_insert"
+            ]
+          },
+          "15": {
+            "label": "Data + Algebra + RingTheory",
+            "theorems": [
+              "WellFounded.rank",
+              "WellFounded.rank_eq"
+            ]
+          },
+          "33": {
+            "label": "RingTheory",
+            "theorems": [
+              "WellFounded.monotone_chain_condition",
+              "WellFounded.wellFounded_iff_has_min"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "Set.Finite.partiallyWellOrderedOn"
+            ]
+          },
+          "8": {
+            "label": "Data + LinearAlgebra + Analysis",
+            "theorems": [
+              "Set.PartiallyWellOrderedOn.image_of_monotone_on"
+            ]
+          },
+          "27": {
+            "label": "Order",
+            "theorems": [
+              "Set.partiallyWellOrderedOn_iff_finite_antichains"
+            ]
+          },
+          "19": {
+            "label": "AlgebraicGeometry",
+            "theorems": [
+              "WellOrder.eta"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "IsWellOrderLimitElement.mk",
+          "WellFounded.induction",
+          "WellFounded.fixFEq",
+          "WellFounded.rank",
+          "Set.PartiallyWellOrderedOn.exists_monotone_subseq",
+          "zorn_preorder\u2080",
+          "zorn_subset_nonempty",
+          "WellFounded.sigma_lex_of_wellFoundedOn_fiber"
+        ]
+      },
+      {
+        "side": "Logic/Foundations",
+        "patterns": [
+          "axiomOfChoice",
+          "exists_maximal",
+          "Classical.choice",
+          "nonempty_iff_ne_empty",
+          "WellOrderExtension"
+        ],
+        "n_matches": 15,
+        "clusters": {
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "Set.Finite.exists_maximal_wrt'",
+              "Finset.nonempty_iff_ne_empty",
+              "Set.nonempty_iff_ne_empty",
+              "Set.Finite.exists_maximal_wrt",
+              "exists_maximal_independent"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "exists_maximalIdeal_pow_eq_of_principal",
+              "Ideal.exists_maximal",
+              "exists_maximal_algebraicIndependent"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "Classical.choice",
+              "Classical.axiomOfChoice"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "exists_maximal_orthonormal"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "exists_maximal_independent'"
+            ]
+          },
+          "14": {
+            "label": "LinearAlgebra + Analysis + Geometry",
+            "theorems": [
+              "exists_maximal_of_chains_bounded"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "Set.Finite.exists_maximal_wrt'",
+          "exists_maximal_orthonormal",
+          "exists_maximal_independent'",
+          "exists_maximalIdeal_pow_eq_of_principal",
+          "exists_maximal_of_chains_bounded",
+          "Finset.nonempty_iff_ne_empty",
+          "Set.nonempty_iff_ne_empty",
+          "Classical.choice"
+        ]
+      }
+    ],
+    "clusters_overlap": 6,
+    "clusters_separated": 9,
+    "bridge_spans_clusters": false,
+    "detected_by_depth_filter": [],
+    "detected_by_any_bridge": [
+      "WellFounded.sigma_lex_of_wellFoundedOn_fiber",
+      "WellFounded.prod_lex_of_wellFoundedOn_fiber"
+    ]
+  },
+  {
+    "name": "Galois \u2194 Covering spaces",
+    "description": "Galois correspondence mirrors \u03c0\u2081 action on covering spaces",
+    "sides": [
+      {
+        "side": "Field theory / Galois",
+        "patterns": [
+          "Galois",
+          "galois",
+          "GaloisGroup",
+          "IsGalois",
+          "GaloisCorrespondence",
+          "separableClosure",
+          "normalClosure"
+        ],
+        "n_matches": 203,
+        "clusters": {
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "CategoryTheory.PreGaloisCategory.comp_autMap_apply",
+              "_private.Mathlib.CategoryTheory.Galois.Decomposition.0.CategoryTheory.PreGaloisCategory.selfProd",
+              "CategoryTheory.PreGaloisCategory.exists_hom_from_galois_of_fiber",
+              "CategoryTheory.PreGaloisCategory.autGaloisSystem_map_surjective",
+              "CategoryTheory.PreGaloisCategory.card_fiber_coprod_eq_sum"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "GaloisConnection.l_iSup\u2082",
+              "separableClosure.isAlgebraic",
+              "GaloisField.card",
+              "Algebra.algebraMap_intNorm_of_isGalois",
+              "le_separableClosure'"
+            ]
+          },
+          "7": {
+            "label": "Topology + Order + Data",
+            "theorems": [
+              "GaloisConnection.u_l_u_eq_u",
+              "GaloisInsertion.l_biInf_u",
+              "GaloisConnection",
+              "GaloisConnection.u_comm_of_l_comm",
+              "GaloisInsertion.l_biInf_of_ul_eq_self"
+            ]
+          },
+          "13": {
+            "label": "GroupTheory",
+            "theorems": [
+              "IsConj.normalClosure_eq_top_of",
+              "commutator_eq_normalClosure",
+              "Group.conjugatesOfSet_subset_normalClosure",
+              "Group.normalClosure.isSubgroup",
+              "Subgroup.normalClosure"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "GaloisConnection.le_u_l",
+              "GaloisConnection.l_le",
+              "GaloisInsertion.l_biSup_u",
+              "GaloisConnection.l_bot",
+              "IntermediateField.normalClosure_mono"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "normalClosure_def",
+              "IntermediateField.normalClosure_def''",
+              "GaloisConnection.l_limsup_le",
+              "IntermediateField.normal_iff_normalClosure_le",
+              "GaloisConnection.upperBounds_l_image"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "GaloisInsertion.l_sSup_u_image",
+              "GaloisConnection.l_sSup",
+              "GaloisConnection.isGreatest_u"
+            ]
+          },
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "IsGalois.to_isSeparable",
+              "galois_poly_separable"
+            ]
+          },
+          "25": {
+            "label": "Data",
+            "theorems": [
+              "CategoryTheory.Subgroupoid.galoisConnection_map_comap"
+            ]
+          },
+          "16": {
+            "label": "Order",
+            "theorems": [
+              "IntermediateField.normalClosure_of_normal"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "GaloisConnection.l_iSup\u2082",
+          "CategoryTheory.PreGaloisCategory.comp_autMap_apply",
+          "separableClosure.isAlgebraic",
+          "IsConj.normalClosure_eq_top_of",
+          "_private.Mathlib.CategoryTheory.Galois.Decomposition.0.CategoryTheory.PreGaloisCategory.selfProd",
+          "GaloisConnection.u_l_u_eq_u",
+          "CategoryTheory.PreGaloisCategory.exists_hom_from_galois_of_fiber",
+          "CategoryTheory.PreGaloisCategory.autGaloisSystem_map_surjective"
+        ]
+      },
+      {
+        "side": "Topology / Covering",
+        "patterns": [
+          "CoveringSpace",
+          "coveringSpace",
+          "FundamentalGroup",
+          "fundamentalGroup",
+          "UniversalCover",
+          "monodromy"
+        ],
+        "n_matches": 8,
+        "clusters": {
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "_private.Mathlib.AlgebraicTopology.FundamentalGroupoid.InducedMaps.0.ContinuousMap.Homotopy.end_path",
+              "FundamentalGroupoidFunctor.prodToProdTop_map",
+              "FundamentalGroupoid.map_eq",
+              "FundamentalGroupoid.id_eq_path_refl",
+              "_private.Mathlib.AlgebraicTopology.FundamentalGroupoid.InducedMaps.0.ContinuousMap.Homotopy.start_path"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "FundamentalGroupoid.nonempty_iff",
+              "classifyingSpaceUniversalCover"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "_private.Mathlib.AlgebraicTopology.FundamentalGroupoid.InducedMaps.0.ContinuousMap.Homotopy.end_path",
+          "FundamentalGroupoidFunctor.prodToProdTop_map",
+          "FundamentalGroupoid.map_eq",
+          "FundamentalGroupoid.id_eq_path_refl",
+          "_private.Mathlib.AlgebraicTopology.FundamentalGroupoid.InducedMaps.0.ContinuousMap.Homotopy.start_path",
+          "FundamentalGroupoid.nonempty_iff",
+          "classifyingSpaceUniversalCover",
+          "FundamentalGroupoid.ext"
+        ]
+      }
+    ],
+    "clusters_overlap": 1,
+    "clusters_separated": 10,
+    "bridge_spans_clusters": true,
+    "detected_by_depth_filter": [],
+    "detected_by_any_bridge": [
+      "CategoryTheory.PreGaloisCategory.has_decomp_connected_components",
+      "CategoryTheory.PreGaloisCategory.card_aut_le_card_fiber_of_connected",
+      "CategoryTheory.PreGaloisCategory.has_decomp_connected_components_aux_conn",
+      "CategoryTheory.PreGaloisCategory.has_decomp_connected_components_aux",
+      "CategoryTheory.PreGaloisCategory.card_hom_le_card_fiber_of_connected"
+    ]
+  },
+  {
+    "name": "Stone duality",
+    "description": "Boolean algebras \u2194 compact totally disconnected spaces",
+    "sides": [
+      {
+        "side": "Boolean algebra",
+        "patterns": [
+          "BooleanAlgebra",
+          "BooleanRing",
+          "Stone.ofBoolAlg",
+          "BoolAlg",
+          "Finset.toBoolAlg"
+        ],
+        "n_matches": 11,
+        "clusters": {
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "BooleanRing.mul_self",
+              "BooleanRing.le_sup_inf",
+              "BooleanRing.le_sup_inf_aux",
+              "BooleanRing.inf_sup_self",
+              "BooleanRing.sup_inf_self"
+            ]
+          },
+          "16": {
+            "label": "Order",
+            "theorems": [
+              "ofBoolAlg_symmDiff",
+              "_private.Mathlib.Order.BooleanAlgebra.0.sdiff_le'",
+              "_private.Mathlib.Algebra.Ring.BooleanRing.0.of_boolalg_symmDiff_aux",
+              "_private.Mathlib.Order.BooleanAlgebra.0.sdiff_sup_self'"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "BooleanAlgebra.le_iff_atom_le_imp"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "BooleanAlgebra.eq_iff_atom_le_iff"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "BooleanRing.mul_self",
+          "BooleanRing.le_sup_inf",
+          "ofBoolAlg_symmDiff",
+          "BooleanRing.le_sup_inf_aux",
+          "_private.Mathlib.Order.BooleanAlgebra.0.sdiff_le'",
+          "BooleanAlgebra.le_iff_atom_le_imp",
+          "BooleanRing.inf_sup_self",
+          "BooleanRing.sup_inf_self"
+        ]
+      },
+      {
+        "side": "Stone spaces",
+        "patterns": [
+          "StoneCech",
+          "TotallySeparated",
+          "totallySeparated",
+          "Profinite",
+          "profinite",
+          "StoneSpace"
+        ],
+        "n_matches": 188,
+        "clusters": {
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "Profinite.NobelingProof.ord",
+              "Profinite.NobelingProof.GoodProducts.finsupp_sum_mem_span_eval",
+              "Profinite.NobelingProof.ord_term",
+              "Profinite.NobelingProof.isClosed_proj",
+              "Profinite.NobelingProof.GoodProducts.linearIndependent_iff_range"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "Profinite.effectiveEpi_tfae",
+              "Profinite.NobelingProof.spanCone",
+              "Profinite.struct",
+              "Profinite.NobelingProof.spanCone_isLimit",
+              "LightProfinite.pullback.hom_ext"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "Profinite.NobelingProof.one_sub_e_mem_of_false",
+              "Profinite.NobelingProof.C1",
+              "Profinite.NobelingProof.C0_projOrd",
+              "Profinite.Nobeling.embedding",
+              "Profinite.NobelingProof.Products.eval_\u03c0s_image'"
+            ]
+          },
+          "8": {
+            "label": "Data + LinearAlgebra + Analysis",
+            "theorems": [
+              "StoneCech.projective",
+              "LightProfinite.finiteCoproduct.\u03b9_injective",
+              "PreStoneCech",
+              "Profinite.finiteCoproduct.\u03b9_injective",
+              "StoneCech"
+            ]
+          },
+          "6": {
+            "label": "Data",
+            "theorems": [
+              "Profinite.NobelingProof.Products.evalCons",
+              "Profinite.NobelingProof.list_prod_apply",
+              "Profinite.NobelingProof.GoodProducts.linearIndependentEmpty",
+              "Profinite.NobelingProof.GoodProducts.P0",
+              "Profinite.NobelingProof.GoodProducts.linearIndependentSingleton"
+            ]
+          },
+          "7": {
+            "label": "Topology + Order + Data",
+            "theorems": [
+              "continuous_preStoneCechUnit",
+              "totallySeparatedSpace_of_t1_of_basis_clopen",
+              "preStoneCechCompat",
+              "TotallySeparatedSpace.totallyDisconnectedSpace"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "Profinite.NobelingProof.continuous_proj",
+              "Profinite.NobelingProof.continuous_swapTrue",
+              "isTotallyDisconnected_of_isTotallySeparated",
+              "TotallySeparatedSpace.isTotallySeparated_univ"
+            ]
+          },
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "Profinite.NobelingProof.iso_map_bijective",
+              "Profinite.NobelingProof.e_mem_of_eq_true"
+            ]
+          },
+          "14": {
+            "label": "LinearAlgebra + Analysis + Geometry",
+            "theorems": [
+              "Profinite.NobelingProof.proj_eq_self",
+              "Profinite.NobelingProof.proj_prop_eq_self"
+            ]
+          },
+          "21": {
+            "label": "Data",
+            "theorems": [
+              "preStoneCechUnit",
+              "eq_if_preStoneCechUnit_eq"
+            ]
+          },
+          "19": {
+            "label": "AlgebraicGeometry",
+            "theorems": [
+              "Profinite.NobelingProof.GoodProducts.sum_to_range",
+              "Profinite.NobelingProof.GoodProducts.sum_to"
+            ]
+          },
+          "17": {
+            "label": "Algebra + Topology + Analysis",
+            "theorems": [
+              "denseRange_preStoneCechUnit",
+              "preStoneCech_hom_ext"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "Profinite.effectiveEpi_tfae",
+          "Profinite.NobelingProof.ord",
+          "Profinite.NobelingProof.iso_map_bijective",
+          "Profinite.NobelingProof.GoodProducts.finsupp_sum_mem_span_eval",
+          "Profinite.NobelingProof.spanCone",
+          "Profinite.struct",
+          "Profinite.NobelingProof.ord_term",
+          "Profinite.NobelingProof.isClosed_proj"
+        ]
+      }
+    ],
+    "clusters_overlap": 1,
+    "clusters_separated": 14,
+    "bridge_spans_clusters": true,
+    "detected_by_depth_filter": [],
+    "detected_by_any_bridge": [
+      "eq_if_preStoneCechUnit_eq"
+    ]
+  },
+  {
+    "name": "Pontryagin duality",
+    "description": "Locally compact abelian groups \u2194 their Pontryagin duals",
+    "sides": [
+      {
+        "side": "Pontryagin / Characters",
+        "patterns": [
+          "Pontryagin",
+          "pontryagin",
+          "PontryaginDual",
+          "characterGroup",
+          "CharacterGroup",
+          "AddChar",
+          "addChar"
+        ],
+        "n_matches": 58,
+        "clusters": {
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "AddChar.zmod_char_primitive_of_eq_one_only_at_zero",
+              "AddChar.mulShift_unit_eq_one_iff",
+              "AddChar",
+              "AddChar.map_add_eq_mul",
+              "AddChar.sum_mulShift"
+            ]
+          },
+          "6": {
+            "label": "Data",
+            "theorems": [
+              "String.Pos.addChar_right_comm",
+              "String.Pos.addChar_eq",
+              "String.Iterator.hasNext_cons_addChar",
+              "String.utf8GetAux_addChar_right_cancel",
+              "String.extract.go\u2081_cons_addChar"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "MonoidHom.coe_compAddChar",
+              "AddChar.FiniteField.primitiveChar_to_Complex_isPrimitive",
+              "AddChar.FiniteField.primitiveChar",
+              "AddChar.IsPrimitive.compMulHom_of_isPrimitive",
+              "AddChar.starComp_eq_inv"
+            ]
+          },
+          "17": {
+            "label": "Algebra + Topology + Analysis",
+            "theorems": [
+              "MonoidHom.compAddChar_injective_left",
+              "AddChar.compAddMonoidHom_injective_left",
+              "AddChar.compAddMonoidHom_injective_right",
+              "MonoidHom.compAddChar_injective_right"
+            ]
+          },
+          "28": {
+            "label": "RingTheory",
+            "theorems": [
+              "OreLocalization.oreDivAddChar'"
+            ]
+          },
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "AddChar.ringChar_ne"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "MonoidHom.compAddChar_injective_left",
+          "AddChar.zmod_char_primitive_of_eq_one_only_at_zero",
+          "String.Pos.addChar_right_comm",
+          "AddChar.mulShift_unit_eq_one_iff",
+          "String.Pos.addChar_eq",
+          "AddChar",
+          "OreLocalization.oreDivAddChar'",
+          "AddChar.compAddMonoidHom_injective_left"
+        ]
+      },
+      {
+        "side": "Harmonic analysis",
+        "patterns": [
+          "fourierTransform",
+          "FourierTransform",
+          "fourier",
+          "Fourier",
+          "fourierSeries"
+        ],
+        "n_matches": 157,
+        "clusters": {
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "VectorFourier.pow_mul_norm_iteratedFDeriv_fourierIntegral_le",
+              "hasDerivAt_fourier",
+              "Real.tsum_eq_tsum_fourierIntegral",
+              "VectorFourier.norm_fourierSMulRight",
+              "Real.tsum_eq_tsum_fourierIntegral_of_rpow_decay"
+            ]
+          },
+          "9": {
+            "label": "Analysis",
+            "theorems": [
+              "VectorFourier.fourierPowSMulRight_iteratedFDeriv_fourierIntegral",
+              "Real.hasFDerivAt_fourierChar_neg_bilinear_left",
+              "VectorFourier.fourierIntegral_iteratedFDeriv",
+              "Real.fderiv_fourierChar_neg_bilinear_left_apply",
+              "VectorFourier.fourierPowSMulRight"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "VectorFourier.integral_bilin_fourierIntegral_eq_flip",
+              "GaussianFourier.norm_cexp_neg_mul_sq_add_mul_I'",
+              "MeasureTheory.AEStronglyMeasurable.fourierPowSMulRight",
+              "Real.fourierIntegral_convergent_iff",
+              "GaussianFourier.tendsto_verticalIntegral"
+            ]
+          },
+          "17": {
+            "label": "Algebra + Topology + Analysis",
+            "theorems": [
+              "hasSum_fourier_series_of_summable",
+              "coeFn_fourierLp",
+              "has_pointwise_sum_fourier_series_of_summable",
+              "coe_fourierBasis",
+              "fourierBasis"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "VectorFourier.fourierIntegral_comp_add_right",
+              "span_fourier_closure_eq_top",
+              "fourierSubalgebra_coe",
+              "span_fourierLp_closure_eq_top"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "fourierCoeffOn.const_smul"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "VectorFourier.fourierPowSMulRight_iteratedFDeriv_fourierIntegral",
+          "Real.hasFDerivAt_fourierChar_neg_bilinear_left",
+          "VectorFourier.fourierIntegral_iteratedFDeriv",
+          "VectorFourier.pow_mul_norm_iteratedFDeriv_fourierIntegral_le",
+          "hasDerivAt_fourier",
+          "fourierCoeffOn.const_smul",
+          "Real.tsum_eq_tsum_fourierIntegral",
+          "Real.fderiv_fourierChar_neg_bilinear_left_apply"
+        ]
+      }
+    ],
+    "clusters_overlap": 3,
+    "clusters_separated": 6,
+    "bridge_spans_clusters": true,
+    "detected_by_depth_filter": [],
+    "detected_by_any_bridge": [
+      "Real.fourierCoeff_tsum_comp_add"
+    ]
+  },
+  {
+    "name": "Fixed-point theorems",
+    "description": "Brouwer (topology), Lawvere (category theory), Schauder (analysis)",
+    "sides": [
+      {
+        "side": "Topology (Brouwer)",
+        "patterns": [
+          "Brouwer",
+          "brouwer",
+          "fixedPoint",
+          "FixedPoint",
+          "NoRetraction"
+        ],
+        "n_matches": 57,
+        "clusters": {
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "Function.mem_fixedPoints_iff",
+              "Equiv.Perm.card_fixedPoints_modEq",
+              "OrdinalApprox.lfpApprox_le_of_mem_fixedPoints",
+              "OrdinalApprox.lfpApprox_eq_of_mem_fixedPoints",
+              "OrdinalApprox.lfpApprox_mem_fixedPoints_of_eq"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "FixedPoints.minpoly.of_eval\u2082",
+              "FixedPoints.minpoly.monic",
+              "FixedPoints.minpoly.eval\u2082",
+              "FixedPoints.minpoly.irreducible_aux",
+              "FixedPoints.minpoly.ne_one"
+            ]
+          },
+          "24": {
+            "label": "Analysis + Data + Algebra",
+            "theorems": [
+              "ContractingWith.efixedPoint_eq_of_edist_lt_top'",
+              "ContractingWith.tendsto_iterate_efixedPoint",
+              "ContractingWith.tendsto_iterate_fixedPoint",
+              "ContractingWith.efixedPoint_eq_of_edist_lt_top",
+              "ContractingWith.fixedPoint_unique"
+            ]
+          },
+          "13": {
+            "label": "GroupTheory",
+            "theorems": [
+              "MulAction.mem_fixedPoints_iff_card_orbit_eq_one",
+              "ConjAct.fixedPoints_eq_center",
+              "MonoidHom.FixedPointFree.commutatorMap_injective",
+              "Sylow.fixedPointsMulLeftCosetsEquivQuotient",
+              "MulAction.mem_fixedPoints"
+            ]
+          },
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "Sylow.mem_fixedPoints_mul_left_cosets_iff_mem_normalizer",
+              "MonoidHom.FixedPointFree.orderOf_ne_two_of_involutive",
+              "ContractingWith.edist_efixedPoint_le",
+              "MonoidHom.FixedPointFree.coe_eq_inv_of_sq_eq_one",
+              "MonoidHom.FixedPointFree.commute_all_of_involutive"
+            ]
+          },
+          "6": {
+            "label": "Data",
+            "theorems": [
+              "MonoidHom.FixedPointFree.commutatorMap_surjective",
+              "MonoidHom.FixedPointFree.prod_pow_eq_one",
+              "ContractingWith.isFixedPt_fixedPoint_iterate",
+              "ContractingWith.exists_fixedPoint'"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "FixedPoints.linearIndependent_smul_of_linearIndependent",
+              "FixedPoints.finrank_eq_card",
+              "FixedPoints.toAlgHom_bijective",
+              "FixedPoints.subfield"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "ContractingWith.dist_le_of_fixedPoint",
+              "ContractingWith.dist_fixedPoint_fixedPoint_of_dist_le'",
+              "ContractingWith.edist_le_of_fixedPoint",
+              "ContractingWith.eq_or_edist_eq_top_of_fixedPoints"
+            ]
+          },
+          "10": {
+            "label": "SetTheory",
+            "theorems": [
+              "FixedPoints.rank_le_card",
+              "FixedPoints.finrank_le_card"
+            ]
+          },
+          "7": {
+            "label": "Topology + Order + Data",
+            "theorems": [
+              "IsPGroup.sylow_mem_fixedPoints_iff"
+            ]
+          },
+          "20": {
+            "label": "Data + Order + Dynamics",
+            "theorems": [
+              "ContractingWith.aposteriori_dist_iterate_fixedPoint_le"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "MonoidHom.FixedPointFree.commutatorMap_surjective",
+          "MonoidHom.FixedPointFree.prod_pow_eq_one",
+          "FixedPoints.linearIndependent_smul_of_linearIndependent",
+          "FixedPoints.finrank_eq_card",
+          "ContractingWith.isFixedPt_fixedPoint_iterate",
+          "ContractingWith.dist_le_of_fixedPoint",
+          "ContractingWith.dist_fixedPoint_fixedPoint_of_dist_le'",
+          "MulAction.mem_fixedPoints_iff_card_orbit_eq_one"
+        ]
+      },
+      {
+        "side": "Category theory (Lawvere)",
+        "patterns": [
+          "Lawvere",
+          "lawvere",
+          "CategoryTheory.fixedPoint",
+          "diagonal",
+          "Diagonal"
+        ],
+        "n_matches": 324,
+        "clusters": {
+          "8": {
+            "label": "Data + LinearAlgebra + Analysis",
+            "theorems": [
+              "Matrix.diagonal_dotProduct",
+              "Matrix.IsDiag.diagonal_diag",
+              "Matrix.conjTranspose_eq_diagonal",
+              "Matrix.posSemidef_diagonal_iff",
+              "Matrix.inv_diagonal"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "Nat.mem_divisorsAntidiagonal",
+              "Set.mem_mulAntidiagonal",
+              "Finset.mem_mulAntidiagonal",
+              "Nat.divisorsAntidiagonal",
+              "Finset.map_prodComm_antidiagonal"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "CategoryTheory.Limits.pullback.diagonal_snd",
+              "CategoryTheory.Limits.pullback.diagonal_fst",
+              "CategoryTheory.Limits.pullback.diagonal",
+              "CategoryTheory.Limits.pullback.diagonal_comp",
+              "CategoryTheory.Bifunctor.diagonal'"
+            ]
+          },
+          "6": {
+            "label": "Data",
+            "theorems": [
+              "Multiset.Nat.antidiagonal",
+              "List.Nat.antidiagonal_succ_succ'",
+              "Multiset.Nat.antidiagonal_succ",
+              "Matrix.IsTwoBlockDiagonal",
+              "Matrix.Pivot.exists_isTwoBlockDiagonal_list_transvec_mul_mul_list_transvec"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "groupCohomology.resolution.diagonalSucc_hom_single",
+              "LinearMap.IsSymmetric.diagonalization_symm_apply",
+              "Matrix.diagonal_comp_stdBasis",
+              "Matrix.IsHermitian.rank_eq_rank_diagonal",
+              "Matrix.proj_diagonal"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "Finset.hasAntidiagonal_congr",
+              "Nat.fst_mem_divisors_of_mem_antidiagonal",
+              "Matrix.trace_diagonal",
+              "matPolyEquiv_diagonal_X",
+              "Matrix.blockDiagonal_apply_ne"
+            ]
+          },
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "Matrix.blockDiagonal_pow",
+              "Matrix.blockDiagonal_tsum",
+              "MvPolynomial.sum_antidiagonal_card_esymm_psum_eq_zero",
+              "Finset.Nat.prod_antidiagonal_eq_prod_range_succ_mk",
+              "Finset.Nat.card_antidiagonal"
+            ]
+          },
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "Finset.swap_mem_antidiagonal",
+              "Finset.antidiagonal_congr'",
+              "Finset.antidiagonal.fst_le",
+              "Finset.addAntidiagonal_min_add_min",
+              "Matrix.blockDiagonal'_mul"
+            ]
+          },
+          "15": {
+            "label": "Data + Algebra + RingTheory",
+            "theorems": [
+              "Combinatorics.Line.diagonal",
+              "Multiset.antidiagonal_eq_map_powerset",
+              "Multiset.antidiagonal_map_fst",
+              "Combinatorics.Line.diagonal_apply",
+              "Multiset.antidiagonal_zero"
+            ]
+          },
+          "7": {
+            "label": "Topology + Order + Data",
+            "theorems": [
+              "Set.diagonal_subset_iff",
+              "Set.diagonal",
+              "Set.preimage_coe_coe_diagonal",
+              "Filter.tendsto_atTop_diagonal",
+              "isLocallyInjective_iff_isOpen_diagonal"
+            ]
+          },
+          "34": {
+            "label": "Topology + Analysis + Combinatorics",
+            "theorems": [
+              "tsum_mul_tsum_eq_tsum_sum_antidiagonal_of_summable_norm",
+              "summable_sum_mul_antidiagonal_of_summable_mul",
+              "Finset.Nat.sum_antidiagonal_eq_sum_range_succ",
+              "tsum_mul_tsum_eq_tsum_sum_antidiagonal",
+              "summable_norm_sum_mul_antidiagonal_of_summable_norm"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "Continuous.matrix_blockDiagonal'",
+              "nhdsSet_diagonal_eq_uniformity",
+              "Real.smul_map_diagonal_volume_pi",
+              "Matrix.diagonal_toLin'",
+              "Matrix.blockDiagonal'_apply'"
+            ]
+          },
+          "122": {
+            "label": "Data",
+            "theorems": [
+              "Matrix.blockDiagonal'_apply_ne",
+              "Matrix.blockDiagonal'_eq_blockDiagonal",
+              "Matrix.blockTriangular_blockDiagonal'",
+              "Matrix.blockTriangular_blockDiagonal"
+            ]
+          },
+          "17": {
+            "label": "Algebra + Topology + Analysis",
+            "theorems": [
+              "Matrix.blockDiagonal_transpose",
+              "Matrix.blockDiagonal_conjTranspose"
+            ]
+          },
+          "22": {
+            "label": "Algebra + RingTheory + GroupTheory",
+            "theorems": [
+              "Matrix.toBlock_diagonal_self"
+            ]
+          },
+          "44": {
+            "label": "Order",
+            "theorems": [
+              "Filter.tendsto_atBot_diagonal"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "Matrix.diagonal_dotProduct",
+          "Multiset.Nat.antidiagonal",
+          "Continuous.matrix_blockDiagonal'",
+          "Nat.mem_divisorsAntidiagonal",
+          "Matrix.IsDiag.diagonal_diag",
+          "Combinatorics.Line.diagonal",
+          "Matrix.conjTranspose_eq_diagonal",
+          "Matrix.posSemidef_diagonal_iff"
+        ]
+      }
+    ],
+    "clusters_overlap": 7,
+    "clusters_separated": 13,
+    "bridge_spans_clusters": true,
+    "detected_by_depth_filter": [],
+    "detected_by_any_bridge": []
+  },
+  {
+    "name": "Gromov-Hausdorff",
+    "description": "Metric geometry \u2194 topology \u2194 set theory",
+    "sides": [
+      {
+        "side": "Metric geometry",
+        "patterns": [
+          "GromovHausdorff",
+          "gromovHausdorff",
+          "hausdorffDist",
+          "HausdorffDist",
+          "ghDist"
+        ],
+        "n_matches": 82,
+        "clusters": {
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "Metric.hausdorffDist_nonneg",
+              "GromovHausdorff.HD_bound_aux1",
+              "Metric.hausdorffDist_comm",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.optimalGHDist",
+              "GromovHausdorff.GHSpace"
+            ]
+          },
+          "19": {
+            "label": "AlgebraicGeometry",
+            "theorems": [
+              "GromovHausdorff.toGHSpace_eq_toGHSpace_iff_isometryEquiv",
+              "GromovHausdorff.toGHSpace",
+              "GromovHausdorff.eq_toGHSpace",
+              "GromovHausdorff.GHSpace.toGHSpace_rep",
+              "GromovHausdorff.eq_toGHSpace_iff"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.candidates_refl",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.candidates_symm",
+              "GromovHausdorff.candidates_nonneg",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.candidates_triangle"
+            ]
+          },
+          "87": {
+            "label": "Topology",
+            "theorems": [
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.one_le_maxVar",
+              "GromovHausdorff.candidates_dist_bound"
+            ]
+          },
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "GromovHausdorff.optimalGHDist_mem_candidatesB",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.exists_minimizer"
+            ]
+          },
+          "7": {
+            "label": "Topology + Order + Data",
+            "theorems": [
+              "GromovHausdorff.maxVar_bound"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "GromovHausdorff.toGHSpace_eq_toGHSpace_iff_isometryEquiv",
+          "Metric.hausdorffDist_nonneg",
+          "GromovHausdorff.HD_bound_aux1",
+          "Metric.hausdorffDist_comm",
+          "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.optimalGHDist",
+          "GromovHausdorff.GHSpace",
+          "Metric.hausdorffDist_closure",
+          "GromovHausdorff.HD"
+        ]
+      },
+      {
+        "side": "Topology",
+        "patterns": [
+          "MetricSpace",
+          "Bounded",
+          "TotallyBounded",
+          "isCompact",
+          "IsCompact"
+        ],
+        "n_matches": 751,
+        "clusters": {
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "EMetric.totallyBounded_iff",
+              "BoundedContinuousFunction.integrable",
+              "WithSeminorms.isVonNBounded_iff_finset_seminorm_bounded",
+              "BoundedContinuousFunction.dist_zero_of_empty",
+              "BoundedContinuousFunction.norm_lt_iff_of_compact"
+            ]
+          },
+          "7": {
+            "label": "Topology + Order + Data",
+            "theorems": [
+              "Bornology.isBounded_iff_forall_mem",
+              "PseudoEMetricSpace.ext",
+              "IsCompact.image_of_continuousOn",
+              "IsCompact.eventually_forall_of_forall_eventually",
+              "IsClosed.mul_right_of_isCompact"
+            ]
+          },
+          "8": {
+            "label": "Data + LinearAlgebra + Analysis",
+            "theorems": [
+              "Seminorm.IsBounded",
+              "FirstOrder.Language.BoundedFormula.relabel_sum_inl",
+              "FirstOrder.Language.BoundedFormula.realize_imp",
+              "FirstOrder.Language.BoundedFormula.toPrenexImp",
+              "FirstOrder.Language.BoundedFormula.realize_iff"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "Bornology.isBounded_prod_of_nonempty",
+              "FirstOrder.Language.BoundedFormula.realize_iInf",
+              "CompleteLattice.isCompactElement_iff",
+              "TotallyBounded.image",
+              "IsCompact.tendsto_subseq"
+            ]
+          },
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "IsCompact.closedBall_one_div",
+              "IsCompact.closedBall_div",
+              "IsCompact.div_closedBall_one",
+              "Bornology.isVonNBounded_sub",
+              "IsBoundedLinearMap.sub"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "isCompact_iff_compactSpace",
+              "isCompact_univ_iff",
+              "AlgebraicGeometry.exists_eq_pow_mul_of_isCompact_of_isQuasiSeparated",
+              "AlgebraicGeometry.isCompactOpen_iff_eq_finset_affine_union",
+              "AlgebraicGeometry.isCompact_basicOpen"
+            ]
+          },
+          "9": {
+            "label": "Analysis",
+            "theorems": [
+              "LocallyBoundedVariationOn.ae_differentiableWithinAt_of_mem_pi",
+              "LocallyBoundedVariationOn.ae_differentiableWithinAt_of_mem_real",
+              "Metric.exists_isOpen_isBounded_image_of_isCompact_of_forall_continuousAt",
+              "LocallyBoundedVariationOn.ae_differentiableWithinAt_of_mem",
+              "IsBoundedBilinearMap.fderivWithin"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "Metric.totallyBounded_iff",
+              "LieSubmodule.isCompactElement_lieSpan_singleton",
+              "totallyBounded_empty",
+              "BoundedContinuousFunction.range_toLp",
+              "IsBoundedLinearMap.tendsto"
+            ]
+          },
+          "14": {
+            "label": "LinearAlgebra + Analysis + Geometry",
+            "theorems": [
+              "IsClosed.vadd_right_of_isCompact",
+              "Bornology.isVonNBounded_union",
+              "IsCompact.add_closedBall",
+              "Bornology.isVonNBounded_insert",
+              "image_closure_of_isCompact"
+            ]
+          },
+          "6": {
+            "label": "Data",
+            "theorems": [
+              "FirstOrder.Language.BoundedFormula.listDecode_encode_list",
+              "PseudoMetricSpace.le_two_mul_dist_ofPreNNDist",
+              "FirstOrder.Language.BoundedFormula.listEncode",
+              "IsCompact.nonempty_iInter_of_sequence_nonempty_isCompact_isClosed",
+              "PseudoMetricSpace.dist_ofPreNNDist"
+            ]
+          },
+          "10": {
+            "label": "SetTheory",
+            "theorems": [
+              "_private.Mathlib.Topology.MetricSpace.Gluing.0.Metric.glueDist_triangle_inl_inr_inr",
+              "Set.Bounded",
+              "IsBoundedLinearMap.fst",
+              "_private.Mathlib.Topology.MetricSpace.Gluing.0.Metric.glueDist_comm",
+              "BoundedContinuousFunction.exists_forall_mem_restrict_eq_of_closed"
+            ]
+          },
+          "24": {
+            "label": "Analysis + Data + Algebra",
+            "theorems": [
+              "Filter.Tendsto.op_one_isBoundedUnder_le'",
+              "MetricSpace.ofT0PseudoMetricSpace",
+              "Bornology.IsBounded.mul",
+              "IsCompact.inv",
+              "Metric.isBounded_iff_subset_closedBall"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "Asymptotics.IsTheta.isBoundedUnder_le_iff",
+              "Polynomial.abs_isBoundedUnder_iff",
+              "IsCompactOperator.comp_clm",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.candidates_refl",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.candidates_symm"
+            ]
+          },
+          "18": {
+            "label": "MeasureTheory",
+            "theorems": [
+              "IsCompact.measure_lt_top",
+              "totallyBounded_iff_subset_finite_iUnion_nhds_one",
+              "CocompactMap.isCompact_preimage",
+              "TopologicalSpace.PositiveCompacts.isCompact",
+              "IsCompact.measurableSet"
+            ]
+          },
+          "23": {
+            "label": "Batteries",
+            "theorems": [
+              "Ordnode.Bounded.to_nil",
+              "Ordnode.Bounded.dual_iff",
+              "Ordnode.Bounded.dual",
+              "Ordnode.Bounded"
+            ]
+          },
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "IsCompact.smul_set",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.exists_minimizer",
+              "LocallyBoundedVariationOn.exists_monotoneOn_sub_monotoneOn",
+              "BoundedContinuousFunction.abs_self_eq_nnrealPart_add_nnrealPart_neg"
+            ]
+          },
+          "22": {
+            "label": "Algebra + RingTheory + GroupTheory",
+            "theorems": [
+              "BoundedContinuousFunction.toContinuousMapAddHom",
+              "BoundedContinuousFunction.range_toLpHom",
+              "BoundedContinuousFunction.mem_Lp"
+            ]
+          },
+          "101": {
+            "label": "Topology",
+            "theorems": [
+              "Metric.isBounded_iff_ediam_ne_top",
+              "Metric.compactSpace_iff_isBounded_univ",
+              "isBounded_convexHull"
+            ]
+          },
+          "17": {
+            "label": "Algebra + Topology + Analysis",
+            "theorems": [
+              "quasispectrum.isCompact",
+              "IsCompact.isLindelof",
+              "spectrum.isCompact"
+            ]
+          },
+          "16": {
+            "label": "Order",
+            "theorems": [
+              "Filter.IsBoundedUnder.sup",
+              "BoundedLatticeHomClass.toBiheytingHomClass",
+              "IsCompact.inf_nhdsSet_eq_biSup"
+            ]
+          },
+          "87": {
+            "label": "Topology",
+            "theorems": [
+              "_private.Mathlib.Topology.MetricSpace.Gluing.0.Metric.Sum.dist_comm",
+              "_private.Mathlib.Topology.MetricSpace.GromovHausdorffRealized.0.GromovHausdorff.one_le_maxVar"
+            ]
+          },
+          "13": {
+            "label": "GroupTheory",
+            "theorems": [
+              "isBounded_mul",
+              "isBounded_pow"
+            ]
+          },
+          "109": {
+            "label": "Order",
+            "theorems": [
+              "IsCompactlyGenerated.BooleanGenerators.isAtomistic_of_sSup_eq_top",
+              "IsCompactlyGenerated.BooleanGenerators.complementedLattice_of_sSup_eq_top"
+            ]
+          },
+          "40": {
+            "label": "Analysis",
+            "theorems": [
+              "Filter.isBoundedUnder_le_neg",
+              "Real.isBoundedUnder_le_exp_comp"
+            ]
+          },
+          "25": {
+            "label": "Data",
+            "theorems": [
+              "FirstOrder.Language.BoundedFormula.realize_top"
+            ]
+          },
+          "49": {
+            "label": "Topology",
+            "theorems": [
+              "Filter.isBounded_bot"
+            ]
+          },
+          "15": {
+            "label": "Data + Algebra + RingTheory",
+            "theorems": [
+              "Ideal.isCompactElement_top"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "EMetric.totallyBounded_iff",
+          "BoundedContinuousFunction.integrable",
+          "FirstOrder.Language.BoundedFormula.listDecode_encode_list",
+          "WithSeminorms.isVonNBounded_iff_finset_seminorm_bounded",
+          "Seminorm.IsBounded",
+          "Bornology.isBounded_prod_of_nonempty",
+          "BoundedContinuousFunction.dist_zero_of_empty",
+          "BoundedContinuousFunction.toContinuousMapAddHom"
+        ]
+      }
+    ],
+    "clusters_overlap": 5,
+    "clusters_separated": 23,
+    "bridge_spans_clusters": true,
+    "detected_by_depth_filter": [
+      "GromovHausdorff.ghDist_le_hausdorffDist",
+      "GromovHausdorff.hausdorffDist_optimal",
+      "FirstOrder.Language.BoundedFormula.realize_constantsVarsEquiv"
+    ],
+    "detected_by_any_bridge": [
+      "GromovHausdorff.ghDist_le_hausdorffDist",
+      "GromovHausdorff.hausdorffDist_optimal",
+      "GromovHausdorff.totallyBounded",
+      "GromovHausdorff.HD_candidatesBDist_le",
+      "FirstOrder.Language.BoundedFormula.realize_constantsVarsEquiv",
+      "GromovHausdorff.totallyBounded",
+      "ArzelaAscoli.isCompact_of_equicontinuous"
+    ]
+  },
+  {
+    "name": "Spectral theory \u2194 Representation theory",
+    "description": "Spectral decomposition mirrors decomposition of representations",
+    "sides": [
+      {
+        "side": "Spectral theory",
+        "patterns": [
+          "spectrum",
+          "Spectrum",
+          "resolvent",
+          "Resolvent",
+          "eigenspace",
+          "Eigenspace",
+          "spectral"
+        ],
+        "n_matches": 436,
+        "clusters": {
+          "17": {
+            "label": "Algebra + Topology + Analysis",
+            "theorems": [
+              "SpectrumRestricts.spectralRadius_eq",
+              "cfcHom_map_spectrum",
+              "quasispectrumRestricts_iff_spectrumRestricts",
+              "SpectrumRestricts.nnreal_iff_nnnorm",
+              "spectrum.subset_closedBall_norm"
+            ]
+          },
+          "7": {
+            "label": "Topology + Order + Data",
+            "theorems": [
+              "PrimeSpectrum.isRadical_vanishingIdeal",
+              "PrimeSpectrum.isClosed_zeroLocus",
+              "PrimeSpectrum.vanishingIdeal_zeroLocus_eq_radical",
+              "PrimeSpectrum.localization_comap_inducing",
+              "PrimeSpectrum.isTopologicalBasis_basic_opens"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "WeakDual.CharacterSpace.mem_spectrum_iff_exists",
+              "PrimeSpectrum.image_comap_zeroLocus_eq_zeroLocus_comap",
+              "PrimeSpectrum.localization_comap_injective",
+              "spectrum.pow_image_subset",
+              "spectrum.unit_smul_eq_smul"
+            ]
+          },
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "Module.End.genEigenspace",
+              "Module.End.hasEigenvalue_iff_mem_spectrum",
+              "Module.End.mem_genEigenspace",
+              "LinearMap.IsSymmetric.orthogonalComplement_iSup_eigenspaces",
+              "Module.End.maxGenEigenspace_eq"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "PrimeSpectrum.compactSpace",
+              "PrimeSpectrum.vanishingIdeal_anti_mono",
+              "AlgebraicGeometry.ProjectiveSpectrum.Proj.toOpen_toSpec_val_c_app_assoc",
+              "AlgebraicGeometry.ProjectiveSpectrum.Proj.toSpec_base_apply_eq_comap",
+              "AlgebraicGeometry.ProjectiveSpectrum.Proj.toSpec_base_isIso"
+            ]
+          },
+          "15": {
+            "label": "Data + Algebra + RingTheory",
+            "theorems": [
+              "IsDedekindDomain.HeightOneSpectrum.valuation_of_algebraMap",
+              "IsDedekindDomain.HeightOneSpectrum.mem_adicCompletionIntegers",
+              "IsDedekindDomain.HeightOneSpectrum.int_valuation_ne_zero",
+              "PrimeSpectrum.exists_primeSpectrum_prod_le",
+              "IsDedekindDomain.HeightOneSpectrum.valuation_le_one"
+            ]
+          },
+          "22": {
+            "label": "Algebra + RingTheory + GroupTheory",
+            "theorems": [
+              "AlgebraicGeometry.ProjectiveSpectrum.Proj.isLocalization_atPrime",
+              "PrimeSpectrum.zeroLocus_singleton_pow",
+              "ProjectiveSpectrum.mem_coe_basicOpen",
+              "AlgebraicGeometry.ProjectiveSpectrum.StructureSheaf.SectionSubring.add_mem'",
+              "AlgebraicGeometry.ProjectiveSpectrum.Proj.mk_mem_toSpec_base_apply"
+            ]
+          },
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "Module.End.eigenspace_div",
+              "spectrum.singleton_sub_eq",
+              "spectrum.mem_resolventSet_of_left_right_inverse",
+              "spectrum.mem_resolventSet_of_norm_lt",
+              "spectrum.add_mem_add_iff"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "spectrum.subset_closedBall_norm_mul",
+              "spectrum.norm_le_norm_mul_of_mem",
+              "spectrum.differentiableOn_inverse_one_sub_smul",
+              "IsStarNormal.spectralRadius_eq_nnnorm",
+              "Module.End.mapsTo_iSup_genEigenspace_of_comm"
+            ]
+          },
+          "9": {
+            "label": "Analysis",
+            "theorems": [
+              "spectrum.resolvent_tendsto_cobounded",
+              "resolvent",
+              "spectrum.nonempty",
+              "spectrum.resolvent_isBigO_inv",
+              "spectrum.units_smul_resolvent_self"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "LinearMap.IsSymmetric.orthogonalComplement_iSup_eigenspaces_invariant",
+              "Module.End.injOn_genEigenspace",
+              "PrimeSpectrum.vanishingIdeal_strict_anti_mono_iff",
+              "PrimeSpectrum.basicOpen_eq_bot_iff",
+              "ProjectiveSpectrum.subset_zeroLocus_iff_le_vanishingIdeal"
+            ]
+          },
+          "12": {
+            "label": "Data + RingTheory + Algebra",
+            "theorems": [
+              "IsDedekindDomain.HeightOneSpectrum.valuationOfNeZeroToFun_eq",
+              "IsDedekindDomain.HeightOneSpectrum.valuationOfNeZeroToFun",
+              "IsDedekindDomain.HeightOneSpectrum.IntValuation.map_mul'",
+              "FractionalIdeal.finprod_heightOneSpectrum_factorization'"
+            ]
+          },
+          "8": {
+            "label": "Data + LinearAlgebra + Analysis",
+            "theorems": [
+              "AlgebraicGeometry.ProjectiveSpectrum.Proj.toSpec_preimage_basicOpen",
+              "LinearMap.IsSymmetric.orthogonalComplement_iSup_eigenspaces_eq_bot",
+              "Matrix.IsHermitian.spectral_theorem"
+            ]
+          },
+          "13": {
+            "label": "GroupTheory",
+            "theorems": [
+              "IsDedekindDomain.HeightOneSpectrum.valuationOfNeZeroMod",
+              "IsDedekindDomain.HeightOneSpectrum.valuation_of_unit_mod_eq"
+            ]
+          },
+          "19": {
+            "label": "AlgebraicGeometry",
+            "theorems": [
+              "spectrum.limsup_pow_nnnorm_pow_one_div_le_spectralRadius"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "WeakDual.CharacterSpace.mem_spectrum_iff_exists",
+          "PrimeSpectrum.isRadical_vanishingIdeal",
+          "SpectrumRestricts.spectralRadius_eq",
+          "cfcHom_map_spectrum",
+          "IsDedekindDomain.HeightOneSpectrum.valuation_of_algebraMap",
+          "PrimeSpectrum.isClosed_zeroLocus",
+          "Module.End.genEigenspace",
+          "quasispectrumRestricts_iff_spectrumRestricts"
+        ]
+      },
+      {
+        "side": "Representation theory",
+        "patterns": [
+          "Representation",
+          "representation",
+          "IrreducibleRep",
+          "CharacterOfRep",
+          "Schur",
+          "isotypic"
+        ],
+        "n_matches": 51,
+        "clusters": {
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "Representation.asAlgebraHom",
+              "Representation.ofModule",
+              "Representation.linHom.invariantsEquivFdRepHom",
+              "Representation.ofMulAction_def",
+              "Representation.ofMulAction_apply"
+            ]
+          },
+          "13": {
+            "label": "GroupTheory",
+            "theorems": [
+              "Subgroup.SchurZassenhausInduction.step7",
+              "Representation.asGroupHom",
+              "Subgroup.SchurZassenhausInduction.step2",
+              "_private.Mathlib.GroupTheory.SchurZassenhaus.0.Subgroup.SchurZassenhausInduction.step2",
+              "_private.Mathlib.GroupTheory.SchurZassenhaus.0.Subgroup.SchurZassenhausInduction.step0"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "Subgroup.SchurZassenhausInduction.step0",
+              "exists_birkhoff_representation"
+            ]
+          },
+          "4": {
+            "label": "CategoryTheory",
+            "theorems": [
+              "AlgebraicGeometry.StructureSheaf.normalize_finite_fraction_representation"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "Matrix.isRepresentation.toEnd"
+            ]
+          },
+          "20": {
+            "label": "Data + Order + Dynamics",
+            "theorems": [
+              "Representation.invariants_eq_inter"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "Representation.asAlgebraHom",
+          "Subgroup.SchurZassenhausInduction.step7",
+          "Representation.asGroupHom",
+          "Subgroup.SchurZassenhausInduction.step2",
+          "Representation.ofModule",
+          "_private.Mathlib.GroupTheory.SchurZassenhaus.0.Subgroup.SchurZassenhausInduction.step2",
+          "_private.Mathlib.GroupTheory.SchurZassenhaus.0.Subgroup.SchurZassenhausInduction.step0",
+          "Representation.linHom.invariantsEquivFdRepHom"
+        ]
+      }
+    ],
+    "clusters_overlap": 5,
+    "clusters_separated": 11,
+    "bridge_spans_clusters": true,
+    "detected_by_depth_filter": [
+      "Module.End.maxGenEigenspace_eq",
+      "Subgroup.SchurZassenhausInduction.step1"
+    ],
+    "detected_by_any_bridge": [
+      "Module.End.maxGenEigenspace_eq",
+      "spectrum.limsup_pow_nnnorm_pow_one_div_le_spectralRadius",
+      "LinearMap.finrank_maxGenEigenspace",
+      "spectrum.hasFPowerSeriesOnBall_inverse_one_sub_smul",
+      "IsDedekindDomain.HeightOneSpectrum.iInf_localization_eq_bot",
+      "Subgroup.SchurZassenhausInduction.step1"
+    ]
+  },
+  {
+    "name": "Lie algebras \u2194 Lie groups",
+    "description": "Engel's theorem, Lie bracket, exponential map",
+    "sides": [
+      {
+        "side": "Lie algebras",
+        "patterns": [
+          "LieAlgebra",
+          "lieAlgebra",
+          "LieBracket",
+          "Engel",
+          "engel",
+          "nilpotent_of_forall"
+        ],
+        "n_matches": 230,
+        "clusters": {
+          "5": {
+            "label": "LinearAlgebra + Algebra + RingTheory",
+            "theorems": [
+              "LieAlgebra.ExtendScalars.bracket_lie_self",
+              "LieAlgebra.IsKilling.disjoint_ker_weight_corootSpace",
+              "Function.Surjective.lieAlgebra_isSolvable",
+              "FreeLieAlgebra.Rel.add_right",
+              "LieAlgebra.InvariantForm.orthogonal_carrier"
+            ]
+          },
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "LieAlgebra.toEnd_pow_apply_mem",
+              "LieAlgebra.IsKilling.eq_neg_or_eq_of_eq_smul",
+              "LieAlgebra.IsKilling.chainLength_smul",
+              "LieAlgebra.IsKilling.rootSpace_neg_nsmul_add_chainTop_of_le",
+              "LieAlgebra.IsKilling.chainTopCoeff_of_eq_zsmul_add"
+            ]
+          },
+          "8": {
+            "label": "Data + LinearAlgebra + Analysis",
+            "theorems": [
+              "LieAlgebra.Orthogonal.Pso",
+              "LieAlgebra.Orthogonal.indefiniteDiagonal_assoc",
+              "LieAlgebra.SpecialLinear.Eb",
+              "LieAlgebra.Orthogonal.s_as_blocks",
+              "LieAlgebra.SpecialLinear.sl_bracket"
+            ]
+          },
+          "3": {
+            "label": "Algebra + RingTheory + FieldTheory",
+            "theorems": [
+              "LieAlgebra.engel_isBot_of_isMin.lieCharpoly_map_eval",
+              "LieAlgebra.engel_isBot_of_isMin.lieCharpoly_natDegree",
+              "LieAlgebra.engel_isBot_of_isMin.lieCharpoly_coeff_natDegree",
+              "LieAlgebra.rank_eq_natTrailingDegree",
+              "_private.Mathlib.Algebra.Lie.CartanExists.0.LieAlgebra.engel_isBot_of_isMin.lieCharpoly"
+            ]
+          },
+          "2": {
+            "label": "Data + Order + Algebra",
+            "theorems": [
+              "LieAlgebra.IsKilling.span_weight_isNonZero_eq_top",
+              "LieAlgebra.abelian_radical_iff_solvable_is_abelian",
+              "LieAlgebra.LieIdeal.solvable_iff_le_radical"
+            ]
+          },
+          "10": {
+            "label": "SetTheory",
+            "theorems": [
+              "LieAlgebra.exists_isCartanSubalgebra_engel"
+            ]
+          },
+          "14": {
+            "label": "LinearAlgebra + Analysis + Geometry",
+            "theorems": [
+              "FreeLieAlgebra.Rel.neg"
+            ]
+          },
+          "1": {
+            "label": "MeasureTheory + Analysis + Topology",
+            "theorems": [
+              "FreeLieAlgebra.Rel.smulOfTower"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "LieAlgebra.ExtendScalars.bracket_lie_self",
+          "LieAlgebra.IsKilling.disjoint_ker_weight_corootSpace",
+          "Function.Surjective.lieAlgebra_isSolvable",
+          "LieAlgebra.Orthogonal.Pso",
+          "FreeLieAlgebra.Rel.add_right",
+          "LieAlgebra.InvariantForm.orthogonal_carrier",
+          "FreeLieAlgebra.Rel.mul_right",
+          "LieAlgebra.toEnd_pow_apply_mem"
+        ]
+      },
+      {
+        "side": "Lie groups",
+        "patterns": [
+          "LieGroup",
+          "lieGroup",
+          "expMap",
+          "expMapSphere",
+          "SmoothManifold",
+          "smoothManifold"
+        ],
+        "n_matches": 18,
+        "clusters": {
+          "0": {
+            "label": "Algebra + Analysis + Data",
+            "theorems": [
+              "periodic_expMapCircle",
+              "expMapCircle_neg",
+              "expMapCircle_zero",
+              "expMapCircle_add",
+              "Real.Angle.expMapCircle_zero"
+            ]
+          },
+          "9": {
+            "label": "Analysis",
+            "theorems": [
+              "smoothManifoldWithCorners_of_contDiffOn",
+              "SmoothManifoldWithCorners.chart_mem_maximalAtlas",
+              "EuclideanSpace.instSmoothManifoldWithCornersSphere",
+              "SmoothManifoldWithCorners.subset_maximalAtlas"
+            ]
+          },
+          "129": {
+            "label": "Topology",
+            "theorems": [
+              "isLocalHomeomorph_expMapCircle"
+            ]
+          }
+        },
+        "sample_theorems": [
+          "smoothManifoldWithCorners_of_contDiffOn",
+          "periodic_expMapCircle",
+          "expMapCircle_neg",
+          "isLocalHomeomorph_expMapCircle",
+          "SmoothManifoldWithCorners.chart_mem_maximalAtlas",
+          "EuclideanSpace.instSmoothManifoldWithCornersSphere",
+          "expMapCircle_zero",
+          "expMapCircle_add"
+        ]
+      }
+    ],
+    "clusters_overlap": 1,
+    "clusters_separated": 9,
+    "bridge_spans_clusters": true,
+    "detected_by_depth_filter": [],
+    "detected_by_any_bridge": []
+  }
+]

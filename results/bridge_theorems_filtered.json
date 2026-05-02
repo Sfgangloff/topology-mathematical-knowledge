@@ -1,0 +1,430 @@
+[
+  {
+    "theorem": "biSup_inf_biSup",
+    "n_clusters": 3,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "iSup_inf_iSup",
+        "cluster_label": "Order",
+        "in_degree": 2
+      },
+      {
+        "premise": "Equiv.Set.prod",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "HasCompactSupport.convolutionExistsAt",
+    "n_clusters": 3,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "Homeomorph.trans_apply",
+        "cluster_label": "Analysis",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "GromovHausdorff.ghDist_le_hausdorffDist",
+    "n_clusters": 3,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "GromovHausdorff.eq_toGHSpace_iff",
+        "cluster_label": "AlgebraicGeometry",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "CauSeq.lim_inv",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "CauSeq.const_inv",
+        "cluster_label": "Data",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "Subgroup.index_comap_of_surjective",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "Cardinal.toNat_congr",
+        "cluster_label": "SetTheory",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "Set.compl_section_ordSeparatingSet_mem_nhdsWithin_Ici",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "Set.eq_of_mem_ordConnectedSection_of_uIcc_subset",
+        "cluster_label": "Order",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "Submodule.toLinearPMap_graph_eq",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "Submodule.existsUnique_from_graph",
+        "cluster_label": "CategoryTheory",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "exists_linearIndependent_snoc_of_lt_rank",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "exists_linearIndependent_cons_of_lt_rank",
+        "cluster_label": "SetTheory",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "Metric.Sum.mem_uniformity",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "Metric.Sum.one_le_dist_inr_inl",
+        "cluster_label": "Topology",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "intervalIntegral.continuousOn_primitive_interval_left",
+        "cluster_label": "Order",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "Module.End.maxGenEigenspace_eq",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "WellFounded.iSup_eq_monotonicSequenceLimit",
+        "cluster_label": "SetTheory",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "Set.encard_union_eq",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "PartENat.card_sum",
+        "cluster_label": "SetTheory",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_le_measure",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "sdiff_eq_sdiff_iff_inf_eq_inf",
+        "cluster_label": "Order",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "ContinuousMap.setOfIdeal_eq_compl_singleton",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "TopologicalSpace.Opens.isCoatom_iff",
+        "cluster_label": "Order",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "AlgebraicGeometry.is_localization_basicOpen_of_qcqs",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "AlgebraicGeometry.exists_eq_pow_mul_of_isCompact_of_isQuasiSeparated",
+        "cluster_label": "CategoryTheory",
+        "in_degree": 1
+      },
+      {
+        "premise": "AlgebraicGeometry.exists_pow_mul_eq_zero_of_res_basicOpen_eq_zero_of_isCompact",
+        "cluster_label": "CategoryTheory",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "Set.Countable.isPathConnected_compl_of_one_lt_rank",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "Set.Countable.dense_compl",
+        "cluster_label": "SetTheory",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "AddCircle.addWellApproximable_ae_empty_or_univ",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "MeasureTheory.union_ae_eq_univ_of_ae_eq_univ_left",
+        "cluster_label": "Algebra",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "UpperHalfPlane.cmp_dist_eq_cmp_dist_coe_center",
+    "n_clusters": 2,
+    "min_cross_indegree": 1,
+    "cross_cluster_premises": [
+      {
+        "premise": "Ordering.gt",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      },
+      {
+        "premise": "Real.sinh_neg_iff",
+        "cluster_label": "Analysis",
+        "in_degree": 1
+      }
+    ]
+  },
+  {
+    "theorem": "linearIndependent_insert'",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "Equiv.Set.insert",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "Ordinal.infinite_pigeonhole_set",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "Ordinal.infinite_pigeonhole_card",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "Polynomial.coeff_divByMonic_X_sub_C",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "Finset.Icc_eq_empty",
+        "cluster_label": "Order",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "Fintype.card_embedding_eq",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "Equiv.embeddingCongr",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      },
+      {
+        "premise": "Function.Embedding.ofIsEmpty",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "CategoryTheory.Limits.Types.Pushout.quot_mk_eq_iff",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "Equivalence.quot_mk_eq_iff",
+        "cluster_label": "Data",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le_Ico",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "intervalIntegral.continuousOn_primitive_interval",
+        "cluster_label": "Order",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "FormalMultilinearSeries.changeOrigin_radius",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "ENNReal.le_of_forall_pos_nnreal_lt",
+        "cluster_label": "AlgebraicGeometry",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "IsLocalization.AtPrime.discreteValuationRing_of_dedekind_domain",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "IsLocalization.isNoetherianRing",
+        "cluster_label": "RingTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "FirstOrder.Language.BoundedFormula.realize_constantsVarsEquiv",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "FirstOrder.Language.lhomWithConstants",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "BumpCovering.sum_toPOUFun_eq",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "linearOrderOfSTO",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "FirstOrder.Language.Embedding.isElementary_of_exists",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "FirstOrder.Language.Embedding.map_rel",
+        "cluster_label": "AlgebraicGeometry",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "FirstOrder.Language.Theory.isSatisfiable_union_distinctConstantsTheory_of_card_le",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "FirstOrder.Language.constantsOn.structure",
+        "cluster_label": "CategoryTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "GromovHausdorff.hausdorffDist_optimal",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "GromovHausdorff.eq_toGHSpace_iff",
+        "cluster_label": "AlgebraicGeometry",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "Subgroup.SchurZassenhausInduction.step1",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "Subgroup.relindex_sup_right",
+        "cluster_label": "Order",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "PiTensorProduct.norm_eval_le_injectiveSeminorm",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "LinearMap.quotKerEquivRange",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  },
+  {
+    "theorem": "Subalgebra.rank_sup_eq_rank_left_mul_rank_of_free",
+    "n_clusters": 2,
+    "min_cross_indegree": 2,
+    "cross_cluster_premises": [
+      {
+        "premise": "rank_mul_rank",
+        "cluster_label": "SetTheory",
+        "in_degree": 2
+      }
+    ]
+  }
+]

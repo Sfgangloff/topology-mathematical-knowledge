@@ -1,0 +1,82 @@
+[
+  {
+    "n": 1,
+    "total_unique": 94275,
+    "frac_ge2": 0.06159639352956776,
+    "frac_ge3": 0.028735083532219572,
+    "frac_ge5": 0.01405462741978255,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 45
+  },
+  {
+    "n": 2,
+    "total_unique": 151161,
+    "frac_ge2": 0.03248853871038165,
+    "frac_ge3": 0.012800920872447259,
+    "frac_ge5": 0.004637439551206992,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 25
+  },
+  {
+    "n": 3,
+    "total_unique": 148828,
+    "frac_ge2": 0.006692289085387158,
+    "frac_ge3": 0.0011758540059666192,
+    "frac_ge5": 0.0002150133039481818,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 11
+  },
+  {
+    "n": 4,
+    "total_unique": 127056,
+    "frac_ge2": 0.0018574486840448306,
+    "frac_ge3": 0.00018889308651303362,
+    "frac_ge5": 3.9352726356882e-05,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 11
+  },
+  {
+    "n": 5,
+    "total_unique": 108839,
+    "frac_ge2": 0.0011392974944643005,
+    "frac_ge3": 6.431518113911374e-05,
+    "frac_ge5": 1.8375766039746782e-05,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 9
+  },
+  {
+    "n": 6,
+    "total_unique": 94024,
+    "frac_ge2": 0.0006913128562920105,
+    "frac_ge3": 3.190674721347741e-05,
+    "frac_ge5": 2.127116480898494e-05,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 8
+  },
+  {
+    "n": 7,
+    "total_unique": 81833,
+    "frac_ge2": 0.0005010203707550743,
+    "frac_ge3": 1.2220009042806692e-05,
+    "frac_ge5": 1.2220009042806692e-05,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 5
+  },
+  {
+    "n": 8,
+    "total_unique": 71710,
+    "frac_ge2": 0.00034862641193696836,
+    "frac_ge3": 0.0,
+    "frac_ge5": 0.0,
+    "median_clusters": 1.0,
+    "p90_clusters": 1.0,
+    "max_clusters": 2
+  }
+]

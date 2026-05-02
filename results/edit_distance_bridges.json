@@ -1,0 +1,2002 @@
+[
+  {
+    "cluster_a": 1,
+    "cluster_b": 0,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Algebra + Analysis + Data",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Complex.tendsto_tsum_powerSeries_nhdsWithin_stolzSet",
+    "norm_edit_dist": 0.5859,
+    "surprise": 0.4141
+  },
+  {
+    "cluster_a": 3,
+    "cluster_b": 5,
+    "label_a": "Algebra + RingTheory + FieldTheory",
+    "label_b": "LinearAlgebra + Algebra + RingTheory",
+    "theorem_a": "Algebra.FinitePresentation.ker_fg_of_mvPolynomial",
+    "theorem_b": "LieAlgebra.engel_isBot_of_isMin",
+    "norm_edit_dist": 0.5906,
+    "surprise": 0.4094
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 6,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "Equiv.Perm.exists_with_cycleType_iff",
+    "norm_edit_dist": 0.5906,
+    "surprise": 0.4094
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 9,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Analysis",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "VectorFourier.hasFTaylorSeriesUpTo_fourierIntegral",
+    "norm_edit_dist": 0.5938,
+    "surprise": 0.4062
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 5,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "LinearAlgebra + Algebra + RingTheory",
+    "theorem_a": "Ideal.isPrime_map_C_iff_isPrime",
+    "theorem_b": "LieAlgebra.engel_isBot_of_isMin",
+    "norm_edit_dist": 0.5984,
+    "surprise": 0.4016
+  },
+  {
+    "cluster_a": 4,
+    "cluster_b": 5,
+    "label_a": "CategoryTheory",
+    "label_b": "LinearAlgebra + Algebra + RingTheory",
+    "theorem_a": "AlgebraicGeometry.StructureSheaf.normalize_finite_fraction_representation",
+    "theorem_b": "LieAlgebra.engel_isBot_of_isMin",
+    "norm_edit_dist": 0.5984,
+    "surprise": 0.4016
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 7,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Topology + Order + Data",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "isAdic_iff",
+    "norm_edit_dist": 0.5984,
+    "surprise": 0.4016
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 10,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "SetTheory",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "Cardinal.mul_eq_left_iff",
+    "norm_edit_dist": 0.5984,
+    "surprise": 0.4016
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 21,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "QPF.Cofix.bisim_aux",
+    "norm_edit_dist": 0.5984,
+    "surprise": 0.4016
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 16,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Order",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "le_iff_eq_sup_sdiff",
+    "norm_edit_dist": 0.5984,
+    "surprise": 0.4016
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 11,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data + Computability + SetTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "GeneralizedContinuedFraction.of_convergence_epsilon",
+    "norm_edit_dist": 0.6016,
+    "surprise": 0.3984
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 12,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data + RingTheory + Algebra",
+    "theorem_a": "AkraBazziRecurrence.GrowsPolynomially.add_isLittleO",
+    "theorem_b": "FermatLastTheoremForThreeGen.a_cube_b_cube_congr_one_or_neg_one",
+    "norm_edit_dist": 0.6032,
+    "surprise": 0.3968
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 5,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "LinearAlgebra + Algebra + RingTheory",
+    "theorem_a": "VitaliFamily.exists_measurable_supersets_limRatio",
+    "theorem_b": "LieAlgebra.engel_isBot_of_isMin",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 5,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "LinearAlgebra + Algebra + RingTheory",
+    "theorem_a": "cauchy_product",
+    "theorem_b": "LieAlgebra.engel_isBot_of_isMin",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 11,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data + Computability + SetTheory",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "SetTheory.PGame.equiv_nim_grundyValue",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 8,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data + LinearAlgebra + Analysis",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "Matrix.det_eq_of_forall_row_eq_smul_add_pred_aux",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 12,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data + RingTheory + Algebra",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "MvPowerSeries.X_pow_dvd_iff",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 9,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Analysis",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "tendsto_integral_exp_smul_cocompact",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 13,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "GroupTheory",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "SimpleGraph.isTree_iff_existsUnique_path",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 14,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "LinearAlgebra + Analysis + Geometry",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "collinear_iff_of_mem",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 15,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data + Algebra + RingTheory",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "PrimeSpectrum.exists_primeSpectrum_prod_le_and_ne_bot_of_domain",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 17,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Algebra + Topology + Analysis",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "CstarRing.spectralOrderedRing",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 18,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "MeasureTheory",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "MeasureTheory.smulInvariantMeasure_tfae",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 20,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "OrderHom.iterate_sup_le_sup_iff",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 22,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "DirectSum.mul_comm",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 25,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "Rel.image_eq_dom_of_codomain_subset",
+    "norm_edit_dist": 0.6063,
+    "surprise": 0.3937
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 2,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data + Order + Algebra",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "MeasureTheory.GridLines.T_insert_le_T_lmarginal_singleton",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 3,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Algebra + RingTheory + FieldTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Field.primitive_element_inf_aux",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 4,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "CategoryTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "AlgebraicGeometry.StructureSheaf.toBasicOpen_surjective",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 6,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "SimpleGraph.IsTree.card_edgeFinset",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 7,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Topology + Order + Data",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "quasiSober_of_open_cover",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 8,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data + LinearAlgebra + Analysis",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "FirstOrder.Language.BoundedFormula.realize_toFormula",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 10,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "SetTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Cardinal.mul_eq_left_iff",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 13,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "GroupTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "HNNExtension.NormalWord.unitsSMul_neg",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 14,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "LinearAlgebra + Analysis + Geometry",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Affine.Simplex.affineSpan_pair_eq_altitude_iff",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 15,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data + Algebra + RingTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "DedekindDomain.ProdAdicCompletions.IsFiniteAdele.algebraMap'",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 17,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Algebra + Topology + Analysis",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Unitization.norm_splitMul_snd_sq",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 21,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "LinearPMap.sSup_aux",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 18,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "MeasureTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "MeasureTheory.Measure.prod_prod",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 20,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "CantorScheme.VanishingDiam.map_continuous",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 19,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "FirstOrder.Language.IsUltrahomogeneous.amalgamation_age",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 24,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Analysis + Data + Algebra",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "ContractingWith.efixedPoint_eq_of_edist_lt_top'",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 26,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "PNat.gcd_props",
+    "norm_edit_dist": 0.6094,
+    "surprise": 0.3906
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 23,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Batteries",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "Ordnode.Valid'.erase_aux",
+    "norm_edit_dist": 0.6142,
+    "surprise": 0.3858
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 19,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "GromovHausdorff.toGHSpace_eq_toGHSpace_iff_isometryEquiv",
+    "norm_edit_dist": 0.6142,
+    "surprise": 0.3858
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 26,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "PNat.gcd_eq",
+    "norm_edit_dist": 0.6142,
+    "surprise": 0.3858
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 28,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "RingTheory",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "OreLocalization.smul_add",
+    "norm_edit_dist": 0.6142,
+    "surprise": 0.3858
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 53,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Data",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "hyperoperation_ge_four_zero",
+    "norm_edit_dist": 0.6142,
+    "surprise": 0.3858
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 23,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Batteries",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Ordnode.Valid'.erase_aux",
+    "norm_edit_dist": 0.6172,
+    "surprise": 0.3828
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 16,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Order",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "sdiff_sdiff_right",
+    "norm_edit_dist": 0.6172,
+    "surprise": 0.3828
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 22,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "CliffordAlgebra.GradedAlgebra.lift_\u03b9_eq",
+    "norm_edit_dist": 0.6172,
+    "surprise": 0.3828
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 25,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Rel.image_inter_dom_eq",
+    "norm_edit_dist": 0.6172,
+    "surprise": 0.3828
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 28,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "RingTheory",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "OreLocalization.add_smul",
+    "norm_edit_dist": 0.6172,
+    "surprise": 0.3828
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 9,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Analysis",
+    "theorem_a": "Bertrand.real_main_inequality",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6179,
+    "surprise": 0.3821
+  },
+  {
+    "cluster_a": 12,
+    "cluster_b": 9,
+    "label_a": "Data + RingTheory + Algebra",
+    "label_b": "Analysis",
+    "theorem_a": "Path.Homotopy.reflTransSymmAux_mem_I",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6179,
+    "surprise": 0.3821
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 16,
+    "label_a": "Analysis",
+    "label_b": "Order",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "sdiff_sdiff_right",
+    "norm_edit_dist": 0.6179,
+    "surprise": 0.3821
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 22,
+    "label_a": "Analysis",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "AlgebraicGeometry.ProjIsoSpecTopComponent.FromSpec.carrier.add_mem",
+    "norm_edit_dist": 0.6179,
+    "surprise": 0.3821
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 19,
+    "label_a": "Analysis",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "WeierstrassCurve.Affine.nonsingular_negAdd_of_eval_derivative_ne_zero",
+    "norm_edit_dist": 0.6179,
+    "surprise": 0.3821
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 24,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Analysis + Data + Algebra",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "EReal.right_distrib_of_nonneg",
+    "norm_edit_dist": 0.622,
+    "surprise": 0.378
+  },
+  {
+    "cluster_a": 5,
+    "cluster_b": 27,
+    "label_a": "LinearAlgebra + Algebra + RingTheory",
+    "label_b": "Order",
+    "theorem_a": "LieAlgebra.engel_isBot_of_isMin",
+    "theorem_b": "ofMul_image_powers_eq_multiples_ofMul",
+    "norm_edit_dist": 0.622,
+    "surprise": 0.378
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 27,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Order",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "Set.partiallyWellOrderedOn_iff_finite_antichains",
+    "norm_edit_dist": 0.625,
+    "surprise": 0.375
+  },
+  {
+    "cluster_a": 1,
+    "cluster_b": 53,
+    "label_a": "MeasureTheory + Analysis + Topology",
+    "label_b": "Data",
+    "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+    "theorem_b": "hyperoperation_ge_four_zero",
+    "norm_edit_dist": 0.625,
+    "surprise": 0.375
+  },
+  {
+    "cluster_a": 3,
+    "cluster_b": 9,
+    "label_a": "Algebra + RingTheory + FieldTheory",
+    "label_b": "Analysis",
+    "theorem_a": "Polynomial.cyclotomic_eval_lt_add_one_pow_totient",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.626,
+    "surprise": 0.374
+  },
+  {
+    "cluster_a": 7,
+    "cluster_b": 9,
+    "label_a": "Topology + Order + Data",
+    "label_b": "Analysis",
+    "theorem_a": "Set.Countable.isPathConnected_compl_of_one_lt_rank",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.626,
+    "surprise": 0.374
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 15,
+    "label_a": "Analysis",
+    "label_b": "Data + Algebra + RingTheory",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "ADEInequality.lt_three",
+    "norm_edit_dist": 0.626,
+    "surprise": 0.374
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 21,
+    "label_a": "Analysis",
+    "label_b": "Data",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "PFunctor.M.ext_aux",
+    "norm_edit_dist": 0.626,
+    "surprise": 0.374
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 9,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Analysis",
+    "theorem_a": "Equiv.Perm.closure_cycle_adjacent_swap",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 4,
+    "cluster_b": 9,
+    "label_a": "CategoryTheory",
+    "label_b": "Analysis",
+    "theorem_a": "CategoryTheory.Sheaf.isSheafFor_bind",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 9,
+    "label_a": "Data",
+    "label_b": "Analysis",
+    "theorem_a": "FirstOrder.Language.BoundedFormula.listDecode_encode_list",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 11,
+    "cluster_b": 9,
+    "label_a": "Data + Computability + SetTheory",
+    "label_b": "Analysis",
+    "theorem_a": "GeneralizedContinuedFraction.sub_convergents_eq",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 8,
+    "cluster_b": 9,
+    "label_a": "Data + LinearAlgebra + Analysis",
+    "label_b": "Analysis",
+    "theorem_a": "Polynomial.exists_partition_polynomial_aux",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 10,
+    "cluster_b": 9,
+    "label_a": "SetTheory",
+    "label_b": "Analysis",
+    "theorem_a": "Cardinal.mul_eq_left_iff",
+    "theorem_b": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 13,
+    "label_a": "Analysis",
+    "label_b": "GroupTheory",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "SimpleGraph.isTree_iff_existsUnique_path",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 14,
+    "label_a": "Analysis",
+    "label_b": "LinearAlgebra + Analysis + Geometry",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "EuclideanGeometry.eq_of_dist_eq_of_dist_eq_of_mem_of_finrank_eq_two",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 17,
+    "label_a": "Analysis",
+    "label_b": "Algebra + Topology + Analysis",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "spectrum_star_mul_self_nonneg",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 18,
+    "label_a": "Analysis",
+    "label_b": "MeasureTheory",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "ProbabilityTheory.kernel.compProd_fst_borelMarkovFromReal_eq_comapRight_compProd",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 23,
+    "label_a": "Analysis",
+    "label_b": "Batteries",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "Ordnode.Valid'.map_aux",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 24,
+    "label_a": "Analysis",
+    "label_b": "Analysis + Data + Algebra",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "EReal.right_distrib_of_nonneg",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 27,
+    "label_a": "Analysis",
+    "label_b": "Order",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "Set.partiallyWellOrderedOn_iff_finite_antichains",
+    "norm_edit_dist": 0.6341,
+    "surprise": 0.3659
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 6,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data",
+    "theorem_a": "MeasureTheory.GridLines.T_insert_le_T_lmarginal_singleton",
+    "theorem_b": "eVariationOn.add_point",
+    "norm_edit_dist": 0.6387,
+    "surprise": 0.3613
+  },
+  {
+    "cluster_a": 3,
+    "cluster_b": 6,
+    "label_a": "Algebra + RingTheory + FieldTheory",
+    "label_b": "Data",
+    "theorem_a": "Algebra.FinitePresentation.ker_fg_of_mvPolynomial",
+    "theorem_b": "eVariationOn.add_point",
+    "norm_edit_dist": 0.6387,
+    "surprise": 0.3613
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 20,
+    "label_a": "Analysis",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "Order.pred_succ_iterate_of_not_isMax",
+    "norm_edit_dist": 0.6423,
+    "surprise": 0.3577
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 26,
+    "label_a": "Analysis",
+    "label_b": "Data",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "PNat.gcd_props",
+    "norm_edit_dist": 0.6423,
+    "surprise": 0.3577
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 25,
+    "label_a": "Analysis",
+    "label_b": "Data",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "Rel.image_inter_dom_eq",
+    "norm_edit_dist": 0.6423,
+    "surprise": 0.3577
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 28,
+    "label_a": "Analysis",
+    "label_b": "RingTheory",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "OreLocalization.add_smul",
+    "norm_edit_dist": 0.6423,
+    "surprise": 0.3577
+  },
+  {
+    "cluster_a": 9,
+    "cluster_b": 53,
+    "label_a": "Analysis",
+    "label_b": "Data",
+    "theorem_a": "ContMDiffOn.contMDiffOn_tangentMapWithin",
+    "theorem_b": "hyperoperation_ge_four_zero",
+    "norm_edit_dist": 0.6423,
+    "surprise": 0.3577
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 6,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data",
+    "theorem_a": "Pell.eq_of_xn_modEq_lem3",
+    "theorem_b": "eVariationOn.add_point",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 4,
+    "cluster_b": 6,
+    "label_a": "CategoryTheory",
+    "label_b": "Data",
+    "theorem_a": "AlgebraicTopology.DoldKan.HigherFacesVanish.comp_H\u03c3_eq",
+    "theorem_b": "eVariationOn.add_point",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 7,
+    "label_a": "Data",
+    "label_b": "Topology + Order + Data",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "UniformSpace.Completion.mul_hatInv_cancel",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 11,
+    "label_a": "Data",
+    "label_b": "Data + Computability + SetTheory",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "SetTheory.PGame.equiv_nim_grundyValue",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 8,
+    "label_a": "Data",
+    "label_b": "Data + LinearAlgebra + Analysis",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "Matrix.det_vandermonde",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 10,
+    "label_a": "Data",
+    "label_b": "SetTheory",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "Cardinal.mk_bounded_subset",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 12,
+    "label_a": "Data",
+    "label_b": "Data + RingTheory + Algebra",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "MvPowerSeries.X_pow_dvd_iff",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 13,
+    "label_a": "Data",
+    "label_b": "GroupTheory",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "Ring.image_closure",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 15,
+    "label_a": "Data",
+    "label_b": "Data + Algebra + RingTheory",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "PrimeSpectrum.exists_primeSpectrum_prod_le_and_ne_bot_of_domain",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 17,
+    "label_a": "Data",
+    "label_b": "Algebra + Topology + Analysis",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "CstarRing.spectralOrderedRing",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 21,
+    "label_a": "Data",
+    "label_b": "Data",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "QPF.has_good_supp_iff",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 18,
+    "label_a": "Data",
+    "label_b": "MeasureTheory",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "MeasureTheory.QuotientMeasureEqMeasurePreimage.smulInvariantMeasure_quotient",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 20,
+    "label_a": "Data",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "OrderHom.iterate_sup_le_sup_iff",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 23,
+    "label_a": "Data",
+    "label_b": "Batteries",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "Ordnode.Valid'.erase_aux",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 16,
+    "label_a": "Data",
+    "label_b": "Order",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "sdiff_sdiff_right",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 53,
+    "label_a": "Data",
+    "label_b": "Data",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "hyperoperation_ge_three_one",
+    "norm_edit_dist": 0.6471,
+    "surprise": 0.3529
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 14,
+    "label_a": "Data",
+    "label_b": "LinearAlgebra + Analysis + Geometry",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "EuclideanGeometry.eq_of_dist_eq_of_dist_eq_of_mem_of_finrank_eq_two",
+    "norm_edit_dist": 0.6555,
+    "surprise": 0.3445
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 22,
+    "label_a": "Data",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "AlgebraicGeometry.ProjIsoSpecTopComponent.FromSpec.carrier.add_mem",
+    "norm_edit_dist": 0.6555,
+    "surprise": 0.3445
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 19,
+    "label_a": "Data",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "GromovHausdorff.toGHSpace_eq_toGHSpace_iff_isometryEquiv",
+    "norm_edit_dist": 0.6555,
+    "surprise": 0.3445
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 26,
+    "label_a": "Data",
+    "label_b": "Data",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "PNat.Coprime.gcd_mul_left_cancel_right",
+    "norm_edit_dist": 0.6555,
+    "surprise": 0.3445
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 28,
+    "label_a": "Data",
+    "label_b": "RingTheory",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "OreLocalization.smul_add",
+    "norm_edit_dist": 0.6555,
+    "surprise": 0.3445
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 22,
+    "label_a": "Batteries",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "CliffordAlgebra.GradedAlgebra.lift_\u03b9_eq",
+    "norm_edit_dist": 0.6607,
+    "surprise": 0.3393
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 24,
+    "label_a": "Data",
+    "label_b": "Analysis + Data + Algebra",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "Filter.Tendsto.op_one_isBoundedUnder_le'",
+    "norm_edit_dist": 0.6639,
+    "surprise": 0.3361
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 25,
+    "label_a": "Data",
+    "label_b": "Data",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "Traversable.length_toList",
+    "norm_edit_dist": 0.6639,
+    "surprise": 0.3361
+  },
+  {
+    "cluster_a": 6,
+    "cluster_b": 27,
+    "label_a": "Data",
+    "label_b": "Order",
+    "theorem_a": "eVariationOn.add_point",
+    "theorem_b": "Set.partiallyWellOrderedOn_iff_finite_antichains",
+    "norm_edit_dist": 0.6639,
+    "surprise": 0.3361
+  },
+  {
+    "cluster_a": 4,
+    "cluster_b": 23,
+    "label_a": "CategoryTheory",
+    "label_b": "Batteries",
+    "theorem_a": "NonemptyFinLinOrd.epi_iff_surjective",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6696,
+    "surprise": 0.3304
+  },
+  {
+    "cluster_a": 3,
+    "cluster_b": 23,
+    "label_a": "Algebra + RingTheory + FieldTheory",
+    "label_b": "Batteries",
+    "theorem_a": "RingHom.finiteType_ofLocalizationSpanTarget",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6786,
+    "surprise": 0.3214
+  },
+  {
+    "cluster_a": 11,
+    "cluster_b": 23,
+    "label_a": "Data + Computability + SetTheory",
+    "label_b": "Batteries",
+    "theorem_a": "Nat.Partrec.Code.evaln_prim",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6786,
+    "surprise": 0.3214
+  },
+  {
+    "cluster_a": 12,
+    "cluster_b": 23,
+    "label_a": "Data + RingTheory + Algebra",
+    "label_b": "Batteries",
+    "theorem_a": "Path.Homotopy.reflTransSymmAux_mem_I",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6786,
+    "surprise": 0.3214
+  },
+  {
+    "cluster_a": 13,
+    "cluster_b": 23,
+    "label_a": "GroupTheory",
+    "label_b": "Batteries",
+    "theorem_a": "Equiv.Perm.fin_5_not_solvable",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6786,
+    "surprise": 0.3214
+  },
+  {
+    "cluster_a": 21,
+    "cluster_b": 23,
+    "label_a": "Data",
+    "label_b": "Batteries",
+    "theorem_a": "PFunctor.M.mk_dest",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6786,
+    "surprise": 0.3214
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 19,
+    "label_a": "Batteries",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "GromovHausdorff.toGHSpace_eq_toGHSpace_iff_isometryEquiv",
+    "norm_edit_dist": 0.6786,
+    "surprise": 0.3214
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 23,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Batteries",
+    "theorem_a": "Pell.eq_of_xn_modEq_lem3",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 23,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Batteries",
+    "theorem_a": "MeasureTheory.GridLines.T_insert_le_T_lmarginal_singleton",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 7,
+    "cluster_b": 23,
+    "label_a": "Topology + Order + Data",
+    "label_b": "Batteries",
+    "theorem_a": "Complex.uniformContinuous_ringHom_eq_id_or_conj",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 10,
+    "cluster_b": 23,
+    "label_a": "SetTheory",
+    "label_b": "Batteries",
+    "theorem_a": "ONote.fundamentalSequence_has_prop",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 12,
+    "cluster_b": 21,
+    "label_a": "Data + RingTheory + Algebra",
+    "label_b": "Data",
+    "theorem_a": "min_assoc",
+    "theorem_b": "CategoryTheory.Groupoid.Free.congr_comp_reverse",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 14,
+    "cluster_b": 23,
+    "label_a": "LinearAlgebra + Analysis + Geometry",
+    "label_b": "Batteries",
+    "theorem_a": "EuclideanGeometry.Cospherical.affineIndependent",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 15,
+    "cluster_b": 23,
+    "label_a": "Data + Algebra + RingTheory",
+    "label_b": "Batteries",
+    "theorem_a": "IsDedekindDomain.HeightOneSpectrum.IntValuation.map_add_le_max'",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 18,
+    "cluster_b": 23,
+    "label_a": "MeasureTheory",
+    "label_b": "Batteries",
+    "theorem_a": "generateFrom_prod_eq",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 20,
+    "cluster_b": 23,
+    "label_a": "Data + Order + Dynamics",
+    "label_b": "Batteries",
+    "theorem_a": "toZ_mono",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 16,
+    "label_a": "Batteries",
+    "label_b": "Order",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "sdiff_sdiff_right",
+    "norm_edit_dist": 0.6875,
+    "surprise": 0.3125
+  },
+  {
+    "cluster_a": 8,
+    "cluster_b": 23,
+    "label_a": "Data + LinearAlgebra + Analysis",
+    "label_b": "Batteries",
+    "theorem_a": "Polynomial.exists_partition_polynomial_aux",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6964,
+    "surprise": 0.3036
+  },
+  {
+    "cluster_a": 17,
+    "cluster_b": 23,
+    "label_a": "Algebra + Topology + Analysis",
+    "label_b": "Batteries",
+    "theorem_a": "cfc\u2099Aux_mem_range_inr",
+    "theorem_b": "Ordnode.balance_eq_balance'",
+    "norm_edit_dist": 0.6964,
+    "surprise": 0.3036
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 24,
+    "label_a": "Batteries",
+    "label_b": "Analysis + Data + Algebra",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "EReal.inv_neg",
+    "norm_edit_dist": 0.6964,
+    "surprise": 0.3036
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 26,
+    "label_a": "Batteries",
+    "label_b": "Data",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "PNat.gcd_props",
+    "norm_edit_dist": 0.6964,
+    "surprise": 0.3036
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 28,
+    "label_a": "Batteries",
+    "label_b": "RingTheory",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "OreLocalization.mul_smul",
+    "norm_edit_dist": 0.6964,
+    "surprise": 0.3036
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 3,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Algebra + RingTheory + FieldTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "RingHom.finiteType_ofLocalizationSpanTarget",
+    "norm_edit_dist": 0.6981,
+    "surprise": 0.3019
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 4,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "CategoryTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "CompHaus.effectiveEpiFamily_tfae",
+    "norm_edit_dist": 0.6981,
+    "surprise": 0.3019
+  },
+  {
+    "cluster_a": 20,
+    "cluster_b": 26,
+    "label_a": "Data + Order + Dynamics",
+    "label_b": "Data",
+    "theorem_a": "Multiset.toEnumFinset_subset_iff",
+    "theorem_b": "PNat.gcd_eq_left",
+    "norm_edit_dist": 0.7,
+    "surprise": 0.3
+  },
+  {
+    "cluster_a": 16,
+    "cluster_b": 22,
+    "label_a": "Order",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "sdiff_sup",
+    "theorem_b": "AlgebraicGeometry.ProjIsoSpecTopComponent.FromSpec.mem_carrier_iff_of_mem",
+    "norm_edit_dist": 0.7,
+    "surprise": 0.3
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 25,
+    "label_a": "Batteries",
+    "label_b": "Data",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "Rel.image_inter_dom_eq",
+    "norm_edit_dist": 0.7054,
+    "surprise": 0.2946
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 53,
+    "label_a": "Batteries",
+    "label_b": "Data",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "hyperoperation_ge_four_zero",
+    "norm_edit_dist": 0.7054,
+    "surprise": 0.2946
+  },
+  {
+    "cluster_a": 12,
+    "cluster_b": 18,
+    "label_a": "Data + RingTheory + Algebra",
+    "label_b": "MeasureTheory",
+    "theorem_a": "min_assoc",
+    "theorem_b": "generateFrom_prod_eq",
+    "norm_edit_dist": 0.7143,
+    "surprise": 0.2857
+  },
+  {
+    "cluster_a": 23,
+    "cluster_b": 27,
+    "label_a": "Batteries",
+    "label_b": "Order",
+    "theorem_a": "Ordnode.balance_eq_balance'",
+    "theorem_b": "Set.partiallyWellOrderedOn_iff_finite_antichains",
+    "norm_edit_dist": 0.7143,
+    "surprise": 0.2857
+  },
+  {
+    "cluster_a": 16,
+    "cluster_b": 28,
+    "label_a": "Order",
+    "label_b": "RingTheory",
+    "theorem_a": "SemilatticeSup.ext",
+    "theorem_b": "OreLocalization.add_comm",
+    "norm_edit_dist": 0.7143,
+    "surprise": 0.2857
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 2,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data + Order + Algebra",
+    "theorem_a": "Pell.eq_of_xn_modEq_lem3",
+    "theorem_b": "MultilinearMap.map_sum_finset_aux",
+    "norm_edit_dist": 0.717,
+    "surprise": 0.283
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 14,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "LinearAlgebra + Analysis + Geometry",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "EuclideanGeometry.OrthocentricSystem.eq_insert_orthocenter",
+    "norm_edit_dist": 0.717,
+    "surprise": 0.283
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 17,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Algebra + Topology + Analysis",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "SpectrumRestricts.cfc",
+    "norm_edit_dist": 0.717,
+    "surprise": 0.283
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 21,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "QPF.has_good_supp_iff",
+    "norm_edit_dist": 0.717,
+    "surprise": 0.283
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 18,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "MeasureTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "ProbabilityTheory.kernel.compProd_fst_borelMarkovFromReal_eq_comapRight_compProd",
+    "norm_edit_dist": 0.717,
+    "surprise": 0.283
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 7,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Topology + Order + Data",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "isAdic_iff",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 11,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data + Computability + SetTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Computation.terminates_parallel",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 8,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data + LinearAlgebra + Analysis",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Matrix.det_eq_of_forall_row_eq_smul_add_const_aux",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 10,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "SetTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Valuation.isEquiv_iff_val_eq_one",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 12,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data + RingTheory + Algebra",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "MvPowerSeries.X_pow_dvd_iff",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 20,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "PiNat.isTopologicalBasis_cylinders",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 16,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Order",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Filter.sup_limsup",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 26,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "PNat.gcd_eq_left",
+    "norm_edit_dist": 0.7264,
+    "surprise": 0.2736
+  },
+  {
+    "cluster_a": 13,
+    "cluster_b": 20,
+    "label_a": "GroupTheory",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "Ring.image_closure",
+    "theorem_b": "CantorScheme.VanishingDiam.map_continuous",
+    "norm_edit_dist": 0.7333,
+    "surprise": 0.2667
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 13,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "GroupTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Monoid.CoprodI.lift_word_prod_nontrivial_of_not_empty",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 15,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data + Algebra + RingTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Combinatorics.Line.exists_mono_in_high_dimension'",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 22,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "AlgebraicGeometry.ProjIsoSpecTopComponent.FromSpec.carrier.smul_mem",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 19,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "spectrum.limsup_pow_nnnorm_pow_one_div_le_spectralRadius",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 25,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Rel.image_comp",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 28,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "RingTheory",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "OreLocalization.add_smul",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 27,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Order",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "Set.partiallyWellOrderedOn_iff_finite_antichains",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 53,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Data",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "hyperoperation_ge_four_zero",
+    "norm_edit_dist": 0.7358,
+    "surprise": 0.2642
+  },
+  {
+    "cluster_a": 2,
+    "cluster_b": 24,
+    "label_a": "Data + Order + Algebra",
+    "label_b": "Analysis + Data + Algebra",
+    "theorem_a": "MultilinearMap.map_sum_finset_aux",
+    "theorem_b": "EReal.mul_pos",
+    "norm_edit_dist": 0.7453,
+    "surprise": 0.2547
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 11,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data + Computability + SetTheory",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "CategoryTheory.Limits.Types.Pushout.equivalence_rel'",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 12,
+    "cluster_b": 13,
+    "label_a": "Data + RingTheory + Algebra",
+    "label_b": "GroupTheory",
+    "theorem_a": "min_assoc",
+    "theorem_b": "Ring.image_closure",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 12,
+    "cluster_b": 20,
+    "label_a": "Data + RingTheory + Algebra",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "min_assoc",
+    "theorem_b": "CantorScheme.VanishingDiam.map_continuous",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 17,
+    "cluster_b": 16,
+    "label_a": "Algebra + Topology + Analysis",
+    "label_b": "Order",
+    "theorem_a": "Set.star_mem_center",
+    "theorem_b": "sdiff_sup",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 17,
+    "cluster_b": 26,
+    "label_a": "Algebra + Topology + Analysis",
+    "label_b": "Data",
+    "theorem_a": "polynomialFunctions_closure_eq_top'",
+    "theorem_b": "PNat.Coprime.gcd_mul_left_cancel",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 18,
+    "cluster_b": 16,
+    "label_a": "MeasureTheory",
+    "label_b": "Order",
+    "theorem_a": "Rack.self_act_eq_iff_eq",
+    "theorem_b": "Prod.disjoint_iff",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 18,
+    "cluster_b": 19,
+    "label_a": "MeasureTheory",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "ProbabilityTheory.indepFun_iff_map_prod_eq_prod_map_map",
+    "theorem_b": "FirstOrder.Language.Substructure.fg_iff_exists_fin_generating_family",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 22,
+    "cluster_b": 26,
+    "label_a": "Algebra + RingTheory + GroupTheory",
+    "label_b": "Data",
+    "theorem_a": "DFinsupp.mapRange.addEquiv_trans",
+    "theorem_b": "PNat.Coprime.gcd_mul_left_cancel",
+    "norm_edit_dist": 0.75,
+    "surprise": 0.25
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 3,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Algebra + RingTheory + FieldTheory",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "Algebra.Presentation.span_range_relation_eq_ker_baseChange",
+    "norm_edit_dist": 0.7576,
+    "surprise": 0.2424
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 7,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Topology + Order + Data",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "UniformSpace.Completion.continuous_hatInv",
+    "norm_edit_dist": 0.76,
+    "surprise": 0.24
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 12,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data + RingTheory + Algebra",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "FermatLastTheoremForThreeGen.lambda_sq_dvd_or_dvd_or_dvd",
+    "norm_edit_dist": 0.76,
+    "surprise": 0.24
+  },
+  {
+    "cluster_a": 13,
+    "cluster_b": 18,
+    "label_a": "GroupTheory",
+    "label_b": "MeasureTheory",
+    "theorem_a": "Ring.image_closure",
+    "theorem_b": "generateFrom_prod_eq",
+    "norm_edit_dist": 0.7619,
+    "surprise": 0.2381
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 4,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "CategoryTheory",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "AlgebraicGeometry.StructureSheaf.normalize_finite_fraction_representation",
+    "norm_edit_dist": 0.7677,
+    "surprise": 0.2323
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 21,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "MvQPF.mem_supp",
+    "norm_edit_dist": 0.7677,
+    "surprise": 0.2323
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 16,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Order",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "Filter.sup_limsup",
+    "norm_edit_dist": 0.7677,
+    "surprise": 0.2323
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 22,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Algebra + RingTheory + GroupTheory",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "DirectSum.coe_mul_apply_eq_dfinsupp_sum",
+    "norm_edit_dist": 0.7677,
+    "surprise": 0.2323
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 28,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "RingTheory",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "OreLocalization.add_assoc",
+    "norm_edit_dist": 0.7677,
+    "surprise": 0.2323
+  },
+  {
+    "cluster_a": 15,
+    "cluster_b": 16,
+    "label_a": "Data + Algebra + RingTheory",
+    "label_b": "Order",
+    "theorem_a": "Sym.multinomial_coe_fill_of_not_mem",
+    "theorem_b": "sdiff_sup",
+    "norm_edit_dist": 0.7692,
+    "surprise": 0.2308
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 8,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data + LinearAlgebra + Analysis",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "Matrix.det_vandermonde",
+    "norm_edit_dist": 0.77,
+    "surprise": 0.23
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 10,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "SetTheory",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "Valuation.isEquiv_iff_val_eq_one",
+    "norm_edit_dist": 0.77,
+    "surprise": 0.23
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 13,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "GroupTheory",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "HNNExtension.NormalWord.unitsSMul_neg",
+    "norm_edit_dist": 0.77,
+    "surprise": 0.23
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 14,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "LinearAlgebra + Analysis + Geometry",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "exists_affineIndependent",
+    "norm_edit_dist": 0.77,
+    "surprise": 0.23
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 18,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "MeasureTheory",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "ProbabilityTheory.kernel.compProd_fst_borelMarkovFromReal_eq_comapRight_compProd",
+    "norm_edit_dist": 0.77,
+    "surprise": 0.23
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 20,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data + Order + Dynamics",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "CantorScheme.VanishingDiam.map_continuous",
+    "norm_edit_dist": 0.77,
+    "surprise": 0.23
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 15,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data + Algebra + RingTheory",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "PrimeSpectrum.exists_primeSpectrum_prod_le_and_ne_bot_of_domain",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 17,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Algebra + Topology + Analysis",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "CstarRing.spectralOrderedRing",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 19,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "FirstOrder.Language.Substructure.FG.of_map_embedding",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 53,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data",
+    "theorem_a": "AkraBazziRecurrence.smoothingFn_mul_asympBound_isBigO_T",
+    "theorem_b": "hyperoperation_ge_three_one",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 8,
+    "cluster_b": 13,
+    "label_a": "Data + LinearAlgebra + Analysis",
+    "label_b": "GroupTheory",
+    "theorem_a": "Fin.succAbove_cycleRange",
+    "theorem_b": "Ring.image_closure",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 18,
+    "cluster_b": 26,
+    "label_a": "MeasureTheory",
+    "label_b": "Data",
+    "theorem_a": "Measurable.lmarginal",
+    "theorem_b": "PNat.gcd_eq_left",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 16,
+    "cluster_b": 19,
+    "label_a": "Order",
+    "label_b": "AlgebraicGeometry",
+    "theorem_a": "sdiff_sdiff_right",
+    "theorem_b": "WeierstrassCurve.Affine.nonsingular_negAdd_of_eval_derivative_ne_zero",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 16,
+    "cluster_b": 53,
+    "label_a": "Order",
+    "label_b": "Data",
+    "theorem_a": "mabs_div_sup_mul_mabs_div_inf",
+    "theorem_b": "hyperoperation_ge_three_one",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 26,
+    "cluster_b": 53,
+    "label_a": "Data",
+    "label_b": "Data",
+    "theorem_a": "PNat.Coprime.gcd_mul_left_cancel_right",
+    "theorem_b": "hyperoperation_ge_three_one",
+    "norm_edit_dist": 0.7778,
+    "surprise": 0.2222
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 24,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Analysis + Data + Algebra",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "EReal.mul_inv",
+    "norm_edit_dist": 0.78,
+    "surprise": 0.22
+  },
+  {
+    "cluster_a": 0,
+    "cluster_b": 26,
+    "label_a": "Algebra + Analysis + Data",
+    "label_b": "Data",
+    "theorem_a": "Fermat42.not_minimal",
+    "theorem_b": "PNat.gcd_props",
+    "norm_edit_dist": 0.78,
+    "surprise": 0.22
+  }
+]

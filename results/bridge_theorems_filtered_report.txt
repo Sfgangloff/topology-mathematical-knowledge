@@ -1,0 +1,208 @@
+================================================================================
+biSup_inf_biSup
+  #clusters=3  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] iSup_inf_iSup  (in_deg=2)
+    [SetTheory] Equiv.Set.prod  (in_deg=2)
+
+================================================================================
+HasCompactSupport.convolutionExistsAt
+  #clusters=3  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Analysis] Homeomorph.trans_apply  (in_deg=2)
+
+================================================================================
+GromovHausdorff.ghDist_le_hausdorffDist
+  #clusters=3  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [AlgebraicGeometry] GromovHausdorff.eq_toGHSpace_iff  (in_deg=2)
+
+================================================================================
+CauSeq.lim_inv
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Data] CauSeq.const_inv  (in_deg=1)
+
+================================================================================
+Subgroup.index_comap_of_surjective
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] Cardinal.toNat_congr  (in_deg=1)
+
+================================================================================
+Set.compl_section_ordSeparatingSet_mem_nhdsWithin_Ici
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] Set.eq_of_mem_ordConnectedSection_of_uIcc_subset  (in_deg=1)
+
+================================================================================
+Submodule.toLinearPMap_graph_eq
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [CategoryTheory] Submodule.existsUnique_from_graph  (in_deg=1)
+
+================================================================================
+exists_linearIndependent_snoc_of_lt_rank
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] exists_linearIndependent_cons_of_lt_rank  (in_deg=1)
+
+================================================================================
+Metric.Sum.mem_uniformity
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Topology] Metric.Sum.one_le_dist_inr_inl  (in_deg=1)
+
+================================================================================
+intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] intervalIntegral.continuousOn_primitive_interval_left  (in_deg=1)
+
+================================================================================
+Module.End.maxGenEigenspace_eq
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] WellFounded.iSup_eq_monotonicSequenceLimit  (in_deg=1)
+
+================================================================================
+Set.encard_union_eq
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] PartENat.card_sum  (in_deg=1)
+
+================================================================================
+MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_le_measure
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] sdiff_eq_sdiff_iff_inf_eq_inf  (in_deg=1)
+
+================================================================================
+ContinuousMap.setOfIdeal_eq_compl_singleton
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] TopologicalSpace.Opens.isCoatom_iff  (in_deg=1)
+
+================================================================================
+AlgebraicGeometry.is_localization_basicOpen_of_qcqs
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [CategoryTheory] AlgebraicGeometry.exists_eq_pow_mul_of_isCompact_of_isQuasiSeparated  (in_deg=1)
+    [CategoryTheory] AlgebraicGeometry.exists_pow_mul_eq_zero_of_res_basicOpen_eq_zero_of_isCompact  (in_deg=1)
+
+================================================================================
+Set.Countable.isPathConnected_compl_of_one_lt_rank
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] Set.Countable.dense_compl  (in_deg=1)
+
+================================================================================
+AddCircle.addWellApproximable_ae_empty_or_univ
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Algebra] MeasureTheory.union_ae_eq_univ_of_ae_eq_univ_left  (in_deg=1)
+
+================================================================================
+UpperHalfPlane.cmp_dist_eq_cmp_dist_coe_center
+  #clusters=2  min_indegree=1
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Analysis] Real.sinh_neg_iff  (in_deg=1)
+    [SetTheory] Ordering.gt  (in_deg=2)
+
+================================================================================
+linearIndependent_insert'
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] Equiv.Set.insert  (in_deg=2)
+
+================================================================================
+Ordinal.infinite_pigeonhole_set
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] Ordinal.infinite_pigeonhole_card  (in_deg=2)
+
+================================================================================
+Polynomial.coeff_divByMonic_X_sub_C
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] Finset.Icc_eq_empty  (in_deg=2)
+
+================================================================================
+Fintype.card_embedding_eq
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] Equiv.embeddingCongr  (in_deg=2)
+    [SetTheory] Function.Embedding.ofIsEmpty  (in_deg=2)
+
+================================================================================
+CategoryTheory.Limits.Types.Pushout.quot_mk_eq_iff
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Data] Equivalence.quot_mk_eq_iff  (in_deg=2)
+
+================================================================================
+intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le_Ico
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] intervalIntegral.continuousOn_primitive_interval  (in_deg=2)
+
+================================================================================
+FormalMultilinearSeries.changeOrigin_radius
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [AlgebraicGeometry] ENNReal.le_of_forall_pos_nnreal_lt  (in_deg=2)
+
+================================================================================
+IsLocalization.AtPrime.discreteValuationRing_of_dedekind_domain
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [RingTheory] IsLocalization.isNoetherianRing  (in_deg=2)
+
+================================================================================
+FirstOrder.Language.BoundedFormula.realize_constantsVarsEquiv
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] FirstOrder.Language.lhomWithConstants  (in_deg=2)
+
+================================================================================
+BumpCovering.sum_toPOUFun_eq
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] linearOrderOfSTO  (in_deg=2)
+
+================================================================================
+FirstOrder.Language.Embedding.isElementary_of_exists
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [AlgebraicGeometry] FirstOrder.Language.Embedding.map_rel  (in_deg=2)
+
+================================================================================
+FirstOrder.Language.Theory.isSatisfiable_union_distinctConstantsTheory_of_card_le
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [CategoryTheory] FirstOrder.Language.constantsOn.structure  (in_deg=2)
+
+================================================================================
+GromovHausdorff.hausdorffDist_optimal
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [AlgebraicGeometry] GromovHausdorff.eq_toGHSpace_iff  (in_deg=2)
+
+================================================================================
+Subgroup.SchurZassenhausInduction.step1
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [Order] Subgroup.relindex_sup_right  (in_deg=2)
+
+================================================================================
+PiTensorProduct.norm_eval_le_injectiveSeminorm
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] LinearMap.quotKerEquivRange  (in_deg=2)
+
+================================================================================
+Subalgebra.rank_sup_eq_rank_left_mul_rank_of_free
+  #clusters=2  min_indegree=2
+  Non-trivial cross-cluster premises (in_deg ≤ 2):
+    [SetTheory] rank_mul_rank  (in_deg=2)
+

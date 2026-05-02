@@ -1,0 +1,600 @@
+  3  biSup_inf_biSup
+     bridges: CategoryTheory, Order, SetTheory
+
+  3  Cardinal.sum_lt_prod
+     bridges: AlgebraicGeometry, CategoryTheory, SetTheory
+
+  3  HasCompactSupport.convolutionExistsAt
+     bridges: Analysis, CategoryTheory, SetTheory
+
+  3  FirstOrder.Language.exists_elementaryEmbedding_card_eq_of_ge
+     bridges: AlgebraicGeometry, CategoryTheory, SetTheory
+
+  3  GromovHausdorff.ghDist_le_hausdorffDist
+     bridges: AlgebraicGeometry, CategoryTheory, SetTheory
+
+  3  ONote.fundamentalSequence_has_prop
+     bridges: CategoryTheory, Data, SetTheory
+
+  2  Batteries.RBNode.reverse_ins
+     bridges: Batteries, Data
+
+  2  cmpLE_eq_cmp
+     bridges: Batteries, SetTheory
+
+  2  cmp_swap
+     bridges: Batteries, SetTheory
+
+  2  cmp_eq_cmp_symm
+     bridges: Batteries, SetTheory
+
+  2  OrderTop.ext_top
+     bridges: CategoryTheory, Order
+
+  2  OrderBot.ext_bot
+     bridges: Order, SetTheory
+
+  2  compl_compl_inf_distrib
+     bridges: Order, SetTheory
+
+  2  sdiff_sdiff_sdiff_cancel_right
+     bridges: Order, SetTheory
+
+  2  symmDiff_eq_bot
+     bridges: Order, SetTheory
+
+  2  iSup_inf_of_monotone
+     bridges: Order, SetTheory
+
+  2  mabs_mul_le
+     bridges: Order, SetTheory
+
+  2  MulAction.isPretransitive_compHom
+     bridges: Algebra, CategoryTheory
+
+  2  cbiSup_eq_of_not_forall
+     bridges: Order, SetTheory
+
+  2  CauSeq.lim_mul_lim
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  CauSeq.lim_inv
+     bridges: AlgebraicGeometry, Data
+
+  2  Real.le_mk_of_forall_le
+     bridges: Data, SetTheory
+
+  2  Real.exists_isLUB
+     bridges: Data, SetTheory
+
+  2  Real.cauSeq_converges
+     bridges: Data, SetTheory
+
+  2  Cardinal.mk_preimage_down
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.out_embedding
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  Cardinal.mk_option
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.cast_succ
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.sum_add_distrib
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  Cardinal.lift_mk_le_lift_mk_mul_of_lift_mk_preimage_le
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.sum_nat_eq_add_sum_succ
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  Cardinal.prod_eq_of_fintype
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.denumerable_iff
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_insert
+     bridges: Order, SetTheory
+
+  2  Subgroup.map_eq_map_iff
+     bridges: Order, SetTheory
+
+  2  MulAction.quotient_preimage_image_eq_union_mul
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  MulAction.pretransitive_iff_subsingleton_quotient
+     bridges: CategoryTheory, Data
+
+  2  WellFounded.prod_lex_of_wellFoundedOn_fiber
+     bridges: CategoryTheory, SetTheory
+
+  2  WellFounded.sigma_lex_of_wellFoundedOn_fiber
+     bridges: CategoryTheory, SetTheory
+
+  2  countable_image_lt_image_Ioi
+     bridges: CategoryTheory, SetTheory
+
+  2  Subgroup.card_dvd_of_injective
+     bridges: CategoryTheory, SetTheory
+
+  2  nhds_eq_iInf_abs_sub
+     bridges: Order, SetTheory
+
+  2  EMetric.diam_insert
+     bridges: Order, SetTheory
+
+  2  Subgroup.index_comap_of_surjective
+     bridges: CategoryTheory, SetTheory
+
+  2  Subgroup.relindex_inf_le
+     bridges: Order, SetTheory
+
+  2  Ordinal.type_out
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  Ordinal.type_subrel_lt
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.brange_const
+     bridges: Order, SetTheory
+
+  2  Ordinal.le_sup_shrink_equiv
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.enumOrd_surjective
+     bridges: Data, SetTheory
+
+  2  Cardinal.type_cardinal
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mul_eq_self
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.ciSup_add
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_equiv_of_lift_eq
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_embedding_eq_arrow_of_lift_le
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_surjective_eq_arrow_of_lift_le
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_finsupp_lift_of_infinite
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_bounded_set_le_of_infinite
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_bounded_set_le
+     bridges: CategoryTheory, SetTheory
+
+  2  linearIndependent_insert'
+     bridges: CategoryTheory, SetTheory
+
+  2  RelIso.cof_le_lift
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.lift_cof
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.cof_lsub_le_lift
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.cof_succ
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.cof_eq_one_iff_is_succ
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.cof_univ
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.infinite_pigeonhole_set
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.isRegular_succ
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.le_range_of_union_finset_eq_top
+     bridges: CategoryTheory, SetTheory
+
+  2  Antitone.map_limsSup_of_continuousAt
+     bridges: Algebra, SetTheory
+
+  2  Set.compl_section_ordSeparatingSet_mem_nhdsWithin_Ici
+     bridges: CategoryTheory, Order
+
+  2  Submodule.toLinearPMap_graph_eq
+     bridges: CategoryTheory, SetTheory
+
+  2  IsNoetherian.injective_of_surjective_of_injective
+     bridges: RingTheory, SetTheory
+
+  2  IsNoetherian.disjoint_partialSups_eventually_bot
+     bridges: CategoryTheory, Order
+
+  2  MulAction.automorphize_smul_left
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  AddAction.automorphize_smul_left
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  CategoryTheory.Adjunction.homEquiv_naturality_right_symm
+     bridges: CategoryTheory, Data
+
+  2  LinearIndependent.cardinal_lift_le_rank
+     bridges: CategoryTheory, SetTheory
+
+  2  lift_rank_range_le
+     bridges: CategoryTheory, SetTheory
+
+  2  exists_prime_orderOf_dvd_card
+     bridges: CategoryTheory, SetTheory
+
+  2  AffineSubspace.direction_sup
+     bridges: Order, SetTheory
+
+  2  TFAE_exists_lt_isLittleO_pow
+     bridges: Analysis, SetTheory
+
+  2  nontrivial_of_invariantBasisNumber
+     bridges: CategoryTheory, SetTheory
+
+  2  convex_hyperplane
+     bridges: Order, SetTheory
+
+  2  AddCircle.card_addOrderOf_eq_totient
+     bridges: Data, SetTheory
+
+  2  Polynomial.coeff_divByMonic_X_sub_C
+     bridges: Order, SetTheory
+
+  2  linearIndependent_le_basis
+     bridges: CategoryTheory, SetTheory
+
+  2  rank_self
+     bridges: CategoryTheory, SetTheory
+
+  2  affineIndependent_set_iff_linearIndependent_vsub
+     bridges: CategoryTheory, Data
+
+  2  nonempty_linearEquiv_of_lift_rank_eq
+     bridges: CategoryTheory, SetTheory
+
+  2  AEMeasurable.isLUB
+     bridges: CategoryTheory, SetTheory
+
+  2  LinearIndependent.union_of_quotient
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  rank_eq_one
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.essentiallySmall_iff
+     bridges: CategoryTheory, CategoryTheory
+
+  2  exists_linearIndependent_of_lt_rank
+     bridges: Order, SetTheory
+
+  2  exists_linearIndependent_snoc_of_lt_rank
+     bridges: CategoryTheory, SetTheory
+
+  2  eq_if_preStoneCechUnit_eq
+     bridges: CategoryTheory, Data
+
+  2  Submodule.rank_le_one_iff_isPrincipal
+     bridges: CategoryTheory, SetTheory
+
+  2  Subalgebra.eq_bot_of_rank_le_one
+     bridges: CategoryTheory, SetTheory
+
+  2  max_aleph0_card_le_rank_fun_nat
+     bridges: CategoryTheory, SetTheory
+
+  2  Matrix.adjugate_transpose
+     bridges: CategoryTheory, Data
+
+  2  Fintype.card_embedding_eq
+     bridges: CategoryTheory, SetTheory
+
+  2  ContinuousMultilinearMap.opNNNorm_prod
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  CategoryTheory.Limits.Types.colimit_eq
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.Limits.Types.coequalizer_preimage_image_eq_of_preimage_eq
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.Limits.Types.Pushout.quot_mk_eq_iff
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.OverPresheafAux.YonedaCollection.map₂_yonedaEquivFst
+     bridges: CategoryTheory, CategoryTheory
+
+  2  CategoryTheory.Functor.Final.zigzag_of_eqvGen_quot_rel
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.Limits.Types.FilteredColimit.isColimit_eq_iff
+     bridges: CategoryTheory, Data
+
+  2  Algebra.FinitePresentation.iff_quotient_mvPolynomial'
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.Subobject.pullback_map_self
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.Limits.CompleteLattice.prod_eq_inf
+     bridges: CategoryTheory, Order
+
+  2  CategoryTheory.Limits.CompleteLattice.coprod_eq_sup
+     bridges: CategoryTheory, Order
+
+  2  CategoryTheory.IsPushout.of_hasBinaryCoproduct
+     bridges: CategoryTheory, CategoryTheory
+
+  2  CategoryTheory.Functor.toSheafify_pullbackSheafificationCompatibility
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.Quotient.functor_map_eq_iff
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.Quotient.lift_unique'
+     bridges: CategoryTheory, Data
+
+  2  parallelepiped_comp_equiv
+     bridges: CategoryTheory, Data
+
+  2  parallelepiped_single
+     bridges: Order, SetTheory
+
+  2  BoxIntegral.Box.exists_seq_mono_tendsto
+     bridges: Data, SetTheory
+
+  2  Equiv.Perm.not_solvable
+     bridges: CategoryTheory, SetTheory
+
+  2  Metric.Sum.mem_uniformity
+     bridges: SetTheory, Topology
+
+  2  StructureGroupoid.compatible_of_mem_maximalAtlas
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  Ring.DirectLimit.of.zero_exact_aux
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  SimplexCategory.len_lt_of_mono
+     bridges: CategoryTheory, SetTheory
+
+  2  Besicovitch.exists_disjoint_closedBall_covering_ae_of_finiteMeasure_aux
+     bridges: Batteries, SetTheory
+
+  2  intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le_Ico
+     bridges: Order, SetTheory
+
+  2  intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le
+     bridges: Order, SetTheory
+
+  2  MeasureTheory.unifIntegrable_of
+     bridges: CategoryTheory, SetTheory
+
+  2  CommRingCat.Colimits.cocone_naturality_components
+     bridges: CategoryTheory, Data
+
+  2  TopCat.Sheaf.eq_of_locally_eq₂
+     bridges: CategoryTheory, Order
+
+  2  TopCat.Sheaf.objSupIsoProdEqLocus_inv_eq_iff
+     bridges: CategoryTheory, Order
+
+  2  Ideal.exists_comap_eq_of_mem_minimalPrimes
+     bridges: CategoryTheory, Order
+
+  2  Ideal.exists_minimalPrimes_comap_eq
+     bridges: CategoryTheory, SetTheory
+
+  2  Ideal.minimalPrimes_eq_subsingleton_self
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.ShortComplex.Homotopy.leftHomologyMap'_congr
+     bridges: Algebra, CategoryTheory
+
+  2  integral_inv
+     bridges: Analysis, Order
+
+  2  FormalMultilinearSeries.changeOrigin_radius
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  TopCat.subpresheafToTypes.isSheaf
+     bridges: CategoryTheory, Data
+
+  2  maximalIdeal_isPrincipal_of_isDedekindDomain
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.GrothendieckTopology.Subpresheaf.eq_sheafify
+     bridges: CategoryTheory, SetTheory
+
+  2  Algebra.discr_powerBasis_eq_norm
+     bridges: CategoryTheory, Data
+
+  2  IsDedekindDomain.HeightOneSpectrum.iInf_localization_eq_bot
+     bridges: CategoryTheory, Data
+
+  2  IsLocalization.AtPrime.discreteValuationRing_of_dedekind_domain
+     bridges: CategoryTheory, RingTheory
+
+  2  CategoryTheory.Abelian.Pseudoelement.pseudoZero_iff
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  ContinuousMap.sublattice_closure_eq_top
+     bridges: CategoryTheory, Topology
+
+  2  CategoryTheory.transferNatTransSelf_symm_comm
+     bridges: CategoryTheory, Data
+
+  2  Quiver.SingleObj.toPrefunctor_symm_comp
+     bridges: CategoryTheory, Data
+
+  2  Module.End.maxGenEigenspace_eq
+     bridges: RingTheory, SetTheory
+
+  2  CategoryTheory.MorphismProperty.LeftFraction.Localization.map_eq_iff
+     bridges: CategoryTheory, Data
+
+  2  CategoryTheory.MorphismProperty.LeftFraction.map_eq_iff
+     bridges: CategoryTheory, Data
+
+  2  Polynomial.sub_one_pow_totient_lt_cyclotomic_eval
+     bridges: Data, SetTheory
+
+  2  TopCat.GlueData.eqvGen_of_π_eq
+     bridges: CategoryTheory, Data
+
+  2  TopCat.GlueData.ι_eq_iff_rel
+     bridges: CategoryTheory, Data
+
+  2  WithLp.prod_lipschitzWith_equiv_aux
+     bridges: Order, SetTheory
+
+  2  Real.fourierCoeff_tsum_comp_add
+     bridges: Data, Order
+
+  2  Zlattice.rank
+     bridges: CategoryTheory, SetTheory
+
+  2  FirstOrder.Language.BoundedFormula.realize_constantsVarsEquiv
+     bridges: CategoryTheory, SetTheory
+
+  2  AddCommGrp.exact_iff
+     bridges: CategoryTheory, SetTheory
+
+  2  Complex.Gamma_mul_Gamma_add_half
+     bridges: CategoryTheory, SetTheory
+
+  2  TensorAlgebra.lift_comp_ι
+     bridges: CategoryTheory, Data
+
+  2  Set.encard_union_eq
+     bridges: CategoryTheory, SetTheory
+
+  2  MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_le_measure
+     bridges: CategoryTheory, Order
+
+  2  NumberField.canonicalEmbedding.norm_le_iff
+     bridges: CategoryTheory, SetTheory
+
+  2  LinearMap.BilinForm.isCompl_orthogonal_iff_disjoint
+     bridges: Order, SetTheory
+
+  2  CategoryTheory.ShortComplex.SnakeInput.naturality_δ
+     bridges: Algebra, CategoryTheory
+
+  2  AlgebraicGeometry.IsAffineOpen.ιOpens_basicOpen_preimage
+     bridges: CategoryTheory, Order
+
+  2  spectrum.hasFPowerSeriesOnBall_inverse_one_sub_smul
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  spectrum.limsup_pow_nnnorm_pow_one_div_le_spectralRadius
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  CategoryTheory.extensive_regular_generate_coherent
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.coherentTopology.mem_sieves_iff_hasEffectiveEpiFamily
+     bridges: CategoryTheory, SetTheory
+
+  2  AlgebraicTopology.DoldKan.Γ₀.Obj.Termwise.mapMono_comp
+     bridges: Batteries, CategoryTheory
+
+  2  BumpCovering.sum_toPOUFun_eq
+     bridges: Analysis, SetTheory
+
+  2  BumpCovering.continuous_toPOUFun
+     bridges: Analysis, CategoryTheory
+
+  2  FirstOrder.Language.Embedding.isElementary_of_exists
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  Quotient.finChoiceAux_eq
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  ContinuousMap.setOfIdeal_eq_compl_singleton
+     bridges: CategoryTheory, Order
+
+  2  WeierstrassCurve.Affine.nonsingular_neg_iff
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  NumberField.finite_of_discr_bdd
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.finrank_hom_simple_simple_eq_zero_of_not_iso
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.Limits.MonoCoprod.mono_inj
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.toPGame_le
+     bridges: CategoryTheory, SetTheory
+
+  2  Ordinal.toPGame_add
+     bridges: CategoryTheory, SetTheory
+
+  2  HomologicalComplex.HomologySequence.composableArrows₃_exact
+     bridges: Algebra, CategoryTheory
+
+  2  WeierstrassCurve.Jacobian.Point.fromAffine_ne_zero
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  IsCyclotomicExtension.discr_prime_pow_ne_two
+     bridges: CategoryTheory, Data
+
+  2  groupCohomology.resolution.forget₂ToModuleCatHomotopyEquiv_f_0_eq
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_subtype_le_of_countable_eventually_mem_aux
+     bridges: CategoryTheory, SetTheory
+
+  2  Cardinal.mk_subtype_le_of_countable_eventually_mem
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.PreGaloisCategory.card_hom_le_card_fiber_of_connected
+     bridges: CategoryTheory, SetTheory
+
+  2  CategoryTheory.PreGaloisCategory.card_aut_le_card_fiber_of_connected
+     bridges: CategoryTheory, SetTheory
+
+  2  FirstOrder.Language.Substructure.cg_iff_empty_or_exists_nat_generating_family
+     bridges: AlgebraicGeometry, Order
+
+  2  PFunctor.M.cases_mk
+     bridges: CategoryTheory, Data
+
+  2  FirstOrder.Language.card_functions_sum_skolem₁
+     bridges: CategoryTheory, SetTheory
+
+  2  FirstOrder.Language.card_functions_sum_skolem₁_le
+     bridges: CategoryTheory, SetTheory
+
+  2  FirstOrder.Language.exists_elementarySubstructure_card_eq
+     bridges: AlgebraicGeometry, SetTheory
+
+  2  Sylow.normalizer_sup_eq_top
+     bridges: CategoryTheory, Order
+
+  2  Surreal.bddAbove_range_of_small
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  Surreal.bddBelow_range_of_small
+     bridges: AlgebraicGeometry, CategoryTheory
+
+  2  AlgebraicGeometry.compact_open_induction_on
+     bridges: CategoryTheory, Order
+

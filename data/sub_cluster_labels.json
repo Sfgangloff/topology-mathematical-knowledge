@@ -1,0 +1,9524 @@
+{
+  "0_14": {
+    "top_cluster": 0,
+    "sub_cluster": 14,
+    "label": "Algebra",
+    "dominant_fraction": 0.424,
+    "norm_entropy": 0.622,
+    "size": 382,
+    "top_modules": [
+      [
+        "Algebra",
+        162
+      ],
+      [
+        "RingTheory",
+        100
+      ],
+      [
+        "Data",
+        36
+      ]
+    ]
+  },
+  "0_11": {
+    "top_cluster": 0,
+    "sub_cluster": 11,
+    "label": "Algebra + Analysis + NumberTheory",
+    "dominant_fraction": 0.206,
+    "norm_entropy": 0.774,
+    "size": 461,
+    "top_modules": [
+      [
+        "Algebra",
+        95
+      ],
+      [
+        "Analysis",
+        89
+      ],
+      [
+        "NumberTheory",
+        59
+      ]
+    ]
+  },
+  "0_10": {
+    "top_cluster": 0,
+    "sub_cluster": 10,
+    "label": "Analysis",
+    "dominant_fraction": 0.546,
+    "norm_entropy": 0.569,
+    "size": 493,
+    "top_modules": [
+      [
+        "Analysis",
+        269
+      ],
+      [
+        "Algebra",
+        75
+      ],
+      [
+        "Geometry",
+        67
+      ]
+    ]
+  },
+  "0_4": {
+    "top_cluster": 0,
+    "sub_cluster": 4,
+    "label": "Analysis",
+    "dominant_fraction": 0.469,
+    "norm_entropy": 0.552,
+    "size": 1223,
+    "top_modules": [
+      [
+        "Analysis",
+        574
+      ],
+      [
+        "Data",
+        266
+      ],
+      [
+        "NumberTheory",
+        162
+      ]
+    ]
+  },
+  "0_5": {
+    "top_cluster": 0,
+    "sub_cluster": 5,
+    "label": "Data + External + NumberTheory",
+    "dominant_fraction": 0.313,
+    "norm_entropy": 0.614,
+    "size": 742,
+    "top_modules": [
+      [
+        "Data",
+        232
+      ],
+      [
+        "External",
+        216
+      ],
+      [
+        "NumberTheory",
+        172
+      ]
+    ]
+  },
+  "0_9": {
+    "top_cluster": 0,
+    "sub_cluster": 9,
+    "label": "Algebra",
+    "dominant_fraction": 0.416,
+    "norm_entropy": 0.677,
+    "size": 526,
+    "top_modules": [
+      [
+        "Algebra",
+        219
+      ],
+      [
+        "Data",
+        96
+      ],
+      [
+        "Analysis",
+        45
+      ]
+    ]
+  },
+  "0_13": {
+    "top_cluster": 0,
+    "sub_cluster": 13,
+    "label": "Algebra + Analysis + Data",
+    "dominant_fraction": 0.36,
+    "norm_entropy": 0.717,
+    "size": 442,
+    "top_modules": [
+      [
+        "Algebra",
+        159
+      ],
+      [
+        "Analysis",
+        79
+      ],
+      [
+        "Data",
+        55
+      ]
+    ]
+  },
+  "0_6": {
+    "top_cluster": 0,
+    "sub_cluster": 6,
+    "label": "Algebra + Data + Analysis",
+    "dominant_fraction": 0.267,
+    "norm_entropy": 0.748,
+    "size": 625,
+    "top_modules": [
+      [
+        "Algebra",
+        167
+      ],
+      [
+        "Data",
+        89
+      ],
+      [
+        "Analysis",
+        76
+      ]
+    ]
+  },
+  "0_0": {
+    "top_cluster": 0,
+    "sub_cluster": 0,
+    "label": "Analysis + Algebra + Data",
+    "dominant_fraction": 0.332,
+    "norm_entropy": 0.678,
+    "size": 1461,
+    "top_modules": [
+      [
+        "Analysis",
+        485
+      ],
+      [
+        "Algebra",
+        274
+      ],
+      [
+        "Data",
+        184
+      ]
+    ]
+  },
+  "0_1": {
+    "top_cluster": 0,
+    "sub_cluster": 1,
+    "label": "Algebra + Data + NumberTheory",
+    "dominant_fraction": 0.249,
+    "norm_entropy": 0.711,
+    "size": 1346,
+    "top_modules": [
+      [
+        "Algebra",
+        335
+      ],
+      [
+        "Data",
+        326
+      ],
+      [
+        "NumberTheory",
+        157
+      ]
+    ]
+  },
+  "0_7": {
+    "top_cluster": 0,
+    "sub_cluster": 7,
+    "label": "Analysis",
+    "dominant_fraction": 0.692,
+    "norm_entropy": 0.466,
+    "size": 604,
+    "top_modules": [
+      [
+        "Analysis",
+        418
+      ],
+      [
+        "Data",
+        65
+      ],
+      [
+        "Algebra",
+        29
+      ]
+    ]
+  },
+  "0_3": {
+    "top_cluster": 0,
+    "sub_cluster": 3,
+    "label": "Algebra",
+    "dominant_fraction": 0.416,
+    "norm_entropy": 0.636,
+    "size": 1299,
+    "top_modules": [
+      [
+        "Algebra",
+        541
+      ],
+      [
+        "Analysis",
+        212
+      ],
+      [
+        "Unknown",
+        117
+      ]
+    ]
+  },
+  "0_18": {
+    "top_cluster": 0,
+    "sub_cluster": 18,
+    "label": "Algebra",
+    "dominant_fraction": 0.87,
+    "norm_entropy": 0.374,
+    "size": 46,
+    "top_modules": [
+      [
+        "Algebra",
+        40
+      ],
+      [
+        "External",
+        3
+      ],
+      [
+        "Data",
+        2
+      ]
+    ]
+  },
+  "0_12": {
+    "top_cluster": 0,
+    "sub_cluster": 12,
+    "label": "NumberTheory",
+    "dominant_fraction": 0.46,
+    "norm_entropy": 0.661,
+    "size": 461,
+    "top_modules": [
+      [
+        "NumberTheory",
+        212
+      ],
+      [
+        "Analysis",
+        65
+      ],
+      [
+        "Data",
+        48
+      ]
+    ]
+  },
+  "0_8": {
+    "top_cluster": 0,
+    "sub_cluster": 8,
+    "label": "NumberTheory + Data + Algebra",
+    "dominant_fraction": 0.335,
+    "norm_entropy": 0.636,
+    "size": 526,
+    "top_modules": [
+      [
+        "NumberTheory",
+        176
+      ],
+      [
+        "Data",
+        175
+      ],
+      [
+        "Algebra",
+        52
+      ]
+    ]
+  },
+  "0_2": {
+    "top_cluster": 0,
+    "sub_cluster": 2,
+    "label": "Algebra + Analysis + Data",
+    "dominant_fraction": 0.376,
+    "norm_entropy": 0.701,
+    "size": 1315,
+    "top_modules": [
+      [
+        "Algebra",
+        495
+      ],
+      [
+        "Analysis",
+        205
+      ],
+      [
+        "Data",
+        109
+      ]
+    ]
+  },
+  "0_15": {
+    "top_cluster": 0,
+    "sub_cluster": 15,
+    "label": "Analysis + NumberTheory + Unknown",
+    "dominant_fraction": 0.381,
+    "norm_entropy": 0.739,
+    "size": 281,
+    "top_modules": [
+      [
+        "Analysis",
+        107
+      ],
+      [
+        "NumberTheory",
+        48
+      ],
+      [
+        "Unknown",
+        31
+      ]
+    ]
+  },
+  "0_19": {
+    "top_cluster": 0,
+    "sub_cluster": 19,
+    "label": "Algebra",
+    "dominant_fraction": 0.511,
+    "norm_entropy": 0.597,
+    "size": 45,
+    "top_modules": [
+      [
+        "Algebra",
+        23
+      ],
+      [
+        "Analysis",
+        19
+      ],
+      [
+        "Topology",
+        1
+      ]
+    ]
+  },
+  "0_16": {
+    "top_cluster": 0,
+    "sub_cluster": 16,
+    "label": "NumberTheory",
+    "dominant_fraction": 0.531,
+    "norm_entropy": 0.634,
+    "size": 177,
+    "top_modules": [
+      [
+        "NumberTheory",
+        94
+      ],
+      [
+        "Data",
+        30
+      ],
+      [
+        "Algebra",
+        17
+      ]
+    ]
+  },
+  "0_17": {
+    "top_cluster": 0,
+    "sub_cluster": 17,
+    "label": "AlgebraicGeometry + Data + External",
+    "dominant_fraction": 0.36,
+    "norm_entropy": 0.866,
+    "size": 50,
+    "top_modules": [
+      [
+        "AlgebraicGeometry",
+        18
+      ],
+      [
+        "Data",
+        10
+      ],
+      [
+        "External",
+        8
+      ]
+    ]
+  },
+  "0_20": {
+    "top_cluster": 0,
+    "sub_cluster": 20,
+    "label": "Dynamics",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 8,
+    "top_modules": [
+      [
+        "Dynamics",
+        8
+      ]
+    ]
+  },
+  "1_4": {
+    "top_cluster": 1,
+    "sub_cluster": 4,
+    "label": "Analysis + Topology + MeasureTheory",
+    "dominant_fraction": 0.322,
+    "norm_entropy": 0.682,
+    "size": 1239,
+    "top_modules": [
+      [
+        "Analysis",
+        399
+      ],
+      [
+        "Topology",
+        333
+      ],
+      [
+        "MeasureTheory",
+        152
+      ]
+    ]
+  },
+  "1_9": {
+    "top_cluster": 1,
+    "sub_cluster": 9,
+    "label": "Topology + Order + MeasureTheory",
+    "dominant_fraction": 0.251,
+    "norm_entropy": 0.7,
+    "size": 525,
+    "top_modules": [
+      [
+        "Topology",
+        132
+      ],
+      [
+        "Order",
+        126
+      ],
+      [
+        "MeasureTheory",
+        98
+      ]
+    ]
+  },
+  "1_1": {
+    "top_cluster": 1,
+    "sub_cluster": 1,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.509,
+    "norm_entropy": 0.55,
+    "size": 1407,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        716
+      ],
+      [
+        "Probability",
+        224
+      ],
+      [
+        "Data",
+        140
+      ]
+    ]
+  },
+  "1_8": {
+    "top_cluster": 1,
+    "sub_cluster": 8,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.561,
+    "norm_entropy": 0.587,
+    "size": 528,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        296
+      ],
+      [
+        "Topology",
+        48
+      ],
+      [
+        "Data",
+        39
+      ]
+    ]
+  },
+  "1_2": {
+    "top_cluster": 1,
+    "sub_cluster": 2,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.663,
+    "norm_entropy": 0.492,
+    "size": 1400,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        928
+      ],
+      [
+        "Probability",
+        185
+      ],
+      [
+        "Analysis",
+        84
+      ]
+    ]
+  },
+  "1_10": {
+    "top_cluster": 1,
+    "sub_cluster": 10,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.786,
+    "norm_entropy": 0.332,
+    "size": 467,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        367
+      ],
+      [
+        "Probability",
+        69
+      ],
+      [
+        "Unknown",
+        13
+      ]
+    ]
+  },
+  "1_7": {
+    "top_cluster": 1,
+    "sub_cluster": 7,
+    "label": "Analysis + MeasureTheory + Data",
+    "dominant_fraction": 0.383,
+    "norm_entropy": 0.637,
+    "size": 666,
+    "top_modules": [
+      [
+        "Analysis",
+        255
+      ],
+      [
+        "MeasureTheory",
+        165
+      ],
+      [
+        "Data",
+        129
+      ]
+    ]
+  },
+  "1_0": {
+    "top_cluster": 1,
+    "sub_cluster": 0,
+    "label": "Analysis + Topology + MeasureTheory",
+    "dominant_fraction": 0.274,
+    "norm_entropy": 0.674,
+    "size": 1465,
+    "top_modules": [
+      [
+        "Analysis",
+        401
+      ],
+      [
+        "Topology",
+        289
+      ],
+      [
+        "MeasureTheory",
+        271
+      ]
+    ]
+  },
+  "1_3": {
+    "top_cluster": 1,
+    "sub_cluster": 3,
+    "label": "Topology",
+    "dominant_fraction": 0.471,
+    "norm_entropy": 0.56,
+    "size": 1295,
+    "top_modules": [
+      [
+        "Topology",
+        610
+      ],
+      [
+        "Analysis",
+        196
+      ],
+      [
+        "MeasureTheory",
+        150
+      ]
+    ]
+  },
+  "1_15": {
+    "top_cluster": 1,
+    "sub_cluster": 15,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.545,
+    "norm_entropy": 0.673,
+    "size": 101,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        55
+      ],
+      [
+        "Data",
+        22
+      ],
+      [
+        "Probability",
+        11
+      ]
+    ]
+  },
+  "1_6": {
+    "top_cluster": 1,
+    "sub_cluster": 6,
+    "label": "MeasureTheory + Analysis + Order",
+    "dominant_fraction": 0.361,
+    "norm_entropy": 0.654,
+    "size": 887,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        320
+      ],
+      [
+        "Analysis",
+        187
+      ],
+      [
+        "Order",
+        106
+      ]
+    ]
+  },
+  "1_5": {
+    "top_cluster": 1,
+    "sub_cluster": 5,
+    "label": "Analysis",
+    "dominant_fraction": 0.501,
+    "norm_entropy": 0.568,
+    "size": 1023,
+    "top_modules": [
+      [
+        "Analysis",
+        513
+      ],
+      [
+        "Topology",
+        202
+      ],
+      [
+        "MeasureTheory",
+        113
+      ]
+    ]
+  },
+  "1_14": {
+    "top_cluster": 1,
+    "sub_cluster": 14,
+    "label": "Order + Analysis + MeasureTheory",
+    "dominant_fraction": 0.272,
+    "norm_entropy": 0.766,
+    "size": 261,
+    "top_modules": [
+      [
+        "Order",
+        71
+      ],
+      [
+        "Analysis",
+        71
+      ],
+      [
+        "MeasureTheory",
+        53
+      ]
+    ]
+  },
+  "1_12": {
+    "top_cluster": 1,
+    "sub_cluster": 12,
+    "label": "Analysis + Topology + Data",
+    "dominant_fraction": 0.35,
+    "norm_entropy": 0.653,
+    "size": 314,
+    "top_modules": [
+      [
+        "Analysis",
+        110
+      ],
+      [
+        "Topology",
+        89
+      ],
+      [
+        "Data",
+        64
+      ]
+    ]
+  },
+  "1_16": {
+    "top_cluster": 1,
+    "sub_cluster": 16,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.849,
+    "norm_entropy": 0.461,
+    "size": 86,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        73
+      ],
+      [
+        "Probability",
+        10
+      ],
+      [
+        "Topology",
+        3
+      ]
+    ]
+  },
+  "1_11": {
+    "top_cluster": 1,
+    "sub_cluster": 11,
+    "label": "Topology",
+    "dominant_fraction": 0.607,
+    "norm_entropy": 0.675,
+    "size": 361,
+    "top_modules": [
+      [
+        "Topology",
+        219
+      ],
+      [
+        "Analysis",
+        46
+      ],
+      [
+        "Data",
+        38
+      ]
+    ]
+  },
+  "1_13": {
+    "top_cluster": 1,
+    "sub_cluster": 13,
+    "label": "Probability + Order + Topology",
+    "dominant_fraction": 0.376,
+    "norm_entropy": 0.738,
+    "size": 298,
+    "top_modules": [
+      [
+        "Probability",
+        112
+      ],
+      [
+        "Order",
+        62
+      ],
+      [
+        "Topology",
+        49
+      ]
+    ]
+  },
+  "1_17": {
+    "top_cluster": 1,
+    "sub_cluster": 17,
+    "label": "Probability",
+    "dominant_fraction": 0.571,
+    "norm_entropy": 0.777,
+    "size": 28,
+    "top_modules": [
+      [
+        "Probability",
+        16
+      ],
+      [
+        "Order",
+        6
+      ],
+      [
+        "Unknown",
+        5
+      ]
+    ]
+  },
+  "1_21": {
+    "top_cluster": 1,
+    "sub_cluster": 21,
+    "label": "Order",
+    "dominant_fraction": 0.75,
+    "norm_entropy": 0.811,
+    "size": 4,
+    "top_modules": [
+      [
+        "Order",
+        3
+      ],
+      [
+        "MeasureTheory",
+        1
+      ]
+    ]
+  },
+  "1_18": {
+    "top_cluster": 1,
+    "sub_cluster": 18,
+    "label": "Topology",
+    "dominant_fraction": 0.714,
+    "norm_entropy": 0.646,
+    "size": 14,
+    "top_modules": [
+      [
+        "Topology",
+        10
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "MeasureTheory",
+        1
+      ]
+    ]
+  },
+  "1_19": {
+    "top_cluster": 1,
+    "sub_cluster": 19,
+    "label": "MeasureTheory",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 9,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        9
+      ]
+    ]
+  },
+  "1_20": {
+    "top_cluster": 1,
+    "sub_cluster": 20,
+    "label": "Analysis + MeasureTheory + Unknown",
+    "dominant_fraction": 0.375,
+    "norm_entropy": 0.906,
+    "size": 8,
+    "top_modules": [
+      [
+        "Analysis",
+        3
+      ],
+      [
+        "MeasureTheory",
+        3
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "1_22": {
+    "top_cluster": 1,
+    "sub_cluster": 22,
+    "label": "MeasureTheory",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 4,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        4
+      ]
+    ]
+  },
+  "2_12": {
+    "top_cluster": 2,
+    "sub_cluster": 12,
+    "label": "Data + Algebra + Order",
+    "dominant_fraction": 0.227,
+    "norm_entropy": 0.796,
+    "size": 406,
+    "top_modules": [
+      [
+        "Data",
+        92
+      ],
+      [
+        "Algebra",
+        65
+      ],
+      [
+        "Order",
+        38
+      ]
+    ]
+  },
+  "2_1": {
+    "top_cluster": 2,
+    "sub_cluster": 1,
+    "label": "Data + Order + RingTheory",
+    "dominant_fraction": 0.231,
+    "norm_entropy": 0.806,
+    "size": 705,
+    "top_modules": [
+      [
+        "Data",
+        163
+      ],
+      [
+        "Order",
+        113
+      ],
+      [
+        "RingTheory",
+        71
+      ]
+    ]
+  },
+  "2_3": {
+    "top_cluster": 2,
+    "sub_cluster": 3,
+    "label": "GroupTheory + Data + Combinatorics",
+    "dominant_fraction": 0.301,
+    "norm_entropy": 0.7,
+    "size": 601,
+    "top_modules": [
+      [
+        "GroupTheory",
+        181
+      ],
+      [
+        "Data",
+        160
+      ],
+      [
+        "Combinatorics",
+        80
+      ]
+    ]
+  },
+  "2_5": {
+    "top_cluster": 2,
+    "sub_cluster": 5,
+    "label": "Data + MeasureTheory + Topology",
+    "dominant_fraction": 0.254,
+    "norm_entropy": 0.759,
+    "size": 523,
+    "top_modules": [
+      [
+        "Data",
+        133
+      ],
+      [
+        "MeasureTheory",
+        85
+      ],
+      [
+        "Topology",
+        80
+      ]
+    ]
+  },
+  "2_4": {
+    "top_cluster": 2,
+    "sub_cluster": 4,
+    "label": "Data + Analysis + Algebra",
+    "dominant_fraction": 0.372,
+    "norm_entropy": 0.769,
+    "size": 581,
+    "top_modules": [
+      [
+        "Data",
+        216
+      ],
+      [
+        "Analysis",
+        58
+      ],
+      [
+        "Algebra",
+        50
+      ]
+    ]
+  },
+  "2_16": {
+    "top_cluster": 2,
+    "sub_cluster": 16,
+    "label": "LinearAlgebra + Data + Order",
+    "dominant_fraction": 0.215,
+    "norm_entropy": 0.794,
+    "size": 311,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        67
+      ],
+      [
+        "Data",
+        58
+      ],
+      [
+        "Order",
+        45
+      ]
+    ]
+  },
+  "2_8": {
+    "top_cluster": 2,
+    "sub_cluster": 8,
+    "label": "Data + Order + Topology",
+    "dominant_fraction": 0.364,
+    "norm_entropy": 0.729,
+    "size": 445,
+    "top_modules": [
+      [
+        "Data",
+        162
+      ],
+      [
+        "Order",
+        52
+      ],
+      [
+        "Topology",
+        44
+      ]
+    ]
+  },
+  "2_0": {
+    "top_cluster": 2,
+    "sub_cluster": 0,
+    "label": "Data + Combinatorics + Algebra",
+    "dominant_fraction": 0.391,
+    "norm_entropy": 0.689,
+    "size": 1219,
+    "top_modules": [
+      [
+        "Data",
+        477
+      ],
+      [
+        "Combinatorics",
+        207
+      ],
+      [
+        "Algebra",
+        129
+      ]
+    ]
+  },
+  "2_11": {
+    "top_cluster": 2,
+    "sub_cluster": 11,
+    "label": "Data",
+    "dominant_fraction": 0.413,
+    "norm_entropy": 0.595,
+    "size": 412,
+    "top_modules": [
+      [
+        "Data",
+        170
+      ],
+      [
+        "Algebra",
+        121
+      ],
+      [
+        "RingTheory",
+        64
+      ]
+    ]
+  },
+  "2_10": {
+    "top_cluster": 2,
+    "sub_cluster": 10,
+    "label": "Data + Combinatorics + Order",
+    "dominant_fraction": 0.363,
+    "norm_entropy": 0.764,
+    "size": 427,
+    "top_modules": [
+      [
+        "Data",
+        155
+      ],
+      [
+        "Combinatorics",
+        48
+      ],
+      [
+        "Order",
+        36
+      ]
+    ]
+  },
+  "2_24": {
+    "top_cluster": 2,
+    "sub_cluster": 24,
+    "label": "NumberTheory",
+    "dominant_fraction": 0.405,
+    "norm_entropy": 0.689,
+    "size": 111,
+    "top_modules": [
+      [
+        "NumberTheory",
+        45
+      ],
+      [
+        "Data",
+        25
+      ],
+      [
+        "Algebra",
+        22
+      ]
+    ]
+  },
+  "2_7": {
+    "top_cluster": 2,
+    "sub_cluster": 7,
+    "label": "Data + Algebra + NumberTheory",
+    "dominant_fraction": 0.23,
+    "norm_entropy": 0.818,
+    "size": 473,
+    "top_modules": [
+      [
+        "Data",
+        109
+      ],
+      [
+        "Algebra",
+        71
+      ],
+      [
+        "NumberTheory",
+        55
+      ]
+    ]
+  },
+  "2_2": {
+    "top_cluster": 2,
+    "sub_cluster": 2,
+    "label": "Order + Data + Topology",
+    "dominant_fraction": 0.24,
+    "norm_entropy": 0.796,
+    "size": 662,
+    "top_modules": [
+      [
+        "Order",
+        159
+      ],
+      [
+        "Data",
+        112
+      ],
+      [
+        "Topology",
+        93
+      ]
+    ]
+  },
+  "2_19": {
+    "top_cluster": 2,
+    "sub_cluster": 19,
+    "label": "Algebra + Topology + Data",
+    "dominant_fraction": 0.344,
+    "norm_entropy": 0.697,
+    "size": 215,
+    "top_modules": [
+      [
+        "Algebra",
+        74
+      ],
+      [
+        "Topology",
+        54
+      ],
+      [
+        "Data",
+        44
+      ]
+    ]
+  },
+  "2_15": {
+    "top_cluster": 2,
+    "sub_cluster": 15,
+    "label": "Data + Order + Algebra",
+    "dominant_fraction": 0.22,
+    "norm_entropy": 0.814,
+    "size": 345,
+    "top_modules": [
+      [
+        "Data",
+        76
+      ],
+      [
+        "Order",
+        72
+      ],
+      [
+        "Algebra",
+        34
+      ]
+    ]
+  },
+  "2_13": {
+    "top_cluster": 2,
+    "sub_cluster": 13,
+    "label": "Data + Algebra + Order",
+    "dominant_fraction": 0.389,
+    "norm_entropy": 0.726,
+    "size": 404,
+    "top_modules": [
+      [
+        "Data",
+        157
+      ],
+      [
+        "Algebra",
+        41
+      ],
+      [
+        "Order",
+        39
+      ]
+    ]
+  },
+  "2_14": {
+    "top_cluster": 2,
+    "sub_cluster": 14,
+    "label": "Data",
+    "dominant_fraction": 0.755,
+    "norm_entropy": 0.404,
+    "size": 364,
+    "top_modules": [
+      [
+        "Data",
+        275
+      ],
+      [
+        "Order",
+        19
+      ],
+      [
+        "Algebra",
+        18
+      ]
+    ]
+  },
+  "2_9": {
+    "top_cluster": 2,
+    "sub_cluster": 9,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.626,
+    "norm_entropy": 0.531,
+    "size": 428,
+    "top_modules": [
+      [
+        "GroupTheory",
+        268
+      ],
+      [
+        "Logic",
+        58
+      ],
+      [
+        "Data",
+        25
+      ]
+    ]
+  },
+  "2_6": {
+    "top_cluster": 2,
+    "sub_cluster": 6,
+    "label": "Data + Order + Algebra",
+    "dominant_fraction": 0.366,
+    "norm_entropy": 0.619,
+    "size": 500,
+    "top_modules": [
+      [
+        "Data",
+        183
+      ],
+      [
+        "Order",
+        161
+      ],
+      [
+        "Algebra",
+        50
+      ]
+    ]
+  },
+  "2_17": {
+    "top_cluster": 2,
+    "sub_cluster": 17,
+    "label": "Data + Order + Algebra",
+    "dominant_fraction": 0.355,
+    "norm_entropy": 0.719,
+    "size": 251,
+    "top_modules": [
+      [
+        "Data",
+        89
+      ],
+      [
+        "Order",
+        56
+      ],
+      [
+        "Algebra",
+        39
+      ]
+    ]
+  },
+  "2_20": {
+    "top_cluster": 2,
+    "sub_cluster": 20,
+    "label": "Analysis + Data + Combinatorics",
+    "dominant_fraction": 0.333,
+    "norm_entropy": 0.766,
+    "size": 177,
+    "top_modules": [
+      [
+        "Analysis",
+        59
+      ],
+      [
+        "Data",
+        33
+      ],
+      [
+        "Combinatorics",
+        21
+      ]
+    ]
+  },
+  "2_23": {
+    "top_cluster": 2,
+    "sub_cluster": 23,
+    "label": "Analysis",
+    "dominant_fraction": 0.734,
+    "norm_entropy": 0.512,
+    "size": 128,
+    "top_modules": [
+      [
+        "Analysis",
+        94
+      ],
+      [
+        "Data",
+        19
+      ],
+      [
+        "Order",
+        5
+      ]
+    ]
+  },
+  "2_22": {
+    "top_cluster": 2,
+    "sub_cluster": 22,
+    "label": "Data + Order + Algebra",
+    "dominant_fraction": 0.313,
+    "norm_entropy": 0.751,
+    "size": 131,
+    "top_modules": [
+      [
+        "Data",
+        41
+      ],
+      [
+        "Order",
+        37
+      ],
+      [
+        "Algebra",
+        17
+      ]
+    ]
+  },
+  "2_21": {
+    "top_cluster": 2,
+    "sub_cluster": 21,
+    "label": "Data + GroupTheory + Combinatorics",
+    "dominant_fraction": 0.35,
+    "norm_entropy": 0.753,
+    "size": 160,
+    "top_modules": [
+      [
+        "Data",
+        56
+      ],
+      [
+        "GroupTheory",
+        50
+      ],
+      [
+        "Combinatorics",
+        18
+      ]
+    ]
+  },
+  "2_26": {
+    "top_cluster": 2,
+    "sub_cluster": 26,
+    "label": "Data",
+    "dominant_fraction": 0.588,
+    "norm_entropy": 0.696,
+    "size": 51,
+    "top_modules": [
+      [
+        "Data",
+        30
+      ],
+      [
+        "Combinatorics",
+        11
+      ],
+      [
+        "Order",
+        7
+      ]
+    ]
+  },
+  "2_18": {
+    "top_cluster": 2,
+    "sub_cluster": 18,
+    "label": "Combinatorics",
+    "dominant_fraction": 0.607,
+    "norm_entropy": 0.54,
+    "size": 244,
+    "top_modules": [
+      [
+        "Combinatorics",
+        148
+      ],
+      [
+        "Data",
+        54
+      ],
+      [
+        "Order",
+        15
+      ]
+    ]
+  },
+  "2_25": {
+    "top_cluster": 2,
+    "sub_cluster": 25,
+    "label": "NumberTheory",
+    "dominant_fraction": 0.577,
+    "norm_entropy": 0.647,
+    "size": 104,
+    "top_modules": [
+      [
+        "NumberTheory",
+        60
+      ],
+      [
+        "Data",
+        15
+      ],
+      [
+        "Combinatorics",
+        11
+      ]
+    ]
+  },
+  "2_27": {
+    "top_cluster": 2,
+    "sub_cluster": 27,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.909,
+    "norm_entropy": 0.439,
+    "size": 11,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        10
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "3_7": {
+    "top_cluster": 3,
+    "sub_cluster": 7,
+    "label": "RingTheory",
+    "dominant_fraction": 0.581,
+    "norm_entropy": 0.536,
+    "size": 406,
+    "top_modules": [
+      [
+        "RingTheory",
+        236
+      ],
+      [
+        "Algebra",
+        76
+      ],
+      [
+        "LinearAlgebra",
+        23
+      ]
+    ]
+  },
+  "3_12": {
+    "top_cluster": 3,
+    "sub_cluster": 12,
+    "label": "Algebra",
+    "dominant_fraction": 0.407,
+    "norm_entropy": 0.702,
+    "size": 354,
+    "top_modules": [
+      [
+        "Algebra",
+        144
+      ],
+      [
+        "LinearAlgebra",
+        54
+      ],
+      [
+        "RingTheory",
+        51
+      ]
+    ]
+  },
+  "3_4": {
+    "top_cluster": 3,
+    "sub_cluster": 4,
+    "label": "Algebra",
+    "dominant_fraction": 0.673,
+    "norm_entropy": 0.431,
+    "size": 657,
+    "top_modules": [
+      [
+        "Algebra",
+        442
+      ],
+      [
+        "RingTheory",
+        117
+      ],
+      [
+        "Data",
+        24
+      ]
+    ]
+  },
+  "3_1": {
+    "top_cluster": 3,
+    "sub_cluster": 1,
+    "label": "RingTheory",
+    "dominant_fraction": 0.426,
+    "norm_entropy": 0.517,
+    "size": 747,
+    "top_modules": [
+      [
+        "RingTheory",
+        318
+      ],
+      [
+        "Algebra",
+        317
+      ],
+      [
+        "Unknown",
+        36
+      ]
+    ]
+  },
+  "3_13": {
+    "top_cluster": 3,
+    "sub_cluster": 13,
+    "label": "RingTheory",
+    "dominant_fraction": 0.543,
+    "norm_entropy": 0.609,
+    "size": 348,
+    "top_modules": [
+      [
+        "RingTheory",
+        189
+      ],
+      [
+        "Algebra",
+        68
+      ],
+      [
+        "FieldTheory",
+        29
+      ]
+    ]
+  },
+  "3_10": {
+    "top_cluster": 3,
+    "sub_cluster": 10,
+    "label": "RingTheory + Algebra + NumberTheory",
+    "dominant_fraction": 0.368,
+    "norm_entropy": 0.673,
+    "size": 389,
+    "top_modules": [
+      [
+        "RingTheory",
+        143
+      ],
+      [
+        "Algebra",
+        101
+      ],
+      [
+        "NumberTheory",
+        77
+      ]
+    ]
+  },
+  "3_8": {
+    "top_cluster": 3,
+    "sub_cluster": 8,
+    "label": "Algebra + RingTheory + NumberTheory",
+    "dominant_fraction": 0.292,
+    "norm_entropy": 0.735,
+    "size": 394,
+    "top_modules": [
+      [
+        "Algebra",
+        115
+      ],
+      [
+        "RingTheory",
+        101
+      ],
+      [
+        "NumberTheory",
+        44
+      ]
+    ]
+  },
+  "3_17": {
+    "top_cluster": 3,
+    "sub_cluster": 17,
+    "label": "Algebra + RingTheory + FieldTheory",
+    "dominant_fraction": 0.294,
+    "norm_entropy": 0.694,
+    "size": 279,
+    "top_modules": [
+      [
+        "Algebra",
+        82
+      ],
+      [
+        "RingTheory",
+        75
+      ],
+      [
+        "FieldTheory",
+        58
+      ]
+    ]
+  },
+  "3_0": {
+    "top_cluster": 3,
+    "sub_cluster": 0,
+    "label": "Algebra",
+    "dominant_fraction": 0.455,
+    "norm_entropy": 0.592,
+    "size": 794,
+    "top_modules": [
+      [
+        "Algebra",
+        361
+      ],
+      [
+        "RingTheory",
+        175
+      ],
+      [
+        "FieldTheory",
+        153
+      ]
+    ]
+  },
+  "3_9": {
+    "top_cluster": 3,
+    "sub_cluster": 9,
+    "label": "Algebra + Data + RingTheory",
+    "dominant_fraction": 0.216,
+    "norm_entropy": 0.817,
+    "size": 394,
+    "top_modules": [
+      [
+        "Algebra",
+        85
+      ],
+      [
+        "Data",
+        68
+      ],
+      [
+        "RingTheory",
+        50
+      ]
+    ]
+  },
+  "3_6": {
+    "top_cluster": 3,
+    "sub_cluster": 6,
+    "label": "LinearAlgebra + Algebra + RingTheory",
+    "dominant_fraction": 0.367,
+    "norm_entropy": 0.646,
+    "size": 461,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        169
+      ],
+      [
+        "Algebra",
+        98
+      ],
+      [
+        "RingTheory",
+        97
+      ]
+    ]
+  },
+  "3_3": {
+    "top_cluster": 3,
+    "sub_cluster": 3,
+    "label": "FieldTheory",
+    "dominant_fraction": 0.561,
+    "norm_entropy": 0.559,
+    "size": 672,
+    "top_modules": [
+      [
+        "FieldTheory",
+        377
+      ],
+      [
+        "RingTheory",
+        101
+      ],
+      [
+        "Algebra",
+        83
+      ]
+    ]
+  },
+  "3_5": {
+    "top_cluster": 3,
+    "sub_cluster": 5,
+    "label": "Algebra",
+    "dominant_fraction": 0.633,
+    "norm_entropy": 0.515,
+    "size": 649,
+    "top_modules": [
+      [
+        "Algebra",
+        411
+      ],
+      [
+        "RingTheory",
+        84
+      ],
+      [
+        "Data",
+        25
+      ]
+    ]
+  },
+  "3_2": {
+    "top_cluster": 3,
+    "sub_cluster": 2,
+    "label": "RingTheory",
+    "dominant_fraction": 0.685,
+    "norm_entropy": 0.467,
+    "size": 707,
+    "top_modules": [
+      [
+        "RingTheory",
+        484
+      ],
+      [
+        "Algebra",
+        63
+      ],
+      [
+        "NumberTheory",
+        30
+      ]
+    ]
+  },
+  "3_16": {
+    "top_cluster": 3,
+    "sub_cluster": 16,
+    "label": "Algebra + RingTheory + NumberTheory",
+    "dominant_fraction": 0.362,
+    "norm_entropy": 0.755,
+    "size": 282,
+    "top_modules": [
+      [
+        "Algebra",
+        102
+      ],
+      [
+        "RingTheory",
+        40
+      ],
+      [
+        "NumberTheory",
+        34
+      ]
+    ]
+  },
+  "3_15": {
+    "top_cluster": 3,
+    "sub_cluster": 15,
+    "label": "RingTheory + Algebra + Data",
+    "dominant_fraction": 0.342,
+    "norm_entropy": 0.648,
+    "size": 304,
+    "top_modules": [
+      [
+        "RingTheory",
+        104
+      ],
+      [
+        "Algebra",
+        86
+      ],
+      [
+        "Data",
+        63
+      ]
+    ]
+  },
+  "3_11": {
+    "top_cluster": 3,
+    "sub_cluster": 11,
+    "label": "Algebra + RingTheory + AlgebraicGeometry",
+    "dominant_fraction": 0.371,
+    "norm_entropy": 0.726,
+    "size": 356,
+    "top_modules": [
+      [
+        "Algebra",
+        132
+      ],
+      [
+        "RingTheory",
+        51
+      ],
+      [
+        "AlgebraicGeometry",
+        40
+      ]
+    ]
+  },
+  "3_19": {
+    "top_cluster": 3,
+    "sub_cluster": 19,
+    "label": "Algebra + RingTheory + Data",
+    "dominant_fraction": 0.14,
+    "norm_entropy": 0.866,
+    "size": 93,
+    "top_modules": [
+      [
+        "Algebra",
+        13
+      ],
+      [
+        "RingTheory",
+        13
+      ],
+      [
+        "Data",
+        12
+      ]
+    ]
+  },
+  "3_14": {
+    "top_cluster": 3,
+    "sub_cluster": 14,
+    "label": "RingTheory",
+    "dominant_fraction": 0.55,
+    "norm_entropy": 0.532,
+    "size": 347,
+    "top_modules": [
+      [
+        "RingTheory",
+        191
+      ],
+      [
+        "Algebra",
+        91
+      ],
+      [
+        "NumberTheory",
+        22
+      ]
+    ]
+  },
+  "3_18": {
+    "top_cluster": 3,
+    "sub_cluster": 18,
+    "label": "RingTheory + Algebra + FieldTheory",
+    "dominant_fraction": 0.339,
+    "norm_entropy": 0.739,
+    "size": 127,
+    "top_modules": [
+      [
+        "RingTheory",
+        43
+      ],
+      [
+        "Algebra",
+        35
+      ],
+      [
+        "FieldTheory",
+        30
+      ]
+    ]
+  },
+  "4_13": {
+    "top_cluster": 4,
+    "sub_cluster": 13,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.715,
+    "norm_entropy": 0.689,
+    "size": 256,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        183
+      ],
+      [
+        "Algebra",
+        55
+      ],
+      [
+        "Unknown",
+        18
+      ]
+    ]
+  },
+  "4_20": {
+    "top_cluster": 4,
+    "sub_cluster": 20,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.697,
+    "norm_entropy": 0.492,
+    "size": 188,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        131
+      ],
+      [
+        "Algebra",
+        18
+      ],
+      [
+        "Topology",
+        10
+      ]
+    ]
+  },
+  "4_22": {
+    "top_cluster": 4,
+    "sub_cluster": 22,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.714,
+    "norm_entropy": 0.527,
+    "size": 133,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        95
+      ],
+      [
+        "Combinatorics",
+        12
+      ],
+      [
+        "Unknown",
+        10
+      ]
+    ]
+  },
+  "4_0": {
+    "top_cluster": 4,
+    "sub_cluster": 0,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.513,
+    "norm_entropy": 0.482,
+    "size": 718,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        368
+      ],
+      [
+        "Algebra",
+        214
+      ],
+      [
+        "Unknown",
+        105
+      ]
+    ]
+  },
+  "4_18": {
+    "top_cluster": 4,
+    "sub_cluster": 18,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.712,
+    "norm_entropy": 0.458,
+    "size": 208,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        148
+      ],
+      [
+        "Unknown",
+        36
+      ],
+      [
+        "Algebra",
+        6
+      ]
+    ]
+  },
+  "4_3": {
+    "top_cluster": 4,
+    "sub_cluster": 3,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.624,
+    "norm_entropy": 0.593,
+    "size": 556,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        347
+      ],
+      [
+        "Unknown",
+        96
+      ],
+      [
+        "Algebra",
+        43
+      ]
+    ]
+  },
+  "4_1": {
+    "top_cluster": 4,
+    "sub_cluster": 1,
+    "label": "Algebra",
+    "dominant_fraction": 0.562,
+    "norm_entropy": 0.572,
+    "size": 714,
+    "top_modules": [
+      [
+        "Algebra",
+        401
+      ],
+      [
+        "CategoryTheory",
+        109
+      ],
+      [
+        "Unknown",
+        102
+      ]
+    ]
+  },
+  "4_6": {
+    "top_cluster": 4,
+    "sub_cluster": 6,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.701,
+    "norm_entropy": 0.505,
+    "size": 381,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        267
+      ],
+      [
+        "Unknown",
+        38
+      ],
+      [
+        "Topology",
+        21
+      ]
+    ]
+  },
+  "4_8": {
+    "top_cluster": 4,
+    "sub_cluster": 8,
+    "label": "Algebra",
+    "dominant_fraction": 0.476,
+    "norm_entropy": 0.665,
+    "size": 347,
+    "top_modules": [
+      [
+        "Algebra",
+        165
+      ],
+      [
+        "CategoryTheory",
+        159
+      ],
+      [
+        "Unknown",
+        19
+      ]
+    ]
+  },
+  "4_12": {
+    "top_cluster": 4,
+    "sub_cluster": 12,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.615,
+    "norm_entropy": 0.52,
+    "size": 257,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        158
+      ],
+      [
+        "Unknown",
+        49
+      ],
+      [
+        "Topology",
+        24
+      ]
+    ]
+  },
+  "4_4": {
+    "top_cluster": 4,
+    "sub_cluster": 4,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.784,
+    "norm_entropy": 0.374,
+    "size": 533,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        418
+      ],
+      [
+        "Unknown",
+        52
+      ],
+      [
+        "Topology",
+        39
+      ]
+    ]
+  },
+  "4_2": {
+    "top_cluster": 4,
+    "sub_cluster": 2,
+    "label": "AlgebraicGeometry + CategoryTheory + Topology",
+    "dominant_fraction": 0.272,
+    "norm_entropy": 0.721,
+    "size": 600,
+    "top_modules": [
+      [
+        "AlgebraicGeometry",
+        163
+      ],
+      [
+        "CategoryTheory",
+        162
+      ],
+      [
+        "Topology",
+        95
+      ]
+    ]
+  },
+  "4_28": {
+    "top_cluster": 4,
+    "sub_cluster": 28,
+    "label": "RepresentationTheory",
+    "dominant_fraction": 0.429,
+    "norm_entropy": 0.966,
+    "size": 28,
+    "top_modules": [
+      [
+        "RepresentationTheory",
+        12
+      ],
+      [
+        "Algebra",
+        10
+      ],
+      [
+        "Unknown",
+        6
+      ]
+    ]
+  },
+  "4_21": {
+    "top_cluster": 4,
+    "sub_cluster": 21,
+    "label": "AlgebraicTopology",
+    "dominant_fraction": 0.472,
+    "norm_entropy": 0.617,
+    "size": 178,
+    "top_modules": [
+      [
+        "AlgebraicTopology",
+        84
+      ],
+      [
+        "CategoryTheory",
+        56
+      ],
+      [
+        "Unknown",
+        31
+      ]
+    ]
+  },
+  "4_14": {
+    "top_cluster": 4,
+    "sub_cluster": 14,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.684,
+    "norm_entropy": 0.53,
+    "size": 250,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        171
+      ],
+      [
+        "Unknown",
+        23
+      ],
+      [
+        "Data",
+        17
+      ]
+    ]
+  },
+  "4_10": {
+    "top_cluster": 4,
+    "sub_cluster": 10,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.826,
+    "norm_entropy": 0.365,
+    "size": 270,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        223
+      ],
+      [
+        "Unknown",
+        28
+      ],
+      [
+        "Algebra",
+        11
+      ]
+    ]
+  },
+  "4_19": {
+    "top_cluster": 4,
+    "sub_cluster": 19,
+    "label": "Algebra",
+    "dominant_fraction": 0.644,
+    "norm_entropy": 0.477,
+    "size": 202,
+    "top_modules": [
+      [
+        "Algebra",
+        130
+      ],
+      [
+        "Unknown",
+        44
+      ],
+      [
+        "Topology",
+        6
+      ]
+    ]
+  },
+  "4_7": {
+    "top_cluster": 4,
+    "sub_cluster": 7,
+    "label": "AlgebraicGeometry",
+    "dominant_fraction": 0.58,
+    "norm_entropy": 0.607,
+    "size": 367,
+    "top_modules": [
+      [
+        "AlgebraicGeometry",
+        213
+      ],
+      [
+        "Topology",
+        55
+      ],
+      [
+        "Unknown",
+        24
+      ]
+    ]
+  },
+  "4_9": {
+    "top_cluster": 4,
+    "sub_cluster": 9,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.799,
+    "norm_entropy": 0.354,
+    "size": 278,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        222
+      ],
+      [
+        "Unknown",
+        20
+      ],
+      [
+        "Algebra",
+        14
+      ]
+    ]
+  },
+  "4_17": {
+    "top_cluster": 4,
+    "sub_cluster": 17,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.836,
+    "norm_entropy": 0.319,
+    "size": 220,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        184
+      ],
+      [
+        "Unknown",
+        19
+      ],
+      [
+        "Topology",
+        9
+      ]
+    ]
+  },
+  "4_16": {
+    "top_cluster": 4,
+    "sub_cluster": 16,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.462,
+    "norm_entropy": 0.666,
+    "size": 225,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        104
+      ],
+      [
+        "Algebra",
+        36
+      ],
+      [
+        "Topology",
+        34
+      ]
+    ]
+  },
+  "4_5": {
+    "top_cluster": 4,
+    "sub_cluster": 5,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.682,
+    "norm_entropy": 0.484,
+    "size": 403,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        275
+      ],
+      [
+        "Algebra",
+        67
+      ],
+      [
+        "Unknown",
+        40
+      ]
+    ]
+  },
+  "4_23": {
+    "top_cluster": 4,
+    "sub_cluster": 23,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.684,
+    "norm_entropy": 0.539,
+    "size": 98,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        67
+      ],
+      [
+        "Analysis",
+        15
+      ],
+      [
+        "Topology",
+        4
+      ]
+    ]
+  },
+  "4_26": {
+    "top_cluster": 4,
+    "sub_cluster": 26,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.582,
+    "norm_entropy": 0.682,
+    "size": 67,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        39
+      ],
+      [
+        "LinearAlgebra",
+        12
+      ],
+      [
+        "Topology",
+        6
+      ]
+    ]
+  },
+  "4_15": {
+    "top_cluster": 4,
+    "sub_cluster": 15,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.538,
+    "norm_entropy": 0.663,
+    "size": 238,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        128
+      ],
+      [
+        "Unknown",
+        24
+      ],
+      [
+        "Topology",
+        24
+      ]
+    ]
+  },
+  "4_11": {
+    "top_cluster": 4,
+    "sub_cluster": 11,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.783,
+    "norm_entropy": 0.384,
+    "size": 267,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        209
+      ],
+      [
+        "Unknown",
+        46
+      ],
+      [
+        "AlgebraicTopology",
+        6
+      ]
+    ]
+  },
+  "4_24": {
+    "top_cluster": 4,
+    "sub_cluster": 24,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.892,
+    "norm_entropy": 0.342,
+    "size": 93,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        83
+      ],
+      [
+        "Unknown",
+        9
+      ],
+      [
+        "Topology",
+        1
+      ]
+    ]
+  },
+  "4_31": {
+    "top_cluster": 4,
+    "sub_cluster": 31,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.636,
+    "norm_entropy": 0.783,
+    "size": 11,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        7
+      ],
+      [
+        "AlgebraicGeometry",
+        3
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "4_25": {
+    "top_cluster": 4,
+    "sub_cluster": 25,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.556,
+    "norm_entropy": 0.991,
+    "size": 81,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        45
+      ],
+      [
+        "Unknown",
+        36
+      ]
+    ]
+  },
+  "4_30": {
+    "top_cluster": 4,
+    "sub_cluster": 30,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.865,
+    "size": 15,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        9
+      ],
+      [
+        "Tactic",
+        3
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "4_27": {
+    "top_cluster": 4,
+    "sub_cluster": 27,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.947,
+    "norm_entropy": 0.297,
+    "size": 38,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        36
+      ],
+      [
+        "Algebra",
+        2
+      ]
+    ]
+  },
+  "4_29": {
+    "top_cluster": 4,
+    "sub_cluster": 29,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.812,
+    "norm_entropy": 0.548,
+    "size": 16,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        13
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "Algebra",
+        1
+      ]
+    ]
+  },
+  "4_33": {
+    "top_cluster": 4,
+    "sub_cluster": 33,
+    "label": "CategoryTheory",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 4,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        4
+      ]
+    ]
+  },
+  "4_32": {
+    "top_cluster": 4,
+    "sub_cluster": 32,
+    "label": "CategoryTheory",
+    "dominant_fraction": 0.8,
+    "norm_entropy": 0.722,
+    "size": 5,
+    "top_modules": [
+      [
+        "CategoryTheory",
+        4
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "5_2": {
+    "top_cluster": 5,
+    "sub_cluster": 2,
+    "label": "LinearAlgebra + Algebra + Analysis",
+    "dominant_fraction": 0.392,
+    "norm_entropy": 0.687,
+    "size": 528,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        207
+      ],
+      [
+        "Algebra",
+        80
+      ],
+      [
+        "Analysis",
+        56
+      ]
+    ]
+  },
+  "5_6": {
+    "top_cluster": 5,
+    "sub_cluster": 6,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.593,
+    "norm_entropy": 0.568,
+    "size": 300,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        178
+      ],
+      [
+        "Algebra",
+        55
+      ],
+      [
+        "RingTheory",
+        20
+      ]
+    ]
+  },
+  "5_18": {
+    "top_cluster": 5,
+    "sub_cluster": 18,
+    "label": "Analysis + Order + Data",
+    "dominant_fraction": 0.28,
+    "norm_entropy": 0.803,
+    "size": 132,
+    "top_modules": [
+      [
+        "Analysis",
+        37
+      ],
+      [
+        "Order",
+        25
+      ],
+      [
+        "Data",
+        23
+      ]
+    ]
+  },
+  "5_0": {
+    "top_cluster": 5,
+    "sub_cluster": 0,
+    "label": "Algebra + LinearAlgebra + RingTheory",
+    "dominant_fraction": 0.31,
+    "norm_entropy": 0.717,
+    "size": 620,
+    "top_modules": [
+      [
+        "Algebra",
+        192
+      ],
+      [
+        "LinearAlgebra",
+        129
+      ],
+      [
+        "RingTheory",
+        101
+      ]
+    ]
+  },
+  "5_1": {
+    "top_cluster": 5,
+    "sub_cluster": 1,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.426,
+    "norm_entropy": 0.628,
+    "size": 618,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        263
+      ],
+      [
+        "Algebra",
+        150
+      ],
+      [
+        "RingTheory",
+        69
+      ]
+    ]
+  },
+  "5_3": {
+    "top_cluster": 5,
+    "sub_cluster": 3,
+    "label": "LinearAlgebra + Data + Algebra",
+    "dominant_fraction": 0.364,
+    "norm_entropy": 0.641,
+    "size": 500,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        182
+      ],
+      [
+        "Data",
+        117
+      ],
+      [
+        "Algebra",
+        91
+      ]
+    ]
+  },
+  "5_13": {
+    "top_cluster": 5,
+    "sub_cluster": 13,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.592,
+    "size": 162,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        81
+      ],
+      [
+        "Algebra",
+        40
+      ],
+      [
+        "RepresentationTheory",
+        17
+      ]
+    ]
+  },
+  "5_9": {
+    "top_cluster": 5,
+    "sub_cluster": 9,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.718,
+    "norm_entropy": 0.402,
+    "size": 238,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        171
+      ],
+      [
+        "Analysis",
+        36
+      ],
+      [
+        "Algebra",
+        20
+      ]
+    ]
+  },
+  "5_22": {
+    "top_cluster": 5,
+    "sub_cluster": 22,
+    "label": "LinearAlgebra + RingTheory + Algebra",
+    "dominant_fraction": 0.329,
+    "norm_entropy": 0.765,
+    "size": 70,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        23
+      ],
+      [
+        "RingTheory",
+        20
+      ],
+      [
+        "Algebra",
+        8
+      ]
+    ]
+  },
+  "5_7": {
+    "top_cluster": 5,
+    "sub_cluster": 7,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.608,
+    "norm_entropy": 0.536,
+    "size": 293,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        178
+      ],
+      [
+        "Algebra",
+        56
+      ],
+      [
+        "RingTheory",
+        33
+      ]
+    ]
+  },
+  "5_17": {
+    "top_cluster": 5,
+    "sub_cluster": 17,
+    "label": "Algebra + RingTheory + LinearAlgebra",
+    "dominant_fraction": 0.228,
+    "norm_entropy": 0.83,
+    "size": 136,
+    "top_modules": [
+      [
+        "Algebra",
+        31
+      ],
+      [
+        "RingTheory",
+        30
+      ],
+      [
+        "LinearAlgebra",
+        20
+      ]
+    ]
+  },
+  "5_4": {
+    "top_cluster": 5,
+    "sub_cluster": 4,
+    "label": "Algebra",
+    "dominant_fraction": 0.891,
+    "norm_entropy": 0.256,
+    "size": 495,
+    "top_modules": [
+      [
+        "Algebra",
+        441
+      ],
+      [
+        "Unknown",
+        17
+      ],
+      [
+        "LinearAlgebra",
+        11
+      ]
+    ]
+  },
+  "5_12": {
+    "top_cluster": 5,
+    "sub_cluster": 12,
+    "label": "Analysis",
+    "dominant_fraction": 0.758,
+    "norm_entropy": 0.499,
+    "size": 165,
+    "top_modules": [
+      [
+        "Analysis",
+        125
+      ],
+      [
+        "LinearAlgebra",
+        15
+      ],
+      [
+        "Algebra",
+        11
+      ]
+    ]
+  },
+  "5_10": {
+    "top_cluster": 5,
+    "sub_cluster": 10,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.609,
+    "norm_entropy": 0.544,
+    "size": 230,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        140
+      ],
+      [
+        "Algebra",
+        40
+      ],
+      [
+        "RingTheory",
+        24
+      ]
+    ]
+  },
+  "5_23": {
+    "top_cluster": 5,
+    "sub_cluster": 23,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.552,
+    "norm_entropy": 0.612,
+    "size": 67,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        37
+      ],
+      [
+        "Algebra",
+        22
+      ],
+      [
+        "RingTheory",
+        3
+      ]
+    ]
+  },
+  "5_25": {
+    "top_cluster": 5,
+    "sub_cluster": 25,
+    "label": "Algebra",
+    "dominant_fraction": 0.691,
+    "norm_entropy": 0.688,
+    "size": 55,
+    "top_modules": [
+      [
+        "Algebra",
+        38
+      ],
+      [
+        "Unknown",
+        7
+      ],
+      [
+        "RingTheory",
+        5
+      ]
+    ]
+  },
+  "5_8": {
+    "top_cluster": 5,
+    "sub_cluster": 8,
+    "label": "Algebra + LinearAlgebra + RingTheory",
+    "dominant_fraction": 0.343,
+    "norm_entropy": 0.657,
+    "size": 245,
+    "top_modules": [
+      [
+        "Algebra",
+        84
+      ],
+      [
+        "LinearAlgebra",
+        63
+      ],
+      [
+        "RingTheory",
+        56
+      ]
+    ]
+  },
+  "5_38": {
+    "top_cluster": 5,
+    "sub_cluster": 38,
+    "label": "Unknown",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.865,
+    "size": 5,
+    "top_modules": [
+      [
+        "Unknown",
+        3
+      ],
+      [
+        "Algebra",
+        1
+      ],
+      [
+        "GroupTheory",
+        1
+      ]
+    ]
+  },
+  "5_5": {
+    "top_cluster": 5,
+    "sub_cluster": 5,
+    "label": "Algebra",
+    "dominant_fraction": 0.708,
+    "norm_entropy": 0.445,
+    "size": 325,
+    "top_modules": [
+      [
+        "Algebra",
+        230
+      ],
+      [
+        "LinearAlgebra",
+        43
+      ],
+      [
+        "Order",
+        18
+      ]
+    ]
+  },
+  "5_14": {
+    "top_cluster": 5,
+    "sub_cluster": 14,
+    "label": "Algebra",
+    "dominant_fraction": 0.62,
+    "norm_entropy": 0.547,
+    "size": 158,
+    "top_modules": [
+      [
+        "Algebra",
+        98
+      ],
+      [
+        "RingTheory",
+        21
+      ],
+      [
+        "LinearAlgebra",
+        20
+      ]
+    ]
+  },
+  "5_15": {
+    "top_cluster": 5,
+    "sub_cluster": 15,
+    "label": "Algebra",
+    "dominant_fraction": 0.627,
+    "norm_entropy": 0.621,
+    "size": 153,
+    "top_modules": [
+      [
+        "Algebra",
+        96
+      ],
+      [
+        "RepresentationTheory",
+        27
+      ],
+      [
+        "GroupTheory",
+        19
+      ]
+    ]
+  },
+  "5_11": {
+    "top_cluster": 5,
+    "sub_cluster": 11,
+    "label": "Topology",
+    "dominant_fraction": 0.67,
+    "norm_entropy": 0.52,
+    "size": 197,
+    "top_modules": [
+      [
+        "Topology",
+        132
+      ],
+      [
+        "Data",
+        16
+      ],
+      [
+        "Unknown",
+        15
+      ]
+    ]
+  },
+  "5_16": {
+    "top_cluster": 5,
+    "sub_cluster": 16,
+    "label": "LinearAlgebra + Algebra + Data",
+    "dominant_fraction": 0.37,
+    "norm_entropy": 0.792,
+    "size": 138,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        51
+      ],
+      [
+        "Algebra",
+        36
+      ],
+      [
+        "Data",
+        13
+      ]
+    ]
+  },
+  "5_24": {
+    "top_cluster": 5,
+    "sub_cluster": 24,
+    "label": "LinearAlgebra + Analysis + Topology",
+    "dominant_fraction": 0.3,
+    "norm_entropy": 0.735,
+    "size": 60,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        18
+      ],
+      [
+        "Analysis",
+        18
+      ],
+      [
+        "Topology",
+        16
+      ]
+    ]
+  },
+  "5_20": {
+    "top_cluster": 5,
+    "sub_cluster": 20,
+    "label": "Algebra",
+    "dominant_fraction": 0.409,
+    "norm_entropy": 0.802,
+    "size": 88,
+    "top_modules": [
+      [
+        "Algebra",
+        36
+      ],
+      [
+        "RingTheory",
+        17
+      ],
+      [
+        "Unknown",
+        13
+      ]
+    ]
+  },
+  "5_21": {
+    "top_cluster": 5,
+    "sub_cluster": 21,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.662,
+    "norm_entropy": 0.602,
+    "size": 77,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        51
+      ],
+      [
+        "Algebra",
+        10
+      ],
+      [
+        "Unknown",
+        5
+      ]
+    ]
+  },
+  "5_31": {
+    "top_cluster": 5,
+    "sub_cluster": 31,
+    "label": "RepresentationTheory",
+    "dominant_fraction": 0.846,
+    "norm_entropy": 0.619,
+    "size": 13,
+    "top_modules": [
+      [
+        "RepresentationTheory",
+        11
+      ],
+      [
+        "Unknown",
+        2
+      ]
+    ]
+  },
+  "5_35": {
+    "top_cluster": 5,
+    "sub_cluster": 35,
+    "label": "Analysis",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 6,
+    "top_modules": [
+      [
+        "Analysis",
+        6
+      ]
+    ]
+  },
+  "5_19": {
+    "top_cluster": 5,
+    "sub_cluster": 19,
+    "label": "RingTheory + LinearAlgebra + Algebra",
+    "dominant_fraction": 0.286,
+    "norm_entropy": 0.81,
+    "size": 126,
+    "top_modules": [
+      [
+        "RingTheory",
+        36
+      ],
+      [
+        "LinearAlgebra",
+        20
+      ],
+      [
+        "Algebra",
+        17
+      ]
+    ]
+  },
+  "5_26": {
+    "top_cluster": 5,
+    "sub_cluster": 26,
+    "label": "Algebra",
+    "dominant_fraction": 0.469,
+    "norm_entropy": 0.631,
+    "size": 49,
+    "top_modules": [
+      [
+        "Algebra",
+        23
+      ],
+      [
+        "LinearAlgebra",
+        20
+      ],
+      [
+        "RingTheory",
+        3
+      ]
+    ]
+  },
+  "5_33": {
+    "top_cluster": 5,
+    "sub_cluster": 33,
+    "label": "Algebra",
+    "dominant_fraction": 0.889,
+    "norm_entropy": 0.503,
+    "size": 9,
+    "top_modules": [
+      [
+        "Algebra",
+        8
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "5_27": {
+    "top_cluster": 5,
+    "sub_cluster": 27,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.429,
+    "norm_entropy": 0.85,
+    "size": 21,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        9
+      ],
+      [
+        "Algebra",
+        6
+      ],
+      [
+        "Order",
+        3
+      ]
+    ]
+  },
+  "5_29": {
+    "top_cluster": 5,
+    "sub_cluster": 29,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.851,
+    "size": 16,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        8
+      ],
+      [
+        "Unknown",
+        4
+      ],
+      [
+        "Data",
+        3
+      ]
+    ]
+  },
+  "5_32": {
+    "top_cluster": 5,
+    "sub_cluster": 32,
+    "label": "Analysis",
+    "dominant_fraction": 0.923,
+    "norm_entropy": 0.391,
+    "size": 13,
+    "top_modules": [
+      [
+        "Analysis",
+        12
+      ],
+      [
+        "Topology",
+        1
+      ]
+    ]
+  },
+  "5_40": {
+    "top_cluster": 5,
+    "sub_cluster": 40,
+    "label": "Logic",
+    "dominant_fraction": 0.4,
+    "norm_entropy": 0.96,
+    "size": 5,
+    "top_modules": [
+      [
+        "Logic",
+        2
+      ],
+      [
+        "Order",
+        2
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "5_36": {
+    "top_cluster": 5,
+    "sub_cluster": 36,
+    "label": "Algebra",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 6,
+    "top_modules": [
+      [
+        "Algebra",
+        6
+      ]
+    ]
+  },
+  "5_41": {
+    "top_cluster": 5,
+    "sub_cluster": 41,
+    "label": "FieldTheory",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.865,
+    "size": 5,
+    "top_modules": [
+      [
+        "FieldTheory",
+        3
+      ],
+      [
+        "Algebra",
+        1
+      ],
+      [
+        "LinearAlgebra",
+        1
+      ]
+    ]
+  },
+  "5_39": {
+    "top_cluster": 5,
+    "sub_cluster": 39,
+    "label": "Combinatorics",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 5,
+    "top_modules": [
+      [
+        "Combinatorics",
+        5
+      ]
+    ]
+  },
+  "5_28": {
+    "top_cluster": 5,
+    "sub_cluster": 28,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.882,
+    "norm_entropy": 0.523,
+    "size": 17,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        15
+      ],
+      [
+        "Unknown",
+        2
+      ]
+    ]
+  },
+  "5_34": {
+    "top_cluster": 5,
+    "sub_cluster": 34,
+    "label": "RingTheory",
+    "dominant_fraction": 0.714,
+    "norm_entropy": 0.725,
+    "size": 7,
+    "top_modules": [
+      [
+        "RingTheory",
+        5
+      ],
+      [
+        "LinearAlgebra",
+        1
+      ],
+      [
+        "Algebra",
+        1
+      ]
+    ]
+  },
+  "5_37": {
+    "top_cluster": 5,
+    "sub_cluster": 37,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.8,
+    "norm_entropy": 0.722,
+    "size": 5,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        4
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "5_30": {
+    "top_cluster": 5,
+    "sub_cluster": 30,
+    "label": "Algebra",
+    "dominant_fraction": 0.714,
+    "norm_entropy": 0.725,
+    "size": 14,
+    "top_modules": [
+      [
+        "Algebra",
+        10
+      ],
+      [
+        "GroupTheory",
+        2
+      ],
+      [
+        "RingTheory",
+        2
+      ]
+    ]
+  },
+  "6_19": {
+    "top_cluster": 6,
+    "sub_cluster": 19,
+    "label": "External + Data + Computability",
+    "dominant_fraction": 0.372,
+    "norm_entropy": 0.681,
+    "size": 137,
+    "top_modules": [
+      [
+        "External",
+        51
+      ],
+      [
+        "Data",
+        47
+      ],
+      [
+        "Computability",
+        20
+      ]
+    ]
+  },
+  "6_11": {
+    "top_cluster": 6,
+    "sub_cluster": 11,
+    "label": "Data",
+    "dominant_fraction": 0.809,
+    "norm_entropy": 0.394,
+    "size": 199,
+    "top_modules": [
+      [
+        "Data",
+        161
+      ],
+      [
+        "Algebra",
+        10
+      ],
+      [
+        "Computability",
+        8
+      ]
+    ]
+  },
+  "6_20": {
+    "top_cluster": 6,
+    "sub_cluster": 20,
+    "label": "Data",
+    "dominant_fraction": 0.776,
+    "norm_entropy": 0.448,
+    "size": 125,
+    "top_modules": [
+      [
+        "Data",
+        97
+      ],
+      [
+        "External",
+        12
+      ],
+      [
+        "LinearAlgebra",
+        6
+      ]
+    ]
+  },
+  "6_1": {
+    "top_cluster": 6,
+    "sub_cluster": 1,
+    "label": "Data",
+    "dominant_fraction": 0.539,
+    "norm_entropy": 0.548,
+    "size": 410,
+    "top_modules": [
+      [
+        "Data",
+        221
+      ],
+      [
+        "External",
+        67
+      ],
+      [
+        "GroupTheory",
+        63
+      ]
+    ]
+  },
+  "6_25": {
+    "top_cluster": 6,
+    "sub_cluster": 25,
+    "label": "Data",
+    "dominant_fraction": 0.688,
+    "norm_entropy": 0.534,
+    "size": 96,
+    "top_modules": [
+      [
+        "Data",
+        66
+      ],
+      [
+        "External",
+        15
+      ],
+      [
+        "Tactic",
+        8
+      ]
+    ]
+  },
+  "6_23": {
+    "top_cluster": 6,
+    "sub_cluster": 23,
+    "label": "Data + External + ModelTheory",
+    "dominant_fraction": 0.39,
+    "norm_entropy": 0.766,
+    "size": 118,
+    "top_modules": [
+      [
+        "Data",
+        46
+      ],
+      [
+        "External",
+        34
+      ],
+      [
+        "ModelTheory",
+        9
+      ]
+    ]
+  },
+  "6_5": {
+    "top_cluster": 6,
+    "sub_cluster": 5,
+    "label": "External + Data + Combinatorics",
+    "dominant_fraction": 0.315,
+    "norm_entropy": 0.73,
+    "size": 305,
+    "top_modules": [
+      [
+        "External",
+        96
+      ],
+      [
+        "Data",
+        82
+      ],
+      [
+        "Combinatorics",
+        44
+      ]
+    ]
+  },
+  "6_8": {
+    "top_cluster": 6,
+    "sub_cluster": 8,
+    "label": "Data",
+    "dominant_fraction": 0.51,
+    "norm_entropy": 0.611,
+    "size": 255,
+    "top_modules": [
+      [
+        "Data",
+        130
+      ],
+      [
+        "Control",
+        47
+      ],
+      [
+        "Algebra",
+        32
+      ]
+    ]
+  },
+  "6_16": {
+    "top_cluster": 6,
+    "sub_cluster": 16,
+    "label": "External",
+    "dominant_fraction": 0.832,
+    "norm_entropy": 0.371,
+    "size": 149,
+    "top_modules": [
+      [
+        "External",
+        124
+      ],
+      [
+        "Unknown",
+        18
+      ],
+      [
+        "Data",
+        4
+      ]
+    ]
+  },
+  "6_0": {
+    "top_cluster": 6,
+    "sub_cluster": 0,
+    "label": "External",
+    "dominant_fraction": 0.602,
+    "norm_entropy": 0.463,
+    "size": 485,
+    "top_modules": [
+      [
+        "External",
+        292
+      ],
+      [
+        "Data",
+        135
+      ],
+      [
+        "Unknown",
+        30
+      ]
+    ]
+  },
+  "6_26": {
+    "top_cluster": 6,
+    "sub_cluster": 26,
+    "label": "External + Data + Unknown",
+    "dominant_fraction": 0.333,
+    "norm_entropy": 0.744,
+    "size": 87,
+    "top_modules": [
+      [
+        "External",
+        29
+      ],
+      [
+        "Data",
+        21
+      ],
+      [
+        "Unknown",
+        16
+      ]
+    ]
+  },
+  "6_15": {
+    "top_cluster": 6,
+    "sub_cluster": 15,
+    "label": "Data",
+    "dominant_fraction": 0.832,
+    "norm_entropy": 0.399,
+    "size": 149,
+    "top_modules": [
+      [
+        "Data",
+        124
+      ],
+      [
+        "External",
+        13
+      ],
+      [
+        "Testing",
+        6
+      ]
+    ]
+  },
+  "6_6": {
+    "top_cluster": 6,
+    "sub_cluster": 6,
+    "label": "Data",
+    "dominant_fraction": 0.498,
+    "norm_entropy": 0.549,
+    "size": 297,
+    "top_modules": [
+      [
+        "Data",
+        148
+      ],
+      [
+        "External",
+        101
+      ],
+      [
+        "Unknown",
+        14
+      ]
+    ]
+  },
+  "6_21": {
+    "top_cluster": 6,
+    "sub_cluster": 21,
+    "label": "Data + Computability + External",
+    "dominant_fraction": 0.328,
+    "norm_entropy": 0.739,
+    "size": 125,
+    "top_modules": [
+      [
+        "Data",
+        41
+      ],
+      [
+        "Computability",
+        30
+      ],
+      [
+        "External",
+        27
+      ]
+    ]
+  },
+  "6_17": {
+    "top_cluster": 6,
+    "sub_cluster": 17,
+    "label": "Data + Computability + External",
+    "dominant_fraction": 0.313,
+    "norm_entropy": 0.672,
+    "size": 147,
+    "top_modules": [
+      [
+        "Data",
+        46
+      ],
+      [
+        "Computability",
+        45
+      ],
+      [
+        "External",
+        33
+      ]
+    ]
+  },
+  "6_14": {
+    "top_cluster": 6,
+    "sub_cluster": 14,
+    "label": "External + GroupTheory + Data",
+    "dominant_fraction": 0.341,
+    "norm_entropy": 0.649,
+    "size": 164,
+    "top_modules": [
+      [
+        "External",
+        56
+      ],
+      [
+        "GroupTheory",
+        52
+      ],
+      [
+        "Data",
+        50
+      ]
+    ]
+  },
+  "6_9": {
+    "top_cluster": 6,
+    "sub_cluster": 9,
+    "label": "External",
+    "dominant_fraction": 0.472,
+    "norm_entropy": 0.485,
+    "size": 218,
+    "top_modules": [
+      [
+        "External",
+        103
+      ],
+      [
+        "Data",
+        103
+      ],
+      [
+        "Unknown",
+        6
+      ]
+    ]
+  },
+  "6_22": {
+    "top_cluster": 6,
+    "sub_cluster": 22,
+    "label": "Data",
+    "dominant_fraction": 0.475,
+    "norm_entropy": 0.597,
+    "size": 120,
+    "top_modules": [
+      [
+        "Data",
+        57
+      ],
+      [
+        "External",
+        47
+      ],
+      [
+        "Unknown",
+        8
+      ]
+    ]
+  },
+  "6_7": {
+    "top_cluster": 6,
+    "sub_cluster": 7,
+    "label": "Combinatorics",
+    "dominant_fraction": 0.713,
+    "norm_entropy": 0.51,
+    "size": 261,
+    "top_modules": [
+      [
+        "Combinatorics",
+        186
+      ],
+      [
+        "Data",
+        38
+      ],
+      [
+        "External",
+        28
+      ]
+    ]
+  },
+  "6_2": {
+    "top_cluster": 6,
+    "sub_cluster": 2,
+    "label": "Data + Algebra + External",
+    "dominant_fraction": 0.293,
+    "norm_entropy": 0.735,
+    "size": 338,
+    "top_modules": [
+      [
+        "Data",
+        99
+      ],
+      [
+        "Algebra",
+        87
+      ],
+      [
+        "External",
+        41
+      ]
+    ]
+  },
+  "6_10": {
+    "top_cluster": 6,
+    "sub_cluster": 10,
+    "label": "Data",
+    "dominant_fraction": 0.473,
+    "norm_entropy": 0.719,
+    "size": 201,
+    "top_modules": [
+      [
+        "Data",
+        95
+      ],
+      [
+        "Algebra",
+        29
+      ],
+      [
+        "External",
+        29
+      ]
+    ]
+  },
+  "6_24": {
+    "top_cluster": 6,
+    "sub_cluster": 24,
+    "label": "Data",
+    "dominant_fraction": 0.743,
+    "norm_entropy": 0.47,
+    "size": 101,
+    "top_modules": [
+      [
+        "Data",
+        75
+      ],
+      [
+        "External",
+        12
+      ],
+      [
+        "Tactic",
+        4
+      ]
+    ]
+  },
+  "6_27": {
+    "top_cluster": 6,
+    "sub_cluster": 27,
+    "label": "Data",
+    "dominant_fraction": 0.494,
+    "norm_entropy": 0.662,
+    "size": 79,
+    "top_modules": [
+      [
+        "Data",
+        39
+      ],
+      [
+        "Combinatorics",
+        21
+      ],
+      [
+        "External",
+        13
+      ]
+    ]
+  },
+  "6_12": {
+    "top_cluster": 6,
+    "sub_cluster": 12,
+    "label": "Computability",
+    "dominant_fraction": 0.624,
+    "norm_entropy": 0.608,
+    "size": 181,
+    "top_modules": [
+      [
+        "Computability",
+        113
+      ],
+      [
+        "Unknown",
+        15
+      ],
+      [
+        "FieldTheory",
+        12
+      ]
+    ]
+  },
+  "6_4": {
+    "top_cluster": 6,
+    "sub_cluster": 4,
+    "label": "Data",
+    "dominant_fraction": 0.668,
+    "norm_entropy": 0.481,
+    "size": 307,
+    "top_modules": [
+      [
+        "Data",
+        205
+      ],
+      [
+        "External",
+        64
+      ],
+      [
+        "Algebra",
+        12
+      ]
+    ]
+  },
+  "6_13": {
+    "top_cluster": 6,
+    "sub_cluster": 13,
+    "label": "External",
+    "dominant_fraction": 0.803,
+    "norm_entropy": 0.378,
+    "size": 178,
+    "top_modules": [
+      [
+        "External",
+        143
+      ],
+      [
+        "Data",
+        18
+      ],
+      [
+        "Unknown",
+        11
+      ]
+    ]
+  },
+  "6_30": {
+    "top_cluster": 6,
+    "sub_cluster": 30,
+    "label": "Order",
+    "dominant_fraction": 0.553,
+    "norm_entropy": 0.601,
+    "size": 38,
+    "top_modules": [
+      [
+        "Order",
+        21
+      ],
+      [
+        "Data",
+        13
+      ],
+      [
+        "RingTheory",
+        1
+      ]
+    ]
+  },
+  "6_29": {
+    "top_cluster": 6,
+    "sub_cluster": 29,
+    "label": "SetTheory + External + Data",
+    "dominant_fraction": 0.34,
+    "norm_entropy": 0.932,
+    "size": 50,
+    "top_modules": [
+      [
+        "SetTheory",
+        17
+      ],
+      [
+        "External",
+        11
+      ],
+      [
+        "Data",
+        10
+      ]
+    ]
+  },
+  "6_3": {
+    "top_cluster": 6,
+    "sub_cluster": 3,
+    "label": "Data",
+    "dominant_fraction": 0.602,
+    "norm_entropy": 0.491,
+    "size": 337,
+    "top_modules": [
+      [
+        "Data",
+        203
+      ],
+      [
+        "External",
+        93
+      ],
+      [
+        "Unknown",
+        12
+      ]
+    ]
+  },
+  "6_33": {
+    "top_cluster": 6,
+    "sub_cluster": 33,
+    "label": "Data",
+    "dominant_fraction": 0.929,
+    "norm_entropy": 0.371,
+    "size": 14,
+    "top_modules": [
+      [
+        "Data",
+        13
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "6_18": {
+    "top_cluster": 6,
+    "sub_cluster": 18,
+    "label": "External",
+    "dominant_fraction": 0.482,
+    "norm_entropy": 0.555,
+    "size": 141,
+    "top_modules": [
+      [
+        "External",
+        68
+      ],
+      [
+        "Data",
+        51
+      ],
+      [
+        "Unknown",
+        4
+      ]
+    ]
+  },
+  "6_31": {
+    "top_cluster": 6,
+    "sub_cluster": 31,
+    "label": "Combinatorics",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.838,
+    "size": 18,
+    "top_modules": [
+      [
+        "Combinatorics",
+        9
+      ],
+      [
+        "Data",
+        5
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "6_28": {
+    "top_cluster": 6,
+    "sub_cluster": 28,
+    "label": "Data + External + Order",
+    "dominant_fraction": 0.339,
+    "norm_entropy": 0.836,
+    "size": 56,
+    "top_modules": [
+      [
+        "Data",
+        19
+      ],
+      [
+        "External",
+        15
+      ],
+      [
+        "Order",
+        7
+      ]
+    ]
+  },
+  "6_32": {
+    "top_cluster": 6,
+    "sub_cluster": 32,
+    "label": "Data",
+    "dominant_fraction": 0.941,
+    "norm_entropy": 0.323,
+    "size": 17,
+    "top_modules": [
+      [
+        "Data",
+        16
+      ],
+      [
+        "External",
+        1
+      ]
+    ]
+  },
+  "6_34": {
+    "top_cluster": 6,
+    "sub_cluster": 34,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 1.0,
+    "size": 8,
+    "top_modules": [
+      [
+        "GroupTheory",
+        4
+      ],
+      [
+        "Algebra",
+        4
+      ]
+    ]
+  },
+  "6_35": {
+    "top_cluster": 6,
+    "sub_cluster": 35,
+    "label": "External",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.65,
+    "size": 6,
+    "top_modules": [
+      [
+        "External",
+        5
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "7_8": {
+    "top_cluster": 7,
+    "sub_cluster": 8,
+    "label": "Topology + Data + MeasureTheory",
+    "dominant_fraction": 0.343,
+    "norm_entropy": 0.739,
+    "size": 204,
+    "top_modules": [
+      [
+        "Topology",
+        70
+      ],
+      [
+        "Data",
+        47
+      ],
+      [
+        "MeasureTheory",
+        27
+      ]
+    ]
+  },
+  "7_16": {
+    "top_cluster": 7,
+    "sub_cluster": 16,
+    "label": "Order + Topology + Data",
+    "dominant_fraction": 0.326,
+    "norm_entropy": 0.801,
+    "size": 132,
+    "top_modules": [
+      [
+        "Order",
+        43
+      ],
+      [
+        "Topology",
+        42
+      ],
+      [
+        "Data",
+        18
+      ]
+    ]
+  },
+  "7_28": {
+    "top_cluster": 7,
+    "sub_cluster": 28,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.457,
+    "norm_entropy": 0.755,
+    "size": 81,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        37
+      ],
+      [
+        "Data",
+        11
+      ],
+      [
+        "Topology",
+        7
+      ]
+    ]
+  },
+  "7_3": {
+    "top_cluster": 7,
+    "sub_cluster": 3,
+    "label": "Data + Order + Topology",
+    "dominant_fraction": 0.36,
+    "norm_entropy": 0.721,
+    "size": 339,
+    "top_modules": [
+      [
+        "Data",
+        122
+      ],
+      [
+        "Order",
+        77
+      ],
+      [
+        "Topology",
+        51
+      ]
+    ]
+  },
+  "7_22": {
+    "top_cluster": 7,
+    "sub_cluster": 22,
+    "label": "Topology",
+    "dominant_fraction": 0.689,
+    "norm_entropy": 0.52,
+    "size": 106,
+    "top_modules": [
+      [
+        "Topology",
+        73
+      ],
+      [
+        "MeasureTheory",
+        17
+      ],
+      [
+        "Data",
+        5
+      ]
+    ]
+  },
+  "7_5": {
+    "top_cluster": 7,
+    "sub_cluster": 5,
+    "label": "Order",
+    "dominant_fraction": 0.447,
+    "norm_entropy": 0.596,
+    "size": 302,
+    "top_modules": [
+      [
+        "Order",
+        135
+      ],
+      [
+        "Topology",
+        119
+      ],
+      [
+        "Analysis",
+        18
+      ]
+    ]
+  },
+  "7_1": {
+    "top_cluster": 7,
+    "sub_cluster": 1,
+    "label": "Topology",
+    "dominant_fraction": 0.496,
+    "norm_entropy": 0.613,
+    "size": 339,
+    "top_modules": [
+      [
+        "Topology",
+        168
+      ],
+      [
+        "Order",
+        98
+      ],
+      [
+        "Data",
+        20
+      ]
+    ]
+  },
+  "7_10": {
+    "top_cluster": 7,
+    "sub_cluster": 10,
+    "label": "Order",
+    "dominant_fraction": 0.43,
+    "norm_entropy": 0.641,
+    "size": 165,
+    "top_modules": [
+      [
+        "Order",
+        71
+      ],
+      [
+        "Data",
+        49
+      ],
+      [
+        "Topology",
+        26
+      ]
+    ]
+  },
+  "7_15": {
+    "top_cluster": 7,
+    "sub_cluster": 15,
+    "label": "Data",
+    "dominant_fraction": 0.525,
+    "norm_entropy": 0.626,
+    "size": 139,
+    "top_modules": [
+      [
+        "Data",
+        73
+      ],
+      [
+        "Topology",
+        27
+      ],
+      [
+        "Order",
+        15
+      ]
+    ]
+  },
+  "7_4": {
+    "top_cluster": 7,
+    "sub_cluster": 4,
+    "label": "Topology",
+    "dominant_fraction": 0.485,
+    "norm_entropy": 0.655,
+    "size": 338,
+    "top_modules": [
+      [
+        "Topology",
+        164
+      ],
+      [
+        "Data",
+        44
+      ],
+      [
+        "Order",
+        41
+      ]
+    ]
+  },
+  "7_6": {
+    "top_cluster": 7,
+    "sub_cluster": 6,
+    "label": "Topology",
+    "dominant_fraction": 0.567,
+    "norm_entropy": 0.564,
+    "size": 233,
+    "top_modules": [
+      [
+        "Topology",
+        132
+      ],
+      [
+        "Order",
+        73
+      ],
+      [
+        "Data",
+        12
+      ]
+    ]
+  },
+  "7_7": {
+    "top_cluster": 7,
+    "sub_cluster": 7,
+    "label": "Data",
+    "dominant_fraction": 0.404,
+    "norm_entropy": 0.65,
+    "size": 213,
+    "top_modules": [
+      [
+        "Data",
+        86
+      ],
+      [
+        "MeasureTheory",
+        60
+      ],
+      [
+        "Topology",
+        24
+      ]
+    ]
+  },
+  "7_23": {
+    "top_cluster": 7,
+    "sub_cluster": 23,
+    "label": "Order",
+    "dominant_fraction": 0.533,
+    "norm_entropy": 0.604,
+    "size": 105,
+    "top_modules": [
+      [
+        "Order",
+        56
+      ],
+      [
+        "Topology",
+        41
+      ],
+      [
+        "Data",
+        4
+      ]
+    ]
+  },
+  "7_0": {
+    "top_cluster": 7,
+    "sub_cluster": 0,
+    "label": "Topology",
+    "dominant_fraction": 0.79,
+    "norm_entropy": 0.415,
+    "size": 391,
+    "top_modules": [
+      [
+        "Topology",
+        309
+      ],
+      [
+        "Order",
+        33
+      ],
+      [
+        "Unknown",
+        24
+      ]
+    ]
+  },
+  "7_25": {
+    "top_cluster": 7,
+    "sub_cluster": 25,
+    "label": "Topology",
+    "dominant_fraction": 0.411,
+    "norm_entropy": 0.848,
+    "size": 95,
+    "top_modules": [
+      [
+        "Topology",
+        39
+      ],
+      [
+        "MeasureTheory",
+        19
+      ],
+      [
+        "Order",
+        13
+      ]
+    ]
+  },
+  "7_11": {
+    "top_cluster": 7,
+    "sub_cluster": 11,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.609,
+    "norm_entropy": 0.642,
+    "size": 161,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        98
+      ],
+      [
+        "Algebra",
+        21
+      ],
+      [
+        "Order",
+        14
+      ]
+    ]
+  },
+  "7_2": {
+    "top_cluster": 7,
+    "sub_cluster": 2,
+    "label": "Order + Algebra + Topology",
+    "dominant_fraction": 0.251,
+    "norm_entropy": 0.793,
+    "size": 339,
+    "top_modules": [
+      [
+        "Order",
+        85
+      ],
+      [
+        "Algebra",
+        63
+      ],
+      [
+        "Topology",
+        46
+      ]
+    ]
+  },
+  "7_13": {
+    "top_cluster": 7,
+    "sub_cluster": 13,
+    "label": "MeasureTheory + Data + Probability",
+    "dominant_fraction": 0.304,
+    "norm_entropy": 0.765,
+    "size": 148,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        45
+      ],
+      [
+        "Data",
+        37
+      ],
+      [
+        "Probability",
+        19
+      ]
+    ]
+  },
+  "7_21": {
+    "top_cluster": 7,
+    "sub_cluster": 21,
+    "label": "Topology + Order + Probability",
+    "dominant_fraction": 0.278,
+    "norm_entropy": 0.839,
+    "size": 115,
+    "top_modules": [
+      [
+        "Topology",
+        32
+      ],
+      [
+        "Order",
+        29
+      ],
+      [
+        "Probability",
+        18
+      ]
+    ]
+  },
+  "7_17": {
+    "top_cluster": 7,
+    "sub_cluster": 17,
+    "label": "Data + Analysis + Topology",
+    "dominant_fraction": 0.281,
+    "norm_entropy": 0.83,
+    "size": 128,
+    "top_modules": [
+      [
+        "Data",
+        36
+      ],
+      [
+        "Analysis",
+        27
+      ],
+      [
+        "Topology",
+        17
+      ]
+    ]
+  },
+  "7_35": {
+    "top_cluster": 7,
+    "sub_cluster": 35,
+    "label": "Order",
+    "dominant_fraction": 0.778,
+    "norm_entropy": 0.622,
+    "size": 9,
+    "top_modules": [
+      [
+        "Order",
+        7
+      ],
+      [
+        "Data",
+        1
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "7_27": {
+    "top_cluster": 7,
+    "sub_cluster": 27,
+    "label": "AlgebraicGeometry",
+    "dominant_fraction": 0.488,
+    "norm_entropy": 0.681,
+    "size": 82,
+    "top_modules": [
+      [
+        "AlgebraicGeometry",
+        40
+      ],
+      [
+        "Topology",
+        13
+      ],
+      [
+        "Order",
+        13
+      ]
+    ]
+  },
+  "7_14": {
+    "top_cluster": 7,
+    "sub_cluster": 14,
+    "label": "Data + Order + Topology",
+    "dominant_fraction": 0.35,
+    "norm_entropy": 0.671,
+    "size": 143,
+    "top_modules": [
+      [
+        "Data",
+        50
+      ],
+      [
+        "Order",
+        49
+      ],
+      [
+        "Topology",
+        24
+      ]
+    ]
+  },
+  "7_29": {
+    "top_cluster": 7,
+    "sub_cluster": 29,
+    "label": "Order",
+    "dominant_fraction": 0.535,
+    "norm_entropy": 0.696,
+    "size": 71,
+    "top_modules": [
+      [
+        "Order",
+        38
+      ],
+      [
+        "Topology",
+        27
+      ],
+      [
+        "Data",
+        4
+      ]
+    ]
+  },
+  "7_12": {
+    "top_cluster": 7,
+    "sub_cluster": 12,
+    "label": "Topology",
+    "dominant_fraction": 0.669,
+    "norm_entropy": 0.529,
+    "size": 154,
+    "top_modules": [
+      [
+        "Topology",
+        103
+      ],
+      [
+        "Order",
+        14
+      ],
+      [
+        "Analysis",
+        13
+      ]
+    ]
+  },
+  "7_19": {
+    "top_cluster": 7,
+    "sub_cluster": 19,
+    "label": "Order + Topology + Data",
+    "dominant_fraction": 0.364,
+    "norm_entropy": 0.68,
+    "size": 121,
+    "top_modules": [
+      [
+        "Order",
+        44
+      ],
+      [
+        "Topology",
+        43
+      ],
+      [
+        "Data",
+        13
+      ]
+    ]
+  },
+  "7_31": {
+    "top_cluster": 7,
+    "sub_cluster": 31,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.419,
+    "norm_entropy": 0.688,
+    "size": 43,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        18
+      ],
+      [
+        "Probability",
+        18
+      ],
+      [
+        "Analysis",
+        3
+      ]
+    ]
+  },
+  "7_34": {
+    "top_cluster": 7,
+    "sub_cluster": 34,
+    "label": "Data",
+    "dominant_fraction": 0.55,
+    "norm_entropy": 0.993,
+    "size": 20,
+    "top_modules": [
+      [
+        "Data",
+        11
+      ],
+      [
+        "Algebra",
+        9
+      ]
+    ]
+  },
+  "7_30": {
+    "top_cluster": 7,
+    "sub_cluster": 30,
+    "label": "Topology",
+    "dominant_fraction": 0.703,
+    "norm_entropy": 0.531,
+    "size": 64,
+    "top_modules": [
+      [
+        "Topology",
+        45
+      ],
+      [
+        "Order",
+        12
+      ],
+      [
+        "AlgebraicGeometry",
+        2
+      ]
+    ]
+  },
+  "7_9": {
+    "top_cluster": 7,
+    "sub_cluster": 9,
+    "label": "Topology",
+    "dominant_fraction": 0.535,
+    "norm_entropy": 0.609,
+    "size": 187,
+    "top_modules": [
+      [
+        "Topology",
+        100
+      ],
+      [
+        "Data",
+        32
+      ],
+      [
+        "Analysis",
+        16
+      ]
+    ]
+  },
+  "7_18": {
+    "top_cluster": 7,
+    "sub_cluster": 18,
+    "label": "Topology",
+    "dominant_fraction": 0.589,
+    "norm_entropy": 0.67,
+    "size": 124,
+    "top_modules": [
+      [
+        "Topology",
+        73
+      ],
+      [
+        "Data",
+        18
+      ],
+      [
+        "Order",
+        14
+      ]
+    ]
+  },
+  "7_20": {
+    "top_cluster": 7,
+    "sub_cluster": 20,
+    "label": "Topology + Order + Unknown",
+    "dominant_fraction": 0.373,
+    "norm_entropy": 0.713,
+    "size": 118,
+    "top_modules": [
+      [
+        "Topology",
+        44
+      ],
+      [
+        "Order",
+        40
+      ],
+      [
+        "Unknown",
+        10
+      ]
+    ]
+  },
+  "7_24": {
+    "top_cluster": 7,
+    "sub_cluster": 24,
+    "label": "Topology",
+    "dominant_fraction": 0.56,
+    "norm_entropy": 0.656,
+    "size": 100,
+    "top_modules": [
+      [
+        "Topology",
+        56
+      ],
+      [
+        "Data",
+        8
+      ],
+      [
+        "Analysis",
+        6
+      ]
+    ]
+  },
+  "7_32": {
+    "top_cluster": 7,
+    "sub_cluster": 32,
+    "label": "Data + Topology + MeasureTheory",
+    "dominant_fraction": 0.286,
+    "norm_entropy": 0.941,
+    "size": 35,
+    "top_modules": [
+      [
+        "Data",
+        10
+      ],
+      [
+        "Topology",
+        9
+      ],
+      [
+        "MeasureTheory",
+        7
+      ]
+    ]
+  },
+  "7_26": {
+    "top_cluster": 7,
+    "sub_cluster": 26,
+    "label": "Topology + Computability + Data",
+    "dominant_fraction": 0.299,
+    "norm_entropy": 0.822,
+    "size": 87,
+    "top_modules": [
+      [
+        "Topology",
+        26
+      ],
+      [
+        "Computability",
+        19
+      ],
+      [
+        "Data",
+        18
+      ]
+    ]
+  },
+  "7_33": {
+    "top_cluster": 7,
+    "sub_cluster": 33,
+    "label": "Topology",
+    "dominant_fraction": 0.613,
+    "norm_entropy": 0.7,
+    "size": 31,
+    "top_modules": [
+      [
+        "Topology",
+        19
+      ],
+      [
+        "Data",
+        4
+      ],
+      [
+        "Order",
+        3
+      ]
+    ]
+  },
+  "8_7": {
+    "top_cluster": 8,
+    "sub_cluster": 7,
+    "label": "Data + LinearAlgebra + NumberTheory",
+    "dominant_fraction": 0.301,
+    "norm_entropy": 0.835,
+    "size": 123,
+    "top_modules": [
+      [
+        "Data",
+        37
+      ],
+      [
+        "LinearAlgebra",
+        26
+      ],
+      [
+        "NumberTheory",
+        22
+      ]
+    ]
+  },
+  "8_14": {
+    "top_cluster": 8,
+    "sub_cluster": 14,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.568,
+    "norm_entropy": 0.629,
+    "size": 81,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        46
+      ],
+      [
+        "Data",
+        19
+      ],
+      [
+        "Algebra",
+        5
+      ]
+    ]
+  },
+  "8_16": {
+    "top_cluster": 8,
+    "sub_cluster": 16,
+    "label": "Analysis + Logic + LinearAlgebra",
+    "dominant_fraction": 0.239,
+    "norm_entropy": 0.814,
+    "size": 67,
+    "top_modules": [
+      [
+        "Analysis",
+        16
+      ],
+      [
+        "Logic",
+        15
+      ],
+      [
+        "LinearAlgebra",
+        12
+      ]
+    ]
+  },
+  "8_17": {
+    "top_cluster": 8,
+    "sub_cluster": 17,
+    "label": "ModelTheory + Topology + Data",
+    "dominant_fraction": 0.277,
+    "norm_entropy": 0.819,
+    "size": 47,
+    "top_modules": [
+      [
+        "ModelTheory",
+        13
+      ],
+      [
+        "Topology",
+        12
+      ],
+      [
+        "Data",
+        9
+      ]
+    ]
+  },
+  "8_1": {
+    "top_cluster": 8,
+    "sub_cluster": 1,
+    "label": "Data + LinearAlgebra + Analysis",
+    "dominant_fraction": 0.325,
+    "norm_entropy": 0.771,
+    "size": 237,
+    "top_modules": [
+      [
+        "Data",
+        77
+      ],
+      [
+        "LinearAlgebra",
+        42
+      ],
+      [
+        "Analysis",
+        28
+      ]
+    ]
+  },
+  "8_8": {
+    "top_cluster": 8,
+    "sub_cluster": 8,
+    "label": "Data + External + Logic",
+    "dominant_fraction": 0.319,
+    "norm_entropy": 0.828,
+    "size": 119,
+    "top_modules": [
+      [
+        "Data",
+        38
+      ],
+      [
+        "External",
+        22
+      ],
+      [
+        "Logic",
+        13
+      ]
+    ]
+  },
+  "8_4": {
+    "top_cluster": 8,
+    "sub_cluster": 4,
+    "label": "ModelTheory",
+    "dominant_fraction": 0.744,
+    "norm_entropy": 0.501,
+    "size": 180,
+    "top_modules": [
+      [
+        "ModelTheory",
+        134
+      ],
+      [
+        "Unknown",
+        14
+      ],
+      [
+        "External",
+        12
+      ]
+    ]
+  },
+  "8_3": {
+    "top_cluster": 8,
+    "sub_cluster": 3,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.505,
+    "norm_entropy": 0.605,
+    "size": 190,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        96
+      ],
+      [
+        "Data",
+        63
+      ],
+      [
+        "Algebra",
+        11
+      ]
+    ]
+  },
+  "8_18": {
+    "top_cluster": 8,
+    "sub_cluster": 18,
+    "label": "Analysis",
+    "dominant_fraction": 0.422,
+    "norm_entropy": 0.752,
+    "size": 45,
+    "top_modules": [
+      [
+        "Analysis",
+        19
+      ],
+      [
+        "LinearAlgebra",
+        18
+      ],
+      [
+        "Data",
+        4
+      ]
+    ]
+  },
+  "8_6": {
+    "top_cluster": 8,
+    "sub_cluster": 6,
+    "label": "Data + ModelTheory + CategoryTheory",
+    "dominant_fraction": 0.215,
+    "norm_entropy": 0.822,
+    "size": 130,
+    "top_modules": [
+      [
+        "Data",
+        28
+      ],
+      [
+        "ModelTheory",
+        22
+      ],
+      [
+        "CategoryTheory",
+        22
+      ]
+    ]
+  },
+  "8_9": {
+    "top_cluster": 8,
+    "sub_cluster": 9,
+    "label": "Data + External + Logic",
+    "dominant_fraction": 0.354,
+    "norm_entropy": 0.828,
+    "size": 113,
+    "top_modules": [
+      [
+        "Data",
+        40
+      ],
+      [
+        "External",
+        16
+      ],
+      [
+        "Logic",
+        14
+      ]
+    ]
+  },
+  "8_0": {
+    "top_cluster": 8,
+    "sub_cluster": 0,
+    "label": "Data",
+    "dominant_fraction": 0.473,
+    "norm_entropy": 0.657,
+    "size": 275,
+    "top_modules": [
+      [
+        "Data",
+        130
+      ],
+      [
+        "AlgebraicTopology",
+        43
+      ],
+      [
+        "External",
+        42
+      ]
+    ]
+  },
+  "8_5": {
+    "top_cluster": 8,
+    "sub_cluster": 5,
+    "label": "Data",
+    "dominant_fraction": 0.425,
+    "norm_entropy": 0.672,
+    "size": 167,
+    "top_modules": [
+      [
+        "Data",
+        71
+      ],
+      [
+        "LinearAlgebra",
+        64
+      ],
+      [
+        "Combinatorics",
+        14
+      ]
+    ]
+  },
+  "8_11": {
+    "top_cluster": 8,
+    "sub_cluster": 11,
+    "label": "Order",
+    "dominant_fraction": 0.485,
+    "norm_entropy": 0.817,
+    "size": 99,
+    "top_modules": [
+      [
+        "Order",
+        48
+      ],
+      [
+        "External",
+        20
+      ],
+      [
+        "Data",
+        19
+      ]
+    ]
+  },
+  "8_15": {
+    "top_cluster": 8,
+    "sub_cluster": 15,
+    "label": "Combinatorics",
+    "dominant_fraction": 0.464,
+    "norm_entropy": 0.804,
+    "size": 69,
+    "top_modules": [
+      [
+        "Combinatorics",
+        32
+      ],
+      [
+        "Data",
+        11
+      ],
+      [
+        "External",
+        11
+      ]
+    ]
+  },
+  "8_2": {
+    "top_cluster": 8,
+    "sub_cluster": 2,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.595,
+    "norm_entropy": 0.508,
+    "size": 222,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        132
+      ],
+      [
+        "Data",
+        55
+      ],
+      [
+        "Algebra",
+        25
+      ]
+    ]
+  },
+  "8_28": {
+    "top_cluster": 8,
+    "sub_cluster": 28,
+    "label": "Algebra",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.65,
+    "size": 6,
+    "top_modules": [
+      [
+        "Algebra",
+        5
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "8_22": {
+    "top_cluster": 8,
+    "sub_cluster": 22,
+    "label": "Data",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.515,
+    "size": 12,
+    "top_modules": [
+      [
+        "Data",
+        10
+      ],
+      [
+        "Topology",
+        1
+      ],
+      [
+        "Analysis",
+        1
+      ]
+    ]
+  },
+  "8_12": {
+    "top_cluster": 8,
+    "sub_cluster": 12,
+    "label": "Logic + Unknown + Data",
+    "dominant_fraction": 0.21,
+    "norm_entropy": 0.892,
+    "size": 81,
+    "top_modules": [
+      [
+        "Logic",
+        17
+      ],
+      [
+        "Unknown",
+        14
+      ],
+      [
+        "Data",
+        10
+      ]
+    ]
+  },
+  "8_20": {
+    "top_cluster": 8,
+    "sub_cluster": 20,
+    "label": "Data",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.971,
+    "size": 40,
+    "top_modules": [
+      [
+        "Data",
+        24
+      ],
+      [
+        "External",
+        16
+      ]
+    ]
+  },
+  "8_10": {
+    "top_cluster": 8,
+    "sub_cluster": 10,
+    "label": "Data",
+    "dominant_fraction": 0.467,
+    "norm_entropy": 0.717,
+    "size": 105,
+    "top_modules": [
+      [
+        "Data",
+        49
+      ],
+      [
+        "Analysis",
+        21
+      ],
+      [
+        "Unknown",
+        11
+      ]
+    ]
+  },
+  "8_13": {
+    "top_cluster": 8,
+    "sub_cluster": 13,
+    "label": "Analysis",
+    "dominant_fraction": 0.642,
+    "norm_entropy": 0.568,
+    "size": 81,
+    "top_modules": [
+      [
+        "Analysis",
+        52
+      ],
+      [
+        "Data",
+        12
+      ],
+      [
+        "LinearAlgebra",
+        6
+      ]
+    ]
+  },
+  "8_24": {
+    "top_cluster": 8,
+    "sub_cluster": 24,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.727,
+    "norm_entropy": 0.639,
+    "size": 11,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        8
+      ],
+      [
+        "Analysis",
+        1
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "8_23": {
+    "top_cluster": 8,
+    "sub_cluster": 23,
+    "label": "Algebra",
+    "dominant_fraction": 0.75,
+    "norm_entropy": 0.657,
+    "size": 12,
+    "top_modules": [
+      [
+        "Algebra",
+        9
+      ],
+      [
+        "Analysis",
+        2
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "8_21": {
+    "top_cluster": 8,
+    "sub_cluster": 21,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.625,
+    "norm_entropy": 0.954,
+    "size": 16,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        10
+      ],
+      [
+        "Data",
+        6
+      ]
+    ]
+  },
+  "8_25": {
+    "top_cluster": 8,
+    "sub_cluster": 25,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.636,
+    "norm_entropy": 0.946,
+    "size": 11,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        7
+      ],
+      [
+        "Algebra",
+        4
+      ]
+    ]
+  },
+  "8_26": {
+    "top_cluster": 8,
+    "sub_cluster": 26,
+    "label": "Data",
+    "dominant_fraction": 0.9,
+    "norm_entropy": 0.469,
+    "size": 10,
+    "top_modules": [
+      [
+        "Data",
+        9
+      ],
+      [
+        "Algebra",
+        1
+      ]
+    ]
+  },
+  "8_19": {
+    "top_cluster": 8,
+    "sub_cluster": 19,
+    "label": "Data",
+    "dominant_fraction": 0.975,
+    "norm_entropy": 0.169,
+    "size": 40,
+    "top_modules": [
+      [
+        "Data",
+        39
+      ],
+      [
+        "LinearAlgebra",
+        1
+      ]
+    ]
+  },
+  "8_29": {
+    "top_cluster": 8,
+    "sub_cluster": 29,
+    "label": "FieldTheory",
+    "dominant_fraction": 0.8,
+    "norm_entropy": 0.722,
+    "size": 5,
+    "top_modules": [
+      [
+        "FieldTheory",
+        4
+      ],
+      [
+        "External",
+        1
+      ]
+    ]
+  },
+  "8_27": {
+    "top_cluster": 8,
+    "sub_cluster": 27,
+    "label": "Analysis",
+    "dominant_fraction": 0.556,
+    "norm_entropy": 0.853,
+    "size": 9,
+    "top_modules": [
+      [
+        "Analysis",
+        5
+      ],
+      [
+        "Data",
+        3
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "9_3": {
+    "top_cluster": 9,
+    "sub_cluster": 3,
+    "label": "Geometry",
+    "dominant_fraction": 0.831,
+    "norm_entropy": 0.386,
+    "size": 142,
+    "top_modules": [
+      [
+        "Geometry",
+        118
+      ],
+      [
+        "Analysis",
+        9
+      ],
+      [
+        "Unknown",
+        6
+      ]
+    ]
+  },
+  "9_1": {
+    "top_cluster": 9,
+    "sub_cluster": 1,
+    "label": "Analysis",
+    "dominant_fraction": 0.685,
+    "norm_entropy": 0.519,
+    "size": 184,
+    "top_modules": [
+      [
+        "Analysis",
+        126
+      ],
+      [
+        "Topology",
+        24
+      ],
+      [
+        "Geometry",
+        19
+      ]
+    ]
+  },
+  "9_10": {
+    "top_cluster": 9,
+    "sub_cluster": 10,
+    "label": "Analysis",
+    "dominant_fraction": 0.435,
+    "norm_entropy": 0.671,
+    "size": 85,
+    "top_modules": [
+      [
+        "Analysis",
+        37
+      ],
+      [
+        "Geometry",
+        21
+      ],
+      [
+        "Topology",
+        19
+      ]
+    ]
+  },
+  "9_9": {
+    "top_cluster": 9,
+    "sub_cluster": 9,
+    "label": "Geometry",
+    "dominant_fraction": 0.407,
+    "norm_entropy": 0.732,
+    "size": 86,
+    "top_modules": [
+      [
+        "Geometry",
+        35
+      ],
+      [
+        "Algebra",
+        16
+      ],
+      [
+        "Topology",
+        13
+      ]
+    ]
+  },
+  "9_17": {
+    "top_cluster": 9,
+    "sub_cluster": 17,
+    "label": "Analysis",
+    "dominant_fraction": 0.786,
+    "norm_entropy": 0.429,
+    "size": 56,
+    "top_modules": [
+      [
+        "Analysis",
+        44
+      ],
+      [
+        "Logic",
+        3
+      ],
+      [
+        "Topology",
+        2
+      ]
+    ]
+  },
+  "9_4": {
+    "top_cluster": 9,
+    "sub_cluster": 4,
+    "label": "Analysis",
+    "dominant_fraction": 0.812,
+    "norm_entropy": 0.399,
+    "size": 133,
+    "top_modules": [
+      [
+        "Analysis",
+        108
+      ],
+      [
+        "Topology",
+        14
+      ],
+      [
+        "Geometry",
+        5
+      ]
+    ]
+  },
+  "9_0": {
+    "top_cluster": 9,
+    "sub_cluster": 0,
+    "label": "Geometry",
+    "dominant_fraction": 0.678,
+    "norm_entropy": 0.576,
+    "size": 239,
+    "top_modules": [
+      [
+        "Geometry",
+        162
+      ],
+      [
+        "Topology",
+        29
+      ],
+      [
+        "Analysis",
+        18
+      ]
+    ]
+  },
+  "9_11": {
+    "top_cluster": 9,
+    "sub_cluster": 11,
+    "label": "Analysis",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.378,
+    "size": 84,
+    "top_modules": [
+      [
+        "Analysis",
+        70
+      ],
+      [
+        "Topology",
+        4
+      ],
+      [
+        "Data",
+        3
+      ]
+    ]
+  },
+  "9_12": {
+    "top_cluster": 9,
+    "sub_cluster": 12,
+    "label": "Geometry",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.668,
+    "size": 84,
+    "top_modules": [
+      [
+        "Geometry",
+        42
+      ],
+      [
+        "Topology",
+        23
+      ],
+      [
+        "Unknown",
+        7
+      ]
+    ]
+  },
+  "9_24": {
+    "top_cluster": 9,
+    "sub_cluster": 24,
+    "label": "Analysis",
+    "dominant_fraction": 0.885,
+    "norm_entropy": 0.392,
+    "size": 26,
+    "top_modules": [
+      [
+        "Analysis",
+        23
+      ],
+      [
+        "Order",
+        2
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "9_8": {
+    "top_cluster": 9,
+    "sub_cluster": 8,
+    "label": "Analysis",
+    "dominant_fraction": 0.7,
+    "norm_entropy": 0.555,
+    "size": 90,
+    "top_modules": [
+      [
+        "Analysis",
+        63
+      ],
+      [
+        "Topology",
+        7
+      ],
+      [
+        "Order",
+        6
+      ]
+    ]
+  },
+  "9_14": {
+    "top_cluster": 9,
+    "sub_cluster": 14,
+    "label": "Logic",
+    "dominant_fraction": 0.413,
+    "norm_entropy": 0.777,
+    "size": 75,
+    "top_modules": [
+      [
+        "Logic",
+        31
+      ],
+      [
+        "Geometry",
+        24
+      ],
+      [
+        "Topology",
+        11
+      ]
+    ]
+  },
+  "9_2": {
+    "top_cluster": 9,
+    "sub_cluster": 2,
+    "label": "Analysis",
+    "dominant_fraction": 0.735,
+    "norm_entropy": 0.493,
+    "size": 162,
+    "top_modules": [
+      [
+        "Analysis",
+        119
+      ],
+      [
+        "Geometry",
+        10
+      ],
+      [
+        "Topology",
+        8
+      ]
+    ]
+  },
+  "9_25": {
+    "top_cluster": 9,
+    "sub_cluster": 25,
+    "label": "Analysis",
+    "dominant_fraction": 0.88,
+    "norm_entropy": 0.404,
+    "size": 25,
+    "top_modules": [
+      [
+        "Analysis",
+        22
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "LinearAlgebra",
+        1
+      ]
+    ]
+  },
+  "9_26": {
+    "top_cluster": 9,
+    "sub_cluster": 26,
+    "label": "Analysis",
+    "dominant_fraction": 0.75,
+    "norm_entropy": 0.556,
+    "size": 24,
+    "top_modules": [
+      [
+        "Analysis",
+        18
+      ],
+      [
+        "Algebra",
+        2
+      ],
+      [
+        "Unknown",
+        2
+      ]
+    ]
+  },
+  "9_16": {
+    "top_cluster": 9,
+    "sub_cluster": 16,
+    "label": "Analysis",
+    "dominant_fraction": 0.71,
+    "norm_entropy": 0.53,
+    "size": 69,
+    "top_modules": [
+      [
+        "Analysis",
+        49
+      ],
+      [
+        "Order",
+        12
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "9_13": {
+    "top_cluster": 9,
+    "sub_cluster": 13,
+    "label": "Analysis",
+    "dominant_fraction": 0.59,
+    "norm_entropy": 0.627,
+    "size": 78,
+    "top_modules": [
+      [
+        "Analysis",
+        46
+      ],
+      [
+        "Topology",
+        21
+      ],
+      [
+        "Geometry",
+        4
+      ]
+    ]
+  },
+  "9_18": {
+    "top_cluster": 9,
+    "sub_cluster": 18,
+    "label": "Topology",
+    "dominant_fraction": 0.593,
+    "norm_entropy": 0.727,
+    "size": 54,
+    "top_modules": [
+      [
+        "Topology",
+        32
+      ],
+      [
+        "Geometry",
+        15
+      ],
+      [
+        "Unknown",
+        5
+      ]
+    ]
+  },
+  "9_22": {
+    "top_cluster": 9,
+    "sub_cluster": 22,
+    "label": "Topology",
+    "dominant_fraction": 0.514,
+    "norm_entropy": 0.775,
+    "size": 35,
+    "top_modules": [
+      [
+        "Topology",
+        18
+      ],
+      [
+        "CategoryTheory",
+        5
+      ],
+      [
+        "Analysis",
+        4
+      ]
+    ]
+  },
+  "9_27": {
+    "top_cluster": 9,
+    "sub_cluster": 27,
+    "label": "Analysis",
+    "dominant_fraction": 0.565,
+    "norm_entropy": 0.771,
+    "size": 23,
+    "top_modules": [
+      [
+        "Analysis",
+        13
+      ],
+      [
+        "Geometry",
+        4
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "9_6": {
+    "top_cluster": 9,
+    "sub_cluster": 6,
+    "label": "Analysis + Topology + Geometry",
+    "dominant_fraction": 0.396,
+    "norm_entropy": 0.791,
+    "size": 96,
+    "top_modules": [
+      [
+        "Analysis",
+        38
+      ],
+      [
+        "Topology",
+        17
+      ],
+      [
+        "Geometry",
+        17
+      ]
+    ]
+  },
+  "9_5": {
+    "top_cluster": 9,
+    "sub_cluster": 5,
+    "label": "Topology",
+    "dominant_fraction": 0.614,
+    "norm_entropy": 0.6,
+    "size": 114,
+    "top_modules": [
+      [
+        "Topology",
+        70
+      ],
+      [
+        "Analysis",
+        22
+      ],
+      [
+        "Geometry",
+        11
+      ]
+    ]
+  },
+  "9_7": {
+    "top_cluster": 9,
+    "sub_cluster": 7,
+    "label": "Analysis",
+    "dominant_fraction": 0.742,
+    "norm_entropy": 0.496,
+    "size": 93,
+    "top_modules": [
+      [
+        "Analysis",
+        69
+      ],
+      [
+        "Order",
+        12
+      ],
+      [
+        "Topology",
+        7
+      ]
+    ]
+  },
+  "9_19": {
+    "top_cluster": 9,
+    "sub_cluster": 19,
+    "label": "Analysis",
+    "dominant_fraction": 0.98,
+    "norm_entropy": 0.139,
+    "size": 51,
+    "top_modules": [
+      [
+        "Analysis",
+        50
+      ],
+      [
+        "Order",
+        1
+      ]
+    ]
+  },
+  "9_23": {
+    "top_cluster": 9,
+    "sub_cluster": 23,
+    "label": "Analysis",
+    "dominant_fraction": 0.483,
+    "norm_entropy": 0.866,
+    "size": 29,
+    "top_modules": [
+      [
+        "Analysis",
+        14
+      ],
+      [
+        "Topology",
+        12
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "9_33": {
+    "top_cluster": 9,
+    "sub_cluster": 33,
+    "label": "Geometry",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.921,
+    "size": 6,
+    "top_modules": [
+      [
+        "Geometry",
+        3
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "Topology",
+        1
+      ]
+    ]
+  },
+  "9_15": {
+    "top_cluster": 9,
+    "sub_cluster": 15,
+    "label": "Analysis",
+    "dominant_fraction": 0.878,
+    "norm_entropy": 0.534,
+    "size": 74,
+    "top_modules": [
+      [
+        "Analysis",
+        65
+      ],
+      [
+        "Topology",
+        9
+      ]
+    ]
+  },
+  "9_28": {
+    "top_cluster": 9,
+    "sub_cluster": 28,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.556,
+    "norm_entropy": 0.853,
+    "size": 18,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        10
+      ],
+      [
+        "Topology",
+        6
+      ],
+      [
+        "LinearAlgebra",
+        2
+      ]
+    ]
+  },
+  "9_29": {
+    "top_cluster": 9,
+    "sub_cluster": 29,
+    "label": "Algebra",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.777,
+    "size": 15,
+    "top_modules": [
+      [
+        "Algebra",
+        9
+      ],
+      [
+        "Analysis",
+        3
+      ],
+      [
+        "GroupTheory",
+        2
+      ]
+    ]
+  },
+  "9_21": {
+    "top_cluster": 9,
+    "sub_cluster": 21,
+    "label": "Analysis",
+    "dominant_fraction": 0.914,
+    "norm_entropy": 0.279,
+    "size": 35,
+    "top_modules": [
+      [
+        "Analysis",
+        32
+      ],
+      [
+        "Topology",
+        1
+      ],
+      [
+        "Algebra",
+        1
+      ]
+    ]
+  },
+  "9_20": {
+    "top_cluster": 9,
+    "sub_cluster": 20,
+    "label": "Geometry",
+    "dominant_fraction": 0.472,
+    "norm_entropy": 0.813,
+    "size": 36,
+    "top_modules": [
+      [
+        "Geometry",
+        17
+      ],
+      [
+        "Topology",
+        13
+      ],
+      [
+        "Unknown",
+        4
+      ]
+    ]
+  },
+  "9_30": {
+    "top_cluster": 9,
+    "sub_cluster": 30,
+    "label": "Geometry",
+    "dominant_fraction": 0.714,
+    "norm_entropy": 0.725,
+    "size": 7,
+    "top_modules": [
+      [
+        "Geometry",
+        5
+      ],
+      [
+        "Unknown",
+        1
+      ],
+      [
+        "Topology",
+        1
+      ]
+    ]
+  },
+  "9_31": {
+    "top_cluster": 9,
+    "sub_cluster": 31,
+    "label": "Algebra",
+    "dominant_fraction": 0.857,
+    "norm_entropy": 0.592,
+    "size": 7,
+    "top_modules": [
+      [
+        "Algebra",
+        6
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "9_32": {
+    "top_cluster": 9,
+    "sub_cluster": 32,
+    "label": "Analysis",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.65,
+    "size": 6,
+    "top_modules": [
+      [
+        "Analysis",
+        5
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "10_11": {
+    "top_cluster": 10,
+    "sub_cluster": 11,
+    "label": "RingTheory",
+    "dominant_fraction": 0.48,
+    "norm_entropy": 0.712,
+    "size": 100,
+    "top_modules": [
+      [
+        "RingTheory",
+        48
+      ],
+      [
+        "Algebra",
+        16
+      ],
+      [
+        "Order",
+        11
+      ]
+    ]
+  },
+  "10_8": {
+    "top_cluster": 10,
+    "sub_cluster": 8,
+    "label": "SetTheory",
+    "dominant_fraction": 0.508,
+    "norm_entropy": 0.695,
+    "size": 122,
+    "top_modules": [
+      [
+        "SetTheory",
+        62
+      ],
+      [
+        "LinearAlgebra",
+        18
+      ],
+      [
+        "Order",
+        9
+      ]
+    ]
+  },
+  "10_5": {
+    "top_cluster": 10,
+    "sub_cluster": 5,
+    "label": "SetTheory",
+    "dominant_fraction": 0.432,
+    "norm_entropy": 0.679,
+    "size": 139,
+    "top_modules": [
+      [
+        "SetTheory",
+        60
+      ],
+      [
+        "Order",
+        26
+      ],
+      [
+        "LinearAlgebra",
+        23
+      ]
+    ]
+  },
+  "10_9": {
+    "top_cluster": 10,
+    "sub_cluster": 9,
+    "label": "SetTheory",
+    "dominant_fraction": 0.819,
+    "norm_entropy": 0.365,
+    "size": 116,
+    "top_modules": [
+      [
+        "SetTheory",
+        95
+      ],
+      [
+        "Order",
+        12
+      ],
+      [
+        "Data",
+        3
+      ]
+    ]
+  },
+  "10_14": {
+    "top_cluster": 10,
+    "sub_cluster": 14,
+    "label": "Data",
+    "dominant_fraction": 0.468,
+    "norm_entropy": 0.808,
+    "size": 47,
+    "top_modules": [
+      [
+        "Data",
+        22
+      ],
+      [
+        "Algebra",
+        17
+      ],
+      [
+        "Order",
+        6
+      ]
+    ]
+  },
+  "10_12": {
+    "top_cluster": 10,
+    "sub_cluster": 12,
+    "label": "SetTheory + LinearAlgebra + Data",
+    "dominant_fraction": 0.367,
+    "norm_entropy": 0.697,
+    "size": 79,
+    "top_modules": [
+      [
+        "SetTheory",
+        29
+      ],
+      [
+        "LinearAlgebra",
+        24
+      ],
+      [
+        "Data",
+        12
+      ]
+    ]
+  },
+  "10_0": {
+    "top_cluster": 10,
+    "sub_cluster": 0,
+    "label": "SetTheory",
+    "dominant_fraction": 0.541,
+    "norm_entropy": 0.646,
+    "size": 292,
+    "top_modules": [
+      [
+        "SetTheory",
+        158
+      ],
+      [
+        "LinearAlgebra",
+        38
+      ],
+      [
+        "ModelTheory",
+        35
+      ]
+    ]
+  },
+  "10_3": {
+    "top_cluster": 10,
+    "sub_cluster": 3,
+    "label": "SetTheory",
+    "dominant_fraction": 0.535,
+    "norm_entropy": 0.728,
+    "size": 155,
+    "top_modules": [
+      [
+        "SetTheory",
+        83
+      ],
+      [
+        "Order",
+        32
+      ],
+      [
+        "Data",
+        11
+      ]
+    ]
+  },
+  "10_6": {
+    "top_cluster": 10,
+    "sub_cluster": 6,
+    "label": "LinearAlgebra + SetTheory + FieldTheory",
+    "dominant_fraction": 0.391,
+    "norm_entropy": 0.655,
+    "size": 133,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        52
+      ],
+      [
+        "SetTheory",
+        44
+      ],
+      [
+        "FieldTheory",
+        17
+      ]
+    ]
+  },
+  "10_1": {
+    "top_cluster": 10,
+    "sub_cluster": 1,
+    "label": "SetTheory",
+    "dominant_fraction": 0.929,
+    "norm_entropy": 0.196,
+    "size": 197,
+    "top_modules": [
+      [
+        "SetTheory",
+        183
+      ],
+      [
+        "Order",
+        7
+      ],
+      [
+        "Algebra",
+        3
+      ]
+    ]
+  },
+  "10_2": {
+    "top_cluster": 10,
+    "sub_cluster": 2,
+    "label": "SetTheory",
+    "dominant_fraction": 0.823,
+    "norm_entropy": 0.372,
+    "size": 175,
+    "top_modules": [
+      [
+        "SetTheory",
+        144
+      ],
+      [
+        "Unknown",
+        15
+      ],
+      [
+        "Order",
+        6
+      ]
+    ]
+  },
+  "10_4": {
+    "top_cluster": 10,
+    "sub_cluster": 4,
+    "label": "SetTheory",
+    "dominant_fraction": 0.846,
+    "norm_entropy": 0.331,
+    "size": 143,
+    "top_modules": [
+      [
+        "SetTheory",
+        121
+      ],
+      [
+        "Order",
+        11
+      ],
+      [
+        "Topology",
+        5
+      ]
+    ]
+  },
+  "10_23": {
+    "top_cluster": 10,
+    "sub_cluster": 23,
+    "label": "SetTheory",
+    "dominant_fraction": 0.875,
+    "norm_entropy": 0.544,
+    "size": 16,
+    "top_modules": [
+      [
+        "SetTheory",
+        14
+      ],
+      [
+        "Order",
+        2
+      ]
+    ]
+  },
+  "10_10": {
+    "top_cluster": 10,
+    "sub_cluster": 10,
+    "label": "SetTheory",
+    "dominant_fraction": 0.936,
+    "norm_entropy": 0.207,
+    "size": 110,
+    "top_modules": [
+      [
+        "SetTheory",
+        103
+      ],
+      [
+        "Order",
+        5
+      ],
+      [
+        "Algebra",
+        1
+      ]
+    ]
+  },
+  "10_16": {
+    "top_cluster": 10,
+    "sub_cluster": 16,
+    "label": "SetTheory",
+    "dominant_fraction": 0.643,
+    "norm_entropy": 0.692,
+    "size": 42,
+    "top_modules": [
+      [
+        "SetTheory",
+        27
+      ],
+      [
+        "Data",
+        10
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "10_13": {
+    "top_cluster": 10,
+    "sub_cluster": 13,
+    "label": "Algebra",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.723,
+    "size": 54,
+    "top_modules": [
+      [
+        "Algebra",
+        27
+      ],
+      [
+        "Analysis",
+        9
+      ],
+      [
+        "Order",
+        8
+      ]
+    ]
+  },
+  "10_15": {
+    "top_cluster": 10,
+    "sub_cluster": 15,
+    "label": "Order + Data + Init",
+    "dominant_fraction": 0.279,
+    "norm_entropy": 0.837,
+    "size": 43,
+    "top_modules": [
+      [
+        "Order",
+        12
+      ],
+      [
+        "Data",
+        11
+      ],
+      [
+        "Init",
+        8
+      ]
+    ]
+  },
+  "10_7": {
+    "top_cluster": 10,
+    "sub_cluster": 7,
+    "label": "SetTheory",
+    "dominant_fraction": 0.675,
+    "norm_entropy": 0.554,
+    "size": 126,
+    "top_modules": [
+      [
+        "SetTheory",
+        85
+      ],
+      [
+        "Data",
+        17
+      ],
+      [
+        "MeasureTheory",
+        10
+      ]
+    ]
+  },
+  "10_22": {
+    "top_cluster": 10,
+    "sub_cluster": 22,
+    "label": "FieldTheory",
+    "dominant_fraction": 0.562,
+    "norm_entropy": 0.796,
+    "size": 16,
+    "top_modules": [
+      [
+        "FieldTheory",
+        9
+      ],
+      [
+        "Unknown",
+        4
+      ],
+      [
+        "Algebra",
+        2
+      ]
+    ]
+  },
+  "10_18": {
+    "top_cluster": 10,
+    "sub_cluster": 18,
+    "label": "Topology + Unknown + SetTheory",
+    "dominant_fraction": 0.385,
+    "norm_entropy": 0.852,
+    "size": 26,
+    "top_modules": [
+      [
+        "Topology",
+        10
+      ],
+      [
+        "Unknown",
+        4
+      ],
+      [
+        "SetTheory",
+        3
+      ]
+    ]
+  },
+  "10_21": {
+    "top_cluster": 10,
+    "sub_cluster": 21,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.804,
+    "size": 16,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        8
+      ],
+      [
+        "RingTheory",
+        3
+      ],
+      [
+        "Order",
+        2
+      ]
+    ]
+  },
+  "10_19": {
+    "top_cluster": 10,
+    "sub_cluster": 19,
+    "label": "Order",
+    "dominant_fraction": 0.8,
+    "norm_entropy": 0.498,
+    "size": 25,
+    "top_modules": [
+      [
+        "Order",
+        20
+      ],
+      [
+        "Algebra",
+        3
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "10_17": {
+    "top_cluster": 10,
+    "sub_cluster": 17,
+    "label": "SetTheory",
+    "dominant_fraction": 0.947,
+    "norm_entropy": 0.297,
+    "size": 38,
+    "top_modules": [
+      [
+        "SetTheory",
+        36
+      ],
+      [
+        "Data",
+        2
+      ]
+    ]
+  },
+  "10_20": {
+    "top_cluster": 10,
+    "sub_cluster": 20,
+    "label": "Data + Order + Unknown",
+    "dominant_fraction": 0.348,
+    "norm_entropy": 0.82,
+    "size": 23,
+    "top_modules": [
+      [
+        "Data",
+        8
+      ],
+      [
+        "Order",
+        7
+      ],
+      [
+        "Unknown",
+        5
+      ]
+    ]
+  },
+  "10_24": {
+    "top_cluster": 10,
+    "sub_cluster": 24,
+    "label": "Data",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 5,
+    "top_modules": [
+      [
+        "Data",
+        5
+      ]
+    ]
+  },
+  "11_13": {
+    "top_cluster": 11,
+    "sub_cluster": 13,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.875,
+    "norm_entropy": 0.35,
+    "size": 48,
+    "top_modules": [
+      [
+        "GroupTheory",
+        42
+      ],
+      [
+        "External",
+        4
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "11_4": {
+    "top_cluster": 11,
+    "sub_cluster": 4,
+    "label": "SetTheory",
+    "dominant_fraction": 0.919,
+    "norm_entropy": 0.221,
+    "size": 136,
+    "top_modules": [
+      [
+        "SetTheory",
+        125
+      ],
+      [
+        "Data",
+        5
+      ],
+      [
+        "InformationTheory",
+        2
+      ]
+    ]
+  },
+  "11_0": {
+    "top_cluster": 11,
+    "sub_cluster": 0,
+    "label": "Data",
+    "dominant_fraction": 0.986,
+    "norm_entropy": 0.075,
+    "size": 214,
+    "top_modules": [
+      [
+        "Data",
+        211
+      ],
+      [
+        "External",
+        2
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "11_15": {
+    "top_cluster": 11,
+    "sub_cluster": 15,
+    "label": "Control + Order + Data",
+    "dominant_fraction": 0.366,
+    "norm_entropy": 0.843,
+    "size": 41,
+    "top_modules": [
+      [
+        "Control",
+        15
+      ],
+      [
+        "Order",
+        10
+      ],
+      [
+        "Data",
+        9
+      ]
+    ]
+  },
+  "11_5": {
+    "top_cluster": 11,
+    "sub_cluster": 5,
+    "label": "Computability + Unknown + Data",
+    "dominant_fraction": 0.348,
+    "norm_entropy": 0.829,
+    "size": 135,
+    "top_modules": [
+      [
+        "Computability",
+        47
+      ],
+      [
+        "Unknown",
+        31
+      ],
+      [
+        "Data",
+        22
+      ]
+    ]
+  },
+  "11_16": {
+    "top_cluster": 11,
+    "sub_cluster": 16,
+    "label": "Computability",
+    "dominant_fraction": 0.632,
+    "norm_entropy": 0.647,
+    "size": 38,
+    "top_modules": [
+      [
+        "Computability",
+        24
+      ],
+      [
+        "Topology",
+        5
+      ],
+      [
+        "Order",
+        3
+      ]
+    ]
+  },
+  "11_3": {
+    "top_cluster": 11,
+    "sub_cluster": 3,
+    "label": "Computability",
+    "dominant_fraction": 0.464,
+    "norm_entropy": 0.579,
+    "size": 168,
+    "top_modules": [
+      [
+        "Computability",
+        78
+      ],
+      [
+        "Data",
+        67
+      ],
+      [
+        "Unknown",
+        8
+      ]
+    ]
+  },
+  "11_6": {
+    "top_cluster": 11,
+    "sub_cluster": 6,
+    "label": "SetTheory",
+    "dominant_fraction": 0.748,
+    "norm_entropy": 0.454,
+    "size": 115,
+    "top_modules": [
+      [
+        "SetTheory",
+        86
+      ],
+      [
+        "Unknown",
+        5
+      ],
+      [
+        "MeasureTheory",
+        5
+      ]
+    ]
+  },
+  "11_24": {
+    "top_cluster": 11,
+    "sub_cluster": 24,
+    "label": "Logic",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 4,
+    "top_modules": [
+      [
+        "Logic",
+        4
+      ]
+    ]
+  },
+  "11_8": {
+    "top_cluster": 11,
+    "sub_cluster": 8,
+    "label": "Data",
+    "dominant_fraction": 0.882,
+    "norm_entropy": 0.264,
+    "size": 102,
+    "top_modules": [
+      [
+        "Data",
+        90
+      ],
+      [
+        "Topology",
+        3
+      ],
+      [
+        "External",
+        2
+      ]
+    ]
+  },
+  "11_9": {
+    "top_cluster": 11,
+    "sub_cluster": 9,
+    "label": "Data",
+    "dominant_fraction": 0.978,
+    "norm_entropy": 0.15,
+    "size": 93,
+    "top_modules": [
+      [
+        "Data",
+        91
+      ],
+      [
+        "External",
+        2
+      ]
+    ]
+  },
+  "11_7": {
+    "top_cluster": 11,
+    "sub_cluster": 7,
+    "label": "SetTheory",
+    "dominant_fraction": 0.83,
+    "norm_entropy": 0.388,
+    "size": 112,
+    "top_modules": [
+      [
+        "SetTheory",
+        93
+      ],
+      [
+        "Unknown",
+        8
+      ],
+      [
+        "External",
+        4
+      ]
+    ]
+  },
+  "11_18": {
+    "top_cluster": 11,
+    "sub_cluster": 18,
+    "label": "Logic",
+    "dominant_fraction": 0.4,
+    "norm_entropy": 0.856,
+    "size": 30,
+    "top_modules": [
+      [
+        "Logic",
+        12
+      ],
+      [
+        "MeasureTheory",
+        6
+      ],
+      [
+        "Topology",
+        6
+      ]
+    ]
+  },
+  "11_1": {
+    "top_cluster": 11,
+    "sub_cluster": 1,
+    "label": "Algebra",
+    "dominant_fraction": 0.659,
+    "norm_entropy": 0.523,
+    "size": 211,
+    "top_modules": [
+      [
+        "Algebra",
+        139
+      ],
+      [
+        "Data",
+        29
+      ],
+      [
+        "External",
+        21
+      ]
+    ]
+  },
+  "11_2": {
+    "top_cluster": 11,
+    "sub_cluster": 2,
+    "label": "Computability",
+    "dominant_fraction": 0.618,
+    "norm_entropy": 0.619,
+    "size": 170,
+    "top_modules": [
+      [
+        "Computability",
+        105
+      ],
+      [
+        "External",
+        21
+      ],
+      [
+        "Logic",
+        16
+      ]
+    ]
+  },
+  "11_17": {
+    "top_cluster": 11,
+    "sub_cluster": 17,
+    "label": "Data",
+    "dominant_fraction": 0.417,
+    "norm_entropy": 0.823,
+    "size": 36,
+    "top_modules": [
+      [
+        "Data",
+        15
+      ],
+      [
+        "External",
+        8
+      ],
+      [
+        "Combinatorics",
+        5
+      ]
+    ]
+  },
+  "11_10": {
+    "top_cluster": 11,
+    "sub_cluster": 10,
+    "label": "Computability",
+    "dominant_fraction": 0.482,
+    "norm_entropy": 0.74,
+    "size": 83,
+    "top_modules": [
+      [
+        "Computability",
+        40
+      ],
+      [
+        "Unknown",
+        15
+      ],
+      [
+        "Logic",
+        13
+      ]
+    ]
+  },
+  "11_23": {
+    "top_cluster": 11,
+    "sub_cluster": 23,
+    "label": "Data",
+    "dominant_fraction": 0.667,
+    "norm_entropy": 0.918,
+    "size": 9,
+    "top_modules": [
+      [
+        "Data",
+        6
+      ],
+      [
+        "External",
+        3
+      ]
+    ]
+  },
+  "11_12": {
+    "top_cluster": 11,
+    "sub_cluster": 12,
+    "label": "Logic",
+    "dominant_fraction": 0.459,
+    "norm_entropy": 0.804,
+    "size": 74,
+    "top_modules": [
+      [
+        "Logic",
+        34
+      ],
+      [
+        "Order",
+        14
+      ],
+      [
+        "Data",
+        13
+      ]
+    ]
+  },
+  "11_22": {
+    "top_cluster": 11,
+    "sub_cluster": 22,
+    "label": "Data",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 10,
+    "top_modules": [
+      [
+        "Data",
+        10
+      ]
+    ]
+  },
+  "11_11": {
+    "top_cluster": 11,
+    "sub_cluster": 11,
+    "label": "NumberTheory + Data + Order",
+    "dominant_fraction": 0.237,
+    "norm_entropy": 0.894,
+    "size": 76,
+    "top_modules": [
+      [
+        "NumberTheory",
+        18
+      ],
+      [
+        "Data",
+        13
+      ],
+      [
+        "Order",
+        13
+      ]
+    ]
+  },
+  "11_14": {
+    "top_cluster": 11,
+    "sub_cluster": 14,
+    "label": "Computability",
+    "dominant_fraction": 0.696,
+    "norm_entropy": 0.749,
+    "size": 46,
+    "top_modules": [
+      [
+        "Computability",
+        32
+      ],
+      [
+        "Unknown",
+        8
+      ],
+      [
+        "Data",
+        6
+      ]
+    ]
+  },
+  "11_19": {
+    "top_cluster": 11,
+    "sub_cluster": 19,
+    "label": "External",
+    "dominant_fraction": 0.864,
+    "norm_entropy": 0.575,
+    "size": 22,
+    "top_modules": [
+      [
+        "External",
+        19
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "11_20": {
+    "top_cluster": 11,
+    "sub_cluster": 20,
+    "label": "Order",
+    "dominant_fraction": 0.789,
+    "norm_entropy": 0.601,
+    "size": 19,
+    "top_modules": [
+      [
+        "Order",
+        15
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "Data",
+        2
+      ]
+    ]
+  },
+  "11_21": {
+    "top_cluster": 11,
+    "sub_cluster": 21,
+    "label": "Order",
+    "dominant_fraction": 0.417,
+    "norm_entropy": 0.885,
+    "size": 12,
+    "top_modules": [
+      [
+        "Order",
+        5
+      ],
+      [
+        "Control",
+        3
+      ],
+      [
+        "Data",
+        2
+      ]
+    ]
+  },
+  "12_11": {
+    "top_cluster": 12,
+    "sub_cluster": 11,
+    "label": "RingTheory",
+    "dominant_fraction": 0.831,
+    "norm_entropy": 0.504,
+    "size": 65,
+    "top_modules": [
+      [
+        "RingTheory",
+        54
+      ],
+      [
+        "FieldTheory",
+        8
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "12_12": {
+    "top_cluster": 12,
+    "sub_cluster": 12,
+    "label": "Topology",
+    "dominant_fraction": 0.565,
+    "norm_entropy": 0.658,
+    "size": 62,
+    "top_modules": [
+      [
+        "Topology",
+        35
+      ],
+      [
+        "AlgebraicTopology",
+        12
+      ],
+      [
+        "Unknown",
+        6
+      ]
+    ]
+  },
+  "12_6": {
+    "top_cluster": 12,
+    "sub_cluster": 6,
+    "label": "RingTheory",
+    "dominant_fraction": 0.511,
+    "norm_entropy": 0.662,
+    "size": 88,
+    "top_modules": [
+      [
+        "RingTheory",
+        45
+      ],
+      [
+        "Data",
+        33
+      ],
+      [
+        "Algebra",
+        5
+      ]
+    ]
+  },
+  "12_10": {
+    "top_cluster": 12,
+    "sub_cluster": 10,
+    "label": "SetTheory",
+    "dominant_fraction": 0.985,
+    "norm_entropy": 0.112,
+    "size": 67,
+    "top_modules": [
+      [
+        "SetTheory",
+        66
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "12_0": {
+    "top_cluster": 12,
+    "sub_cluster": 0,
+    "label": "Data + Algebra + NumberTheory",
+    "dominant_fraction": 0.241,
+    "norm_entropy": 0.826,
+    "size": 203,
+    "top_modules": [
+      [
+        "Data",
+        49
+      ],
+      [
+        "Algebra",
+        37
+      ],
+      [
+        "NumberTheory",
+        17
+      ]
+    ]
+  },
+  "12_2": {
+    "top_cluster": 12,
+    "sub_cluster": 2,
+    "label": "Order + Algebra + Data",
+    "dominant_fraction": 0.309,
+    "norm_entropy": 0.808,
+    "size": 165,
+    "top_modules": [
+      [
+        "Order",
+        51
+      ],
+      [
+        "Algebra",
+        30
+      ],
+      [
+        "Data",
+        13
+      ]
+    ]
+  },
+  "12_4": {
+    "top_cluster": 12,
+    "sub_cluster": 4,
+    "label": "NumberTheory",
+    "dominant_fraction": 0.485,
+    "norm_entropy": 0.698,
+    "size": 97,
+    "top_modules": [
+      [
+        "NumberTheory",
+        47
+      ],
+      [
+        "Order",
+        15
+      ],
+      [
+        "Algebra",
+        10
+      ]
+    ]
+  },
+  "12_5": {
+    "top_cluster": 12,
+    "sub_cluster": 5,
+    "label": "RingTheory + Data + NumberTheory",
+    "dominant_fraction": 0.333,
+    "norm_entropy": 0.731,
+    "size": 93,
+    "top_modules": [
+      [
+        "RingTheory",
+        31
+      ],
+      [
+        "Data",
+        29
+      ],
+      [
+        "NumberTheory",
+        21
+      ]
+    ]
+  },
+  "12_20": {
+    "top_cluster": 12,
+    "sub_cluster": 20,
+    "label": "RingTheory",
+    "dominant_fraction": 0.4,
+    "norm_entropy": 0.819,
+    "size": 20,
+    "top_modules": [
+      [
+        "RingTheory",
+        8
+      ],
+      [
+        "LinearAlgebra",
+        7
+      ],
+      [
+        "Algebra",
+        3
+      ]
+    ]
+  },
+  "12_8": {
+    "top_cluster": 12,
+    "sub_cluster": 8,
+    "label": "RingTheory",
+    "dominant_fraction": 0.45,
+    "norm_entropy": 0.751,
+    "size": 80,
+    "top_modules": [
+      [
+        "RingTheory",
+        36
+      ],
+      [
+        "Algebra",
+        25
+      ],
+      [
+        "Order",
+        9
+      ]
+    ]
+  },
+  "12_1": {
+    "top_cluster": 12,
+    "sub_cluster": 1,
+    "label": "Algebra + Data + Analysis",
+    "dominant_fraction": 0.158,
+    "norm_entropy": 0.874,
+    "size": 202,
+    "top_modules": [
+      [
+        "Algebra",
+        32
+      ],
+      [
+        "Data",
+        29
+      ],
+      [
+        "Analysis",
+        27
+      ]
+    ]
+  },
+  "12_23": {
+    "top_cluster": 12,
+    "sub_cluster": 23,
+    "label": "Algebra",
+    "dominant_fraction": 0.632,
+    "norm_entropy": 0.686,
+    "size": 19,
+    "top_modules": [
+      [
+        "Algebra",
+        12
+      ],
+      [
+        "Data",
+        2
+      ],
+      [
+        "Order",
+        2
+      ]
+    ]
+  },
+  "12_15": {
+    "top_cluster": 12,
+    "sub_cluster": 15,
+    "label": "Analysis",
+    "dominant_fraction": 0.784,
+    "norm_entropy": 0.491,
+    "size": 37,
+    "top_modules": [
+      [
+        "Analysis",
+        29
+      ],
+      [
+        "Data",
+        6
+      ],
+      [
+        "RingTheory",
+        1
+      ]
+    ]
+  },
+  "12_3": {
+    "top_cluster": 12,
+    "sub_cluster": 3,
+    "label": "Data",
+    "dominant_fraction": 0.784,
+    "norm_entropy": 0.389,
+    "size": 102,
+    "top_modules": [
+      [
+        "Data",
+        80
+      ],
+      [
+        "Algebra",
+        12
+      ],
+      [
+        "Unknown",
+        2
+      ]
+    ]
+  },
+  "12_24": {
+    "top_cluster": 12,
+    "sub_cluster": 24,
+    "label": "External",
+    "dominant_fraction": 0.647,
+    "norm_entropy": 0.736,
+    "size": 17,
+    "top_modules": [
+      [
+        "External",
+        11
+      ],
+      [
+        "Control",
+        5
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "12_9": {
+    "top_cluster": 12,
+    "sub_cluster": 9,
+    "label": "Analysis + Probability + Algebra",
+    "dominant_fraction": 0.367,
+    "norm_entropy": 0.807,
+    "size": 79,
+    "top_modules": [
+      [
+        "Analysis",
+        29
+      ],
+      [
+        "Probability",
+        17
+      ],
+      [
+        "Algebra",
+        10
+      ]
+    ]
+  },
+  "12_28": {
+    "top_cluster": 12,
+    "sub_cluster": 28,
+    "label": "Init",
+    "dominant_fraction": 0.533,
+    "norm_entropy": 0.82,
+    "size": 15,
+    "top_modules": [
+      [
+        "Init",
+        8
+      ],
+      [
+        "External",
+        4
+      ],
+      [
+        "Unknown",
+        2
+      ]
+    ]
+  },
+  "12_13": {
+    "top_cluster": 12,
+    "sub_cluster": 13,
+    "label": "Topology",
+    "dominant_fraction": 0.667,
+    "norm_entropy": 0.731,
+    "size": 45,
+    "top_modules": [
+      [
+        "Topology",
+        30
+      ],
+      [
+        "AlgebraicTopology",
+        12
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "12_32": {
+    "top_cluster": 12,
+    "sub_cluster": 32,
+    "label": "Topology",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.65,
+    "size": 6,
+    "top_modules": [
+      [
+        "Topology",
+        5
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "12_25": {
+    "top_cluster": 12,
+    "sub_cluster": 25,
+    "label": "Probability",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 16,
+    "top_modules": [
+      [
+        "Probability",
+        16
+      ]
+    ]
+  },
+  "12_7": {
+    "top_cluster": 12,
+    "sub_cluster": 7,
+    "label": "AlgebraicGeometry + NumberTheory + Algebra",
+    "dominant_fraction": 0.321,
+    "norm_entropy": 0.706,
+    "size": 84,
+    "top_modules": [
+      [
+        "AlgebraicGeometry",
+        27
+      ],
+      [
+        "NumberTheory",
+        27
+      ],
+      [
+        "Algebra",
+        21
+      ]
+    ]
+  },
+  "12_18": {
+    "top_cluster": 12,
+    "sub_cluster": 18,
+    "label": "Data",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 27,
+    "top_modules": [
+      [
+        "Data",
+        27
+      ]
+    ]
+  },
+  "12_16": {
+    "top_cluster": 12,
+    "sub_cluster": 16,
+    "label": "RingTheory",
+    "dominant_fraction": 0.471,
+    "norm_entropy": 0.661,
+    "size": 34,
+    "top_modules": [
+      [
+        "RingTheory",
+        16
+      ],
+      [
+        "Order",
+        16
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "12_26": {
+    "top_cluster": 12,
+    "sub_cluster": 26,
+    "label": "Algebra",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 15,
+    "top_modules": [
+      [
+        "Algebra",
+        15
+      ]
+    ]
+  },
+  "12_27": {
+    "top_cluster": 12,
+    "sub_cluster": 27,
+    "label": "MeasureTheory",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 15,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        15
+      ]
+    ]
+  },
+  "12_22": {
+    "top_cluster": 12,
+    "sub_cluster": 22,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.95,
+    "norm_entropy": 0.286,
+    "size": 20,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        19
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "12_21": {
+    "top_cluster": 12,
+    "sub_cluster": 21,
+    "label": "Topology",
+    "dominant_fraction": 0.9,
+    "norm_entropy": 0.359,
+    "size": 20,
+    "top_modules": [
+      [
+        "Topology",
+        18
+      ],
+      [
+        "Data",
+        1
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "12_14": {
+    "top_cluster": 12,
+    "sub_cluster": 14,
+    "label": "RingTheory",
+    "dominant_fraction": 0.867,
+    "norm_entropy": 0.367,
+    "size": 45,
+    "top_modules": [
+      [
+        "RingTheory",
+        39
+      ],
+      [
+        "Algebra",
+        4
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "12_19": {
+    "top_cluster": 12,
+    "sub_cluster": 19,
+    "label": "Data",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.65,
+    "size": 24,
+    "top_modules": [
+      [
+        "Data",
+        20
+      ],
+      [
+        "Algebra",
+        4
+      ]
+    ]
+  },
+  "12_17": {
+    "top_cluster": 12,
+    "sub_cluster": 17,
+    "label": "Order",
+    "dominant_fraction": 0.588,
+    "norm_entropy": 0.709,
+    "size": 34,
+    "top_modules": [
+      [
+        "Order",
+        20
+      ],
+      [
+        "SetTheory",
+        6
+      ],
+      [
+        "External",
+        3
+      ]
+    ]
+  },
+  "12_31": {
+    "top_cluster": 12,
+    "sub_cluster": 31,
+    "label": "Algebra",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 10,
+    "top_modules": [
+      [
+        "Algebra",
+        10
+      ]
+    ]
+  },
+  "12_30": {
+    "top_cluster": 12,
+    "sub_cluster": 30,
+    "label": "Combinatorics",
+    "dominant_fraction": 0.636,
+    "norm_entropy": 0.826,
+    "size": 11,
+    "top_modules": [
+      [
+        "Combinatorics",
+        7
+      ],
+      [
+        "Data",
+        2
+      ],
+      [
+        "Order",
+        2
+      ]
+    ]
+  },
+  "12_29": {
+    "top_cluster": 12,
+    "sub_cluster": 29,
+    "label": "RingTheory",
+    "dominant_fraction": 0.923,
+    "norm_entropy": 0.391,
+    "size": 13,
+    "top_modules": [
+      [
+        "RingTheory",
+        12
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "12_37": {
+    "top_cluster": 12,
+    "sub_cluster": 37,
+    "label": "Topology",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 4,
+    "top_modules": [
+      [
+        "Topology",
+        4
+      ]
+    ]
+  },
+  "12_34": {
+    "top_cluster": 12,
+    "sub_cluster": 34,
+    "label": "Logic",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.65,
+    "size": 6,
+    "top_modules": [
+      [
+        "Logic",
+        5
+      ],
+      [
+        "Init",
+        1
+      ]
+    ]
+  },
+  "12_36": {
+    "top_cluster": 12,
+    "sub_cluster": 36,
+    "label": "Data",
+    "dominant_fraction": 0.4,
+    "norm_entropy": 0.961,
+    "size": 5,
+    "top_modules": [
+      [
+        "Data",
+        2
+      ],
+      [
+        "External",
+        1
+      ],
+      [
+        "Tactic",
+        1
+      ]
+    ]
+  },
+  "12_35": {
+    "top_cluster": 12,
+    "sub_cluster": 35,
+    "label": "Topology",
+    "dominant_fraction": 0.8,
+    "norm_entropy": 0.722,
+    "size": 5,
+    "top_modules": [
+      [
+        "Topology",
+        4
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "12_33": {
+    "top_cluster": 12,
+    "sub_cluster": 33,
+    "label": "Analysis",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 6,
+    "top_modules": [
+      [
+        "Analysis",
+        6
+      ]
+    ]
+  },
+  "13_8": {
+    "top_cluster": 13,
+    "sub_cluster": 8,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.533,
+    "norm_entropy": 0.583,
+    "size": 75,
+    "top_modules": [
+      [
+        "GroupTheory",
+        40
+      ],
+      [
+        "Algebra",
+        25
+      ],
+      [
+        "Data",
+        6
+      ]
+    ]
+  },
+  "13_7": {
+    "top_cluster": 13,
+    "sub_cluster": 7,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.408,
+    "norm_entropy": 0.691,
+    "size": 76,
+    "top_modules": [
+      [
+        "GroupTheory",
+        31
+      ],
+      [
+        "Algebra",
+        27
+      ],
+      [
+        "Order",
+        7
+      ]
+    ]
+  },
+  "13_10": {
+    "top_cluster": 13,
+    "sub_cluster": 10,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.5,
+    "norm_entropy": 0.638,
+    "size": 70,
+    "top_modules": [
+      [
+        "GroupTheory",
+        35
+      ],
+      [
+        "Algebra",
+        24
+      ],
+      [
+        "Topology",
+        8
+      ]
+    ]
+  },
+  "13_3": {
+    "top_cluster": 13,
+    "sub_cluster": 3,
+    "label": "Algebra",
+    "dominant_fraction": 0.483,
+    "norm_entropy": 0.689,
+    "size": 89,
+    "top_modules": [
+      [
+        "Algebra",
+        43
+      ],
+      [
+        "GroupTheory",
+        27
+      ],
+      [
+        "Unknown",
+        13
+      ]
+    ]
+  },
+  "13_9": {
+    "top_cluster": 13,
+    "sub_cluster": 9,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.945,
+    "norm_entropy": 0.221,
+    "size": 73,
+    "top_modules": [
+      [
+        "GroupTheory",
+        69
+      ],
+      [
+        "Algebra",
+        3
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "13_2": {
+    "top_cluster": 13,
+    "sub_cluster": 2,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.62,
+    "norm_entropy": 0.549,
+    "size": 92,
+    "top_modules": [
+      [
+        "GroupTheory",
+        57
+      ],
+      [
+        "Algebra",
+        27
+      ],
+      [
+        "Data",
+        3
+      ]
+    ]
+  },
+  "13_18": {
+    "top_cluster": 13,
+    "sub_cluster": 18,
+    "label": "NumberTheory",
+    "dominant_fraction": 0.842,
+    "norm_entropy": 0.497,
+    "size": 38,
+    "top_modules": [
+      [
+        "NumberTheory",
+        32
+      ],
+      [
+        "Algebra",
+        3
+      ],
+      [
+        "Data",
+        3
+      ]
+    ]
+  },
+  "13_11": {
+    "top_cluster": 13,
+    "sub_cluster": 11,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.629,
+    "norm_entropy": 0.581,
+    "size": 70,
+    "top_modules": [
+      [
+        "GroupTheory",
+        44
+      ],
+      [
+        "Algebra",
+        20
+      ],
+      [
+        "Data",
+        4
+      ]
+    ]
+  },
+  "13_0": {
+    "top_cluster": 13,
+    "sub_cluster": 0,
+    "label": "Algebra",
+    "dominant_fraction": 0.514,
+    "norm_entropy": 0.475,
+    "size": 183,
+    "top_modules": [
+      [
+        "Algebra",
+        94
+      ],
+      [
+        "GroupTheory",
+        71
+      ],
+      [
+        "CategoryTheory",
+        4
+      ]
+    ]
+  },
+  "13_12": {
+    "top_cluster": 13,
+    "sub_cluster": 12,
+    "label": "Algebra",
+    "dominant_fraction": 0.413,
+    "norm_entropy": 0.711,
+    "size": 63,
+    "top_modules": [
+      [
+        "Algebra",
+        26
+      ],
+      [
+        "NumberTheory",
+        19
+      ],
+      [
+        "GroupTheory",
+        10
+      ]
+    ]
+  },
+  "13_5": {
+    "top_cluster": 13,
+    "sub_cluster": 5,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.557,
+    "norm_entropy": 0.639,
+    "size": 79,
+    "top_modules": [
+      [
+        "GroupTheory",
+        44
+      ],
+      [
+        "Algebra",
+        20
+      ],
+      [
+        "Unknown",
+        7
+      ]
+    ]
+  },
+  "13_6": {
+    "top_cluster": 13,
+    "sub_cluster": 6,
+    "label": "Algebra",
+    "dominant_fraction": 0.442,
+    "norm_entropy": 0.677,
+    "size": 77,
+    "top_modules": [
+      [
+        "Algebra",
+        34
+      ],
+      [
+        "GroupTheory",
+        21
+      ],
+      [
+        "Unknown",
+        5
+      ]
+    ]
+  },
+  "13_15": {
+    "top_cluster": 13,
+    "sub_cluster": 15,
+    "label": "Algebra",
+    "dominant_fraction": 0.4,
+    "norm_entropy": 0.857,
+    "size": 55,
+    "top_modules": [
+      [
+        "Algebra",
+        22
+      ],
+      [
+        "GroupTheory",
+        14
+      ],
+      [
+        "Data",
+        8
+      ]
+    ]
+  },
+  "13_14": {
+    "top_cluster": 13,
+    "sub_cluster": 14,
+    "label": "Algebra",
+    "dominant_fraction": 0.482,
+    "norm_entropy": 0.715,
+    "size": 56,
+    "top_modules": [
+      [
+        "Algebra",
+        27
+      ],
+      [
+        "GroupTheory",
+        24
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "13_20": {
+    "top_cluster": 13,
+    "sub_cluster": 20,
+    "label": "Algebra",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.865,
+    "size": 30,
+    "top_modules": [
+      [
+        "Algebra",
+        18
+      ],
+      [
+        "RingTheory",
+        6
+      ],
+      [
+        "GroupTheory",
+        6
+      ]
+    ]
+  },
+  "13_13": {
+    "top_cluster": 13,
+    "sub_cluster": 13,
+    "label": "MeasureTheory",
+    "dominant_fraction": 0.655,
+    "norm_entropy": 0.576,
+    "size": 58,
+    "top_modules": [
+      [
+        "MeasureTheory",
+        38
+      ],
+      [
+        "Order",
+        7
+      ],
+      [
+        "Unknown",
+        4
+      ]
+    ]
+  },
+  "13_16": {
+    "top_cluster": 13,
+    "sub_cluster": 16,
+    "label": "NumberTheory + GroupTheory + Algebra",
+    "dominant_fraction": 0.38,
+    "norm_entropy": 0.8,
+    "size": 50,
+    "top_modules": [
+      [
+        "NumberTheory",
+        19
+      ],
+      [
+        "GroupTheory",
+        14
+      ],
+      [
+        "Algebra",
+        14
+      ]
+    ]
+  },
+  "13_21": {
+    "top_cluster": 13,
+    "sub_cluster": 21,
+    "label": "Deprecated",
+    "dominant_fraction": 0.655,
+    "norm_entropy": 0.701,
+    "size": 29,
+    "top_modules": [
+      [
+        "Deprecated",
+        19
+      ],
+      [
+        "Unknown",
+        6
+      ],
+      [
+        "GroupTheory",
+        2
+      ]
+    ]
+  },
+  "13_24": {
+    "top_cluster": 13,
+    "sub_cluster": 24,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.478,
+    "norm_entropy": 0.809,
+    "size": 23,
+    "top_modules": [
+      [
+        "GroupTheory",
+        11
+      ],
+      [
+        "Algebra",
+        8
+      ],
+      [
+        "Topology",
+        3
+      ]
+    ]
+  },
+  "13_4": {
+    "top_cluster": 13,
+    "sub_cluster": 4,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.776,
+    "norm_entropy": 0.461,
+    "size": 85,
+    "top_modules": [
+      [
+        "GroupTheory",
+        66
+      ],
+      [
+        "Data",
+        5
+      ],
+      [
+        "Algebra",
+        5
+      ]
+    ]
+  },
+  "13_19": {
+    "top_cluster": 13,
+    "sub_cluster": 19,
+    "label": "AlgebraicGeometry",
+    "dominant_fraction": 0.541,
+    "norm_entropy": 0.718,
+    "size": 37,
+    "top_modules": [
+      [
+        "AlgebraicGeometry",
+        20
+      ],
+      [
+        "MeasureTheory",
+        8
+      ],
+      [
+        "GroupTheory",
+        5
+      ]
+    ]
+  },
+  "13_1": {
+    "top_cluster": 13,
+    "sub_cluster": 1,
+    "label": "Algebra",
+    "dominant_fraction": 0.584,
+    "norm_entropy": 0.579,
+    "size": 101,
+    "top_modules": [
+      [
+        "Algebra",
+        59
+      ],
+      [
+        "GroupTheory",
+        21
+      ],
+      [
+        "Unknown",
+        6
+      ]
+    ]
+  },
+  "13_17": {
+    "top_cluster": 13,
+    "sub_cluster": 17,
+    "label": "Data",
+    "dominant_fraction": 0.409,
+    "norm_entropy": 0.768,
+    "size": 44,
+    "top_modules": [
+      [
+        "Data",
+        18
+      ],
+      [
+        "Combinatorics",
+        12
+      ],
+      [
+        "LinearAlgebra",
+        4
+      ]
+    ]
+  },
+  "13_23": {
+    "top_cluster": 13,
+    "sub_cluster": 23,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.72,
+    "norm_entropy": 0.621,
+    "size": 25,
+    "top_modules": [
+      [
+        "GroupTheory",
+        18
+      ],
+      [
+        "Data",
+        4
+      ],
+      [
+        "Dynamics",
+        2
+      ]
+    ]
+  },
+  "13_22": {
+    "top_cluster": 13,
+    "sub_cluster": 22,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.8,
+    "norm_entropy": 0.476,
+    "size": 25,
+    "top_modules": [
+      [
+        "GroupTheory",
+        20
+      ],
+      [
+        "Unknown",
+        2
+      ],
+      [
+        "Order",
+        1
+      ]
+    ]
+  },
+  "13_25": {
+    "top_cluster": 13,
+    "sub_cluster": 25,
+    "label": "Dynamics + Algebra + GroupTheory",
+    "dominant_fraction": 0.333,
+    "norm_entropy": 0.92,
+    "size": 18,
+    "top_modules": [
+      [
+        "Dynamics",
+        6
+      ],
+      [
+        "Algebra",
+        4
+      ],
+      [
+        "GroupTheory",
+        3
+      ]
+    ]
+  },
+  "13_26": {
+    "top_cluster": 13,
+    "sub_cluster": 26,
+    "label": "GroupTheory",
+    "dominant_fraction": 0.529,
+    "norm_entropy": 0.998,
+    "size": 17,
+    "top_modules": [
+      [
+        "GroupTheory",
+        9
+      ],
+      [
+        "Algebra",
+        8
+      ]
+    ]
+  },
+  "14_10": {
+    "top_cluster": 14,
+    "sub_cluster": 10,
+    "label": "Geometry",
+    "dominant_fraction": 0.88,
+    "norm_entropy": 0.321,
+    "size": 50,
+    "top_modules": [
+      [
+        "Geometry",
+        44
+      ],
+      [
+        "LinearAlgebra",
+        3
+      ],
+      [
+        "Algebra",
+        1
+      ]
+    ]
+  },
+  "14_7": {
+    "top_cluster": 14,
+    "sub_cluster": 7,
+    "label": "Analysis",
+    "dominant_fraction": 0.733,
+    "norm_entropy": 0.507,
+    "size": 75,
+    "top_modules": [
+      [
+        "Analysis",
+        55
+      ],
+      [
+        "Data",
+        8
+      ],
+      [
+        "LinearAlgebra",
+        5
+      ]
+    ]
+  },
+  "14_8": {
+    "top_cluster": 14,
+    "sub_cluster": 8,
+    "label": "Analysis + LinearAlgebra + Geometry",
+    "dominant_fraction": 0.348,
+    "norm_entropy": 0.787,
+    "size": 69,
+    "top_modules": [
+      [
+        "Analysis",
+        24
+      ],
+      [
+        "LinearAlgebra",
+        19
+      ],
+      [
+        "Geometry",
+        12
+      ]
+    ]
+  },
+  "14_1": {
+    "top_cluster": 14,
+    "sub_cluster": 1,
+    "label": "Geometry",
+    "dominant_fraction": 0.704,
+    "norm_entropy": 0.444,
+    "size": 159,
+    "top_modules": [
+      [
+        "Geometry",
+        112
+      ],
+      [
+        "Analysis",
+        27
+      ],
+      [
+        "MeasureTheory",
+        9
+      ]
+    ]
+  },
+  "14_0": {
+    "top_cluster": 14,
+    "sub_cluster": 0,
+    "label": "Analysis + LinearAlgebra + Geometry",
+    "dominant_fraction": 0.392,
+    "norm_entropy": 0.73,
+    "size": 176,
+    "top_modules": [
+      [
+        "Analysis",
+        69
+      ],
+      [
+        "LinearAlgebra",
+        45
+      ],
+      [
+        "Geometry",
+        29
+      ]
+    ]
+  },
+  "14_2": {
+    "top_cluster": 14,
+    "sub_cluster": 2,
+    "label": "Geometry",
+    "dominant_fraction": 0.548,
+    "norm_entropy": 0.685,
+    "size": 146,
+    "top_modules": [
+      [
+        "Geometry",
+        80
+      ],
+      [
+        "Analysis",
+        27
+      ],
+      [
+        "LinearAlgebra",
+        15
+      ]
+    ]
+  },
+  "14_4": {
+    "top_cluster": 14,
+    "sub_cluster": 4,
+    "label": "Analysis",
+    "dominant_fraction": 0.731,
+    "norm_entropy": 0.51,
+    "size": 78,
+    "top_modules": [
+      [
+        "Analysis",
+        57
+      ],
+      [
+        "Data",
+        7
+      ],
+      [
+        "Algebra",
+        4
+      ]
+    ]
+  },
+  "14_3": {
+    "top_cluster": 14,
+    "sub_cluster": 3,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.504,
+    "norm_entropy": 0.664,
+    "size": 131,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        66
+      ],
+      [
+        "Data",
+        27
+      ],
+      [
+        "Geometry",
+        16
+      ]
+    ]
+  },
+  "14_20": {
+    "top_cluster": 14,
+    "sub_cluster": 20,
+    "label": "Analysis",
+    "dominant_fraction": 0.591,
+    "norm_entropy": 0.872,
+    "size": 22,
+    "top_modules": [
+      [
+        "Analysis",
+        13
+      ],
+      [
+        "Geometry",
+        5
+      ],
+      [
+        "Topology",
+        4
+      ]
+    ]
+  },
+  "14_9": {
+    "top_cluster": 14,
+    "sub_cluster": 9,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.492,
+    "norm_entropy": 0.763,
+    "size": 61,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        30
+      ],
+      [
+        "Geometry",
+        15
+      ],
+      [
+        "Analysis",
+        7
+      ]
+    ]
+  },
+  "14_15": {
+    "top_cluster": 14,
+    "sub_cluster": 15,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.438,
+    "norm_entropy": 0.872,
+    "size": 32,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        14
+      ],
+      [
+        "Analysis",
+        7
+      ],
+      [
+        "Data",
+        6
+      ]
+    ]
+  },
+  "14_19": {
+    "top_cluster": 14,
+    "sub_cluster": 19,
+    "label": "Analysis",
+    "dominant_fraction": 0.565,
+    "norm_entropy": 0.771,
+    "size": 23,
+    "top_modules": [
+      [
+        "Analysis",
+        13
+      ],
+      [
+        "NumberTheory",
+        4
+      ],
+      [
+        "Topology",
+        3
+      ]
+    ]
+  },
+  "14_5": {
+    "top_cluster": 14,
+    "sub_cluster": 5,
+    "label": "LinearAlgebra + Geometry + Data",
+    "dominant_fraction": 0.308,
+    "norm_entropy": 0.781,
+    "size": 78,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        24
+      ],
+      [
+        "Geometry",
+        20
+      ],
+      [
+        "Data",
+        17
+      ]
+    ]
+  },
+  "14_6": {
+    "top_cluster": 14,
+    "sub_cluster": 6,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.731,
+    "norm_entropy": 0.478,
+    "size": 78,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        57
+      ],
+      [
+        "Analysis",
+        9
+      ],
+      [
+        "Combinatorics",
+        6
+      ]
+    ]
+  },
+  "14_21": {
+    "top_cluster": 14,
+    "sub_cluster": 21,
+    "label": "Logic + LinearAlgebra + Data",
+    "dominant_fraction": 0.375,
+    "norm_entropy": 0.942,
+    "size": 16,
+    "top_modules": [
+      [
+        "Logic",
+        6
+      ],
+      [
+        "LinearAlgebra",
+        3
+      ],
+      [
+        "Data",
+        3
+      ]
+    ]
+  },
+  "14_14": {
+    "top_cluster": 14,
+    "sub_cluster": 14,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.833,
+    "norm_entropy": 0.65,
+    "size": 36,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        30
+      ],
+      [
+        "Geometry",
+        6
+      ]
+    ]
+  },
+  "14_17": {
+    "top_cluster": 14,
+    "sub_cluster": 17,
+    "label": "Order",
+    "dominant_fraction": 0.414,
+    "norm_entropy": 0.828,
+    "size": 29,
+    "top_modules": [
+      [
+        "Order",
+        12
+      ],
+      [
+        "Topology",
+        9
+      ],
+      [
+        "Analysis",
+        5
+      ]
+    ]
+  },
+  "14_16": {
+    "top_cluster": 14,
+    "sub_cluster": 16,
+    "label": "Geometry",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.649,
+    "size": 30,
+    "top_modules": [
+      [
+        "Geometry",
+        18
+      ],
+      [
+        "LinearAlgebra",
+        10
+      ],
+      [
+        "Data",
+        1
+      ]
+    ]
+  },
+  "14_23": {
+    "top_cluster": 14,
+    "sub_cluster": 23,
+    "label": "Analysis",
+    "dominant_fraction": 0.615,
+    "norm_entropy": 0.773,
+    "size": 13,
+    "top_modules": [
+      [
+        "Analysis",
+        8
+      ],
+      [
+        "Algebra",
+        2
+      ],
+      [
+        "GroupTheory",
+        2
+      ]
+    ]
+  },
+  "14_12": {
+    "top_cluster": 14,
+    "sub_cluster": 12,
+    "label": "LinearAlgebra",
+    "dominant_fraction": 0.756,
+    "norm_entropy": 0.542,
+    "size": 45,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        34
+      ],
+      [
+        "Analysis",
+        4
+      ],
+      [
+        "Unknown",
+        3
+      ]
+    ]
+  },
+  "14_22": {
+    "top_cluster": 14,
+    "sub_cluster": 22,
+    "label": "Topology",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.777,
+    "size": 15,
+    "top_modules": [
+      [
+        "Topology",
+        9
+      ],
+      [
+        "LinearAlgebra",
+        3
+      ],
+      [
+        "Order",
+        2
+      ]
+    ]
+  },
+  "14_24": {
+    "top_cluster": 14,
+    "sub_cluster": 24,
+    "label": "Data",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 11,
+    "top_modules": [
+      [
+        "Data",
+        11
+      ]
+    ]
+  },
+  "14_11": {
+    "top_cluster": 14,
+    "sub_cluster": 11,
+    "label": "Analysis + LinearAlgebra + Topology",
+    "dominant_fraction": 0.261,
+    "norm_entropy": 0.891,
+    "size": 46,
+    "top_modules": [
+      [
+        "Analysis",
+        12
+      ],
+      [
+        "LinearAlgebra",
+        11
+      ],
+      [
+        "Topology",
+        6
+      ]
+    ]
+  },
+  "14_18": {
+    "top_cluster": 14,
+    "sub_cluster": 18,
+    "label": "LinearAlgebra + Analysis + Combinatorics",
+    "dominant_fraction": 0.261,
+    "norm_entropy": 0.945,
+    "size": 23,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        6
+      ],
+      [
+        "Analysis",
+        4
+      ],
+      [
+        "Combinatorics",
+        4
+      ]
+    ]
+  },
+  "14_26": {
+    "top_cluster": 14,
+    "sub_cluster": 26,
+    "label": "RingTheory",
+    "dominant_fraction": 0.667,
+    "norm_entropy": 0.79,
+    "size": 6,
+    "top_modules": [
+      [
+        "RingTheory",
+        4
+      ],
+      [
+        "Order",
+        1
+      ],
+      [
+        "GroupTheory",
+        1
+      ]
+    ]
+  },
+  "14_13": {
+    "top_cluster": 14,
+    "sub_cluster": 13,
+    "label": "LinearAlgebra + Analysis + Data",
+    "dominant_fraction": 0.359,
+    "norm_entropy": 0.833,
+    "size": 39,
+    "top_modules": [
+      [
+        "LinearAlgebra",
+        14
+      ],
+      [
+        "Analysis",
+        10
+      ],
+      [
+        "Data",
+        7
+      ]
+    ]
+  },
+  "14_25": {
+    "top_cluster": 14,
+    "sub_cluster": 25,
+    "label": "Geometry",
+    "dominant_fraction": 0.6,
+    "norm_entropy": 0.817,
+    "size": 10,
+    "top_modules": [
+      [
+        "Geometry",
+        6
+      ],
+      [
+        "Analysis",
+        3
+      ],
+      [
+        "Unknown",
+        1
+      ]
+    ]
+  },
+  "14_27": {
+    "top_cluster": 14,
+    "sub_cluster": 27,
+    "label": "Data",
+    "dominant_fraction": 1.0,
+    "norm_entropy": -0.0,
+    "size": 3,
+    "top_modules": [
+      [
+        "Data",
+        3
+      ]
+    ]
+  }
+}
