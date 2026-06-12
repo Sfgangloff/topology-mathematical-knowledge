@@ -1,0 +1,370 @@
+{
+  "metric": "complete-coverage ceiling = fraction of cross-domain TEST theorems whose ENTIRE clustered premise set is inside the routed pool",
+  "n_cross_domain_test_theorems": 432,
+  "n_hard_third_test_theorems": 141,
+  "total_clustered_decls": 92594,
+  "k_base": 5,
+  "leakage_control": "bridge weights W, IDF, name-token co-occurrence n(t,d) and home-prior n_c(d) ALL estimated on TRAIN only; coverage on held-out TEST; query signals = test theorem's NAME tokens + its HOME cluster id (both always available to a prover).",
+  "escape_localization_accuracy": {
+    "name": {
+      "top1": 0.3972,
+      "top2": 0.5603,
+      "top3": 0.6596,
+      "top5": 0.8298
+    },
+    "home": {
+      "top1": 0.1702,
+      "top2": 0.3759,
+      "top3": 0.4752,
+      "top5": 0.6667
+    },
+    "combo": {
+      "top1": 0.3262,
+      "top2": 0.4681,
+      "top3": 0.5603,
+      "top5": 0.7234
+    }
+  },
+  "sweeps": {
+    "name": [
+      {
+        "m": 0,
+        "complete_coverage_ceiling": 0.6736,
+        "mean_pool_size": 53758.2,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 1,
+        "complete_coverage_ceiling": 0.7824,
+        "mean_pool_size": 57022.9,
+        "median_pool_size": 57841
+      },
+      {
+        "m": 2,
+        "complete_coverage_ceiling": 0.8218,
+        "mean_pool_size": 60162.9,
+        "median_pool_size": 60345
+      },
+      {
+        "m": 3,
+        "complete_coverage_ceiling": 0.8565,
+        "mean_pool_size": 63752.6,
+        "median_pool_size": 63609
+      },
+      {
+        "m": 5,
+        "complete_coverage_ceiling": 0.9213,
+        "mean_pool_size": 70338.6,
+        "median_pool_size": 71236
+      },
+      {
+        "m": 8,
+        "complete_coverage_ceiling": 0.9583,
+        "mean_pool_size": 78804.5,
+        "median_pool_size": 80842
+      },
+      {
+        "m": 12,
+        "complete_coverage_ceiling": 0.9838,
+        "mean_pool_size": 85381.8,
+        "median_pool_size": 86458
+      },
+      {
+        "m": 20,
+        "complete_coverage_ceiling": 0.9931,
+        "mean_pool_size": 90162.2,
+        "median_pool_size": 90819
+      }
+    ],
+    "home": [
+      {
+        "m": 0,
+        "complete_coverage_ceiling": 0.6736,
+        "mean_pool_size": 53758.2,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 1,
+        "complete_coverage_ceiling": 0.7106,
+        "mean_pool_size": 58225.8,
+        "median_pool_size": 58227
+      },
+      {
+        "m": 2,
+        "complete_coverage_ceiling": 0.7685,
+        "mean_pool_size": 61838.0,
+        "median_pool_size": 60800
+      },
+      {
+        "m": 3,
+        "complete_coverage_ceiling": 0.8009,
+        "mean_pool_size": 63993.8,
+        "median_pool_size": 62686
+      },
+      {
+        "m": 5,
+        "complete_coverage_ceiling": 0.8588,
+        "mean_pool_size": 72784.9,
+        "median_pool_size": 75542
+      },
+      {
+        "m": 8,
+        "complete_coverage_ceiling": 0.9213,
+        "mean_pool_size": 80011.6,
+        "median_pool_size": 81153
+      },
+      {
+        "m": 12,
+        "complete_coverage_ceiling": 0.956,
+        "mean_pool_size": 84632.7,
+        "median_pool_size": 85612
+      },
+      {
+        "m": 20,
+        "complete_coverage_ceiling": 0.9884,
+        "mean_pool_size": 89050.4,
+        "median_pool_size": 90486
+      }
+    ],
+    "combo": [
+      {
+        "m": 0,
+        "complete_coverage_ceiling": 0.6736,
+        "mean_pool_size": 53758.2,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 1,
+        "complete_coverage_ceiling": 0.7546,
+        "mean_pool_size": 57682.8,
+        "median_pool_size": 58197
+      },
+      {
+        "m": 2,
+        "complete_coverage_ceiling": 0.8009,
+        "mean_pool_size": 61378.3,
+        "median_pool_size": 60800
+      },
+      {
+        "m": 3,
+        "complete_coverage_ceiling": 0.8241,
+        "mean_pool_size": 64410.8,
+        "median_pool_size": 64929
+      },
+      {
+        "m": 5,
+        "complete_coverage_ceiling": 0.8773,
+        "mean_pool_size": 71520.2,
+        "median_pool_size": 71772
+      },
+      {
+        "m": 8,
+        "complete_coverage_ceiling": 0.9468,
+        "mean_pool_size": 79996.4,
+        "median_pool_size": 81153
+      },
+      {
+        "m": 12,
+        "complete_coverage_ceiling": 0.9699,
+        "mean_pool_size": 85203.3,
+        "median_pool_size": 86544
+      },
+      {
+        "m": 20,
+        "complete_coverage_ceiling": 0.9907,
+        "mean_pool_size": 89107.0,
+        "median_pool_size": 90812
+      }
+    ],
+    "oracle": [
+      {
+        "m": 0,
+        "complete_coverage_ceiling": 0.6736,
+        "mean_pool_size": 53758.2,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 1,
+        "complete_coverage_ceiling": 0.9421,
+        "mean_pool_size": 54727.0,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 2,
+        "complete_coverage_ceiling": 0.9861,
+        "mean_pool_size": 54883.7,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 3,
+        "complete_coverage_ceiling": 0.9977,
+        "mean_pool_size": 54920.8,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 5,
+        "complete_coverage_ceiling": 1.0,
+        "mean_pool_size": 54939.9,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 8,
+        "complete_coverage_ceiling": 1.0,
+        "mean_pool_size": 54939.9,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 12,
+        "complete_coverage_ceiling": 1.0,
+        "mean_pool_size": 54939.9,
+        "median_pool_size": 55886
+      },
+      {
+        "m": 20,
+        "complete_coverage_ceiling": 1.0,
+        "mean_pool_size": 54939.9,
+        "median_pool_size": 55886
+      }
+    ]
+  },
+  "head_to_head_cheapest_pool_to_reach_ceiling": [
+    {
+      "target_ceiling": 0.7,
+      "name": {
+        "m": 1,
+        "ceiling": 0.7824,
+        "mean_pool_size": 57022.9
+      },
+      "home": {
+        "m": 1,
+        "ceiling": 0.7106,
+        "mean_pool_size": 58225.8
+      },
+      "combo": {
+        "m": 1,
+        "ceiling": 0.7546,
+        "mean_pool_size": 57682.8
+      },
+      "oracle": {
+        "m": 1,
+        "ceiling": 0.9421,
+        "mean_pool_size": 54727.0
+      }
+    },
+    {
+      "target_ceiling": 0.75,
+      "name": {
+        "m": 1,
+        "ceiling": 0.7824,
+        "mean_pool_size": 57022.9
+      },
+      "home": {
+        "m": 2,
+        "ceiling": 0.7685,
+        "mean_pool_size": 61838.0
+      },
+      "combo": {
+        "m": 1,
+        "ceiling": 0.7546,
+        "mean_pool_size": 57682.8
+      },
+      "oracle": {
+        "m": 1,
+        "ceiling": 0.9421,
+        "mean_pool_size": 54727.0
+      }
+    },
+    {
+      "target_ceiling": 0.8,
+      "name": {
+        "m": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 60162.9
+      },
+      "home": {
+        "m": 3,
+        "ceiling": 0.8009,
+        "mean_pool_size": 63993.8
+      },
+      "combo": {
+        "m": 2,
+        "ceiling": 0.8009,
+        "mean_pool_size": 61378.3
+      },
+      "oracle": {
+        "m": 1,
+        "ceiling": 0.9421,
+        "mean_pool_size": 54727.0
+      }
+    },
+    {
+      "target_ceiling": 0.85,
+      "name": {
+        "m": 3,
+        "ceiling": 0.8565,
+        "mean_pool_size": 63752.6
+      },
+      "home": {
+        "m": 5,
+        "ceiling": 0.8588,
+        "mean_pool_size": 72784.9
+      },
+      "combo": {
+        "m": 5,
+        "ceiling": 0.8773,
+        "mean_pool_size": 71520.2
+      },
+      "oracle": {
+        "m": 1,
+        "ceiling": 0.9421,
+        "mean_pool_size": 54727.0
+      }
+    },
+    {
+      "target_ceiling": 0.9,
+      "name": {
+        "m": 5,
+        "ceiling": 0.9213,
+        "mean_pool_size": 70338.6
+      },
+      "home": {
+        "m": 8,
+        "ceiling": 0.9213,
+        "mean_pool_size": 80011.6
+      },
+      "combo": {
+        "m": 8,
+        "ceiling": 0.9468,
+        "mean_pool_size": 79996.4
+      },
+      "oracle": {
+        "m": 1,
+        "ceiling": 0.9421,
+        "mean_pool_size": 54727.0
+      }
+    },
+    {
+      "target_ceiling": 0.95,
+      "name": {
+        "m": 8,
+        "ceiling": 0.9583,
+        "mean_pool_size": 78804.5
+      },
+      "home": {
+        "m": 12,
+        "ceiling": 0.956,
+        "mean_pool_size": 84632.7
+      },
+      "combo": {
+        "m": 12,
+        "ceiling": 0.9699,
+        "mean_pool_size": 85203.3
+      },
+      "oracle": {
+        "m": 2,
+        "ceiling": 0.9861,
+        "mean_pool_size": 54883.7
+      }
+    }
+  ]
+}
