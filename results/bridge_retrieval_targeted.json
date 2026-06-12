@@ -1,0 +1,208 @@
+{
+  "metric": "complete-coverage ceiling = fraction of cross-domain TEST theorems whose ENTIRE clustered premise set is inside the routed pool",
+  "n_cross_domain_test_theorems": 432,
+  "total_clustered_decls": 92594,
+  "k_base": 5,
+  "leakage_control": "bridge weights W and the escape-target whitelist both estimated on TRAIN only; coverage measured on held-out TEST theorems",
+  "hard_third_concentration": {
+    "note": "escape = premise clusters of a TEST theorem outside its home+top5 router",
+    "n_hard_third_theorems": 141,
+    "frac_hard_third": 0.3264,
+    "escaped_clusters_per_theorem_mean": 1.227,
+    "escaped_clusters_per_theorem_median": 1,
+    "distinct_escape_target_clusters": 25,
+    "total_escape_demand_pairs": 173,
+    "concentration_curve": [
+      {
+        "top_n_escape_clusters": 1,
+        "frac_escape_demand_covered": 0.104
+      },
+      {
+        "top_n_escape_clusters": 3,
+        "frac_escape_demand_covered": 0.3064
+      },
+      {
+        "top_n_escape_clusters": 5,
+        "frac_escape_demand_covered": 0.4682
+      },
+      {
+        "top_n_escape_clusters": 10,
+        "frac_escape_demand_covered": 0.7746
+      },
+      {
+        "top_n_escape_clusters": 20,
+        "frac_escape_demand_covered": 0.9711
+      },
+      {
+        "top_n_escape_clusters": 25,
+        "frac_escape_demand_covered": 1.0
+      }
+    ]
+  },
+  "targeted_sweep": [
+    {
+      "m_whitelist": 0,
+      "complete_coverage_ceiling": 0.6736,
+      "mean_pool_size": 53763.7,
+      "median_pool_size": 55886,
+      "max_pool_size": 58669
+    },
+    {
+      "m_whitelist": 1,
+      "complete_coverage_ceiling": 0.7083,
+      "mean_pool_size": 55224.4,
+      "median_pool_size": 57742,
+      "max_pool_size": 60525
+    },
+    {
+      "m_whitelist": 2,
+      "complete_coverage_ceiling": 0.7292,
+      "mean_pool_size": 57767.2,
+      "median_pool_size": 60345,
+      "max_pool_size": 63128
+    },
+    {
+      "m_whitelist": 3,
+      "complete_coverage_ceiling": 0.7546,
+      "mean_pool_size": 62520.0,
+      "median_pool_size": 62300,
+      "max_pool_size": 69045
+    },
+    {
+      "m_whitelist": 5,
+      "complete_coverage_ceiling": 0.7986,
+      "mean_pool_size": 72675.2,
+      "median_pool_size": 72714,
+      "max_pool_size": 76745
+    },
+    {
+      "m_whitelist": 8,
+      "complete_coverage_ceiling": 0.8681,
+      "mean_pool_size": 79113.6,
+      "median_pool_size": 80586,
+      "max_pool_size": 82224
+    },
+    {
+      "m_whitelist": 12,
+      "complete_coverage_ceiling": 0.9236,
+      "mean_pool_size": 84860.1,
+      "median_pool_size": 86413,
+      "max_pool_size": 87321
+    },
+    {
+      "m_whitelist": 20,
+      "complete_coverage_ceiling": 0.9884,
+      "mean_pool_size": 90227.8,
+      "median_pool_size": 90783,
+      "max_pool_size": 91195
+    },
+    {
+      "m_whitelist": 30,
+      "complete_coverage_ceiling": 0.9931,
+      "mean_pool_size": 91290.8,
+      "median_pool_size": 91708,
+      "max_pool_size": 91726
+    },
+    {
+      "m_whitelist": 50,
+      "complete_coverage_ceiling": 0.9977,
+      "mean_pool_size": 91887.1,
+      "median_pool_size": 91959,
+      "max_pool_size": 92025
+    }
+  ],
+  "uniform_breadth_reference": [
+    {
+      "k_route": 5,
+      "complete_coverage_ceiling": 0.6736,
+      "mean_pool_size": 53763.7
+    },
+    {
+      "k_route": 10,
+      "complete_coverage_ceiling": 0.8588,
+      "mean_pool_size": 72784.9
+    },
+    {
+      "k_route": 20,
+      "complete_coverage_ceiling": 0.9792,
+      "mean_pool_size": 87389.0
+    },
+    {
+      "k_route": 50,
+      "complete_coverage_ceiling": 0.9931,
+      "mean_pool_size": 89712.4
+    },
+    {
+      "k_route": "all",
+      "complete_coverage_ceiling": 1.0,
+      "mean_pool_size": 92594.0
+    }
+  ],
+  "head_to_head_cheapest_pool_to_reach_ceiling": [
+    {
+      "target_ceiling": 0.7,
+      "targeted": {
+        "m_whitelist": 1,
+        "ceiling": 0.7083,
+        "mean_pool_size": 55224.4
+      },
+      "uniform": {
+        "k_route": 10,
+        "ceiling": 0.8588,
+        "mean_pool_size": 72784.9
+      }
+    },
+    {
+      "target_ceiling": 0.75,
+      "targeted": {
+        "m_whitelist": 3,
+        "ceiling": 0.7546,
+        "mean_pool_size": 62520.0
+      },
+      "uniform": {
+        "k_route": 10,
+        "ceiling": 0.8588,
+        "mean_pool_size": 72784.9
+      }
+    },
+    {
+      "target_ceiling": 0.8,
+      "targeted": {
+        "m_whitelist": 8,
+        "ceiling": 0.8681,
+        "mean_pool_size": 79113.6
+      },
+      "uniform": {
+        "k_route": 10,
+        "ceiling": 0.8588,
+        "mean_pool_size": 72784.9
+      }
+    },
+    {
+      "target_ceiling": 0.85,
+      "targeted": {
+        "m_whitelist": 8,
+        "ceiling": 0.8681,
+        "mean_pool_size": 79113.6
+      },
+      "uniform": {
+        "k_route": 10,
+        "ceiling": 0.8588,
+        "mean_pool_size": 72784.9
+      }
+    },
+    {
+      "target_ceiling": 0.9,
+      "targeted": {
+        "m_whitelist": 12,
+        "ceiling": 0.9236,
+        "mean_pool_size": 84860.1
+      },
+      "uniform": {
+        "k_route": 20,
+        "ceiling": 0.9792,
+        "mean_pool_size": 87389.0
+      }
+    }
+  ]
+}
