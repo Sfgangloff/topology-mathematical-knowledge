@@ -1,0 +1,147 @@
+{
+  "resolved_declarations": 79760,
+  "total_subclustered": 84228,
+  "n_top_clusters": 15,
+  "n_subclusters": 447,
+  "n_mod1_groups": 32,
+  "n_mod2_groups": 867,
+  "global_nmi": {
+    "top_vs_mod1": 0.3066,
+    "top_vs_mod2": 0.3584,
+    "hier_vs_mod1": 0.3161,
+    "hier_vs_mod2": 0.5064,
+    "hierarchy_gain_on_mod2": 0.1479
+  },
+  "within_cluster_recovery": {
+    "weighted_mean_nmi_sub_vs_mod2": 0.3834,
+    "weighted_mean_nmi_null": 0.0941,
+    "n_clusters_scored": 15
+  },
+  "purity_mod2": {
+    "mean_subcluster_purity": 0.4625,
+    "frac_subclusters_purity_ge_0.5": 0.3826,
+    "mean_top_cluster_purity": 0.1734
+  },
+  "per_cluster": [
+    {
+      "top_cluster": 11,
+      "size": 1873,
+      "n_subclusters": 25,
+      "n_mod2": 102,
+      "within_nmi_sub_vs_mod2": 0.6638,
+      "within_nmi_null": 0.1204
+    },
+    {
+      "top_cluster": 12,
+      "size": 1784,
+      "n_subclusters": 38,
+      "n_mod2": 171,
+      "within_nmi_sub_vs_mod2": 0.6491,
+      "within_nmi_null": 0.2215
+    },
+    {
+      "top_cluster": 13,
+      "size": 1568,
+      "n_subclusters": 27,
+      "n_mod2": 131,
+      "within_nmi_sub_vs_mod2": 0.5297,
+      "within_nmi_null": 0.1895
+    },
+    {
+      "top_cluster": 8,
+      "size": 2483,
+      "n_subclusters": 30,
+      "n_mod2": 186,
+      "within_nmi_sub_vs_mod2": 0.475,
+      "within_nmi_null": 0.1562
+    },
+    {
+      "top_cluster": 10,
+      "size": 2166,
+      "n_subclusters": 25,
+      "n_mod2": 165,
+      "within_nmi_sub_vs_mod2": 0.4702,
+      "within_nmi_null": 0.1536
+    },
+    {
+      "top_cluster": 5,
+      "size": 6058,
+      "n_subclusters": 42,
+      "n_mod2": 303,
+      "within_nmi_sub_vs_mod2": 0.4407,
+      "within_nmi_null": 0.1205
+    },
+    {
+      "top_cluster": 14,
+      "size": 1454,
+      "n_subclusters": 28,
+      "n_mod2": 74,
+      "within_nmi_sub_vs_mod2": 0.4225,
+      "within_nmi_null": 0.1319
+    },
+    {
+      "top_cluster": 4,
+      "size": 7252,
+      "n_subclusters": 34,
+      "n_mod2": 218,
+      "within_nmi_sub_vs_mod2": 0.4123,
+      "within_nmi_null": 0.0814
+    },
+    {
+      "top_cluster": 6,
+      "size": 5646,
+      "n_subclusters": 36,
+      "n_mod2": 206,
+      "within_nmi_sub_vs_mod2": 0.4047,
+      "within_nmi_null": 0.0944
+    },
+    {
+      "top_cluster": 9,
+      "size": 2247,
+      "n_subclusters": 34,
+      "n_mod2": 106,
+      "within_nmi_sub_vs_mod2": 0.3995,
+      "within_nmi_null": 0.1139
+    },
+    {
+      "top_cluster": 3,
+      "size": 8441,
+      "n_subclusters": 20,
+      "n_mod2": 384,
+      "within_nmi_sub_vs_mod2": 0.3922,
+      "within_nmi_null": 0.0837
+    },
+    {
+      "top_cluster": 7,
+      "size": 5278,
+      "n_subclusters": 36,
+      "n_mod2": 251,
+      "within_nmi_sub_vs_mod2": 0.3729,
+      "within_nmi_null": 0.1244
+    },
+    {
+      "top_cluster": 2,
+      "size": 9984,
+      "n_subclusters": 28,
+      "n_mod2": 460,
+      "within_nmi_sub_vs_mod2": 0.3469,
+      "within_nmi_null": 0.1018
+    },
+    {
+      "top_cluster": 0,
+      "size": 11813,
+      "n_subclusters": 21,
+      "n_mod2": 345,
+      "within_nmi_sub_vs_mod2": 0.328,
+      "within_nmi_null": 0.0553
+    },
+    {
+      "top_cluster": 1,
+      "size": 11713,
+      "n_subclusters": 23,
+      "n_mod2": 301,
+      "within_nmi_sub_vs_mod2": 0.2623,
+      "within_nmi_null": 0.0457
+    }
+  ]
+}
