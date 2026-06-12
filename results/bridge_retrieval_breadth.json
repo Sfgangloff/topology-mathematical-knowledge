@@ -1,0 +1,135 @@
+{
+  "metric": "complete-coverage ceiling = fraction of cross-domain test theorems whose ENTIRE clustered premise set is inside the routed pool (max complete-coverage rate achievable at ANY candidate budget for that router breadth)",
+  "n_cross_domain_test_theorems": 432,
+  "total_clustered_decls": 92594,
+  "router": "home cluster + top-K bridge-neighbour clusters (train-estimated W); K='all' == route to every cluster (whole-library fallback)",
+  "leakage_control": "bridge weights W estimated on TRAIN split only; coverage measured on held-out TEST theorems",
+  "baseline_e0017": {
+    "k_route": 5,
+    "complete_coverage_ceiling": 0.674,
+    "note": "this script reproduces the K=5 ceiling and extends the sweep"
+  },
+  "by_breadth": [
+    {
+      "k_route": 0,
+      "complete_coverage_ceiling": 0.0,
+      "mean_pool_size": 7534.9,
+      "median_pool_size": 8760,
+      "max_pool_size": 12513
+    },
+    {
+      "k_route": 1,
+      "complete_coverage_ceiling": 0.2014,
+      "mean_pool_size": 19301.1,
+      "median_pool_size": 21273,
+      "max_pool_size": 24903
+    },
+    {
+      "k_route": 2,
+      "complete_coverage_ceiling": 0.3935,
+      "mean_pool_size": 30076.3,
+      "median_pool_size": 31662,
+      "max_pool_size": 35292
+    },
+    {
+      "k_route": 3,
+      "complete_coverage_ceiling": 0.5093,
+      "mean_pool_size": 38717.8,
+      "median_pool_size": 38034,
+      "max_pool_size": 44052
+    },
+    {
+      "k_route": 5,
+      "complete_coverage_ceiling": 0.6736,
+      "mean_pool_size": 53758.2,
+      "median_pool_size": 55886,
+      "max_pool_size": 58669
+    },
+    {
+      "k_route": 10,
+      "complete_coverage_ceiling": 0.8588,
+      "mean_pool_size": 72828.2,
+      "median_pool_size": 75542,
+      "max_pool_size": 76848
+    },
+    {
+      "k_route": 20,
+      "complete_coverage_ceiling": 0.9792,
+      "mean_pool_size": 87389.0,
+      "median_pool_size": 89077,
+      "max_pool_size": 89437
+    },
+    {
+      "k_route": 50,
+      "complete_coverage_ceiling": 0.9931,
+      "mean_pool_size": 89712.4,
+      "median_pool_size": 91709,
+      "max_pool_size": 91871
+    },
+    {
+      "k_route": "all",
+      "complete_coverage_ceiling": 1.0,
+      "mean_pool_size": 92594.0,
+      "median_pool_size": 92594,
+      "max_pool_size": 92594
+    }
+  ],
+  "marginal_steps": [
+    {
+      "from_k": 0,
+      "to_k": 1,
+      "ceiling_gain": 0.2014,
+      "mean_pool_added": 11766.2,
+      "extra_candidates_per_extra_covered_theorem": 58422.0
+    },
+    {
+      "from_k": 1,
+      "to_k": 2,
+      "ceiling_gain": 0.1921,
+      "mean_pool_added": 10775.2,
+      "extra_candidates_per_extra_covered_theorem": 56091.6
+    },
+    {
+      "from_k": 2,
+      "to_k": 3,
+      "ceiling_gain": 0.1158,
+      "mean_pool_added": 8641.5,
+      "extra_candidates_per_extra_covered_theorem": 74624.4
+    },
+    {
+      "from_k": 3,
+      "to_k": 5,
+      "ceiling_gain": 0.1643,
+      "mean_pool_added": 15040.4,
+      "extra_candidates_per_extra_covered_theorem": 91542.3
+    },
+    {
+      "from_k": 5,
+      "to_k": 10,
+      "ceiling_gain": 0.1852,
+      "mean_pool_added": 19070.0,
+      "extra_candidates_per_extra_covered_theorem": 102969.8
+    },
+    {
+      "from_k": 10,
+      "to_k": 20,
+      "ceiling_gain": 0.1204,
+      "mean_pool_added": 14560.8,
+      "extra_candidates_per_extra_covered_theorem": 120936.9
+    },
+    {
+      "from_k": 20,
+      "to_k": 50,
+      "ceiling_gain": 0.0139,
+      "mean_pool_added": 2323.4,
+      "extra_candidates_per_extra_covered_theorem": 167151.1
+    },
+    {
+      "from_k": 50,
+      "to_k": "all",
+      "ceiling_gain": 0.0069,
+      "mean_pool_added": 2881.6,
+      "extra_candidates_per_extra_covered_theorem": 417623.2
+    }
+  ]
+}
