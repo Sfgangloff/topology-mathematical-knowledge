@@ -1,0 +1,46 @@
+{
+  "n_cross_domain_test": 432,
+  "k_base": 5,
+  "home_prediction_accuracy": {
+    "home_top1_acc": 0.6412,
+    "home_top3_acc": 0.8565,
+    "home_top5_acc": 0.9097
+  },
+  "predicted_home_eq_true_home": 0.6412,
+  "oracle_home": {
+    "complete_coverage_ceiling": 0.6736,
+    "mean_pool_size": 53763.7,
+    "median_pool_size": 55886
+  },
+  "predicted_home_top1": {
+    "complete_coverage_ceiling": 0.5926,
+    "mean_pool_size": 54742.0,
+    "median_pool_size": 55886
+  },
+  "predicted_home_hedged": [
+    {
+      "home_candidates": 1,
+      "complete_coverage_ceiling": 0.5926,
+      "mean_pool_size": 54742.0,
+      "median_pool_size": 55886
+    },
+    {
+      "home_candidates": 2,
+      "complete_coverage_ceiling": 0.6667,
+      "mean_pool_size": 59322.1,
+      "median_pool_size": 58197
+    },
+    {
+      "home_candidates": 3,
+      "complete_coverage_ceiling": 0.7037,
+      "mean_pool_size": 61930.4,
+      "median_pool_size": 63303
+    },
+    {
+      "home_candidates": 5,
+      "complete_coverage_ceiling": 0.7454,
+      "mean_pool_size": 65767.2,
+      "median_pool_size": 64144
+    }
+  ]
+}
