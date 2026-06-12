@@ -1,0 +1,198 @@
+{
+  "metric": "complete-coverage rate (fraction of cross-domain test theorems whose ENTIRE clustered premise set is in the top-B retrieved decls)",
+  "n_cross_domain_test_theorems": 432,
+  "router": "bridge: home + top-5 bridge-neighbour clusters",
+  "median_premises_per_cross_domain_theorem": 5,
+  "max_premises_per_cross_domain_theorem": 45,
+  "whole_pool_complete_coverage_ceiling": 0.6736,
+  "ceiling_note": "fraction whose FULL premise set is even inside the bridge-routed pool; nobody can exceed this at any budget",
+  "note": "curve points are (mean_candidate_cost, complete_coverage_rate) over the budget grid",
+  "budget_grid": [
+    50,
+    100,
+    200,
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    20000,
+    40000,
+    60000
+  ],
+  "content_curve": [
+    [
+      49.9,
+      0.0162
+    ],
+    [
+      99.8,
+      0.0255
+    ],
+    [
+      199.6,
+      0.0463
+    ],
+    [
+      498.9,
+      0.0694
+    ],
+    [
+      997.7,
+      0.0972
+    ],
+    [
+      1995.4,
+      0.1412
+    ],
+    [
+      4988.4,
+      0.2176
+    ],
+    [
+      9976.9,
+      0.3843
+    ],
+    [
+      19936.1,
+      0.5926
+    ],
+    [
+      39784.5,
+      0.6389
+    ],
+    [
+      53763.7,
+      0.6736
+    ]
+  ],
+  "popularity_curve": [
+    [
+      49.9,
+      0.0046
+    ],
+    [
+      99.8,
+      0.0046
+    ],
+    [
+      199.6,
+      0.0116
+    ],
+    [
+      498.9,
+      0.0162
+    ],
+    [
+      997.7,
+      0.0324
+    ],
+    [
+      1995.4,
+      0.0556
+    ],
+    [
+      4988.4,
+      0.1227
+    ],
+    [
+      9976.9,
+      0.1968
+    ],
+    [
+      19936.1,
+      0.287
+    ],
+    [
+      39784.5,
+      0.4421
+    ],
+    [
+      53763.7,
+      0.6736
+    ]
+  ],
+  "random_curve": [
+    [
+      49.9,
+      0.0
+    ],
+    [
+      99.8,
+      0.0
+    ],
+    [
+      199.6,
+      0.0001
+    ],
+    [
+      498.9,
+      0.0002
+    ],
+    [
+      997.7,
+      0.0003
+    ],
+    [
+      1995.4,
+      0.0007
+    ],
+    [
+      4988.4,
+      0.0024
+    ],
+    [
+      9976.9,
+      0.0074
+    ],
+    [
+      19936.1,
+      0.0306
+    ],
+    [
+      39784.5,
+      0.1928
+    ],
+    [
+      53763.7,
+      0.6736
+    ]
+  ],
+  "content_budget_to_reach": {
+    "coverage>=0.25": 5958.0,
+    "coverage>=0.5": 15508.7,
+    "coverage>=0.75": null
+  },
+  "popularity_budget_to_reach": {
+    "coverage>=0.25": 15850.8,
+    "coverage>=0.5": 43280.8,
+    "coverage>=0.75": null
+  },
+  "random_budget_to_reach": {
+    "coverage>=0.25": 41447.6,
+    "coverage>=0.5": 48716.3,
+    "coverage>=0.75": null
+  },
+  "params": {
+    "k_route": 5,
+    "budget_grid": [
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000,
+      10000,
+      20000,
+      40000,
+      60000
+    ],
+    "targets": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "df_stop_frac": 0.2
+  }
+}
