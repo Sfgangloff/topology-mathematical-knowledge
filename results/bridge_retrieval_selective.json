@@ -1,0 +1,315 @@
+{
+  "metric_note": "selective (gated) bridge routing vs always-home / always-bridge, at prover-realistic premise windows; bridge applied IFF a leakage-free name-token cross-domain predictor fires",
+  "windows": [
+    10,
+    25,
+    50,
+    100,
+    200,
+    500,
+    1000
+  ],
+  "k_route": 5,
+  "n_test": 873,
+  "n_cross": 432,
+  "n_within": 441,
+  "frac_cross": 0.4948,
+  "gate": {
+    "auc": 0.6398,
+    "threshold": 0.5416,
+    "precision": 0.5973,
+    "recall": 0.6181,
+    "accuracy": 0.6048,
+    "predicted_positive_rate": 0.512,
+    "tp": 267,
+    "fp": 180,
+    "fn": 165,
+    "tn": 261
+  },
+  "train_base_cross_rate": 0.5248,
+  "population_all": {
+    "home_only": {
+      "mean_recall": [
+        0.2367,
+        0.3151,
+        0.3861,
+        0.4375,
+        0.4966,
+        0.5859,
+        0.6519
+      ],
+      "complete_coverage": [
+        0.0916,
+        0.1271,
+        0.173,
+        0.2005,
+        0.2371,
+        0.3081,
+        0.3551
+      ]
+    },
+    "bridge": {
+      "mean_recall": [
+        0.2145,
+        0.2906,
+        0.3488,
+        0.398,
+        0.4518,
+        0.5193,
+        0.585
+      ],
+      "complete_coverage": [
+        0.0756,
+        0.11,
+        0.1443,
+        0.1684,
+        0.2131,
+        0.2566,
+        0.3093
+      ]
+    },
+    "selective": {
+      "mean_recall": [
+        0.2243,
+        0.3028,
+        0.3695,
+        0.4191,
+        0.4738,
+        0.5541,
+        0.6113
+      ],
+      "complete_coverage": [
+        0.0825,
+        0.118,
+        0.1627,
+        0.1901,
+        0.2291,
+        0.2864,
+        0.3265
+      ]
+    }
+  },
+  "cross_domain": {
+    "home_only": {
+      "mean_recall": [
+        0.1326,
+        0.1924,
+        0.2393,
+        0.2821,
+        0.3306,
+        0.3993,
+        0.4558
+      ],
+      "complete_coverage": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "bridge": {
+      "mean_recall": [
+        0.129,
+        0.1868,
+        0.2306,
+        0.2758,
+        0.328,
+        0.3994,
+        0.4601
+      ],
+      "complete_coverage": [
+        0.0,
+        0.0116,
+        0.0162,
+        0.0255,
+        0.0463,
+        0.0694,
+        0.0972
+      ]
+    },
+    "selective": {
+      "mean_recall": [
+        0.1317,
+        0.1928,
+        0.2391,
+        0.2825,
+        0.329,
+        0.3921,
+        0.451
+      ],
+      "complete_coverage": [
+        0.0,
+        0.0093,
+        0.0116,
+        0.0139,
+        0.0208,
+        0.0278,
+        0.0417
+      ]
+    }
+  },
+  "within_domain": {
+    "home_only": {
+      "mean_recall": [
+        0.3386,
+        0.4353,
+        0.53,
+        0.5898,
+        0.6592,
+        0.7686,
+        0.844
+      ],
+      "complete_coverage": [
+        0.1814,
+        0.2517,
+        0.3424,
+        0.3968,
+        0.4694,
+        0.61,
+        0.7029
+      ]
+    },
+    "bridge": {
+      "mean_recall": [
+        0.2983,
+        0.3923,
+        0.4646,
+        0.5177,
+        0.573,
+        0.6368,
+        0.7073
+      ],
+      "complete_coverage": [
+        0.1497,
+        0.2063,
+        0.2698,
+        0.3084,
+        0.3764,
+        0.4399,
+        0.517
+      ]
+    },
+    "selective": {
+      "mean_recall": [
+        0.3151,
+        0.4106,
+        0.4972,
+        0.5529,
+        0.6156,
+        0.7128,
+        0.7684
+      ],
+      "complete_coverage": [
+        0.1633,
+        0.2245,
+        0.3107,
+        0.3628,
+        0.4331,
+        0.5397,
+        0.6054
+      ]
+    }
+  },
+  "population_uplift_vs_home_only": {
+    "bridge": {
+      "mean_recall": [
+        -0.0222,
+        -0.0245,
+        -0.0373,
+        -0.0395,
+        -0.0448,
+        -0.0666,
+        -0.0669
+      ],
+      "complete_coverage": [
+        -0.016,
+        -0.0171,
+        -0.0287,
+        -0.0321,
+        -0.024,
+        -0.0515,
+        -0.0458
+      ]
+    },
+    "selective": {
+      "mean_recall": [
+        -0.0124,
+        -0.0123,
+        -0.0166,
+        -0.0184,
+        -0.0228,
+        -0.0318,
+        -0.0406
+      ],
+      "complete_coverage": [
+        -0.0091,
+        -0.0091,
+        -0.0103,
+        -0.0104,
+        -0.008,
+        -0.0217,
+        -0.0286
+      ]
+    }
+  },
+  "params": {
+    "k_route": 5,
+    "windows": [
+      10,
+      25,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ],
+    "df_stop_frac": 0.2,
+    "content_ranker": "IDF-weighted query-name token overlap, popularity tiebreak",
+    "gate": "P(cross|name token) IDF-weighted mean, threshold = (1-base) train-score quantile",
+    "leakage_control": "W, IDF, citation popularity, gate priors+threshold from train/name-vocab only"
+  },
+  "population_oracle_gate": {
+    "mean_recall": [
+      0.2349,
+      0.3123,
+      0.3818,
+      0.4344,
+      0.4953,
+      0.5859,
+      0.654
+    ],
+    "complete_coverage": [
+      0.0916,
+      0.1329,
+      0.181,
+      0.2131,
+      0.26,
+      0.3425,
+      0.4032
+    ],
+    "note": "upper bound: bridge pool on TRUE cross-domain goals, home pool on TRUE within-domain goals (perfect gate)"
+  },
+  "population_oracle_uplift_vs_home_only": {
+    "mean_recall": [
+      -0.0018,
+      -0.0028,
+      -0.0043,
+      -0.0031,
+      -0.0013,
+      0.0,
+      0.0021
+    ],
+    "complete_coverage": [
+      0.0,
+      0.0058,
+      0.008,
+      0.0126,
+      0.0229,
+      0.0344,
+      0.0481
+    ]
+  }
+}
