@@ -1,0 +1,32 @@
+{
+  "n_test_theorems": 898,
+  "n_test_with_clustered_premises": 873,
+  "n_test_cross_domain": 432,
+  "frac_cross_domain": 0.4948,
+  "mean_recall_all": {
+    "home": 0.8117,
+    "bridge1": 0.8714,
+    "bridge2": 0.9189,
+    "bridge3": 0.9416,
+    "bridge5": 0.9674,
+    "bridge10": 0.9865
+  },
+  "mean_recall_cross_domain_only": {
+    "home": 0.6194,
+    "bridge1": 0.7401,
+    "bridge2": 0.8362,
+    "bridge3": 0.8821,
+    "bridge5": 0.9341,
+    "bridge10": 0.9727
+  },
+  "params": {
+    "ks": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ],
+    "n_clusters": 138
+  }
+}
