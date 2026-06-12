@@ -1,0 +1,170 @@
+{
+  "metric": "complete-coverage rate (fraction of cross-domain TEST theorems whose ENTIRE clustered premise set is inside the routed pool); cost = mean routed-pool size (candidate decls) per theorem",
+  "n_cross_domain_test_theorems": 432,
+  "n_cross_domain_train_theorems": 27705,
+  "total_clustered_decls": 92594,
+  "router": "home cluster + top-K bridge-neighbour clusters; adaptive policy picks K per home cluster as the minimal breadth reaching TRAIN complete-coverage>=t (whole-library fallback)",
+  "leakage_control": "bridge weights W and per-cluster breadth choice estimated on TRAIN split only; complete-coverage and cost measured on held-out TEST theorems",
+  "k_grid": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    10,
+    20,
+    50,
+    "all"
+  ],
+  "per_home_cluster_k5_heterogeneity": {
+    "n_clusters_ge5_test": 16,
+    "train_cov_k5_min": 0.566,
+    "train_cov_k5_median": 0.689,
+    "train_cov_k5_max": 0.802,
+    "frac_clusters_train_k5_below_0.5": 0.0,
+    "frac_clusters_train_k5_above_0.9": 0.0,
+    "train_test_k5_pearson": 0.5545
+  },
+  "adaptive_frontier": [
+    {
+      "target_t": 0.5,
+      "test_complete_coverage": 0.5718,
+      "mean_candidate_cost": 43339.7
+    },
+    {
+      "target_t": 0.6,
+      "test_complete_coverage": 0.669,
+      "mean_candidate_cost": 54439.5
+    },
+    {
+      "target_t": 0.7,
+      "test_complete_coverage": 0.8218,
+      "mean_candidate_cost": 67581.9
+    },
+    {
+      "target_t": 0.8,
+      "test_complete_coverage": 0.8866,
+      "mean_candidate_cost": 73546.7
+    },
+    {
+      "target_t": 0.9,
+      "test_complete_coverage": 0.9653,
+      "mean_candidate_cost": 85042.7
+    },
+    {
+      "target_t": 0.95,
+      "test_complete_coverage": 0.9769,
+      "mean_candidate_cost": 87124.1
+    },
+    {
+      "target_t": 1.0,
+      "test_complete_coverage": 0.9954,
+      "mean_candidate_cost": 90126.9
+    }
+  ],
+  "global_frontier": [
+    {
+      "k_route": 0,
+      "test_complete_coverage": 0.0,
+      "mean_candidate_cost": 7534.9
+    },
+    {
+      "k_route": 1,
+      "test_complete_coverage": 0.2014,
+      "mean_candidate_cost": 19301.1
+    },
+    {
+      "k_route": 2,
+      "test_complete_coverage": 0.3935,
+      "mean_candidate_cost": 30076.3
+    },
+    {
+      "k_route": 3,
+      "test_complete_coverage": 0.5116,
+      "mean_candidate_cost": 38701.5
+    },
+    {
+      "k_route": 5,
+      "test_complete_coverage": 0.6736,
+      "mean_candidate_cost": 53763.7
+    },
+    {
+      "k_route": 10,
+      "test_complete_coverage": 0.8588,
+      "mean_candidate_cost": 72828.2
+    },
+    {
+      "k_route": 20,
+      "test_complete_coverage": 0.9792,
+      "mean_candidate_cost": 87389.0
+    },
+    {
+      "k_route": 50,
+      "test_complete_coverage": 0.9931,
+      "mean_candidate_cost": 89712.4
+    },
+    {
+      "k_route": "all",
+      "test_complete_coverage": 1.0,
+      "mean_candidate_cost": 92594.0
+    }
+  ],
+  "matched_coverage_comparison": [
+    {
+      "complete_coverage": 0.5718,
+      "adaptive_mean_cost": 43339.7,
+      "cheapest_global_k": 5,
+      "global_mean_cost": 53763.7,
+      "adaptive_over_global_cost_ratio": 0.806,
+      "candidates_saved_per_theorem": 10424.0
+    },
+    {
+      "complete_coverage": 0.669,
+      "adaptive_mean_cost": 54439.5,
+      "cheapest_global_k": 5,
+      "global_mean_cost": 53763.7,
+      "adaptive_over_global_cost_ratio": 1.013,
+      "candidates_saved_per_theorem": -675.8
+    },
+    {
+      "complete_coverage": 0.8218,
+      "adaptive_mean_cost": 67581.9,
+      "cheapest_global_k": 10,
+      "global_mean_cost": 72828.2,
+      "adaptive_over_global_cost_ratio": 0.928,
+      "candidates_saved_per_theorem": 5246.3
+    },
+    {
+      "complete_coverage": 0.8866,
+      "adaptive_mean_cost": 73546.7,
+      "cheapest_global_k": 20,
+      "global_mean_cost": 87389.0,
+      "adaptive_over_global_cost_ratio": 0.842,
+      "candidates_saved_per_theorem": 13842.3
+    },
+    {
+      "complete_coverage": 0.9653,
+      "adaptive_mean_cost": 85042.7,
+      "cheapest_global_k": 20,
+      "global_mean_cost": 87389.0,
+      "adaptive_over_global_cost_ratio": 0.973,
+      "candidates_saved_per_theorem": 2346.3
+    },
+    {
+      "complete_coverage": 0.9769,
+      "adaptive_mean_cost": 87124.1,
+      "cheapest_global_k": 20,
+      "global_mean_cost": 87389.0,
+      "adaptive_over_global_cost_ratio": 0.997,
+      "candidates_saved_per_theorem": 264.9
+    },
+    {
+      "complete_coverage": 0.9954,
+      "adaptive_mean_cost": 90126.9,
+      "cheapest_global_k": "all",
+      "global_mean_cost": 92594.0,
+      "adaptive_over_global_cost_ratio": 0.973,
+      "candidates_saved_per_theorem": 2467.1
+    }
+  ]
+}
