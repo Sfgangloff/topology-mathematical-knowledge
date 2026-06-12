@@ -1,0 +1,55 @@
+{
+  "metric_note": "structural cross-domain premise burden and top-K router reachability over held-out cross-domain TEST theorems; router_complete@K is a HARD ceiling on bridge complete-coverage (independent of window B and content ranker)",
+  "n_test": 873,
+  "n_cross_domain": 432,
+  "frac_cross_domain": 0.4948,
+  "out_of_home_premise_count": {
+    "mean": 2.778,
+    "median": 2.0,
+    "p90": 6,
+    "max": 23,
+    "frac_eq1": 0.463,
+    "frac_le2": 0.6944,
+    "frac_le3": 0.7847
+  },
+  "distinct_foreign_cluster_count": {
+    "mean": 1.701,
+    "median": 1.0,
+    "p90": 3,
+    "max": 7,
+    "frac_eq1": 0.5949,
+    "frac_le2": 0.8218,
+    "frac_le3": 0.9282
+  },
+  "frac_single_ooh_premise": 0.463,
+  "frac_single_foreign_cluster": 0.5949,
+  "router_complete_at_k": {
+    "1": 0.213,
+    "5": 0.6736,
+    "10": 0.8611,
+    "20": 0.9769,
+    "50": 0.9931
+  },
+  "router_any_at_k": {
+    "1": 0.4444,
+    "5": 0.8935,
+    "10": 0.9514,
+    "20": 0.9907,
+    "50": 0.9954
+  },
+  "foreign_cluster_routed_micro_at_k": {
+    "1": 0.2612,
+    "5": 0.7619,
+    "10": 0.9075,
+    "20": 0.9864,
+    "50": 0.9959
+  },
+  "k_sweep": [
+    1,
+    5,
+    10,
+    20,
+    50
+  ],
+  "interpretation": "router_complete@K bounds the fraction of cross-domain goals for which bridge can EVER achieve complete coverage; the a-0025 oracle-gate complete-coverage gain cannot exceed this. Gap between router_any and router_complete = goals reachable only PARTIALLY (some needed cluster off-router)."
+}
