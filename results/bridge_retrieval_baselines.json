@@ -1,0 +1,76 @@
+{
+  "n_test_theorems": 898,
+  "n_test_with_clustered_premises": 873,
+  "n_test_cross_domain": 432,
+  "frac_cross_domain": 0.4948,
+  "mean_recall_all": {
+    "home": 0.8117,
+    "bridge1": 0.8714,
+    "bridge2": 0.9189,
+    "bridge3": 0.9419,
+    "bridge5": 0.9674,
+    "bridge10": 0.9865,
+    "pop1": 0.8654,
+    "pop2": 0.9145,
+    "pop3": 0.94,
+    "pop5": 0.9643,
+    "pop10": 0.9845,
+    "rand1": 0.8149,
+    "rand2": 0.8159,
+    "rand3": 0.818,
+    "rand5": 0.8229,
+    "rand10": 0.8267
+  },
+  "mean_recall_cross_domain_only": {
+    "home": 0.6194,
+    "bridge1": 0.7401,
+    "bridge2": 0.8362,
+    "bridge3": 0.8826,
+    "bridge5": 0.9341,
+    "bridge10": 0.9727,
+    "pop1": 0.7279,
+    "pop2": 0.8273,
+    "pop3": 0.8788,
+    "pop5": 0.9279,
+    "pop10": 0.9687,
+    "rand1": 0.6259,
+    "rand2": 0.6279,
+    "rand3": 0.6322,
+    "rand5": 0.6421,
+    "rand10": 0.6497
+  },
+  "top_global_popularity_clusters": [
+    [
+      0,
+      8985
+    ],
+    [
+      2,
+      8729
+    ],
+    [
+      1,
+      7771
+    ],
+    [
+      3,
+      6244
+    ],
+    [
+      5,
+      3442
+    ]
+  ],
+  "params": {
+    "ks": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ],
+    "random_trials": 20,
+    "random_seed": 42,
+    "n_clusters": 138
+  }
+}
