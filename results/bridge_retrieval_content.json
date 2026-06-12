@@ -1,0 +1,203 @@
+{
+  "n_cross_domain_test_theorems": 432,
+  "router": "bridge: home + top-5 bridge-neighbour clusters",
+  "intra_cluster_ranker": "IDF-weighted query-name token overlap (content), pop tiebreak",
+  "mean_whole_pool_candidate_cost": 53763.7,
+  "whole_pool_premise_recall_ceiling": 0.9341,
+  "note": "curve points are (mean_candidate_cost, mean_premise_recall) for the budget grid",
+  "budget_grid": [
+    50,
+    100,
+    200,
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    20000,
+    40000,
+    60000
+  ],
+  "content_curve": [
+    [
+      49.9,
+      0.2304
+    ],
+    [
+      99.8,
+      0.2762
+    ],
+    [
+      199.6,
+      0.3286
+    ],
+    [
+      498.9,
+      0.398
+    ],
+    [
+      997.7,
+      0.4589
+    ],
+    [
+      1995.4,
+      0.5304
+    ],
+    [
+      4988.4,
+      0.638
+    ],
+    [
+      9976.9,
+      0.7779
+    ],
+    [
+      19936.1,
+      0.906
+    ],
+    [
+      39784.5,
+      0.9249
+    ],
+    [
+      53763.7,
+      0.9341
+    ]
+  ],
+  "popularity_curve": [
+    [
+      49.9,
+      0.123
+    ],
+    [
+      99.8,
+      0.1639
+    ],
+    [
+      199.6,
+      0.2179
+    ],
+    [
+      498.9,
+      0.2903
+    ],
+    [
+      997.7,
+      0.3703
+    ],
+    [
+      1995.4,
+      0.4591
+    ],
+    [
+      4988.4,
+      0.582
+    ],
+    [
+      9976.9,
+      0.6778
+    ],
+    [
+      19936.1,
+      0.772
+    ],
+    [
+      39784.5,
+      0.8525
+    ],
+    [
+      53763.7,
+      0.9341
+    ]
+  ],
+  "random_curve": [
+    [
+      49.9,
+      0.002
+    ],
+    [
+      99.8,
+      0.0029
+    ],
+    [
+      199.6,
+      0.0047
+    ],
+    [
+      498.9,
+      0.0099
+    ],
+    [
+      997.7,
+      0.0186
+    ],
+    [
+      1995.4,
+      0.0361
+    ],
+    [
+      4988.4,
+      0.0886
+    ],
+    [
+      9976.9,
+      0.1761
+    ],
+    [
+      19936.1,
+      0.3499
+    ],
+    [
+      39784.5,
+      0.6945
+    ],
+    [
+      53763.7,
+      0.9341
+    ]
+  ],
+  "content_budget_to_reach": {
+    "recall>=0.7": 7199.2,
+    "recall>=0.8": 11695.1,
+    "recall>=0.9": 19469.6
+  },
+  "popularity_budget_to_reach": {
+    "recall>=0.7": 12324.0,
+    "recall>=0.8": 26839.9,
+    "recall>=0.9": 47921.9
+  },
+  "random_budget_to_reach": {
+    "recall>=0.7": 40105.4,
+    "recall>=0.8": 45939.8,
+    "recall>=0.9": 51774.2
+  },
+  "diagnostic_B2000_content_minus_popularity": {
+    "n_premises_content_surfaces_that_popularity_misses": 1078,
+    "median_train_citation_count_of_those_premises": 2,
+    "note": "premises in content's top-2000 but NOT popularity's top-2000; low cites = the rarely-cited tail a-0014 said popularity cannot reach"
+  },
+  "params": {
+    "k_route": 5,
+    "budget_grid": [
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000,
+      10000,
+      20000,
+      40000,
+      60000
+    ],
+    "targets": [
+      0.7,
+      0.8,
+      0.9
+    ],
+    "df_stop_frac": 0.2,
+    "vocab_size_after_stop": 3277,
+    "n_stop_tokens": 0
+  }
+}
