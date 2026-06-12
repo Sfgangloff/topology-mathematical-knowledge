@@ -1,0 +1,157 @@
+{
+  "by_k": {
+    "1": {
+      "hub_served": {
+        "n": 77,
+        "recall": {
+          "home": 0.6092,
+          "bridge": 0.8036,
+          "pop": 1.0
+        },
+        "bridge_minus_pop": -0.1964
+      },
+      "specialist": {
+        "n": 355,
+        "recall": {
+          "home": 0.6216,
+          "bridge": 0.7263,
+          "pop": 0.6689
+        },
+        "bridge_minus_pop": 0.0574
+      }
+    },
+    "2": {
+      "hub_served": {
+        "n": 166,
+        "recall": {
+          "home": 0.6133,
+          "bridge": 0.9606,
+          "pop": 1.0
+        },
+        "bridge_minus_pop": -0.0394
+      },
+      "specialist": {
+        "n": 266,
+        "recall": {
+          "home": 0.6232,
+          "bridge": 0.7585,
+          "pop": 0.7195
+        },
+        "bridge_minus_pop": 0.039
+      }
+    },
+    "3": {
+      "hub_served": {
+        "n": 217,
+        "recall": {
+          "home": 0.6203,
+          "bridge": 0.9736,
+          "pop": 1.0
+        },
+        "bridge_minus_pop": -0.0264
+      },
+      "specialist": {
+        "n": 215,
+        "recall": {
+          "home": 0.6185,
+          "bridge": 0.7908,
+          "pop": 0.7565
+        },
+        "bridge_minus_pop": 0.0343
+      }
+    },
+    "5": {
+      "hub_served": {
+        "n": 284,
+        "recall": {
+          "home": 0.6232,
+          "bridge": 0.9957,
+          "pop": 1.0
+        },
+        "bridge_minus_pop": -0.0043
+      },
+      "specialist": {
+        "n": 148,
+        "recall": {
+          "home": 0.6122,
+          "bridge": 0.8159,
+          "pop": 0.7896
+        },
+        "bridge_minus_pop": 0.0263
+      }
+    },
+    "10": {
+      "hub_served": {
+        "n": 356,
+        "recall": {
+          "home": 0.6178,
+          "bridge": 0.9953,
+          "pop": 1.0
+        },
+        "bridge_minus_pop": -0.0047
+      },
+      "specialist": {
+        "n": 76,
+        "recall": {
+          "home": 0.6267,
+          "bridge": 0.8671,
+          "pop": 0.822
+        },
+        "bridge_minus_pop": 0.0451
+      }
+    }
+  },
+  "top_global_popularity_clusters": [
+    [
+      0,
+      8985
+    ],
+    [
+      2,
+      8729
+    ],
+    [
+      1,
+      7771
+    ],
+    [
+      3,
+      6244
+    ],
+    [
+      5,
+      3442
+    ],
+    [
+      7,
+      2656
+    ],
+    [
+      6,
+      1712
+    ],
+    [
+      12,
+      1596
+    ],
+    [
+      8,
+      1216
+    ],
+    [
+      4,
+      973
+    ]
+  ],
+  "params": {
+    "ks": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ],
+    "n_clusters": 138,
+    "stratum_def": "specialist = >=1 out-of-home premise cluster outside the global top-k most-cited clusters"
+  }
+}
