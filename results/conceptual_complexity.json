@@ -1,0 +1,318 @@
+{
+  "global_cn": 1.4718750254718387,
+  "operational_global_cn": 1.1674373074313875,
+  "operational_hub": {
+    "cid": "10",
+    "label": "SetTheory",
+    "cn": 1.0369
+  },
+  "conceptual_hub": {
+    "cid": 53,
+    "label": "Data",
+    "cn": 3.1351
+  },
+  "setth_conceptual_rank": 13,
+  "n_clusters_scored": 30,
+  "clusters": {
+    "0": {
+      "label": "Algebra + Analysis + Data",
+      "size": 12513,
+      "integration": 4.7233,
+      "differentiation": 0.158,
+      "neural_complexity": 0.7463,
+      "total_struct_connections": 27,
+      "struct_weight": 6.981,
+      "is_mixed": true
+    },
+    "1": {
+      "label": "MeasureTheory + Analysis + Topology",
+      "size": 12390,
+      "integration": 4.8577,
+      "differentiation": 0.1842,
+      "neural_complexity": 0.8948,
+      "total_struct_connections": 29,
+      "struct_weight": 11.3134,
+      "is_mixed": true
+    },
+    "2": {
+      "label": "Data + Order + Algebra",
+      "size": 10389,
+      "integration": 4.8461,
+      "differentiation": 0.2111,
+      "neural_complexity": 1.023,
+      "total_struct_connections": 29,
+      "struct_weight": 8.4078,
+      "is_mixed": true
+    },
+    "3": {
+      "label": "Algebra + RingTheory + FieldTheory",
+      "size": 8760,
+      "integration": 2.7889,
+      "differentiation": 0.2576,
+      "neural_complexity": 0.7185,
+      "total_struct_connections": 7,
+      "struct_weight": 2.401,
+      "is_mixed": true
+    },
+    "4": {
+      "label": "CategoryTheory",
+      "size": 8245,
+      "integration": 2.7881,
+      "differentiation": 0.3346,
+      "neural_complexity": 0.9328,
+      "total_struct_connections": 7,
+      "struct_weight": 2.3756,
+      "is_mixed": false
+    },
+    "5": {
+      "label": "LinearAlgebra + Algebra + RingTheory",
+      "size": 6372,
+      "integration": 4.8577,
+      "differentiation": 0.2521,
+      "neural_complexity": 1.2248,
+      "total_struct_connections": 29,
+      "struct_weight": 11.4252,
+      "is_mixed": true
+    },
+    "6": {
+      "label": "Data",
+      "size": 5917,
+      "integration": 4.8568,
+      "differentiation": 0.2826,
+      "neural_complexity": 1.3724,
+      "total_struct_connections": 29,
+      "struct_weight": 10.2657,
+      "is_mixed": false
+    },
+    "7": {
+      "label": "Topology + Order + Data",
+      "size": 5462,
+      "integration": 2.7858,
+      "differentiation": 0.2263,
+      "neural_complexity": 0.6306,
+      "total_struct_connections": 7,
+      "struct_weight": 2.3452,
+      "is_mixed": true
+    },
+    "8": {
+      "label": "Data + LinearAlgebra + Analysis",
+      "size": 2603,
+      "integration": 2.9689,
+      "differentiation": 0.2236,
+      "neural_complexity": 0.6638,
+      "total_struct_connections": 8,
+      "struct_weight": 2.5325,
+      "is_mixed": true
+    },
+    "9": {
+      "label": "Analysis",
+      "size": 2341,
+      "integration": 4.8573,
+      "differentiation": 0.3126,
+      "neural_complexity": 1.5182,
+      "total_struct_connections": 29,
+      "struct_weight": 10.7516,
+      "is_mixed": false
+    },
+    "10": {
+      "label": "SetTheory",
+      "size": 2238,
+      "integration": 2.784,
+      "differentiation": 0.3972,
+      "neural_complexity": 1.1058,
+      "total_struct_connections": 7,
+      "struct_weight": 2.3271,
+      "is_mixed": false
+    },
+    "11": {
+      "label": "Data + Computability + SetTheory",
+      "size": 2004,
+      "integration": 2.7887,
+      "differentiation": 0.1912,
+      "neural_complexity": 0.5333,
+      "total_struct_connections": 7,
+      "struct_weight": 2.3559,
+      "is_mixed": true
+    },
+    "12": {
+      "label": "Data + RingTheory + Algebra",
+      "size": 1856,
+      "integration": 3.436,
+      "differentiation": 0.1312,
+      "neural_complexity": 0.4509,
+      "total_struct_connections": 11,
+      "struct_weight": 3.4587,
+      "is_mixed": true
+    },
+    "13": {
+      "label": "GroupTheory",
+      "size": 1638,
+      "integration": 3.4274,
+      "differentiation": 0.3354,
+      "neural_complexity": 1.1495,
+      "total_struct_connections": 11,
+      "struct_weight": 3.2957,
+      "is_mixed": false
+    },
+    "14": {
+      "label": "LinearAlgebra + Analysis + Geometry",
+      "size": 1500,
+      "integration": 2.7861,
+      "differentiation": 0.1988,
+      "neural_complexity": 0.5537,
+      "total_struct_connections": 7,
+      "struct_weight": 2.3202,
+      "is_mixed": true
+    },
+    "15": {
+      "label": "Data + Algebra + RingTheory",
+      "size": 1270,
+      "integration": 2.9677,
+      "differentiation": 0.2727,
+      "neural_complexity": 0.8094,
+      "total_struct_connections": 8,
+      "struct_weight": 2.5409,
+      "is_mixed": true
+    },
+    "16": {
+      "label": "Order",
+      "size": 915,
+      "integration": 3.7759,
+      "differentiation": 0.4898,
+      "neural_complexity": 1.8494,
+      "total_struct_connections": 14,
+      "struct_weight": 4.0987,
+      "is_mixed": false
+    },
+    "17": {
+      "label": "Algebra + Topology + Analysis",
+      "size": 908,
+      "integration": 3.1416,
+      "differentiation": 0.2174,
+      "neural_complexity": 0.683,
+      "total_struct_connections": 9,
+      "struct_weight": 2.8119,
+      "is_mixed": true
+    },
+    "18": {
+      "label": "MeasureTheory",
+      "size": 841,
+      "integration": 3.5552,
+      "differentiation": 0.3448,
+      "neural_complexity": 1.226,
+      "total_struct_connections": 12,
+      "struct_weight": 3.5746,
+      "is_mixed": false
+    },
+    "19": {
+      "label": "AlgebraicGeometry",
+      "size": 708,
+      "integration": 3.136,
+      "differentiation": 0.3788,
+      "neural_complexity": 1.1878,
+      "total_struct_connections": 9,
+      "struct_weight": 2.783,
+      "is_mixed": false
+    },
+    "20": {
+      "label": "Data + Order + Dynamics",
+      "size": 567,
+      "integration": 3.2991,
+      "differentiation": 0.1475,
+      "neural_complexity": 0.4866,
+      "total_struct_connections": 10,
+      "struct_weight": 3.1277,
+      "is_mixed": true
+    },
+    "21": {
+      "label": "Data",
+      "size": 507,
+      "integration": 2.9804,
+      "differentiation": 0.383,
+      "neural_complexity": 1.1416,
+      "total_struct_connections": 8,
+      "struct_weight": 2.6683,
+      "is_mixed": false
+    },
+    "22": {
+      "label": "Algebra + RingTheory + GroupTheory",
+      "size": 481,
+      "integration": 3.1458,
+      "differentiation": 0.1281,
+      "neural_complexity": 0.4028,
+      "total_struct_connections": 9,
+      "struct_weight": 2.8889,
+      "is_mixed": true
+    },
+    "23": {
+      "label": "Batteries",
+      "size": 412,
+      "integration": 4.8542,
+      "differentiation": 0.4228,
+      "neural_complexity": 2.0526,
+      "total_struct_connections": 29,
+      "struct_weight": 9.2909,
+      "is_mixed": false
+    },
+    "24": {
+      "label": "Analysis + Data + Algebra",
+      "size": 358,
+      "integration": 2.7811,
+      "differentiation": 0.2324,
+      "neural_complexity": 0.6463,
+      "total_struct_connections": 7,
+      "struct_weight": 2.2489,
+      "is_mixed": true
+    },
+    "25": {
+      "label": "Data",
+      "size": 155,
+      "integration": 2.5712,
+      "differentiation": 0.3238,
+      "neural_complexity": 0.8325,
+      "total_struct_connections": 6,
+      "struct_weight": 2.0291,
+      "is_mixed": false
+    },
+    "26": {
+      "label": "Data",
+      "size": 137,
+      "integration": 3.5541,
+      "differentiation": 0.718,
+      "neural_complexity": 2.5517,
+      "total_struct_connections": 12,
+      "struct_weight": 3.5202,
+      "is_mixed": false
+    },
+    "27": {
+      "label": "Order",
+      "size": 82,
+      "integration": 2.5719,
+      "differentiation": 0.2216,
+      "neural_complexity": 0.5698,
+      "total_struct_connections": 6,
+      "struct_weight": 2.0049,
+      "is_mixed": false
+    },
+    "28": {
+      "label": "RingTheory",
+      "size": 66,
+      "integration": 2.9797,
+      "differentiation": 0.8188,
+      "neural_complexity": 2.4397,
+      "total_struct_connections": 8,
+      "struct_weight": 2.5566,
+      "is_mixed": false
+    },
+    "53": {
+      "label": "Data",
+      "size": 11,
+      "integration": 3.1351,
+      "differentiation": 1.0,
+      "neural_complexity": 3.1351,
+      "total_struct_connections": 9,
+      "struct_weight": 2.6968,
+      "is_mixed": false
+    }
+  }
+}
