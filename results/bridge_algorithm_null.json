@@ -1,0 +1,116 @@
+{
+  "summary": {
+    "n_algorithms": 5,
+    "algorithms": [
+      "leiden_modularity",
+      "louvain",
+      "fastgreedy",
+      "label_propagation",
+      "infomap"
+    ],
+    "depletion_usage_range": [
+      1.38,
+      16.46
+    ],
+    "depletion_usage_mean": 8.85,
+    "depletion_type_range": [
+      1.63,
+      47.08
+    ],
+    "depletion_type_mean": 20.09,
+    "all_partitions_depleted": true,
+    "note": "Per-partition e-0049 config-null depletion. enrichment_usage<1 => observed cross-domain bridging is DEPLETED vs a degree-preserving null (premises are domain-LOCAL). depletion_factor_usage = null/observed. Tests whether the e-0049 ~16-20x depletion is algorithm-stable even though e-0052 showed absolute scale & identity are not."
+  },
+  "per_algo": [
+    {
+      "population": 55575,
+      "observed_bridges": 295,
+      "observed_rate": 0.005308,
+      "type_p_pure": 0.15708,
+      "usage_p_pure": 0.10907,
+      "type_null_bridges": 8025.7,
+      "type_null_rate": 0.144412,
+      "usage_null_bridges": 4854.8,
+      "usage_null_rate": 0.087356,
+      "enrichment_type": 0.0368,
+      "enrichment_usage": 0.0608,
+      "depletion_factor_usage": 16.46,
+      "depletion_factor_type": 27.21,
+      "algorithm": "leiden_modularity",
+      "n_clusters": 138,
+      "n_pure_clusters": 112
+    },
+    {
+      "population": 55575,
+      "observed_bridges": 584,
+      "observed_rate": 0.010508,
+      "type_p_pure": 0.17351,
+      "usage_p_pure": 0.11955,
+      "type_null_bridges": 9582.6,
+      "type_null_rate": 0.172426,
+      "usage_null_bridges": 5871.9,
+      "usage_null_rate": 0.105658,
+      "enrichment_type": 0.0609,
+      "enrichment_usage": 0.0995,
+      "depletion_factor_usage": 10.05,
+      "depletion_factor_type": 16.41,
+      "algorithm": "louvain",
+      "n_clusters": 198,
+      "n_pure_clusters": 171
+    },
+    {
+      "population": 55575,
+      "observed_bridges": 98,
+      "observed_rate": 0.001763,
+      "type_p_pure": 0.0784,
+      "usage_p_pure": 0.03262,
+      "type_null_bridges": 4613.5,
+      "type_null_rate": 0.083015,
+      "usage_null_bridges": 1257.6,
+      "usage_null_rate": 0.022629,
+      "enrichment_type": 0.0212,
+      "enrichment_usage": 0.0779,
+      "depletion_factor_usage": 12.83,
+      "depletion_factor_type": 47.08,
+      "algorithm": "fastgreedy",
+      "n_clusters": 1106,
+      "n_pure_clusters": 1032
+    },
+    {
+      "population": 55575,
+      "observed_bridges": 739,
+      "observed_rate": 0.013297,
+      "type_p_pure": 0.109,
+      "usage_p_pure": 0.06743,
+      "type_null_bridges": 6001.7,
+      "type_null_rate": 0.107993,
+      "usage_null_bridges": 2620.3,
+      "usage_null_rate": 0.04715,
+      "enrichment_type": 0.1231,
+      "enrichment_usage": 0.282,
+      "depletion_factor_usage": 3.55,
+      "depletion_factor_type": 8.12,
+      "algorithm": "label_propagation",
+      "n_clusters": 816,
+      "n_pure_clusters": 781
+    },
+    {
+      "population": 55575,
+      "observed_bridges": 22896,
+      "observed_rate": 0.411984,
+      "type_p_pure": 0.66692,
+      "usage_p_pure": 0.52209,
+      "type_null_bridges": 37217.1,
+      "type_null_rate": 0.669673,
+      "usage_null_bridges": 31629.5,
+      "usage_null_rate": 0.569131,
+      "enrichment_type": 0.6152,
+      "enrichment_usage": 0.7239,
+      "depletion_factor_usage": 1.38,
+      "depletion_factor_type": 1.63,
+      "algorithm": "infomap",
+      "n_clusters": 4190,
+      "n_pure_clusters": 3081
+    }
+  ]
+}
