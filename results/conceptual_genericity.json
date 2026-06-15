@@ -1,0 +1,102 @@
+{
+  "params": {
+    "MIN_TACTICS": 5,
+    "TOP_PER_CLUSTER": 30,
+    "MAX_CLUSTERS": 30,
+    "GENERIC_CLUSTERS": 30,
+    "SPECIFIC_CLUSTERS": 3,
+    "n_total_clusters_with_tokens": 73
+  },
+  "most_generic_tokens": [
+    {
+      "token": "rw [@]",
+      "n_clusters": 38
+    },
+    {
+      "token": "apply @",
+      "n_clusters": 36
+    },
+    {
+      "token": "constructor",
+      "n_clusters": 34
+    },
+    {
+      "token": "intro ?",
+      "n_clusters": 33
+    },
+    {
+      "token": "exact @",
+      "n_clusters": 29
+    },
+    {
+      "token": "simp only [@, @]",
+      "n_clusters": 29
+    },
+    {
+      "token": "rw [@, @]",
+      "n_clusters": 29
+    },
+    {
+      "token": "exact ?",
+      "n_clusters": 29
+    },
+    {
+      "token": "ext ?",
+      "n_clusters": 28
+    },
+    {
+      "token": "simp",
+      "n_clusters": 28
+    },
+    {
+      "token": "ext",
+      "n_clusters": 28
+    },
+    {
+      "token": "simp only [@, @, @]",
+      "n_clusters": 28
+    },
+    {
+      "token": "simp [@]",
+      "n_clusters": 28
+    },
+    {
+      "token": "exact @ ?",
+      "n_clusters": 28
+    },
+    {
+      "token": "rfl",
+      "n_clusters": 27
+    }
+  ],
+  "conceptual_bridges": {
+    "n_pairs": 200,
+    "n_with_shared_tokens": 198,
+    "mean_shared_mass": 4.105,
+    "mean_generic_frac": 0.4458,
+    "median_generic_frac": 0.5,
+    "frac_pairs_with_specific_shared": 0.005,
+    "mean_n_specific_shared": 0.005
+  },
+  "random_cross_cluster_control": {
+    "n_pairs": 8700,
+    "n_with_shared_tokens": 3605,
+    "mean_shared_mass": 0.724,
+    "mean_generic_frac": 0.5399,
+    "median_generic_frac": 0.5,
+    "frac_pairs_with_specific_shared": 0.0005,
+    "mean_n_specific_shared": 0.0007
+  },
+  "specific_shared_examples": [
+    {
+      "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+      "theorem_b": "Complex.tendsto_tsum_powerSeries_nhdsWithin_stolzSet",
+      "norm_edit_dist": 0.5859,
+      "n_specific_shared": 1,
+      "specific_tokens": [
+        "intro \u03b5 \u03b5pos"
+      ],
+      "generic_frac": 0.0
+    }
+  ]
+}
