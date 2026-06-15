@@ -1,0 +1,110 @@
+{
+  "n_seeds": 7,
+  "seeds": [
+    0,
+    1,
+    7,
+    42,
+    123,
+    2024,
+    31337
+  ],
+  "core_size": 27,
+  "core_theorems": [
+    "AEMeasurable.isLUB",
+    "Cardinal.mk_bounded_set_le_of_infinite",
+    "Cardinal.prod_eq_of_fintype",
+    "CategoryTheory.FreeBicategory.normalize_naturality",
+    "CategoryTheory.MorphismProperty.LeftFraction.Localization.map_eq_iff",
+    "CategoryTheory.MorphismProperty.LeftFraction.map_eq_iff",
+    "CategoryTheory.OverPresheafAux.YonedaCollection.map\u2082_yonedaEquivFst",
+    "CategoryTheory.ShortComplex.SnakeInput.naturality_\u03b4",
+    "CategoryTheory.Subobject.pullback_map_self",
+    "CategoryTheory.Subobject.sInf_le",
+    "CategoryTheory.essentiallySmall_iff",
+    "CochainComplex.mappingCone.quasiIso_descShortComplex",
+    "Combinatorics.Line.exists_mono_in_high_dimension'",
+    "CommRingCat.Colimits.cocone_naturality_components",
+    "Computation.corec_eq",
+    "ContinuousMap.sublattice_closure_eq_top",
+    "Dioph.diophFn_compn",
+    "Dioph.union",
+    "Equivalence.quot_mk_eq_iff",
+    "HomologicalComplex.HomologySequence.composableArrows\u2083_exact",
+    "MvPFunctor.M.bisim",
+    "MvPFunctor.M.bisim\u2080",
+    "MvPFunctor.w_map_wMk",
+    "PFunctor.M.cases_mk",
+    "PseudoMetricSpace.le_two_mul_dist_ofPreNNDist",
+    "RelIso.cof_le_lift",
+    "biSup_inf_biSup"
+  ],
+  "overlap_with_canonical": {
+    "canonical_raw": 280,
+    "canonical_strict": 34,
+    "core_in_canonical_raw": 22,
+    "core_in_canonical_raw_frac": 0.815,
+    "core_in_canonical_strict": 1,
+    "core_in_canonical_strict_names": [
+      "biSup_inf_biSup"
+    ]
+  },
+  "structural_profile": {
+    "proof_len": {
+      "pop_median": 2,
+      "pop_mean": 4.499,
+      "core_median": 12,
+      "core_mean": 16.037,
+      "core_rankfrac": 0.803,
+      "n_scored": 27
+    },
+    "n_premises": {
+      "pop_median": 3,
+      "pop_mean": 5.567,
+      "core_median": 11,
+      "core_mean": 15.889,
+      "core_rankfrac": 0.802,
+      "n_scored": 27
+    },
+    "reuse_indeg": {
+      "pop_median": 0,
+      "pop_mean": 1.356,
+      "core_median": 0,
+      "core_mean": 0.815,
+      "core_rankfrac": 0.47,
+      "n_scored": 27
+    },
+    "dag_depth": {
+      "pop_median": 2,
+      "pop_mean": 4.195,
+      "core_median": 2,
+      "core_mean": 3.333,
+      "core_rankfrac": 0.517,
+      "n_scored": 27
+    }
+  },
+  "module_distribution": {
+    "CategoryTheory": 7,
+    "Data": 6,
+    "Algebra": 4,
+    "SetTheory": 3,
+    "Topology": 2,
+    "NumberTheory": 2,
+    "MeasureTheory": 1,
+    "Combinatorics": 1,
+    "Order": 1
+  },
+  "historical_overlap": {
+    "n_core_in_historical": 1,
+    "core_in_historical_names": [
+      "PseudoMetricSpace.le_two_mul_dist_ofPreNNDist"
+    ],
+    "per_bridge_hits": {
+      "Gromov-Hausdorff": [
+        "PseudoMetricSpace.le_two_mul_dist_ofPreNNDist"
+      ]
+    }
+  },
+  "note": "core = raw operational bridges flagged in ALL 7 seeds; rankfrac vs full theorem population (0.5=no diff).",
+  "reproducibility": "Node order into igraph is SORTED for determinism. e-0050 used list(set)-order, which depends on PYTHONHASHSEED and varies per process, so its 79-core was an artifact of one hash ordering (re-run gave a different core). Leiden seed= alone does NOT fix the partition: same seed=0, two hash orderings -> 141 vs 143 clusters."
+}
