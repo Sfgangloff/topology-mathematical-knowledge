@@ -1,0 +1,75 @@
+{
+  "params": {
+    "MIN_TACTICS": 5,
+    "TOP_PER_CLUSTER": 30,
+    "MAX_CLUSTERS": 30,
+    "TOP_K": 200,
+    "GENERIC_CLUSTERS": 30,
+    "SPECIFIC_CLUSTERS": 3,
+    "n_clusters_for_idf": 73
+  },
+  "idf_detector": {
+    "n_pairs": 200,
+    "n_with_shared_tokens": 200,
+    "mean_shared_mass": 4.75,
+    "mean_generic_frac": 0.4622,
+    "median_generic_frac": 0.5,
+    "frac_pairs_with_specific_shared": 0.015,
+    "mean_n_specific_shared": 0.015
+  },
+  "plain_edit_distance_detector": {
+    "n_pairs": 200,
+    "n_with_shared_tokens": 198,
+    "mean_shared_mass": 4.105,
+    "mean_generic_frac": 0.4458,
+    "median_generic_frac": 0.5,
+    "frac_pairs_with_specific_shared": 0.005,
+    "mean_n_specific_shared": 0.005
+  },
+  "n_idf_pairs_with_specific": 3,
+  "n_plain_pairs_with_specific": 1,
+  "specific_shared_examples": [
+    {
+      "theorem_a": "t1Space_TFAE",
+      "theorem_b": "MeasureTheory.smulInvariantMeasure_tfae",
+      "labels": [
+        "Topology + Order + Data",
+        "MeasureTheory"
+      ],
+      "idf_sim": 0.1018,
+      "n_specific_shared": 1,
+      "specific_tokens": [
+        "exact \u27e8fun ? => @, fun ? => \u27e8?\u27e9\u27e9"
+      ],
+      "generic_frac": 0.0
+    },
+    {
+      "theorem_a": "NonemptyFinLinOrd.epi_iff_surjective",
+      "theorem_b": "WeierstrassCurve.Affine.Point.add_eq_zero",
+      "labels": [
+        "CategoryTheory",
+        "AlgebraicGeometry"
+      ],
+      "idf_sim": 0.0606,
+      "n_specific_shared": 1,
+      "specific_tokens": [
+        "any_goals rfl"
+      ],
+      "generic_frac": 0.5
+    },
+    {
+      "theorem_a": "FirstOrder.Language.BoundedFormula.realize_toFormula",
+      "theorem_b": "FirstOrder.Language.Substructure.FG.of_map_embedding",
+      "labels": [
+        "Data + LinearAlgebra + Analysis",
+        "AlgebraicGeometry"
+      ],
+      "idf_sim": 0.0477,
+      "n_specific_shared": 1,
+      "specific_tokens": [
+        "rw [\u2190 ?, @, @, @]"
+      ],
+      "generic_frac": 0.0
+    }
+  ]
+}
