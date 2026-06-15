@@ -1,0 +1,449 @@
+{
+  "metric": "complete-coverage ceiling = fraction of cross-domain TEST theorems whose ENTIRE clustered premise set is inside the routed cluster pool (exact, ranking-free)",
+  "n_cross_domain_test_theorems": 432,
+  "n_train_cross_domain": 27705,
+  "total_clustered_decls": 92594,
+  "leakage_control": "IDF, token x foreign-cluster co-occurrence counts, and the demand prior P(d) ALL estimated on TRAIN only; coverage on held-out TEST; only query signal is the test theorem's own NAME.",
+  "predictor_accuracy": {
+    "goal_base": {
+      "hits": {
+        "top1_hits_a_foreign_cluster": 0.5324,
+        "top2_hits_a_foreign_cluster": 0.7338,
+        "top3_hits_a_foreign_cluster": 0.8194,
+        "top5_hits_a_foreign_cluster": 0.9213
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.2639,
+        "top2_covers_ALL_foreign_clusters": 0.4352,
+        "top3_covers_ALL_foreign_clusters": 0.537,
+        "top5_covers_ALL_foreign_clusters": 0.7292
+      }
+    },
+    "goal_lift_a0.5": {
+      "hits": {
+        "top1_hits_a_foreign_cluster": 0.4583,
+        "top2_hits_a_foreign_cluster": 0.7106,
+        "top3_hits_a_foreign_cluster": 0.8287,
+        "top5_hits_a_foreign_cluster": 0.9167
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.2269,
+        "top2_covers_ALL_foreign_clusters": 0.4144,
+        "top3_covers_ALL_foreign_clusters": 0.5509,
+        "top5_covers_ALL_foreign_clusters": 0.7477
+      }
+    },
+    "goal_lift_a1.0": {
+      "hits": {
+        "top1_hits_a_foreign_cluster": 0.0185,
+        "top2_hits_a_foreign_cluster": 0.0486,
+        "top3_hits_a_foreign_cluster": 0.0949,
+        "top5_hits_a_foreign_cluster": 0.1806
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.0116,
+        "top2_covers_ALL_foreign_clusters": 0.0208,
+        "top3_covers_ALL_foreign_clusters": 0.0324,
+        "top5_covers_ALL_foreign_clusters": 0.0648
+      }
+    },
+    "goal_pmi": {
+      "hits": {
+        "top1_hits_a_foreign_cluster": 0.1134,
+        "top2_hits_a_foreign_cluster": 0.2083,
+        "top3_hits_a_foreign_cluster": 0.2847,
+        "top5_hits_a_foreign_cluster": 0.4583
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.0301,
+        "top2_covers_ALL_foreign_clusters": 0.0787,
+        "top3_covers_ALL_foreign_clusters": 0.1204,
+        "top5_covers_ALL_foreign_clusters": 0.2315
+      }
+    }
+  },
+  "sweeps": {
+    "goal_base": [
+      {
+        "breadth": 1,
+        "complete_coverage_ceiling": 0.2639,
+        "mean_pool_size": 19222.9,
+        "median_pool_size": 19149
+      },
+      {
+        "breadth": 2,
+        "complete_coverage_ceiling": 0.4352,
+        "mean_pool_size": 30041.5,
+        "median_pool_size": 31539
+      },
+      {
+        "breadth": 3,
+        "complete_coverage_ceiling": 0.537,
+        "mean_pool_size": 40137.7,
+        "median_pool_size": 40754
+      },
+      {
+        "breadth": 5,
+        "complete_coverage_ceiling": 0.7292,
+        "mean_pool_size": 53877.0,
+        "median_pool_size": 55886
+      },
+      {
+        "breadth": 10,
+        "complete_coverage_ceiling": 0.9144,
+        "mean_pool_size": 72323.7,
+        "median_pool_size": 72066
+      },
+      {
+        "breadth": 20,
+        "complete_coverage_ceiling": 0.9931,
+        "mean_pool_size": 88564.8,
+        "median_pool_size": 88802
+      }
+    ],
+    "goal_lift_a0.5": [
+      {
+        "breadth": 1,
+        "complete_coverage_ceiling": 0.2269,
+        "mean_pool_size": 16804.9,
+        "median_pool_size": 16306
+      },
+      {
+        "breadth": 2,
+        "complete_coverage_ceiling": 0.4144,
+        "mean_pool_size": 26148.8,
+        "median_pool_size": 26403
+      },
+      {
+        "breadth": 3,
+        "complete_coverage_ceiling": 0.5509,
+        "mean_pool_size": 34934.3,
+        "median_pool_size": 36133
+      },
+      {
+        "breadth": 5,
+        "complete_coverage_ceiling": 0.7477,
+        "mean_pool_size": 48861.8,
+        "median_pool_size": 50784
+      },
+      {
+        "breadth": 10,
+        "complete_coverage_ceiling": 0.919,
+        "mean_pool_size": 67598.9,
+        "median_pool_size": 68178
+      },
+      {
+        "breadth": 20,
+        "complete_coverage_ceiling": 0.9954,
+        "mean_pool_size": 86249.3,
+        "median_pool_size": 86912
+      }
+    ],
+    "goal_lift_a1.0": [
+      {
+        "breadth": 1,
+        "complete_coverage_ceiling": 0.0116,
+        "mean_pool_size": 7756.0,
+        "median_pool_size": 8766
+      },
+      {
+        "breadth": 2,
+        "complete_coverage_ceiling": 0.0208,
+        "mean_pool_size": 8214.4,
+        "median_pool_size": 8790
+      },
+      {
+        "breadth": 3,
+        "complete_coverage_ceiling": 0.0324,
+        "mean_pool_size": 8974.1,
+        "median_pool_size": 10121
+      },
+      {
+        "breadth": 5,
+        "complete_coverage_ceiling": 0.0648,
+        "mean_pool_size": 11129.7,
+        "median_pool_size": 10940
+      },
+      {
+        "breadth": 10,
+        "complete_coverage_ceiling": 0.2685,
+        "mean_pool_size": 22439.4,
+        "median_pool_size": 20107
+      },
+      {
+        "breadth": 20,
+        "complete_coverage_ceiling": 0.7523,
+        "mean_pool_size": 56215.3,
+        "median_pool_size": 58061
+      }
+    ],
+    "goal_pmi": [
+      {
+        "breadth": 1,
+        "complete_coverage_ceiling": 0.0301,
+        "mean_pool_size": 8905.2,
+        "median_pool_size": 9241
+      },
+      {
+        "breadth": 2,
+        "complete_coverage_ceiling": 0.0787,
+        "mean_pool_size": 10852.2,
+        "median_pool_size": 11310
+      },
+      {
+        "breadth": 3,
+        "complete_coverage_ceiling": 0.1204,
+        "mean_pool_size": 13211.5,
+        "median_pool_size": 12897
+      },
+      {
+        "breadth": 5,
+        "complete_coverage_ceiling": 0.2315,
+        "mean_pool_size": 18562.9,
+        "median_pool_size": 18004
+      },
+      {
+        "breadth": 10,
+        "complete_coverage_ceiling": 0.456,
+        "mean_pool_size": 32963.6,
+        "median_pool_size": 32843
+      },
+      {
+        "breadth": 20,
+        "complete_coverage_ceiling": 0.8125,
+        "mean_pool_size": 57719.4,
+        "median_pool_size": 58249
+      }
+    ],
+    "oracle": [
+      {
+        "breadth": 1,
+        "complete_coverage_ceiling": 0.5949,
+        "mean_pool_size": 17650.7,
+        "median_pool_size": 18430
+      },
+      {
+        "breadth": 2,
+        "complete_coverage_ceiling": 0.8218,
+        "mean_pool_size": 20872.1,
+        "median_pool_size": 21000
+      },
+      {
+        "breadth": 3,
+        "complete_coverage_ceiling": 0.9282,
+        "mean_pool_size": 21831.8,
+        "median_pool_size": 21273
+      },
+      {
+        "breadth": 5,
+        "complete_coverage_ceiling": 0.9884,
+        "mean_pool_size": 22175.1,
+        "median_pool_size": 21273
+      },
+      {
+        "breadth": 10,
+        "complete_coverage_ceiling": 1.0,
+        "mean_pool_size": 22236.1,
+        "median_pool_size": 21273
+      },
+      {
+        "breadth": 20,
+        "complete_coverage_ceiling": 1.0,
+        "mean_pool_size": 22236.1,
+        "median_pool_size": 21273
+      }
+    ]
+  },
+  "head_to_head_cheapest_pool_to_reach_ceiling": [
+    {
+      "target_ceiling": 0.5,
+      "oracle": {
+        "breadth": 1,
+        "ceiling": 0.5949,
+        "mean_pool_size": 17650.7
+      },
+      "goal_base": {
+        "breadth": 3,
+        "ceiling": 0.537,
+        "mean_pool_size": 40137.7
+      },
+      "goal_lift_a0.5": {
+        "breadth": 3,
+        "ceiling": 0.5509,
+        "mean_pool_size": 34934.3
+      },
+      "goal_lift_a1.0": {
+        "breadth": 20,
+        "ceiling": 0.7523,
+        "mean_pool_size": 56215.3
+      },
+      "goal_pmi": {
+        "breadth": 20,
+        "ceiling": 0.8125,
+        "mean_pool_size": 57719.4
+      },
+      "best_realizable": {
+        "arm": "goal_lift_a0.5",
+        "breadth": 3,
+        "ceiling": 0.5509,
+        "mean_pool_size": 34934.3
+      },
+      "best_realizable_over_oracle_pool_ratio": 1.98
+    },
+    {
+      "target_ceiling": 0.674,
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "goal_base": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "goal_lift_a0.5": {
+        "breadth": 5,
+        "ceiling": 0.7477,
+        "mean_pool_size": 48861.8
+      },
+      "goal_lift_a1.0": {
+        "breadth": 20,
+        "ceiling": 0.7523,
+        "mean_pool_size": 56215.3
+      },
+      "goal_pmi": {
+        "breadth": 20,
+        "ceiling": 0.8125,
+        "mean_pool_size": 57719.4
+      },
+      "best_realizable": {
+        "arm": "goal_lift_a0.5",
+        "breadth": 5,
+        "ceiling": 0.7477,
+        "mean_pool_size": 48861.8
+      },
+      "best_realizable_over_oracle_pool_ratio": 2.34
+    },
+    {
+      "target_ceiling": 0.7,
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "goal_base": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "goal_lift_a0.5": {
+        "breadth": 5,
+        "ceiling": 0.7477,
+        "mean_pool_size": 48861.8
+      },
+      "goal_lift_a1.0": {
+        "breadth": 20,
+        "ceiling": 0.7523,
+        "mean_pool_size": 56215.3
+      },
+      "goal_pmi": {
+        "breadth": 20,
+        "ceiling": 0.8125,
+        "mean_pool_size": 57719.4
+      },
+      "best_realizable": {
+        "arm": "goal_lift_a0.5",
+        "breadth": 5,
+        "ceiling": 0.7477,
+        "mean_pool_size": 48861.8
+      },
+      "best_realizable_over_oracle_pool_ratio": 2.34
+    },
+    {
+      "target_ceiling": 0.8,
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "goal_base": {
+        "breadth": 10,
+        "ceiling": 0.9144,
+        "mean_pool_size": 72323.7
+      },
+      "goal_lift_a0.5": {
+        "breadth": 10,
+        "ceiling": 0.919,
+        "mean_pool_size": 67598.9
+      },
+      "goal_lift_a1.0": null,
+      "goal_pmi": {
+        "breadth": 20,
+        "ceiling": 0.8125,
+        "mean_pool_size": 57719.4
+      },
+      "best_realizable": {
+        "arm": "goal_pmi",
+        "breadth": 20,
+        "ceiling": 0.8125,
+        "mean_pool_size": 57719.4
+      },
+      "best_realizable_over_oracle_pool_ratio": 2.77
+    },
+    {
+      "target_ceiling": 0.9,
+      "oracle": {
+        "breadth": 3,
+        "ceiling": 0.9282,
+        "mean_pool_size": 21831.8
+      },
+      "goal_base": {
+        "breadth": 10,
+        "ceiling": 0.9144,
+        "mean_pool_size": 72323.7
+      },
+      "goal_lift_a0.5": {
+        "breadth": 10,
+        "ceiling": 0.919,
+        "mean_pool_size": 67598.9
+      },
+      "goal_lift_a1.0": null,
+      "goal_pmi": null,
+      "best_realizable": {
+        "arm": "goal_lift_a0.5",
+        "breadth": 10,
+        "ceiling": 0.919,
+        "mean_pool_size": 67598.9
+      },
+      "best_realizable_over_oracle_pool_ratio": 3.1
+    },
+    {
+      "target_ceiling": 0.95,
+      "oracle": {
+        "breadth": 5,
+        "ceiling": 0.9884,
+        "mean_pool_size": 22175.1
+      },
+      "goal_base": {
+        "breadth": 20,
+        "ceiling": 0.9931,
+        "mean_pool_size": 88564.8
+      },
+      "goal_lift_a0.5": {
+        "breadth": 20,
+        "ceiling": 0.9954,
+        "mean_pool_size": 86249.3
+      },
+      "goal_lift_a1.0": null,
+      "goal_pmi": null,
+      "best_realizable": {
+        "arm": "goal_lift_a0.5",
+        "breadth": 20,
+        "ceiling": 0.9954,
+        "mean_pool_size": 86249.3
+      },
+      "best_realizable_over_oracle_pool_ratio": 3.89
+    }
+  ]
+}
