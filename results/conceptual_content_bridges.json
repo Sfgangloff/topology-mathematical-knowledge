@@ -1,0 +1,116 @@
+{
+  "params": {
+    "MIN_TACTICS": 5,
+    "TOP_PER_CLUSTER": 30,
+    "MAX_CLUSTERS": 30,
+    "GENERIC_CLUSTERS": 30,
+    "SPECIFIC_CLUSTERS": 3,
+    "n_total_clusters_with_tokens": 73,
+    "mean_content_bag_size": 56.95,
+    "DRAWS_PER_PAIR": 20
+  },
+  "most_generic_content_tokens": [
+    {
+      "token": "eq",
+      "n_clusters": 46
+    },
+    {
+      "token": "of",
+      "n_clusters": 43
+    },
+    {
+      "token": "iff",
+      "n_clusters": 42
+    },
+    {
+      "token": "is",
+      "n_clusters": 40
+    },
+    {
+      "token": "mem",
+      "n_clusters": 39
+    },
+    {
+      "token": "add",
+      "n_clusters": 36
+    },
+    {
+      "token": "zero",
+      "n_clusters": 36
+    },
+    {
+      "token": "map",
+      "n_clusters": 35
+    },
+    {
+      "token": "mul",
+      "n_clusters": 35
+    },
+    {
+      "token": "lt",
+      "n_clusters": 35
+    },
+    {
+      "token": "symm",
+      "n_clusters": 34
+    },
+    {
+      "token": "le",
+      "n_clusters": 34
+    },
+    {
+      "token": "theory",
+      "n_clusters": 33
+    },
+    {
+      "token": "nat",
+      "n_clusters": 31
+    },
+    {
+      "token": "trans",
+      "n_clusters": 31
+    }
+  ],
+  "conceptual_bridges": {
+    "n_pairs": 200,
+    "n_with_shared_tokens": 179,
+    "frac_pairs_with_shared": 0.895,
+    "mean_shared_mass": 22.605,
+    "mean_generic_frac": 0.7273,
+    "median_generic_frac": 0.7568,
+    "frac_pairs_with_specific_shared": 0.01,
+    "mean_n_specific_shared": 0.01
+  },
+  "random_cross_cluster_control": {
+    "n_pairs": 8700,
+    "n_with_shared_tokens": 6949,
+    "frac_pairs_with_shared": 0.7987,
+    "mean_shared_mass": 8.5279,
+    "mean_generic_frac": 0.7233,
+    "median_generic_frac": 0.8,
+    "frac_pairs_with_specific_shared": 0.0001,
+    "mean_n_specific_shared": 0.0001
+  },
+  "specific_shared_examples": [
+    {
+      "theorem_a": "Pell.eq_of_xn_modEq_lem3",
+      "theorem_b": "eVariationOn.add_point",
+      "norm_edit_dist": 0.6471,
+      "n_specific_shared": 1,
+      "specific_tokens": [
+        "npos"
+      ],
+      "generic_frac": 0.75
+    },
+    {
+      "theorem_a": "Fermat42.not_minimal",
+      "theorem_b": "FermatLastTheoremForThreeGen.lambda_sq_dvd_or_dvd_or_dvd",
+      "norm_edit_dist": 0.76,
+      "n_specific_shared": 1,
+      "specific_tokens": [
+        "fermat"
+      ],
+      "generic_frac": 0.763
+    }
+  ]
+}

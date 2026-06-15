@@ -44,7 +44,7 @@
     {
       "breadth": 5,
       "complete_coverage_ceiling": 0.6736,
-      "mean_pool_size": 53763.7,
+      "mean_pool_size": 53758.2,
       "median_pool_size": 55886
     },
     {
@@ -161,7 +161,7 @@
       "static": {
         "breadth": 5,
         "ceiling": 0.6736,
-        "mean_pool_size": 53763.7
+        "mean_pool_size": 53758.2
       },
       "goal": {
         "breadth": 5,
