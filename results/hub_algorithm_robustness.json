@@ -1,0 +1,652 @@
+{
+  "summary": {
+    "n_algorithms": 5,
+    "algorithms": [
+      "leiden_modularity",
+      "louvain",
+      "fastgreedy",
+      "label_propagation",
+      "infomap"
+    ],
+    "canonical_a0010": "SetTheory CN=1.037, #1 (stored partition + strict bridges)",
+    "note": "CN here is recomputed on FRESH deterministically-sorted partitions; the RAW construction uses all operational bridges, STRICT uses the depth-filtered set (the a-0010 object). Hub reported by top-CN cluster's dominant module.",
+    "raw": {
+      "top_hub_module_per_algo": {
+        "leiden_modularity": "Order",
+        "louvain": "Order",
+        "fastgreedy": "AlgebraicGeometry",
+        "label_propagation": "CategoryTheory",
+        "infomap": "Algebra"
+      },
+      "settheory_top_hub_in_n_algos": 0,
+      "settheory_top3_in_n_algos": 0,
+      "settheory_rank_per_algo": {
+        "leiden_modularity": 4,
+        "louvain": 4,
+        "fastgreedy": 37,
+        "label_propagation": 84,
+        "infomap": 5
+      },
+      "settheory_rank_range": [
+        4,
+        84
+      ],
+      "distinct_top_hub_modules": [
+        "Algebra",
+        "AlgebraicGeometry",
+        "CategoryTheory",
+        "Order"
+      ]
+    },
+    "strict": {
+      "top_hub_module_per_algo": {
+        "leiden_modularity": "SetTheory",
+        "louvain": "SetTheory",
+        "fastgreedy": "GroupTheory",
+        "label_propagation": "CategoryTheory",
+        "infomap": "Algebra"
+      },
+      "settheory_top_hub_in_n_algos": 2,
+      "settheory_top3_in_n_algos": 3,
+      "settheory_rank_per_algo": {
+        "leiden_modularity": 1,
+        "louvain": 1,
+        "fastgreedy": 28,
+        "label_propagation": 35,
+        "infomap": 2
+      },
+      "settheory_rank_range": [
+        1,
+        35
+      ],
+      "distinct_top_hub_modules": [
+        "Algebra",
+        "CategoryTheory",
+        "GroupTheory",
+        "SetTheory"
+      ]
+    }
+  },
+  "per_algo": [
+    {
+      "algorithm": "leiden_modularity",
+      "n_clusters": 138,
+      "n_pure_clusters": 112,
+      "elbow_theta": 2,
+      "n_raw_bridges": 295,
+      "n_strict_bridges": 44,
+      "raw": {
+        "global_cn": 1.1285,
+        "top_hub_module": "Order",
+        "top_hub_cn": 1.5453,
+        "settheory_hub_rank": 4,
+        "settheory_hub_cn": 1.3995,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "Order",
+            "label": "Order",
+            "cn": 1.5453,
+            "integration": 3.1554,
+            "differentiation": 0.4897,
+            "bridge_connections": 77
+          },
+          {
+            "rank": 2,
+            "dominant_module": "Topology",
+            "label": "Topology",
+            "cn": 1.4972,
+            "integration": 1.9219,
+            "differentiation": 0.779,
+            "bridge_connections": 5
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Data",
+            "label": "Data",
+            "cn": 1.4299,
+            "integration": 3.3526,
+            "differentiation": 0.4265,
+            "bridge_connections": 59
+          },
+          {
+            "rank": 4,
+            "dominant_module": "SetTheory",
+            "label": "SetTheory",
+            "cn": 1.3995,
+            "integration": 3.4396,
+            "differentiation": 0.4069,
+            "bridge_connections": 177
+          },
+          {
+            "rank": 5,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 1.2896,
+            "integration": 3.8518,
+            "differentiation": 0.3348,
+            "bridge_connections": 208
+          }
+        ]
+      },
+      "strict": {
+        "global_cn": 1.0606,
+        "top_hub_module": "SetTheory",
+        "top_hub_cn": 1.2298,
+        "settheory_hub_rank": 1,
+        "settheory_hub_cn": 1.2298,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "SetTheory",
+            "label": "SetTheory",
+            "cn": 1.2298,
+            "integration": 3.0226,
+            "differentiation": 0.4069,
+            "bridge_connections": 28
+          },
+          {
+            "rank": 2,
+            "dominant_module": "Topology",
+            "label": "Topology",
+            "cn": 1.0,
+            "integration": 1.0,
+            "differentiation": 1.0,
+            "bridge_connections": 2
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Order",
+            "label": "Order",
+            "cn": 0.9966,
+            "integration": 2.0349,
+            "differentiation": 0.4897,
+            "bridge_connections": 13
+          },
+          {
+            "rank": 4,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 0.9834,
+            "integration": 2.9372,
+            "differentiation": 0.3348,
+            "bridge_connections": 28
+          },
+          {
+            "rank": 5,
+            "dominant_module": "Data",
+            "label": "Data",
+            "cn": 0.9729,
+            "integration": 2.281,
+            "differentiation": 0.4265,
+            "bridge_connections": 9
+          }
+        ]
+      }
+    },
+    {
+      "algorithm": "louvain",
+      "n_clusters": 189,
+      "n_pure_clusters": 162,
+      "elbow_theta": 1,
+      "n_raw_bridges": 834,
+      "n_strict_bridges": 63,
+      "raw": {
+        "global_cn": 0.8435,
+        "top_hub_module": "Order",
+        "top_hub_cn": 1.7284,
+        "settheory_hub_rank": 4,
+        "settheory_hub_cn": 1.2352,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "Order",
+            "label": "Order",
+            "cn": 1.7284,
+            "integration": 3.2192,
+            "differentiation": 0.5369,
+            "bridge_connections": 58
+          },
+          {
+            "rank": 2,
+            "dominant_module": "Topology",
+            "label": "Topology",
+            "cn": 1.585,
+            "integration": 1.585,
+            "differentiation": 1.0,
+            "bridge_connections": 3
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Data",
+            "label": "Data",
+            "cn": 1.5332,
+            "integration": 2.1556,
+            "differentiation": 0.7112,
+            "bridge_connections": 8
+          },
+          {
+            "rank": 4,
+            "dominant_module": "SetTheory",
+            "label": "SetTheory",
+            "cn": 1.2352,
+            "integration": 3.2822,
+            "differentiation": 0.3764,
+            "bridge_connections": 386
+          },
+          {
+            "rank": 5,
+            "dominant_module": "Topology",
+            "label": "Topology",
+            "cn": 1.235,
+            "integration": 1.9219,
+            "differentiation": 0.6426,
+            "bridge_connections": 5
+          }
+        ]
+      },
+      "strict": {
+        "global_cn": 0.7022,
+        "top_hub_module": "SetTheory",
+        "top_hub_cn": 0.9553,
+        "settheory_hub_rank": 1,
+        "settheory_hub_cn": 0.9553,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "SetTheory",
+            "label": "SetTheory",
+            "cn": 0.9553,
+            "integration": 2.5383,
+            "differentiation": 0.3764,
+            "bridge_connections": 24
+          },
+          {
+            "rank": 2,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 0.8275,
+            "integration": 2.4384,
+            "differentiation": 0.3394,
+            "bridge_connections": 26
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Order",
+            "label": "Order",
+            "cn": 0.7834,
+            "integration": 1.4591,
+            "differentiation": 0.5369,
+            "bridge_connections": 6
+          },
+          {
+            "rank": 4,
+            "dominant_module": "MeasureTheory",
+            "label": "MeasureTheory",
+            "cn": 0.7038,
+            "integration": 2.4212,
+            "differentiation": 0.2907,
+            "bridge_connections": 50
+          },
+          {
+            "rank": 5,
+            "dominant_module": "Topology",
+            "label": "Topology",
+            "cn": 0.6426,
+            "integration": 1.0,
+            "differentiation": 0.6426,
+            "bridge_connections": 2
+          }
+        ]
+      }
+    },
+    {
+      "algorithm": "fastgreedy",
+      "n_clusters": 1106,
+      "n_pure_clusters": 1032,
+      "elbow_theta": 2,
+      "n_raw_bridges": 98,
+      "n_strict_bridges": 66,
+      "raw": {
+        "global_cn": 5.4254,
+        "top_hub_module": "AlgebraicGeometry",
+        "top_hub_cn": 1.0523,
+        "settheory_hub_rank": 37,
+        "settheory_hub_cn": -0.0,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "AlgebraicGeometry",
+            "label": "AlgebraicGeometry",
+            "cn": 1.0523,
+            "integration": 1.9219,
+            "differentiation": 0.5475,
+            "bridge_connections": 5
+          },
+          {
+            "rank": 2,
+            "dominant_module": "GroupTheory",
+            "label": "GroupTheory",
+            "cn": 1.0,
+            "integration": 1.0,
+            "differentiation": 1.0,
+            "bridge_connections": 2
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Algebra",
+            "label": "Algebra + RingTheory + Data",
+            "cn": 0.9891,
+            "integration": 5.7974,
+            "differentiation": 0.1706,
+            "bridge_connections": 67
+          },
+          {
+            "rank": 4,
+            "dominant_module": "Analysis",
+            "label": "Analysis + MeasureTheory + Algebra",
+            "cn": 0.9249,
+            "integration": 6.2354,
+            "differentiation": 0.1483,
+            "bridge_connections": 104
+          },
+          {
+            "rank": 5,
+            "dominant_module": "Analysis",
+            "label": "Analysis",
+            "cn": 0.7229,
+            "integration": 0.9183,
+            "differentiation": 0.7872,
+            "bridge_connections": 3
+          }
+        ]
+      },
+      "strict": {
+        "global_cn": 5.1991,
+        "top_hub_module": "GroupTheory",
+        "top_hub_cn": 1.0,
+        "settheory_hub_rank": 28,
+        "settheory_hub_cn": -0.0,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "GroupTheory",
+            "label": "GroupTheory",
+            "cn": 1.0,
+            "integration": 1.0,
+            "differentiation": 1.0,
+            "bridge_connections": 2
+          },
+          {
+            "rank": 2,
+            "dominant_module": "Analysis",
+            "label": "Analysis + MeasureTheory + Algebra",
+            "cn": 0.8862,
+            "integration": 5.9748,
+            "differentiation": 0.1483,
+            "bridge_connections": 76
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Algebra",
+            "label": "Algebra + RingTheory + Data",
+            "cn": 0.8861,
+            "integration": 5.1937,
+            "differentiation": 0.1706,
+            "bridge_connections": 43
+          },
+          {
+            "rank": 4,
+            "dominant_module": "LinearAlgebra",
+            "label": "LinearAlgebra",
+            "cn": 0.7001,
+            "integration": 0.9183,
+            "differentiation": 0.7624,
+            "bridge_connections": 3
+          },
+          {
+            "rank": 5,
+            "dominant_module": "Data",
+            "label": "Data",
+            "cn": 0.6865,
+            "integration": 0.9183,
+            "differentiation": 0.7476,
+            "bridge_connections": 3
+          }
+        ]
+      }
+    },
+    {
+      "algorithm": "label_propagation",
+      "n_clusters": 809,
+      "n_pure_clusters": 769,
+      "elbow_theta": 2,
+      "n_raw_bridges": 790,
+      "n_strict_bridges": 65,
+      "raw": {
+        "global_cn": 3.8698,
+        "top_hub_module": "CategoryTheory",
+        "top_hub_cn": 2.2106,
+        "settheory_hub_rank": 84,
+        "settheory_hub_cn": 0.5068,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 2.2106,
+            "integration": 6.0843,
+            "differentiation": 0.3633,
+            "bridge_connections": 619
+          },
+          {
+            "rank": 2,
+            "dominant_module": "Batteries",
+            "label": "Batteries",
+            "cn": 2.0404,
+            "integration": 2.0404,
+            "differentiation": 1.0,
+            "bridge_connections": 11
+          },
+          {
+            "rank": 3,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 1.8911,
+            "integration": 1.8911,
+            "differentiation": 1.0,
+            "bridge_connections": 9
+          },
+          {
+            "rank": 4,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 1.8424,
+            "integration": 1.8424,
+            "differentiation": 1.0,
+            "bridge_connections": 7
+          },
+          {
+            "rank": 5,
+            "dominant_module": "Batteries",
+            "label": "Batteries",
+            "cn": 1.7925,
+            "integration": 1.7925,
+            "differentiation": 1.0,
+            "bridge_connections": 6
+          }
+        ]
+      },
+      "strict": {
+        "global_cn": 2.6045,
+        "top_hub_module": "CategoryTheory",
+        "top_hub_cn": 2.0,
+        "settheory_hub_rank": 35,
+        "settheory_hub_cn": -0.0,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 2.0,
+            "integration": 2.0,
+            "differentiation": 1.0,
+            "bridge_connections": 4
+          },
+          {
+            "rank": 2,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 1.2836,
+            "integration": 3.5329,
+            "differentiation": 0.3633,
+            "bridge_connections": 51
+          },
+          {
+            "rank": 3,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 1.2551,
+            "integration": 1.9219,
+            "differentiation": 0.653,
+            "bridge_connections": 5
+          },
+          {
+            "rank": 4,
+            "dominant_module": "AlgebraicGeometry",
+            "label": "AlgebraicGeometry",
+            "cn": 1.1487,
+            "integration": 1.5,
+            "differentiation": 0.7658,
+            "bridge_connections": 4
+          },
+          {
+            "rank": 5,
+            "dominant_module": "CategoryTheory",
+            "label": "CategoryTheory",
+            "cn": 1.0,
+            "integration": 1.0,
+            "differentiation": 1.0,
+            "bridge_connections": 2
+          }
+        ]
+      }
+    },
+    {
+      "algorithm": "infomap",
+      "n_clusters": 4201,
+      "n_pure_clusters": 3101,
+      "elbow_theta": 2,
+      "n_raw_bridges": 22732,
+      "n_strict_bridges": 4023,
+      "raw": {
+        "global_cn": 1.7804,
+        "top_hub_module": "Algebra",
+        "top_hub_cn": 5.9759,
+        "settheory_hub_rank": 5,
+        "settheory_hub_cn": 4.8536,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "Algebra",
+            "label": "Algebra",
+            "cn": 5.9759,
+            "integration": 5.9759,
+            "differentiation": 1.0,
+            "bridge_connections": 118
+          },
+          {
+            "rank": 2,
+            "dominant_module": "Data",
+            "label": "Data",
+            "cn": 5.6109,
+            "integration": 6.834,
+            "differentiation": 0.821,
+            "bridge_connections": 159
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Analysis",
+            "label": "Analysis",
+            "cn": 4.9388,
+            "integration": 6.0172,
+            "differentiation": 0.8208,
+            "bridge_connections": 163
+          },
+          {
+            "rank": 4,
+            "dominant_module": "Order",
+            "label": "Order",
+            "cn": 4.8806,
+            "integration": 6.5091,
+            "differentiation": 0.7498,
+            "bridge_connections": 263
+          },
+          {
+            "rank": 5,
+            "dominant_module": "SetTheory",
+            "label": "SetTheory",
+            "cn": 4.8536,
+            "integration": 5.9982,
+            "differentiation": 0.8092,
+            "bridge_connections": 330
+          }
+        ]
+      },
+      "strict": {
+        "global_cn": 1.7884,
+        "top_hub_module": "Algebra",
+        "top_hub_cn": 4.4502,
+        "settheory_hub_rank": 2,
+        "settheory_hub_cn": 4.3486,
+        "top5": [
+          {
+            "rank": 1,
+            "dominant_module": "Algebra",
+            "label": "Algebra",
+            "cn": 4.4502,
+            "integration": 4.4502,
+            "differentiation": 1.0,
+            "bridge_connections": 28
+          },
+          {
+            "rank": 2,
+            "dominant_module": "SetTheory",
+            "label": "SetTheory",
+            "cn": 4.3486,
+            "integration": 5.3741,
+            "differentiation": 0.8092,
+            "bridge_connections": 63
+          },
+          {
+            "rank": 3,
+            "dominant_module": "Analysis",
+            "label": "Analysis",
+            "cn": 4.1766,
+            "integration": 5.0886,
+            "differentiation": 0.8208,
+            "bridge_connections": 42
+          },
+          {
+            "rank": 4,
+            "dominant_module": "Data",
+            "label": "Data",
+            "cn": 4.042,
+            "integration": 4.9232,
+            "differentiation": 0.821,
+            "bridge_connections": 33
+          },
+          {
+            "rank": 5,
+            "dominant_module": "Order",
+            "label": "Order",
+            "cn": 4.038,
+            "integration": 5.3854,
+            "differentiation": 0.7498,
+            "bridge_connections": 57
+          }
+        ]
+      }
+    }
+  ]
+}
