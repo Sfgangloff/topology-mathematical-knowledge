@@ -1,0 +1,106 @@
+{
+  "description": "Robustness of a-0032 operational/conceptual independence to the structural-similarity aggregation statistic (min vs mean vs median). Threshold-free: enrichment of the K structurally-closest cluster pairs for operational bridges, relative to the base rate.",
+  "n_jointly_evaluable_clusters": 22,
+  "n_possible_pairs_in_U": 231,
+  "n_operational_pairs_in_U": 70,
+  "operational_base_rate": 0.303,
+  "within_cluster_baseline_median_ed": 1.0,
+  "by_aggregation": {
+    "min": {
+      "closest_topK": {
+        "20": {
+          "n_selected": 20,
+          "n_operational_in_selection": 5,
+          "frac_operational_in_selection": 0.25,
+          "expected_if_independent": 6.061,
+          "enrichment_vs_chance": 0.825
+        },
+        "40": {
+          "n_selected": 40,
+          "n_operational_in_selection": 9,
+          "frac_operational_in_selection": 0.225,
+          "expected_if_independent": 12.121,
+          "enrichment_vs_chance": 0.743
+        },
+        "58": {
+          "n_selected": 58,
+          "n_operational_in_selection": 14,
+          "frac_operational_in_selection": 0.2414,
+          "expected_if_independent": 17.576,
+          "enrichment_vs_chance": 0.797
+        },
+        "80": {
+          "n_selected": 80,
+          "n_operational_in_selection": 19,
+          "frac_operational_in_selection": 0.2375,
+          "expected_if_independent": 24.242,
+          "enrichment_vs_chance": 0.784
+        }
+      }
+    },
+    "mean": {
+      "closest_topK": {
+        "20": {
+          "n_selected": 20,
+          "n_operational_in_selection": 6,
+          "frac_operational_in_selection": 0.3,
+          "expected_if_independent": 6.061,
+          "enrichment_vs_chance": 0.99
+        },
+        "40": {
+          "n_selected": 40,
+          "n_operational_in_selection": 12,
+          "frac_operational_in_selection": 0.3,
+          "expected_if_independent": 12.121,
+          "enrichment_vs_chance": 0.99
+        },
+        "58": {
+          "n_selected": 58,
+          "n_operational_in_selection": 18,
+          "frac_operational_in_selection": 0.3103,
+          "expected_if_independent": 17.576,
+          "enrichment_vs_chance": 1.024
+        },
+        "80": {
+          "n_selected": 80,
+          "n_operational_in_selection": 28,
+          "frac_operational_in_selection": 0.35,
+          "expected_if_independent": 24.242,
+          "enrichment_vs_chance": 1.155
+        }
+      }
+    },
+    "median": {
+      "closest_topK": {
+        "20": {
+          "n_selected": 20,
+          "n_operational_in_selection": 9,
+          "frac_operational_in_selection": 0.45,
+          "expected_if_independent": 6.061,
+          "enrichment_vs_chance": 1.485
+        },
+        "40": {
+          "n_selected": 40,
+          "n_operational_in_selection": 14,
+          "frac_operational_in_selection": 0.35,
+          "expected_if_independent": 12.121,
+          "enrichment_vs_chance": 1.155
+        },
+        "58": {
+          "n_selected": 58,
+          "n_operational_in_selection": 20,
+          "frac_operational_in_selection": 0.3448,
+          "expected_if_independent": 17.576,
+          "enrichment_vs_chance": 1.138
+        },
+        "80": {
+          "n_selected": 80,
+          "n_operational_in_selection": 25,
+          "frac_operational_in_selection": 0.3125,
+          "expected_if_independent": 24.242,
+          "enrichment_vs_chance": 1.031
+        }
+      }
+    }
+  }
+}
