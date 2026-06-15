@@ -1,0 +1,74 @@
+{
+  "groups": {
+    "detected_bridge": {
+      "n": 2,
+      "mean_distinct_pure_premise_clusters": 2.0,
+      "mean_recall": {
+        "home": 0.6315,
+        "bridge1": 0.7029,
+        "bridge2": 0.7614,
+        "bridge3": 0.8068,
+        "bridge5": 0.8831,
+        "bridge10": 0.9237
+      },
+      "lift_over_home": {
+        "lift_top1": 0.0714,
+        "lift_top2": 0.1299,
+        "lift_top3": 0.1753,
+        "lift_top5": 0.2516,
+        "lift_top10": 0.2922
+      }
+    },
+    "cross_nonbridge": {
+      "n": 430,
+      "mean_distinct_pure_premise_clusters": 0.151,
+      "mean_recall": {
+        "home": 0.6194,
+        "bridge1": 0.7403,
+        "bridge2": 0.8365,
+        "bridge3": 0.883,
+        "bridge5": 0.9343,
+        "bridge10": 0.9729
+      },
+      "lift_over_home": {
+        "lift_top1": 0.1209,
+        "lift_top2": 0.2171,
+        "lift_top3": 0.2636,
+        "lift_top5": 0.3149,
+        "lift_top10": 0.3535
+      }
+    },
+    "within_domain": {
+      "n": 441,
+      "mean_distinct_pure_premise_clusters": 0.166,
+      "mean_recall": {
+        "home": 1.0,
+        "bridge1": 1.0,
+        "bridge2": 1.0,
+        "bridge3": 1.0,
+        "bridge5": 1.0,
+        "bridge10": 1.0
+      },
+      "lift_over_home": {
+        "lift_top1": 0.0,
+        "lift_top2": 0.0,
+        "lift_top3": 0.0,
+        "lift_top5": 0.0,
+        "lift_top10": 0.0
+      }
+    }
+  },
+  "n_test_with_clustered_premises": 873,
+  "params": {
+    "ks": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ],
+    "purity_threshold": 0.5,
+    "n_pure_clusters": 110,
+    "n_clusters": 138
+  }
+}
