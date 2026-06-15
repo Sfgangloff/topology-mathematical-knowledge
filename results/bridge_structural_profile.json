@@ -1,0 +1,60 @@
+{
+  "population": 55575,
+  "n_bridges": 280,
+  "n_strict": 34,
+  "features": [
+    {
+      "feature": "proof_len",
+      "pop_median": 2,
+      "pop_mean": 4.499,
+      "bridge_median": 10.0,
+      "bridge_mean": 15.021,
+      "strict_median": 12.0,
+      "strict_mean": 19.735,
+      "bridge_rankfrac": 0.785,
+      "strict_rankfrac": 0.851,
+      "n_bridge_scored": 280,
+      "n_strict_scored": 34
+    },
+    {
+      "feature": "n_premises",
+      "pop_median": 3,
+      "pop_mean": 5.567,
+      "bridge_median": 12.0,
+      "bridge_mean": 17.218,
+      "strict_median": 16.0,
+      "strict_mean": 21.853,
+      "bridge_rankfrac": 0.817,
+      "strict_rankfrac": 0.887,
+      "n_bridge_scored": 280,
+      "n_strict_scored": 34
+    },
+    {
+      "feature": "reuse_indeg",
+      "pop_median": 0,
+      "pop_mean": 1.356,
+      "bridge_median": 1.0,
+      "bridge_mean": 1.043,
+      "strict_median": 1.0,
+      "strict_mean": 1.088,
+      "bridge_rankfrac": 0.532,
+      "strict_rankfrac": 0.532,
+      "n_bridge_scored": 280,
+      "n_strict_scored": 34
+    },
+    {
+      "feature": "dag_depth",
+      "pop_median": 2,
+      "pop_mean": 4.195,
+      "bridge_median": 3.0,
+      "bridge_mean": 6.061,
+      "strict_median": 6.5,
+      "strict_mean": 9.529,
+      "bridge_rankfrac": 0.611,
+      "strict_rankfrac": 0.789,
+      "n_bridge_scored": 280,
+      "n_strict_scored": 34
+    }
+  ],
+  "note": "rankfrac = P(bridge feature > random population theorem); 0.5 = no diff."
+}
