@@ -1,0 +1,369 @@
+{
+  "metric": "complete-coverage ceiling = fraction of cross-domain TEST theorems whose ENTIRE clustered premise set is inside the routed cluster pool (exact, ranking-free, upper bound above any intra-cluster ranker)",
+  "n_cross_domain_test_theorems": 432,
+  "n_train_cross_domain": 27705,
+  "n_test_theorems_with_known_path": 432,
+  "leakage_control": "IDF, token x foreign-cluster co-occurrence, demand estimated on TRAIN only; coverage on held-out TEST; query signals = test theorem NAME and FILE_PATH, both available before proving.",
+  "predictor_accuracy": {
+    "name": {
+      "top1_hits_a_foreign_cluster": 0.5324,
+      "top2_hits_a_foreign_cluster": 0.7338,
+      "top3_hits_a_foreign_cluster": 0.8194,
+      "top5_hits_a_foreign_cluster": 0.9213
+    },
+    "path": {
+      "top1_hits_a_foreign_cluster": 0.5139,
+      "top2_hits_a_foreign_cluster": 0.7292,
+      "top3_hits_a_foreign_cluster": 0.8079,
+      "top5_hits_a_foreign_cluster": 0.9236
+    },
+    "both": {
+      "top1_hits_a_foreign_cluster": 0.5532,
+      "top2_hits_a_foreign_cluster": 0.7407,
+      "top3_hits_a_foreign_cluster": 0.8102,
+      "top5_hits_a_foreign_cluster": 0.9236
+    }
+  },
+  "predictor_full_coverage": {
+    "name": {
+      "top1_covers_ALL_foreign_clusters": 0.2639,
+      "top2_covers_ALL_foreign_clusters": 0.4352,
+      "top3_covers_ALL_foreign_clusters": 0.537,
+      "top5_covers_ALL_foreign_clusters": 0.7292
+    },
+    "path": {
+      "top1_covers_ALL_foreign_clusters": 0.2407,
+      "top2_covers_ALL_foreign_clusters": 0.4398,
+      "top3_covers_ALL_foreign_clusters": 0.5394,
+      "top5_covers_ALL_foreign_clusters": 0.7361
+    },
+    "both": {
+      "top1_covers_ALL_foreign_clusters": 0.2755,
+      "top2_covers_ALL_foreign_clusters": 0.4421,
+      "top3_covers_ALL_foreign_clusters": 0.5324,
+      "top5_covers_ALL_foreign_clusters": 0.7338
+    }
+  },
+  "name_sweep": [
+    {
+      "breadth": 1,
+      "complete_coverage_ceiling": 0.2639,
+      "mean_pool_size": 19222.9,
+      "median_pool_size": 19149
+    },
+    {
+      "breadth": 2,
+      "complete_coverage_ceiling": 0.4352,
+      "mean_pool_size": 30041.5,
+      "median_pool_size": 31539
+    },
+    {
+      "breadth": 3,
+      "complete_coverage_ceiling": 0.537,
+      "mean_pool_size": 40137.7,
+      "median_pool_size": 40754
+    },
+    {
+      "breadth": 5,
+      "complete_coverage_ceiling": 0.7292,
+      "mean_pool_size": 53877.0,
+      "median_pool_size": 55886
+    },
+    {
+      "breadth": 10,
+      "complete_coverage_ceiling": 0.9144,
+      "mean_pool_size": 72322.3,
+      "median_pool_size": 72066
+    },
+    {
+      "breadth": 20,
+      "complete_coverage_ceiling": 0.9931,
+      "mean_pool_size": 88564.8,
+      "median_pool_size": 88802
+    }
+  ],
+  "path_sweep": [
+    {
+      "breadth": 1,
+      "complete_coverage_ceiling": 0.2407,
+      "mean_pool_size": 19194.4,
+      "median_pool_size": 19149
+    },
+    {
+      "breadth": 2,
+      "complete_coverage_ceiling": 0.4398,
+      "mean_pool_size": 29767.1,
+      "median_pool_size": 30820
+    },
+    {
+      "breadth": 3,
+      "complete_coverage_ceiling": 0.5394,
+      "mean_pool_size": 39546.7,
+      "median_pool_size": 40035
+    },
+    {
+      "breadth": 5,
+      "complete_coverage_ceiling": 0.7361,
+      "mean_pool_size": 52925.7,
+      "median_pool_size": 52572
+    },
+    {
+      "breadth": 10,
+      "complete_coverage_ceiling": 0.9005,
+      "mean_pool_size": 71048.5,
+      "median_pool_size": 70607
+    },
+    {
+      "breadth": 20,
+      "complete_coverage_ceiling": 0.9954,
+      "mean_pool_size": 88040.7,
+      "median_pool_size": 88328
+    }
+  ],
+  "both_sweep": [
+    {
+      "breadth": 1,
+      "complete_coverage_ceiling": 0.2755,
+      "mean_pool_size": 19262.9,
+      "median_pool_size": 19149
+    },
+    {
+      "breadth": 2,
+      "complete_coverage_ceiling": 0.4421,
+      "mean_pool_size": 30040.0,
+      "median_pool_size": 31275
+    },
+    {
+      "breadth": 3,
+      "complete_coverage_ceiling": 0.5324,
+      "mean_pool_size": 40316.2,
+      "median_pool_size": 41209
+    },
+    {
+      "breadth": 5,
+      "complete_coverage_ceiling": 0.7338,
+      "mean_pool_size": 54114.5,
+      "median_pool_size": 55886
+    },
+    {
+      "breadth": 10,
+      "complete_coverage_ceiling": 0.9167,
+      "mean_pool_size": 72260.5,
+      "median_pool_size": 71481
+    },
+    {
+      "breadth": 20,
+      "complete_coverage_ceiling": 0.9931,
+      "mean_pool_size": 88718.3,
+      "median_pool_size": 88881
+    }
+  ],
+  "oracle_sweep": [
+    {
+      "breadth": 1,
+      "complete_coverage_ceiling": 0.5949,
+      "mean_pool_size": 17650.7,
+      "median_pool_size": 18430
+    },
+    {
+      "breadth": 2,
+      "complete_coverage_ceiling": 0.8218,
+      "mean_pool_size": 20872.1,
+      "median_pool_size": 21000
+    },
+    {
+      "breadth": 3,
+      "complete_coverage_ceiling": 0.9282,
+      "mean_pool_size": 21831.8,
+      "median_pool_size": 21273
+    },
+    {
+      "breadth": 5,
+      "complete_coverage_ceiling": 0.9884,
+      "mean_pool_size": 22175.1,
+      "median_pool_size": 21273
+    },
+    {
+      "breadth": 10,
+      "complete_coverage_ceiling": 1.0,
+      "mean_pool_size": 22236.1,
+      "median_pool_size": 21273
+    },
+    {
+      "breadth": 20,
+      "complete_coverage_ceiling": 1.0,
+      "mean_pool_size": 22236.1,
+      "median_pool_size": 21273
+    }
+  ],
+  "head_to_head_cheapest_pool_to_reach_ceiling": [
+    {
+      "target_ceiling": 0.5,
+      "name": {
+        "breadth": 3,
+        "ceiling": 0.537,
+        "mean_pool_size": 40137.7
+      },
+      "path": {
+        "breadth": 3,
+        "ceiling": 0.5394,
+        "mean_pool_size": 39546.7
+      },
+      "both": {
+        "breadth": 3,
+        "ceiling": 0.5324,
+        "mean_pool_size": 40316.2
+      },
+      "oracle": {
+        "breadth": 1,
+        "ceiling": 0.5949,
+        "mean_pool_size": 17650.7
+      },
+      "both_pool_ratio_vs_name": 1.004
+    },
+    {
+      "target_ceiling": 0.6,
+      "name": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "path": {
+        "breadth": 5,
+        "ceiling": 0.7361,
+        "mean_pool_size": 52925.7
+      },
+      "both": {
+        "breadth": 5,
+        "ceiling": 0.7338,
+        "mean_pool_size": 54114.5
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "both_pool_ratio_vs_name": 1.004
+    },
+    {
+      "target_ceiling": 0.674,
+      "name": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "path": {
+        "breadth": 5,
+        "ceiling": 0.7361,
+        "mean_pool_size": 52925.7
+      },
+      "both": {
+        "breadth": 5,
+        "ceiling": 0.7338,
+        "mean_pool_size": 54114.5
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "both_pool_ratio_vs_name": 1.004
+    },
+    {
+      "target_ceiling": 0.7,
+      "name": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "path": {
+        "breadth": 5,
+        "ceiling": 0.7361,
+        "mean_pool_size": 52925.7
+      },
+      "both": {
+        "breadth": 5,
+        "ceiling": 0.7338,
+        "mean_pool_size": 54114.5
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "both_pool_ratio_vs_name": 1.004
+    },
+    {
+      "target_ceiling": 0.8,
+      "name": {
+        "breadth": 10,
+        "ceiling": 0.9144,
+        "mean_pool_size": 72322.3
+      },
+      "path": {
+        "breadth": 10,
+        "ceiling": 0.9005,
+        "mean_pool_size": 71048.5
+      },
+      "both": {
+        "breadth": 10,
+        "ceiling": 0.9167,
+        "mean_pool_size": 72260.5
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "both_pool_ratio_vs_name": 0.999
+    },
+    {
+      "target_ceiling": 0.9,
+      "name": {
+        "breadth": 10,
+        "ceiling": 0.9144,
+        "mean_pool_size": 72322.3
+      },
+      "path": {
+        "breadth": 10,
+        "ceiling": 0.9005,
+        "mean_pool_size": 71048.5
+      },
+      "both": {
+        "breadth": 10,
+        "ceiling": 0.9167,
+        "mean_pool_size": 72260.5
+      },
+      "oracle": {
+        "breadth": 3,
+        "ceiling": 0.9282,
+        "mean_pool_size": 21831.8
+      },
+      "both_pool_ratio_vs_name": 0.999
+    },
+    {
+      "target_ceiling": 0.95,
+      "name": {
+        "breadth": 20,
+        "ceiling": 0.9931,
+        "mean_pool_size": 88564.8
+      },
+      "path": {
+        "breadth": 20,
+        "ceiling": 0.9954,
+        "mean_pool_size": 88040.7
+      },
+      "both": {
+        "breadth": 20,
+        "ceiling": 0.9931,
+        "mean_pool_size": 88718.3
+      },
+      "oracle": {
+        "breadth": 5,
+        "ceiling": 0.9884,
+        "mean_pool_size": 22175.1
+      },
+      "both_pool_ratio_vs_name": 1.002
+    }
+  ]
+}
