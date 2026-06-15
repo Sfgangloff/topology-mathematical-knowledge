@@ -1,0 +1,105 @@
+{
+  "params": {
+    "MIN_TACTICS": 5,
+    "TOP_PER_CLUSTER": 30,
+    "MAX_CLUSTERS": 30,
+    "NGRAM_NS": [
+      2,
+      3
+    ],
+    "GENERIC_CLUSTERS": 30,
+    "SPECIFIC_CLUSTERS": 3
+  },
+  "by_n": {
+    "2": {
+      "n_distinct_motifs": 132400,
+      "n_domain_specific_motifs": 131533,
+      "conceptual_bridges": {
+        "n_pairs": 200,
+        "mean_n_shared": 0.145,
+        "frac_with_specific_motif": 0.01,
+        "frac_with_emergent_motif": 0.0,
+        "mean_n_specific_motif": 0.01,
+        "mean_n_emergent_motif": 0.0
+      },
+      "random_control": {
+        "n_pairs": 8700,
+        "mean_n_shared": 0.0092,
+        "frac_with_specific_motif": 0.0008,
+        "frac_with_emergent_motif": 0.0,
+        "mean_n_specific_motif": 0.0011,
+        "mean_n_emergent_motif": 0.0
+      },
+      "n_bridge_pairs": 200,
+      "n_bridge_with_specific": 2,
+      "n_bridge_with_emergent": 0,
+      "examples": [
+        {
+          "theorem_a": "tendsto_div_of_monotone_of_exists_subseq_tendsto_div",
+          "theorem_b": "Complex.tendsto_tsum_powerSeries_nhdsWithin_stolzSet",
+          "norm_edit_dist": 0.5859,
+          "n_specific": 1,
+          "n_emergent": 0,
+          "specific_motifs": [
+            [
+              "gcongr",
+              "linarith only [?]"
+            ]
+          ]
+        },
+        {
+          "theorem_a": "Path.Homotopy.reflTransSymmAux_mem_I",
+          "theorem_b": "Ordnode.balance_eq_balance'",
+          "norm_edit_dist": 0.6786,
+          "n_specific": 1,
+          "n_emergent": 0,
+          "specific_motifs": [
+            [
+              "dsimp only [@]",
+              "split_ifs"
+            ]
+          ]
+        }
+      ]
+    },
+    "3": {
+      "n_distinct_motifs": 135469,
+      "n_domain_specific_motifs": 135407,
+      "conceptual_bridges": {
+        "n_pairs": 200,
+        "mean_n_shared": 0.01,
+        "frac_with_specific_motif": 0.005,
+        "frac_with_emergent_motif": 0.0,
+        "mean_n_specific_motif": 0.005,
+        "mean_n_emergent_motif": 0.0
+      },
+      "random_control": {
+        "n_pairs": 8700,
+        "mean_n_shared": 0.0,
+        "frac_with_specific_motif": 0.0,
+        "frac_with_emergent_motif": 0.0,
+        "mean_n_specific_motif": 0.0,
+        "mean_n_emergent_motif": 0.0
+      },
+      "n_bridge_pairs": 200,
+      "n_bridge_with_specific": 1,
+      "n_bridge_with_emergent": 0,
+      "examples": [
+        {
+          "theorem_a": "Sym.multinomial_coe_fill_of_not_mem",
+          "theorem_b": "sdiff_sup",
+          "norm_edit_dist": 0.7692,
+          "n_specific": 1,
+          "n_emergent": 0,
+          "specific_motifs": [
+            [
+              "rw [@, @, @]",
+              "rw [@]",
+              "rw [@]"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
