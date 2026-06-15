@@ -1,0 +1,359 @@
+{
+  "metric": "complete-coverage ceiling = fraction of cross-domain TEST theorems whose ENTIRE clustered premise set is inside the routed cluster pool (exact, ranking-free; identical to e-0030)",
+  "n_cross_domain_test_theorems": 432,
+  "n_train_cross_domain": 27705,
+  "total_clustered_decls": 92594,
+  "leakage_control": "IDF, the k-NN train index (vectors + foreign-cluster sets), and the global demand ranking ALL estimated on TRAIN cross-domain theorems only; coverage measured on held-out TEST; the only query signal is the test theorem's own NAME.",
+  "k_selected_by": "max top3_covers_ALL_foreign_clusters over K_NEIGHBOURS",
+  "best_k": 25,
+  "linear_baseline": {
+    "accuracy": {
+      "top1_hits_a_foreign_cluster": 0.5324,
+      "top2_hits_a_foreign_cluster": 0.7338,
+      "top3_hits_a_foreign_cluster": 0.8194,
+      "top5_hits_a_foreign_cluster": 0.9213
+    },
+    "full_coverage": {
+      "top1_covers_ALL_foreign_clusters": 0.2639,
+      "top2_covers_ALL_foreign_clusters": 0.4352,
+      "top3_covers_ALL_foreign_clusters": 0.537,
+      "top5_covers_ALL_foreign_clusters": 0.7292
+    },
+    "sweep": [
+      {
+        "breadth": 1,
+        "complete_coverage_ceiling": 0.2639,
+        "mean_pool_size": 19222.9,
+        "median_pool_size": 19149
+      },
+      {
+        "breadth": 2,
+        "complete_coverage_ceiling": 0.4352,
+        "mean_pool_size": 30041.5,
+        "median_pool_size": 31539
+      },
+      {
+        "breadth": 3,
+        "complete_coverage_ceiling": 0.537,
+        "mean_pool_size": 40137.7,
+        "median_pool_size": 40754
+      },
+      {
+        "breadth": 5,
+        "complete_coverage_ceiling": 0.7292,
+        "mean_pool_size": 53877.0,
+        "median_pool_size": 55886
+      },
+      {
+        "breadth": 10,
+        "complete_coverage_ceiling": 0.9144,
+        "mean_pool_size": 72323.7,
+        "median_pool_size": 72066
+      },
+      {
+        "breadth": 20,
+        "complete_coverage_ceiling": 0.9931,
+        "mean_pool_size": 88564.8,
+        "median_pool_size": 88802
+      }
+    ]
+  },
+  "knn_best": {
+    "k": 25,
+    "accuracy": {
+      "top1_hits_a_foreign_cluster": 0.5671,
+      "top2_hits_a_foreign_cluster": 0.7639,
+      "top3_hits_a_foreign_cluster": 0.8704,
+      "top5_hits_a_foreign_cluster": 0.9306
+    },
+    "full_coverage": {
+      "top1_covers_ALL_foreign_clusters": 0.2662,
+      "top2_covers_ALL_foreign_clusters": 0.4537,
+      "top3_covers_ALL_foreign_clusters": 0.6088,
+      "top5_covers_ALL_foreign_clusters": 0.7708
+    },
+    "sweep": [
+      {
+        "breadth": 1,
+        "complete_coverage_ceiling": 0.2662,
+        "mean_pool_size": 18590.2,
+        "median_pool_size": 18885
+      },
+      {
+        "breadth": 2,
+        "complete_coverage_ceiling": 0.4537,
+        "mean_pool_size": 28019.2,
+        "median_pool_size": 28241
+      },
+      {
+        "breadth": 3,
+        "complete_coverage_ceiling": 0.6088,
+        "mean_pool_size": 36553.7,
+        "median_pool_size": 37148
+      },
+      {
+        "breadth": 5,
+        "complete_coverage_ceiling": 0.7708,
+        "mean_pool_size": 49310.1,
+        "median_pool_size": 51132
+      },
+      {
+        "breadth": 10,
+        "complete_coverage_ceiling": 0.8935,
+        "mean_pool_size": 62562.9,
+        "median_pool_size": 63821
+      },
+      {
+        "breadth": 20,
+        "complete_coverage_ceiling": 0.8981,
+        "mean_pool_size": 64307.2,
+        "median_pool_size": 64390
+      }
+    ]
+  },
+  "knn_all_k": [
+    {
+      "k": 10,
+      "accuracy": {
+        "top1_hits_a_foreign_cluster": 0.5532,
+        "top2_hits_a_foreign_cluster": 0.7616,
+        "top3_hits_a_foreign_cluster": 0.8426,
+        "top5_hits_a_foreign_cluster": 0.9282
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.2639,
+        "top2_covers_ALL_foreign_clusters": 0.4606,
+        "top3_covers_ALL_foreign_clusters": 0.5764,
+        "top5_covers_ALL_foreign_clusters": 0.7292
+      }
+    },
+    {
+      "k": 25,
+      "accuracy": {
+        "top1_hits_a_foreign_cluster": 0.5671,
+        "top2_hits_a_foreign_cluster": 0.7639,
+        "top3_hits_a_foreign_cluster": 0.8704,
+        "top5_hits_a_foreign_cluster": 0.9306
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.2662,
+        "top2_covers_ALL_foreign_clusters": 0.4537,
+        "top3_covers_ALL_foreign_clusters": 0.6088,
+        "top5_covers_ALL_foreign_clusters": 0.7708
+      }
+    },
+    {
+      "k": 50,
+      "accuracy": {
+        "top1_hits_a_foreign_cluster": 0.5579,
+        "top2_hits_a_foreign_cluster": 0.7569,
+        "top3_hits_a_foreign_cluster": 0.8495,
+        "top5_hits_a_foreign_cluster": 0.9375
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.2616,
+        "top2_covers_ALL_foreign_clusters": 0.456,
+        "top3_covers_ALL_foreign_clusters": 0.588,
+        "top5_covers_ALL_foreign_clusters": 0.7731
+      }
+    },
+    {
+      "k": 100,
+      "accuracy": {
+        "top1_hits_a_foreign_cluster": 0.5509,
+        "top2_hits_a_foreign_cluster": 0.7153,
+        "top3_hits_a_foreign_cluster": 0.8449,
+        "top5_hits_a_foreign_cluster": 0.9329
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.2639,
+        "top2_covers_ALL_foreign_clusters": 0.4352,
+        "top3_covers_ALL_foreign_clusters": 0.5787,
+        "top5_covers_ALL_foreign_clusters": 0.7569
+      }
+    },
+    {
+      "k": 200,
+      "accuracy": {
+        "top1_hits_a_foreign_cluster": 0.5509,
+        "top2_hits_a_foreign_cluster": 0.7199,
+        "top3_hits_a_foreign_cluster": 0.838,
+        "top5_hits_a_foreign_cluster": 0.9306
+      },
+      "full_coverage": {
+        "top1_covers_ALL_foreign_clusters": 0.2616,
+        "top2_covers_ALL_foreign_clusters": 0.4236,
+        "top3_covers_ALL_foreign_clusters": 0.5625,
+        "top5_covers_ALL_foreign_clusters": 0.75
+      }
+    }
+  ],
+  "oracle_sweep": [
+    {
+      "breadth": 1,
+      "complete_coverage_ceiling": 0.5949,
+      "mean_pool_size": 17650.7,
+      "median_pool_size": 18430
+    },
+    {
+      "breadth": 2,
+      "complete_coverage_ceiling": 0.8218,
+      "mean_pool_size": 20872.1,
+      "median_pool_size": 21000
+    },
+    {
+      "breadth": 3,
+      "complete_coverage_ceiling": 0.9282,
+      "mean_pool_size": 21831.8,
+      "median_pool_size": 21273
+    },
+    {
+      "breadth": 5,
+      "complete_coverage_ceiling": 0.9884,
+      "mean_pool_size": 22175.1,
+      "median_pool_size": 21273
+    },
+    {
+      "breadth": 10,
+      "complete_coverage_ceiling": 1.0,
+      "mean_pool_size": 22236.1,
+      "median_pool_size": 21273
+    },
+    {
+      "breadth": 20,
+      "complete_coverage_ceiling": 1.0,
+      "mean_pool_size": 22236.1,
+      "median_pool_size": 21273
+    }
+  ],
+  "head_to_head_cheapest_pool_to_reach_ceiling": [
+    {
+      "target_ceiling": 0.5,
+      "linear": {
+        "breadth": 3,
+        "ceiling": 0.537,
+        "mean_pool_size": 40137.7
+      },
+      "knn": {
+        "breadth": 3,
+        "ceiling": 0.6088,
+        "mean_pool_size": 36553.7
+      },
+      "oracle": {
+        "breadth": 1,
+        "ceiling": 0.5949,
+        "mean_pool_size": 17650.7
+      },
+      "knn_pool_ratio_vs_linear": 0.911,
+      "knn_pool_ratio_vs_oracle": 2.071
+    },
+    {
+      "target_ceiling": 0.6,
+      "linear": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "knn": {
+        "breadth": 3,
+        "ceiling": 0.6088,
+        "mean_pool_size": 36553.7
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "knn_pool_ratio_vs_linear": 0.678,
+      "knn_pool_ratio_vs_oracle": 1.751
+    },
+    {
+      "target_ceiling": 0.674,
+      "linear": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "knn": {
+        "breadth": 5,
+        "ceiling": 0.7708,
+        "mean_pool_size": 49310.1
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "knn_pool_ratio_vs_linear": 0.915,
+      "knn_pool_ratio_vs_oracle": 2.362
+    },
+    {
+      "target_ceiling": 0.7,
+      "linear": {
+        "breadth": 5,
+        "ceiling": 0.7292,
+        "mean_pool_size": 53877.0
+      },
+      "knn": {
+        "breadth": 5,
+        "ceiling": 0.7708,
+        "mean_pool_size": 49310.1
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "knn_pool_ratio_vs_linear": 0.915,
+      "knn_pool_ratio_vs_oracle": 2.362
+    },
+    {
+      "target_ceiling": 0.8,
+      "linear": {
+        "breadth": 10,
+        "ceiling": 0.9144,
+        "mean_pool_size": 72323.7
+      },
+      "knn": {
+        "breadth": 10,
+        "ceiling": 0.8935,
+        "mean_pool_size": 62562.9
+      },
+      "oracle": {
+        "breadth": 2,
+        "ceiling": 0.8218,
+        "mean_pool_size": 20872.1
+      },
+      "knn_pool_ratio_vs_linear": 0.865,
+      "knn_pool_ratio_vs_oracle": 2.997
+    },
+    {
+      "target_ceiling": 0.9,
+      "linear": {
+        "breadth": 10,
+        "ceiling": 0.9144,
+        "mean_pool_size": 72323.7
+      },
+      "knn": null,
+      "oracle": {
+        "breadth": 3,
+        "ceiling": 0.9282,
+        "mean_pool_size": 21831.8
+      }
+    },
+    {
+      "target_ceiling": 0.95,
+      "linear": {
+        "breadth": 20,
+        "ceiling": 0.9931,
+        "mean_pool_size": 88564.8
+      },
+      "knn": null,
+      "oracle": {
+        "breadth": 5,
+        "ceiling": 0.9884,
+        "mean_pool_size": 22175.1
+      }
+    }
+  ]
+}
