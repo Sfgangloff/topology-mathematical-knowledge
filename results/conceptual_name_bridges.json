@@ -1,0 +1,94 @@
+{
+  "params": {
+    "MIN_TACTICS": 5,
+    "TOP_PER_CLUSTER": 30,
+    "MAX_CLUSTERS": 30,
+    "GENERIC_CLUSTERS": 30,
+    "SPECIFIC_CLUSTERS": 3,
+    "n_total_clusters_with_tokens": 73,
+    "DRAWS_PER_PAIR": 20
+  },
+  "most_generic_name_tokens": [
+    {
+      "token": "is",
+      "n_clusters": 41
+    },
+    {
+      "token": "iff",
+      "n_clusters": 41
+    },
+    {
+      "token": "eq",
+      "n_clusters": 34
+    },
+    {
+      "token": "of",
+      "n_clusters": 34
+    },
+    {
+      "token": "map",
+      "n_clusters": 32
+    },
+    {
+      "token": "mul",
+      "n_clusters": 30
+    },
+    {
+      "token": "theory",
+      "n_clusters": 28
+    },
+    {
+      "token": "set",
+      "n_clusters": 27
+    },
+    {
+      "token": "zero",
+      "n_clusters": 27
+    },
+    {
+      "token": "add",
+      "n_clusters": 26
+    },
+    {
+      "token": "le",
+      "n_clusters": 26
+    },
+    {
+      "token": "mem",
+      "n_clusters": 25
+    },
+    {
+      "token": "sup",
+      "n_clusters": 25
+    },
+    {
+      "token": "exists",
+      "n_clusters": 25
+    },
+    {
+      "token": "left",
+      "n_clusters": 25
+    }
+  ],
+  "conceptual_bridges": {
+    "n_pairs": 200,
+    "n_with_shared_tokens": 30,
+    "frac_pairs_with_shared": 0.15,
+    "mean_shared_mass": 0.165,
+    "mean_generic_frac": 0.7333,
+    "median_generic_frac": 1.0,
+    "frac_pairs_with_specific_shared": 0.0,
+    "mean_n_specific_shared": 0.0
+  },
+  "random_cross_cluster_control": {
+    "n_pairs": 8700,
+    "n_with_shared_tokens": 1461,
+    "frac_pairs_with_shared": 0.1679,
+    "mean_shared_mass": 0.1975,
+    "mean_generic_frac": 0.6752,
+    "median_generic_frac": 1.0,
+    "frac_pairs_with_specific_shared": 0.0002,
+    "mean_n_specific_shared": 0.0002
+  },
+  "specific_shared_examples": []
+}
