@@ -1,0 +1,73 @@
+{
+  "population": 55575,
+  "observed_bridges": 280,
+  "observed_rate": 0.005038,
+  "distinct_premises": 66603,
+  "total_usages": 309396,
+  "type_p_pure": 0.15193,
+  "usage_p_pure": 0.10468,
+  "null_overall": {
+    "type": {
+      "tag": "TYPE",
+      "expected_bridges": 7582.8,
+      "expected_rate": 0.136443,
+      "enrichment": 0.037
+    },
+    "usage": {
+      "tag": "USAGE",
+      "expected_bridges": 4472.19,
+      "expected_rate": 0.080471,
+      "enrichment": 0.063
+    }
+  },
+  "stratified_by_premise_count": [
+    {
+      "bin": "2-3",
+      "n": 19828,
+      "obs_bridges": 33,
+      "obs_rate": 0.00166,
+      "type_null_rate": 0.02513,
+      "usage_null_rate": 0.01121,
+      "usage_enrichment": 0.148
+    },
+    {
+      "bin": "4-5",
+      "n": 9890,
+      "obs_bridges": 33,
+      "obs_rate": 0.00334,
+      "type_null_rate": 0.08744,
+      "usage_null_rate": 0.04119,
+      "usage_enrichment": 0.081
+    },
+    {
+      "bin": "6-9",
+      "n": 8692,
+      "obs_bridges": 44,
+      "obs_rate": 0.00506,
+      "type_null_rate": 0.20398,
+      "usage_null_rate": 0.10426,
+      "usage_enrichment": 0.049
+    },
+    {
+      "bin": "10-19",
+      "n": 5964,
+      "obs_bridges": 90,
+      "obs_rate": 0.01509,
+      "type_null_rate": 0.44585,
+      "usage_null_rate": 0.26437,
+      "usage_enrichment": 0.057
+    },
+    {
+      "bin": "20+",
+      "n": 2244,
+      "obs_bridges": 80,
+      "obs_rate": 0.03565,
+      "type_null_rate": 0.79668,
+      "usage_null_rate": 0.60589,
+      "usage_enrichment": 0.059
+    }
+  ],
+  "detected_bridges_npure_observed_mean": 2.021,
+  "detected_bridges_npure_usagenull_mean": 1.147,
+  "note": "Degree-preserving (configuration) null: keep each theorem's premise COUNT, redraw premises iid from the global premise distribution, recompute pure-cluster span analytically. enrichment = observed / null-expected bridge count."
+}
