@@ -1,0 +1,128 @@
+{
+  "params": {
+    "MIN_TACTICS": 5,
+    "TOP_PER_CLUSTER": 30,
+    "ELIGIBLE_MIN": 30,
+    "TOP_K": 200,
+    "GENERIC_CLUSTERS": 30,
+    "SPECIFIC_CLUSTERS": 3,
+    "n_total_clusters": 73
+  },
+  "regimes": [
+    {
+      "regime": "repro",
+      "n_clusters": 25,
+      "mean_proof_len": 31.11,
+      "min_ed_of_closest": 0.5859,
+      "max_ed_of_closest": 0.8333,
+      "bridges": {
+        "n_pairs": 200,
+        "n_with_shared_tokens": 200,
+        "mean_shared_mass": 4.415,
+        "mean_generic_frac": 0.4411,
+        "frac_pairs_with_specific_shared": 0.01,
+        "mean_n_specific_shared": 0.01
+      },
+      "control": {
+        "n_pairs": 6000,
+        "n_with_shared_tokens": 2724,
+        "mean_shared_mass": 0.832,
+        "mean_generic_frac": 0.5077,
+        "frac_pairs_with_specific_shared": 0.0003,
+        "mean_n_specific_shared": 0.0003
+      }
+    },
+    {
+      "regime": "small_clusters",
+      "n_clusters": 13,
+      "mean_proof_len": 18.25,
+      "min_ed_of_closest": 0.6179,
+      "max_ed_of_closest": 0.9091,
+      "bridges": {
+        "n_pairs": 78,
+        "n_with_shared_tokens": 78,
+        "mean_shared_mass": 3.231,
+        "mean_generic_frac": 0.5055,
+        "frac_pairs_with_specific_shared": 0.0,
+        "mean_n_specific_shared": 0.0
+      },
+      "control": {
+        "n_pairs": 1560,
+        "n_with_shared_tokens": 421,
+        "mean_shared_mass": 0.362,
+        "mean_generic_frac": 0.5111,
+        "frac_pairs_with_specific_shared": 0.0,
+        "mean_n_specific_shared": 0.0
+      }
+    },
+    {
+      "regime": "median_proofs",
+      "n_clusters": 25,
+      "mean_proof_len": 7.95,
+      "min_ed_of_closest": 0.625,
+      "max_ed_of_closest": 0.8,
+      "bridges": {
+        "n_pairs": 200,
+        "n_with_shared_tokens": 200,
+        "mean_shared_mass": 2.225,
+        "mean_generic_frac": 0.6733,
+        "frac_pairs_with_specific_shared": 0.0,
+        "mean_n_specific_shared": 0.0
+      },
+      "control": {
+        "n_pairs": 6000,
+        "n_with_shared_tokens": 781,
+        "mean_shared_mass": 0.144,
+        "mean_generic_frac": 0.525,
+        "frac_pairs_with_specific_shared": 0.0,
+        "mean_n_specific_shared": 0.0
+      }
+    },
+    {
+      "regime": "short_proofs",
+      "n_clusters": 25,
+      "mean_proof_len": 5.35,
+      "min_ed_of_closest": 0.0,
+      "max_ed_of_closest": 0.8,
+      "bridges": {
+        "n_pairs": 200,
+        "n_with_shared_tokens": 200,
+        "mean_shared_mass": 1.705,
+        "mean_generic_frac": 0.3917,
+        "frac_pairs_with_specific_shared": 0.02,
+        "mean_n_specific_shared": 0.035
+      },
+      "control": {
+        "n_pairs": 6000,
+        "n_with_shared_tokens": 387,
+        "mean_shared_mass": 0.068,
+        "mean_generic_frac": 0.4044,
+        "frac_pairs_with_specific_shared": 0.0,
+        "mean_n_specific_shared": 0.0
+      }
+    },
+    {
+      "regime": "random_proofs",
+      "n_clusters": 25,
+      "mean_proof_len": 10.21,
+      "min_ed_of_closest": 0.4286,
+      "max_ed_of_closest": 0.8,
+      "bridges": {
+        "n_pairs": 200,
+        "n_with_shared_tokens": 200,
+        "mean_shared_mass": 2.07,
+        "mean_generic_frac": 0.3595,
+        "frac_pairs_with_specific_shared": 0.0,
+        "mean_n_specific_shared": 0.0
+      },
+      "control": {
+        "n_pairs": 6000,
+        "n_with_shared_tokens": 849,
+        "mean_shared_mass": 0.167,
+        "mean_generic_frac": 0.4985,
+        "frac_pairs_with_specific_shared": 0.0003,
+        "mean_n_specific_shared": 0.0003
+      }
+    }
+  ]
+}
