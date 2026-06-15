@@ -1,0 +1,176 @@
+{
+  "summary": {
+    "n_algorithms": 5,
+    "algorithms": [
+      "leiden_modularity",
+      "louvain",
+      "fastgreedy",
+      "label_propagation",
+      "infomap"
+    ],
+    "canonical_raw": 280,
+    "canonical_strict": 34,
+    "n_raw_mean": 4900.2,
+    "n_raw_range": [
+      98,
+      23134
+    ],
+    "n_strict_mean": 848.8,
+    "n_strict_range": [
+      17,
+      4059
+    ],
+    "pairwise_jaccard_raw_mean": 0.0288,
+    "pairwise_jaccard_raw_range": [
+      0.004,
+      0.1836
+    ],
+    "pairwise_jaccard_strict_mean": 0.0176,
+    "pairwise_jaccard_strict_range": [
+      0.0,
+      0.0702
+    ],
+    "core_raw_in_all_algos": 0,
+    "core_strict_in_all_algos": 0,
+    "union_raw_any_algo": 23435,
+    "raw_algo_frequency_hist": {
+      "1": 22481,
+      "2": 852,
+      "3": 92,
+      "4": 10
+    }
+  },
+  "per_algo": [
+    {
+      "algorithm": "leiden_modularity",
+      "n_clusters": 138,
+      "n_pure_clusters": 112,
+      "n_raw_bridges": 295,
+      "n_strict_bridges": 44,
+      "elbow_theta": 2,
+      "recovery_of_canonical_raw": 0.5,
+      "recovery_of_canonical_strict": 0.3529
+    },
+    {
+      "algorithm": "louvain",
+      "n_clusters": 160,
+      "n_pure_clusters": 134,
+      "n_raw_bridges": 356,
+      "n_strict_bridges": 17,
+      "elbow_theta": 1,
+      "recovery_of_canonical_raw": 0.2571,
+      "recovery_of_canonical_strict": 0.0294
+    },
+    {
+      "algorithm": "fastgreedy",
+      "n_clusters": 1106,
+      "n_pure_clusters": 1032,
+      "n_raw_bridges": 98,
+      "n_strict_bridges": 66,
+      "elbow_theta": 2,
+      "recovery_of_canonical_raw": 0.0357,
+      "recovery_of_canonical_strict": 0.1176
+    },
+    {
+      "algorithm": "label_propagation",
+      "n_clusters": 809,
+      "n_pure_clusters": 774,
+      "n_raw_bridges": 618,
+      "n_strict_bridges": 58,
+      "elbow_theta": 2,
+      "recovery_of_canonical_raw": 0.0786,
+      "recovery_of_canonical_strict": 0.0294
+    },
+    {
+      "algorithm": "infomap",
+      "n_clusters": 4193,
+      "n_pure_clusters": 3065,
+      "n_raw_bridges": 23134,
+      "n_strict_bridges": 4059,
+      "elbow_theta": 2,
+      "recovery_of_canonical_raw": 0.825,
+      "recovery_of_canonical_strict": 0.5588
+    }
+  ],
+  "vs_baseline": {
+    "louvain": {
+      "jaccard_raw": 0.1836,
+      "jaccard_strict": 0.0702
+    },
+    "fastgreedy": {
+      "jaccard_raw": 0.0103,
+      "jaccard_strict": 0.0185
+    },
+    "label_propagation": {
+      "jaccard_raw": 0.0144,
+      "jaccard_strict": 0.0099
+    },
+    "infomap": {
+      "jaccard_raw": 0.0104,
+      "jaccard_strict": 0.0064
+    }
+  },
+  "pairwise": [
+    {
+      "a": "leiden_modularity",
+      "b": "louvain",
+      "jaccard_raw": 0.1836,
+      "jaccard_strict": 0.0702
+    },
+    {
+      "a": "leiden_modularity",
+      "b": "fastgreedy",
+      "jaccard_raw": 0.0103,
+      "jaccard_strict": 0.0185
+    },
+    {
+      "a": "leiden_modularity",
+      "b": "label_propagation",
+      "jaccard_raw": 0.0144,
+      "jaccard_strict": 0.0099
+    },
+    {
+      "a": "leiden_modularity",
+      "b": "infomap",
+      "jaccard_raw": 0.0104,
+      "jaccard_strict": 0.0064
+    },
+    {
+      "a": "louvain",
+      "b": "fastgreedy",
+      "jaccard_raw": 0.0134,
+      "jaccard_strict": 0.0375
+    },
+    {
+      "a": "louvain",
+      "b": "label_propagation",
+      "jaccard_raw": 0.0146,
+      "jaccard_strict": 0.0
+    },
+    {
+      "a": "louvain",
+      "b": "infomap",
+      "jaccard_raw": 0.0121,
+      "jaccard_strict": 0.0022
+    },
+    {
+      "a": "fastgreedy",
+      "b": "label_propagation",
+      "jaccard_raw": 0.007,
+      "jaccard_strict": 0.0164
+    },
+    {
+      "a": "fastgreedy",
+      "b": "infomap",
+      "jaccard_raw": 0.004,
+      "jaccard_strict": 0.0098
+    },
+    {
+      "a": "label_propagation",
+      "b": "infomap",
+      "jaccard_raw": 0.0184,
+      "jaccard_strict": 0.0056
+    }
+  ],
+  "core_raw_sample": []
+}
