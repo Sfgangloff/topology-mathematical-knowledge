@@ -1,0 +1,107 @@
+{
+  "thetas": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "reference_theta": 2,
+  "n_raw_candidates": 124,
+  "per_theta": {
+    "1": {
+      "n_bridges": 15,
+      "jaccard_vs_ref": 0.4412,
+      "subset_of_ref": true,
+      "superset_of_ref": false,
+      "n_added_vs_ref": 0,
+      "n_dropped_vs_ref": 19,
+      "historical_strict": 1,
+      "historical_loose": 6,
+      "historical_detail": {
+        "Zorn / Choice / Well-Ordering": false,
+        "Galois \u2194 Covering spaces": false,
+        "Stone duality": false,
+        "Pontryagin duality": false,
+        "Fixed-point theorems": false,
+        "Gromov-Hausdorff": false,
+        "Spectral theory \u2194 Representation theory": true,
+        "Lie algebras \u2194 Lie groups": false
+      }
+    },
+    "2": {
+      "n_bridges": 34,
+      "jaccard_vs_ref": 1.0,
+      "subset_of_ref": true,
+      "superset_of_ref": true,
+      "n_added_vs_ref": 0,
+      "n_dropped_vs_ref": 0,
+      "historical_strict": 2,
+      "historical_loose": 6,
+      "historical_detail": {
+        "Zorn / Choice / Well-Ordering": false,
+        "Galois \u2194 Covering spaces": false,
+        "Stone duality": false,
+        "Pontryagin duality": false,
+        "Fixed-point theorems": false,
+        "Gromov-Hausdorff": true,
+        "Spectral theory \u2194 Representation theory": true,
+        "Lie algebras \u2194 Lie groups": false
+      }
+    },
+    "3": {
+      "n_bridges": 60,
+      "jaccard_vs_ref": 0.5667,
+      "subset_of_ref": false,
+      "superset_of_ref": true,
+      "n_added_vs_ref": 26,
+      "n_dropped_vs_ref": 0,
+      "historical_strict": 2,
+      "historical_loose": 6,
+      "historical_detail": {
+        "Zorn / Choice / Well-Ordering": false,
+        "Galois \u2194 Covering spaces": false,
+        "Stone duality": false,
+        "Pontryagin duality": false,
+        "Fixed-point theorems": false,
+        "Gromov-Hausdorff": true,
+        "Spectral theory \u2194 Representation theory": true,
+        "Lie algebras \u2194 Lie groups": false
+      }
+    },
+    "5": {
+      "n_bridges": 72,
+      "jaccard_vs_ref": 0.4722,
+      "subset_of_ref": false,
+      "superset_of_ref": true,
+      "n_added_vs_ref": 38,
+      "n_dropped_vs_ref": 0,
+      "historical_strict": 2,
+      "historical_loose": 6,
+      "historical_detail": {
+        "Zorn / Choice / Well-Ordering": false,
+        "Galois \u2194 Covering spaces": false,
+        "Stone duality": false,
+        "Pontryagin duality": false,
+        "Fixed-point theorems": false,
+        "Gromov-Hausdorff": true,
+        "Spectral theory \u2194 Representation theory": true,
+        "Lie algebras \u2194 Lie groups": false
+      }
+    }
+  },
+  "sets_monotone_in_theta": true,
+  "historical_stable_strict_across_sweep": [
+    "Spectral theory \u2194 Representation theory"
+  ],
+  "historical_strict_flips": [
+    {
+      "name": "Gromov-Hausdorff",
+      "by_theta": {
+        "1": false,
+        "2": true,
+        "3": true,
+        "5": true
+      }
+    }
+  ]
+}
