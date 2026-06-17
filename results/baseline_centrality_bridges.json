@@ -1,0 +1,46 @@
+{
+  "bridge_set_size": 34,
+  "n_pure_clusters": 110,
+  "betweenness_sampled_k2000": {
+    "precision_at_K": 0.0,
+    "recall_at_K": 0.0,
+    "n_overlap_topK": 0,
+    "bridge_median_rank": 129296,
+    "bridge_best_rank": 364,
+    "bridge_worst_rank": 179958,
+    "N_nodes": 185963,
+    "bridge_score_range": [
+      0.0,
+      0.0
+    ]
+  },
+  "cross_module_outdegree": {
+    "precision_at_K": 0.059,
+    "recall_at_K": 0.059,
+    "n_overlap_topK": 2,
+    "bridge_median_rank": 2437,
+    "bridge_best_rank": 4,
+    "bridge_worst_rank": 32618,
+    "N_nodes": 185963,
+    "bridge_score_range": [
+      2,
+      11
+    ]
+  },
+  "cross_cluster_outdegree_loose": {
+    "precision_at_K": 0.0,
+    "recall_at_K": 0.0,
+    "n_overlap_topK": 0,
+    "bridge_median_rank": 136245,
+    "bridge_best_rank": 36416,
+    "bridge_worst_rank": 179958,
+    "N_nodes": 185963,
+    "bridge_score_range": [
+      0,
+      0
+    ]
+  },
+  "betweenness_median_bridge_percentile": 0.977,
+  "cross_module_median_bridge_percentile": 0.995,
+  "cross_cluster_loose_median_bridge_percentile": 1.0
+}

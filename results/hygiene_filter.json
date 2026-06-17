@@ -1,0 +1,224 @@
+{
+  "params": {
+    "seed": 42,
+    "n_iter": 10,
+    "nonmath_modules": [
+      "Batteries",
+      "External",
+      "Init",
+      "Lean",
+      "Mathlib",
+      "Std",
+      "Unknown",
+      "lake"
+    ],
+    "n_nonmath_dropped": 32033
+  },
+  "node_counts": {
+    "full_graph": 185963,
+    "baseline_lcc": 92594,
+    "hygiene_lcc": 81141
+  },
+  "clustering": {
+    "baseline": {
+      "n_clusters": 138,
+      "n_pure": 112,
+      "n_mixed": 17,
+      "mean_dominant_fraction": 0.7467,
+      "median_dominant_fraction": 0.8
+    },
+    "hygiene": {
+      "n_clusters": 129,
+      "n_pure": 108,
+      "n_mixed": 13,
+      "mean_dominant_fraction": 0.7721,
+      "median_dominant_fraction": 0.833
+    },
+    "baseline_nonmath_dominant_clusters": [
+      {
+        "cid": 21,
+        "label": "Batteries",
+        "size": 405,
+        "dominant_module": "Batteries",
+        "dominant_fraction": 0.514
+      },
+      {
+        "cid": 55,
+        "label": "Batteries",
+        "size": 12,
+        "dominant_module": "Batteries",
+        "dominant_fraction": 0.583
+      },
+      {
+        "cid": 104,
+        "label": "Unknown",
+        "size": 5,
+        "dominant_module": "Unknown",
+        "dominant_fraction": 0.4
+      }
+    ],
+    "n_baseline_nonmath_dominant_clusters": 3,
+    "hygiene_nonmath_dominant_clusters": []
+  },
+  "hub": {
+    "baseline_theta": 2,
+    "hygiene_theta": 2,
+    "baseline_settheory_cn_rank": {
+      "rank": 1,
+      "cid": 11,
+      "label": "SetTheory",
+      "cn": 1.2298,
+      "n_total": 138
+    },
+    "hygiene_settheory_cn_rank": {
+      "rank": 3,
+      "cid": 9,
+      "label": "SetTheory",
+      "cn": 1.2174,
+      "n_total": 129
+    },
+    "baseline_top_cn": [
+      {
+        "rank": 1,
+        "label": "SetTheory",
+        "cn": 1.2298,
+        "is_mixed": false
+      },
+      {
+        "rank": 2,
+        "label": "Topology",
+        "cn": 1.0,
+        "is_mixed": false
+      },
+      {
+        "rank": 3,
+        "label": "Order",
+        "cn": 0.9966,
+        "is_mixed": false
+      },
+      {
+        "rank": 4,
+        "label": "CategoryTheory",
+        "cn": 0.9834,
+        "is_mixed": false
+      },
+      {
+        "rank": 5,
+        "label": "Data",
+        "cn": 0.9729,
+        "is_mixed": false
+      },
+      {
+        "rank": 6,
+        "label": "Data + Order + Combinatorics",
+        "cn": 0.6277,
+        "is_mixed": true
+      },
+      {
+        "rank": 7,
+        "label": "RingTheory + Algebra + FieldTheory",
+        "cn": 0.5299,
+        "is_mixed": true
+      },
+      {
+        "rank": 8,
+        "label": "MeasureTheory + Topology + Order",
+        "cn": 0.5284,
+        "is_mixed": true
+      }
+    ],
+    "hygiene_top_cn": [
+      {
+        "rank": 1,
+        "label": "Data",
+        "cn": 1.3118,
+        "is_mixed": false
+      },
+      {
+        "rank": 2,
+        "label": "Data",
+        "cn": 1.27,
+        "is_mixed": false
+      },
+      {
+        "rank": 3,
+        "label": "SetTheory",
+        "cn": 1.2174,
+        "is_mixed": false
+      },
+      {
+        "rank": 4,
+        "label": "Data",
+        "cn": 1.19,
+        "is_mixed": false
+      },
+      {
+        "rank": 5,
+        "label": "CategoryTheory",
+        "cn": 1.1493,
+        "is_mixed": false
+      },
+      {
+        "rank": 6,
+        "label": "Data",
+        "cn": 1.0082,
+        "is_mixed": false
+      },
+      {
+        "rank": 7,
+        "label": "Data",
+        "cn": 1.0078,
+        "is_mixed": false
+      },
+      {
+        "rank": 8,
+        "label": "Order",
+        "cn": 1.0053,
+        "is_mixed": false
+      }
+    ]
+  },
+  "bridges": {
+    "canonical_stored_raw": 280,
+    "canonical_stored_strict": 34,
+    "baseline_raw": 295,
+    "baseline_strict": 44,
+    "hygiene_raw": 1127,
+    "hygiene_strict": 179,
+    "jaccard_raw_base_vs_hyg": 0.0596,
+    "jaccard_strict_base_vs_hyg": 0.0469,
+    "recovery_canon_strict_by_baseline": 0.1818,
+    "recovery_canon_strict_by_hygiene": 0.2353,
+    "recovery_canon_raw_by_hygiene": 0.2893,
+    "hygiene_strict_in_canon_strict": 0.0447,
+    "strict_overlap_examples": [
+      "Affine.Simplex.eq_mongePoint_of_forall_mem_mongePlane",
+      "ContinuousMap.sublattice_closure_eq_top",
+      "MeasureTheory.IsFundamentalDomain.fundamentalInterior",
+      "MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_le_measure",
+      "Ordinal.infinite_pigeonhole_set",
+      "PseudoMetricSpace.le_two_mul_dist_ofPreNNDist",
+      "Set.encard_union_eq",
+      "Subgroup.index_comap_of_surjective",
+      "finite_zpowers",
+      "intervalIntegral.sub_le_integral_of_hasDeriv_right_of_le_Ico"
+    ],
+    "hygiene_only_strict_examples": [
+      "AddCommGroup.equiv_free_prod_directSum_zmod",
+      "Besicovitch.exist_finset_disjoint_balls_large_measure",
+      "BoxIntegral.Box.disjoint_splitLower_splitUpper",
+      "BoxIntegral.hasIntegral_GP_pderiv",
+      "BoxIntegral.integrable_of_continuousOn",
+      "BoxIntegral.norm_volume_sub_integral_face_upper_sub_lower_smul_le",
+      "CategoryTheory.PreGaloisCategory.card_hom_le_card_fiber_of_connected",
+      "CategoryTheory.finrank_endomorphism_eq_one",
+      "Commute.geom_sum\u2082_mul_add",
+      "CompHaus.epi_iff_surjective",
+      "CompleteSpace.iInf",
+      "Complex.volume_ball",
+      "ContDiffBump.ae_convolution_tendsto_right_of_locallyIntegrable",
+      "ContinuousMultilinearMap.changeOrigin_toFormalMultilinearSeries",
+      "Equiv.Perm.card_compl_support_modEq"
+    ]
+  }
+}
