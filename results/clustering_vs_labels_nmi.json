@@ -1,0 +1,149 @@
+{
+  "n_nodes_labelled": 84465,
+  "n_leiden_clusters": 137,
+  "n_modules": 30,
+  "NMI": 0.3034,
+  "AMI": 0.2998,
+  "homogeneity_cluster_is_one_module": 0.31,
+  "completeness_module_is_one_cluster": 0.2971,
+  "v_measure": 0.3034,
+  "ARI": 0.1385,
+  "module_fragmentation_top10": [
+    {
+      "module": "Data",
+      "size": 13994,
+      "n_leiden_clusters_spanned": 70,
+      "frac_in_largest_cluster": 0.224
+    },
+    {
+      "module": "Algebra",
+      "size": 13055,
+      "n_leiden_clusters_spanned": 54,
+      "frac_in_largest_cluster": 0.223
+    },
+    {
+      "module": "Analysis",
+      "size": 8814,
+      "n_leiden_clusters_spanned": 47,
+      "frac_in_largest_cluster": 0.315
+    },
+    {
+      "module": "Topology",
+      "size": 7060,
+      "n_leiden_clusters_spanned": 46,
+      "frac_in_largest_cluster": 0.321
+    },
+    {
+      "module": "Order",
+      "size": 4904,
+      "n_leiden_clusters_spanned": 39,
+      "frac_in_largest_cluster": 0.227
+    },
+    {
+      "module": "RingTheory",
+      "size": 4894,
+      "n_leiden_clusters_spanned": 33,
+      "frac_in_largest_cluster": 0.544
+    },
+    {
+      "module": "GroupTheory",
+      "size": 2162,
+      "n_leiden_clusters_spanned": 28,
+      "frac_in_largest_cluster": 0.308
+    },
+    {
+      "module": "LinearAlgebra",
+      "size": 4292,
+      "n_leiden_clusters_spanned": 28,
+      "frac_in_largest_cluster": 0.461
+    },
+    {
+      "module": "MeasureTheory",
+      "size": 5613,
+      "n_leiden_clusters_spanned": 28,
+      "frac_in_largest_cluster": 0.681
+    },
+    {
+      "module": "NumberTheory",
+      "size": 2618,
+      "n_leiden_clusters_spanned": 28,
+      "frac_in_largest_cluster": 0.533
+    }
+  ],
+  "mean_clusters_per_module": 22.43,
+  "median_frac_in_largest_cluster": 0.441,
+  "big_clusters_mixing_top10": [
+    {
+      "cluster": "1",
+      "size": 11688,
+      "n_modules_merged": 24,
+      "dominant_module_frac": 0.327,
+      "dominant_module": "MeasureTheory"
+    },
+    {
+      "cluster": "0",
+      "size": 11353,
+      "n_modules_merged": 26,
+      "dominant_module_frac": 0.254,
+      "dominant_module": "Algebra"
+    },
+    {
+      "cluster": "2",
+      "size": 9731,
+      "n_modules_merged": 27,
+      "dominant_module_frac": 0.322,
+      "dominant_module": "Data"
+    },
+    {
+      "cluster": "3",
+      "size": 8393,
+      "n_modules_merged": 25,
+      "dominant_module_frac": 0.346,
+      "dominant_module": "Algebra"
+    },
+    {
+      "cluster": "4",
+      "size": 7219,
+      "n_modules_merged": 24,
+      "dominant_module_frac": 0.616,
+      "dominant_module": "CategoryTheory"
+    },
+    {
+      "cluster": "5",
+      "size": 6036,
+      "n_modules_merged": 24,
+      "dominant_module_frac": 0.328,
+      "dominant_module": "LinearAlgebra"
+    },
+    {
+      "cluster": "7",
+      "size": 5264,
+      "n_modules_merged": 24,
+      "dominant_module_frac": 0.378,
+      "dominant_module": "Topology"
+    },
+    {
+      "cluster": "6",
+      "size": 3993,
+      "n_modules_merged": 26,
+      "dominant_module_frac": 0.623,
+      "dominant_module": "Data"
+    },
+    {
+      "cluster": "8",
+      "size": 2313,
+      "n_modules_merged": 25,
+      "dominant_module_frac": 0.338,
+      "dominant_module": "Data"
+    },
+    {
+      "cluster": "9",
+      "size": 2243,
+      "n_modules_merged": 18,
+      "dominant_module_frac": 0.48,
+      "dominant_module": "Analysis"
+    }
+  ],
+  "n_big_clusters": 24,
+  "n_big_clusters_mixed_dom_lt50": 18
+}
