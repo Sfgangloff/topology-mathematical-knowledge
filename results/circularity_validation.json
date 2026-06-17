@@ -1,0 +1,73 @@
+{
+  "theta": 2,
+  "leiden_recompute_recall": 1.0,
+  "A_external_module_partition": {
+    "n_module_cells_over_lcc": 33,
+    "n_module_pure_cells": 26,
+    "n_leiden_clusters": 138,
+    "n_module_bridges": 4430,
+    "n_leiden_bridges": 34,
+    "overlap": 23,
+    "jaccard": 0.0052,
+    "recall_of_leiden_by_module": 0.6765,
+    "precision_module_in_leiden": 0.0052,
+    "overlap_examples": [
+      "AddCircle.addWellApproximable_ae_empty_or_univ",
+      "AlgebraicGeometry.is_localization_basicOpen_of_qcqs",
+      "BumpCovering.sum_toPOUFun_eq",
+      "CategoryTheory.Limits.Types.Pushout.quot_mk_eq_iff",
+      "Fintype.card_embedding_eq",
+      "FormalMultilinearSeries.changeOrigin_radius",
+      "GromovHausdorff.hausdorffDist_optimal",
+      "HasCompactSupport.convolutionExistsAt",
+      "MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_le_measure",
+      "Module.End.maxGenEigenspace_eq",
+      "Ordinal.infinite_pigeonhole_set",
+      "PiTensorProduct.norm_eval_le_injectiveSeminorm",
+      "Polynomial.coeff_divByMonic_X_sub_C",
+      "Set.Countable.isPathConnected_compl_of_one_lt_rank",
+      "Set.compl_section_ordSeparatingSet_mem_nhdsWithin_Ici",
+      "Set.encard_union_eq",
+      "Subalgebra.rank_sup_eq_rank_left_mul_rank_of_free",
+      "Subgroup.SchurZassenhausInduction.step1",
+      "Subgroup.index_comap_of_surjective",
+      "UpperHalfPlane.cmp_dist_eq_cmp_dist_coe_center"
+    ],
+    "leiden_only_examples": [
+      "CauSeq.lim_inv",
+      "ContinuousMap.setOfIdeal_eq_compl_singleton",
+      "FirstOrder.Language.BoundedFormula.realize_constantsVarsEquiv",
+      "FirstOrder.Language.Embedding.isElementary_of_exists",
+      "FirstOrder.Language.Theory.isSatisfiable_union_distinctConstantsTheory_of_card_le",
+      "GromovHausdorff.ghDist_le_hausdorffDist",
+      "IsLocalization.AtPrime.discreteValuationRing_of_dedekind_domain",
+      "Metric.Sum.mem_uniformity",
+      "Submodule.toLinearPMap_graph_eq",
+      "biSup_inf_biSup",
+      "exists_linearIndependent_snoc_of_lt_rank"
+    ]
+  },
+  "C_permutation_null": {
+    "n_shuffles": 20,
+    "leiden_granularity_null_recall_mean": 0.9838,
+    "leiden_granularity_null_count_mean": 26172.7,
+    "null_recall_of_leiden_mean": 0.9779,
+    "null_recall_of_leiden_max": 1.0,
+    "null_bridge_count_mean": 24391.8,
+    "null_jaccard_mean": 0.0014,
+    "module_recall_over_null_recall": 0.69
+  },
+  "B_heldout_split": {
+    "train_lcc_nodes": 35209,
+    "train_clusters": 89,
+    "train_pure_cells": 56,
+    "n_leiden_bridges_in_test": 15,
+    "n_heldout_bridges_in_test": 20,
+    "overlap_test": 1,
+    "recall_of_leiden_test_by_heldout": 0.0667,
+    "jaccard_test": 0.0294,
+    "examples": [
+      "biSup_inf_biSup"
+    ]
+  }
+}
