@@ -1,0 +1,52 @@
+{
+  "theta": 2,
+  "min_cell_size": 50,
+  "partitions": {
+    "P1_toplevel": {
+      "n_cells": 32,
+      "n_bridges": 4773
+    },
+    "P2_depth2": {
+      "n_cells": 444,
+      "n_bridges": 7535
+    },
+    "P3_depth3": {
+      "n_cells": 864,
+      "n_bridges": 8442
+    }
+  },
+  "TEST_A_stability_across_independent_partitions": {
+    "P1_toplevel__vs__P2_depth2": {
+      "jaccard": 0.5947,
+      "overlap": 4590,
+      "n_a": 4773,
+      "n_b": 7535,
+      "recall_coarser_by_finer": 0.9617
+    },
+    "P1_toplevel__vs__P3_depth3": {
+      "jaccard": 0.4485,
+      "overlap": 4092,
+      "n_a": 4773,
+      "n_b": 8442,
+      "recall_coarser_by_finer": 0.8573
+    },
+    "P2_depth2__vs__P3_depth3": {
+      "jaccard": 0.6841,
+      "overlap": 6490,
+      "n_a": 7535,
+      "n_b": 8442,
+      "recall_coarser_by_finer": 0.8613
+    }
+  },
+  "leiden_vs_module_jaccard_reference_a0053": 0.005,
+  "TEST_B_label_permutation_null": {
+    "observed_bridges": 4773,
+    "n_shuffles": 20,
+    "null_mean_count": 23270.1,
+    "null_std_count": 61.4,
+    "count_z_score": -301.42,
+    "null_recall_of_observed_mean": 0.9673,
+    "null_recall_of_observed_min": 0.9642,
+    "null_recall_of_observed_max": 0.9751
+  }
+}
