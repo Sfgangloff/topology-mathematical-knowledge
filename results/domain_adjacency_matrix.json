@@ -1,0 +1,375 @@
+{
+  "n_modules": 32,
+  "modules": [
+    "Algebra",
+    "AlgebraicGeometry",
+    "AlgebraicTopology",
+    "Analysis",
+    "CategoryTheory",
+    "Combinatorics",
+    "Computability",
+    "Condensed",
+    "Control",
+    "Data",
+    "Deprecated",
+    "Dynamics",
+    "FieldTheory",
+    "Geometry",
+    "GroupTheory",
+    "InformationTheory",
+    "Init",
+    "Lean",
+    "LinearAlgebra",
+    "Logic",
+    "MeasureTheory",
+    "ModelTheory",
+    "NumberTheory",
+    "Order",
+    "Probability",
+    "RepresentationTheory",
+    "RingTheory",
+    "SetTheory",
+    "Tactic",
+    "Testing",
+    "Topology",
+    "Util"
+  ],
+  "total_intra_plus_inter_edges": 234553,
+  "top_enriched_pairs": [
+    {
+      "pair": "CategoryTheory-Condensed",
+      "i": "CategoryTheory",
+      "j": "Condensed",
+      "observed": 9,
+      "expected": 1.0,
+      "log2_enrichment": 2.358
+    },
+    {
+      "pair": "Condensed-Topology",
+      "i": "Condensed",
+      "j": "Topology",
+      "observed": 8,
+      "expected": 1.5,
+      "log2_enrichment": 1.871
+    },
+    {
+      "pair": "AlgebraicTopology-CategoryTheory",
+      "i": "AlgebraicTopology",
+      "j": "CategoryTheory",
+      "observed": 210,
+      "expected": 58.5,
+      "log2_enrichment": 1.826
+    },
+    {
+      "pair": "MeasureTheory-Probability",
+      "i": "MeasureTheory",
+      "j": "Probability",
+      "observed": 1817,
+      "expected": 579.5,
+      "log2_enrichment": 1.647
+    },
+    {
+      "pair": "ModelTheory-SetTheory",
+      "i": "ModelTheory",
+      "j": "SetTheory",
+      "observed": 103,
+      "expected": 34.8,
+      "log2_enrichment": 1.538
+    },
+    {
+      "pair": "Init-Testing",
+      "i": "Init",
+      "j": "Testing",
+      "observed": 5,
+      "expected": 1.2,
+      "log2_enrichment": 1.429
+    },
+    {
+      "pair": "Logic-ModelTheory",
+      "i": "Logic",
+      "j": "ModelTheory",
+      "observed": 69,
+      "expected": 27.6,
+      "log2_enrichment": 1.29
+    },
+    {
+      "pair": "GroupTheory-Logic",
+      "i": "GroupTheory",
+      "j": "Logic",
+      "observed": 337,
+      "expected": 146.3,
+      "log2_enrichment": 1.199
+    },
+    {
+      "pair": "Computability-Logic",
+      "i": "Computability",
+      "j": "Logic",
+      "observed": 119,
+      "expected": 54.3,
+      "log2_enrichment": 1.118
+    },
+    {
+      "pair": "Data-Testing",
+      "i": "Data",
+      "j": "Testing",
+      "observed": 19,
+      "expected": 8.3,
+      "log2_enrichment": 1.11
+    },
+    {
+      "pair": "Dynamics-Logic",
+      "i": "Dynamics",
+      "j": "Logic",
+      "observed": 35,
+      "expected": 16.4,
+      "log2_enrichment": 1.047
+    },
+    {
+      "pair": "Init-Order",
+      "i": "Init",
+      "j": "Order",
+      "observed": 595,
+      "expected": 290.3,
+      "log2_enrichment": 1.033
+    },
+    {
+      "pair": "Init-SetTheory",
+      "i": "Init",
+      "j": "SetTheory",
+      "observed": 334,
+      "expected": 175.7,
+      "log2_enrichment": 0.923
+    },
+    {
+      "pair": "Control-Init",
+      "i": "Control",
+      "j": "Init",
+      "observed": 14,
+      "expected": 7.0,
+      "log2_enrichment": 0.905
+    },
+    {
+      "pair": "Algebra-Deprecated",
+      "i": "Algebra",
+      "j": "Deprecated",
+      "observed": 57,
+      "expected": 30.2,
+      "log2_enrichment": 0.893
+    }
+  ],
+  "top_depleted_pairs": [
+    {
+      "pair": "NumberTheory-Probability",
+      "i": "NumberTheory",
+      "j": "Probability",
+      "observed": 0,
+      "expected": 215.0,
+      "log2_enrichment": -7.755
+    },
+    {
+      "pair": "Analysis-CategoryTheory",
+      "i": "Analysis",
+      "j": "CategoryTheory",
+      "observed": 7,
+      "expected": 2031.4,
+      "log2_enrichment": -7.989
+    },
+    {
+      "pair": "Computability-MeasureTheory",
+      "i": "Computability",
+      "j": "MeasureTheory",
+      "observed": 0,
+      "expected": 274.3,
+      "log2_enrichment": -8.105
+    },
+    {
+      "pair": "LinearAlgebra-Probability",
+      "i": "LinearAlgebra",
+      "j": "Probability",
+      "observed": 0,
+      "expected": 329.9,
+      "log2_enrichment": -8.37
+    },
+    {
+      "pair": "CategoryTheory-Probability",
+      "i": "CategoryTheory",
+      "j": "Probability",
+      "observed": 0,
+      "expected": 339.3,
+      "log2_enrichment": -8.411
+    },
+    {
+      "pair": "Combinatorics-RingTheory",
+      "i": "Combinatorics",
+      "j": "RingTheory",
+      "observed": 0,
+      "expected": 389.4,
+      "log2_enrichment": -8.609
+    },
+    {
+      "pair": "Probability-RingTheory",
+      "i": "Probability",
+      "j": "RingTheory",
+      "observed": 0,
+      "expected": 403.6,
+      "log2_enrichment": -8.66
+    },
+    {
+      "pair": "AlgebraicGeometry-MeasureTheory",
+      "i": "AlgebraicGeometry",
+      "j": "MeasureTheory",
+      "observed": 0,
+      "expected": 454.6,
+      "log2_enrichment": -8.832
+    },
+    {
+      "pair": "FieldTheory-MeasureTheory",
+      "i": "FieldTheory",
+      "j": "MeasureTheory",
+      "observed": 0,
+      "expected": 516.6,
+      "log2_enrichment": -9.016
+    },
+    {
+      "pair": "Geometry-MeasureTheory",
+      "i": "Geometry",
+      "j": "MeasureTheory",
+      "observed": 0,
+      "expected": 534.0,
+      "log2_enrichment": -9.063
+    },
+    {
+      "pair": "AlgebraicGeometry-Analysis",
+      "i": "AlgebraicGeometry",
+      "j": "Analysis",
+      "observed": 0,
+      "expected": 547.8,
+      "log2_enrichment": -9.1
+    },
+    {
+      "pair": "Combinatorics-MeasureTheory",
+      "i": "Combinatorics",
+      "j": "MeasureTheory",
+      "observed": 0,
+      "expected": 554.8,
+      "log2_enrichment": -9.118
+    },
+    {
+      "pair": "CategoryTheory-NumberTheory",
+      "i": "CategoryTheory",
+      "j": "NumberTheory",
+      "observed": 0,
+      "expected": 766.5,
+      "log2_enrichment": -9.584
+    },
+    {
+      "pair": "MeasureTheory-RingTheory",
+      "i": "MeasureTheory",
+      "j": "RingTheory",
+      "observed": 1,
+      "expected": 2209.2,
+      "log2_enrichment": -10.11
+    },
+    {
+      "pair": "CategoryTheory-MeasureTheory",
+      "i": "CategoryTheory",
+      "j": "MeasureTheory",
+      "observed": 0,
+      "expected": 1611.6,
+      "log2_enrichment": -10.655
+    }
+  ],
+  "n_pairs_enriched_gt0": 56,
+  "n_pairs_depleted_lt0": 378,
+  "n_pairs_total": 496,
+  "face_validity": {
+    "expected_adjacent": [
+      {
+        "pair": "Topology-Analysis",
+        "enr": 0.05
+      },
+      {
+        "pair": "Analysis-MeasureTheory",
+        "enr": -1.059
+      },
+      {
+        "pair": "MeasureTheory-Probability",
+        "enr": 1.647
+      },
+      {
+        "pair": "NumberTheory-Algebra",
+        "enr": 0.149
+      },
+      {
+        "pair": "RingTheory-FieldTheory",
+        "enr": 0.463
+      },
+      {
+        "pair": "Algebra-LinearAlgebra",
+        "enr": -0.011
+      },
+      {
+        "pair": "Topology-Geometry",
+        "enr": 0.13
+      },
+      {
+        "pair": "CategoryTheory-Algebra",
+        "enr": -1.534
+      },
+      {
+        "pair": "GroupTheory-Algebra",
+        "enr": -0.01
+      },
+      {
+        "pair": "Analysis-Topology",
+        "enr": 0.05
+      }
+    ],
+    "expected_distant": [
+      {
+        "pair": "Combinatorics-Topology",
+        "enr": -5.334
+      },
+      {
+        "pair": "SetTheory-Geometry",
+        "enr": -7.056
+      },
+      {
+        "pair": "Computability-Geometry",
+        "enr": -5.597
+      },
+      {
+        "pair": "NumberTheory-Topology",
+        "enr": -2.318
+      },
+      {
+        "pair": "Combinatorics-MeasureTheory",
+        "enr": -9.118
+      },
+      {
+        "pair": "Logic-Geometry",
+        "enr": -0.214
+      },
+      {
+        "pair": "Computability-MeasureTheory",
+        "enr": -8.105
+      },
+      {
+        "pair": "SetTheory-Probability",
+        "enr": -7.198
+      },
+      {
+        "pair": "Dynamics-NumberTheory",
+        "enr": -2.381
+      },
+      {
+        "pair": "ModelTheory-Topology",
+        "enr": -7.048
+      }
+    ],
+    "adjacent_mean_enrichment": -0.012,
+    "distant_mean_enrichment": -5.437,
+    "separation_AUC": 0.98,
+    "interpretation": "AUC=1 means matrix perfectly ranks expected-adjacent above expected-distant; 0.5 = no better than chance"
+  }
+}
