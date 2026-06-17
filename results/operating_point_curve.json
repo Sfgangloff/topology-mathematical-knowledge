@@ -1,0 +1,155 @@
+{
+  "thetas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    10,
+    15,
+    20
+  ],
+  "n_shuffles": 10,
+  "n_raw_candidates": 124,
+  "loose_set_size": 280,
+  "operating_points": [
+    {
+      "theta": 1,
+      "n_bridges": 15,
+      "historical_recall_strict": 1,
+      "historical_recall_frac": 0.125,
+      "null_recall_mean": 0.2867,
+      "signal_precision_proxy": 0.7133,
+      "null_set_size_mean": 1789.5,
+      "recovered_bridges": [
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 2,
+      "n_bridges": 34,
+      "historical_recall_strict": 2,
+      "historical_recall_frac": 0.25,
+      "null_recall_mean": 0.3676,
+      "signal_precision_proxy": 0.6324,
+      "null_set_size_mean": 2912.1,
+      "recovered_bridges": [
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 3,
+      "n_bridges": 60,
+      "historical_recall_strict": 2,
+      "historical_recall_frac": 0.25,
+      "null_recall_mean": 0.43,
+      "signal_precision_proxy": 0.57,
+      "null_set_size_mean": 3614.5,
+      "recovered_bridges": [
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 4,
+      "n_bridges": 66,
+      "historical_recall_strict": 2,
+      "historical_recall_frac": 0.25,
+      "null_recall_mean": 0.4667,
+      "signal_precision_proxy": 0.5333,
+      "null_set_size_mean": 4120.4,
+      "recovered_bridges": [
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 5,
+      "n_bridges": 72,
+      "historical_recall_strict": 2,
+      "historical_recall_frac": 0.25,
+      "null_recall_mean": 0.4903,
+      "signal_precision_proxy": 0.5097,
+      "null_set_size_mean": 4494.5,
+      "recovered_bridges": [
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 7,
+      "n_bridges": 78,
+      "historical_recall_strict": 2,
+      "historical_recall_frac": 0.25,
+      "null_recall_mean": 0.4962,
+      "signal_precision_proxy": 0.5038,
+      "null_set_size_mean": 4992.9,
+      "recovered_bridges": [
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 10,
+      "n_bridges": 88,
+      "historical_recall_strict": 3,
+      "historical_recall_frac": 0.375,
+      "null_recall_mean": 0.5352,
+      "signal_precision_proxy": 0.4648,
+      "null_set_size_mean": 5451,
+      "recovered_bridges": [
+        "Pontryagin duality",
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 15,
+      "n_bridges": 101,
+      "historical_recall_strict": 3,
+      "historical_recall_frac": 0.375,
+      "null_recall_mean": 0.5406,
+      "signal_precision_proxy": 0.4594,
+      "null_set_size_mean": 5878.3,
+      "recovered_bridges": [
+        "Pontryagin duality",
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": 20,
+      "n_bridges": 109,
+      "historical_recall_strict": 3,
+      "historical_recall_frac": 0.375,
+      "null_recall_mean": 0.5459,
+      "signal_precision_proxy": 0.4541,
+      "null_set_size_mean": 6157.7,
+      "recovered_bridges": [
+        "Pontryagin duality",
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    },
+    {
+      "theta": "inf_loose",
+      "n_bridges": 280,
+      "historical_recall_strict": 6,
+      "historical_recall_frac": 0.75,
+      "null_recall_mean": null,
+      "signal_precision_proxy": null,
+      "null_set_size_mean": null,
+      "recovered_bridges": [
+        "Zorn / Choice / Well-Ordering",
+        "Galois \u2194 Covering spaces",
+        "Stone duality",
+        "Pontryagin duality",
+        "Gromov-Hausdorff",
+        "Spectral theory \u2194 Representation theory"
+      ]
+    }
+  ],
+  "note": "signal_precision_proxy = 1 - (fraction of strict set a label-permutation null also flags); recall is fraction of 8 historical bridges strict-detected (loose for theta=inf)."
+}
